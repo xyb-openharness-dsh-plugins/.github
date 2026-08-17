@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/License-见许可证文件-lightgrey" alt="License" />
 </p>
 
-<h1 align="center">🔥 <a href="https://info.xiao-x-bao.com.cn">小X宝社区</a>; ：用 AI 为肿瘤 / 罕见病 / 慢性病患者点亮希望之光 ✨</h1>
+<h1 align="center">🔥 <a href="https://info.xiao-x-bao.com.cn">小X宝社区</a> ：用 AI 为肿瘤 / 罕见病 / 慢性病患者点亮希望之光 ✨</h1>
 
 <p align="center">
   <b>天工开物旗下公益开源项目（<a href="https://www.xiaoyibao.com.cn">www.xiaoyibao.com.cn</a>）｜关注公众号【小胰宝】官方公众号，以及【小胰宝助手】-知识文章发布获取最新进展</b>
