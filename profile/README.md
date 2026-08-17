@@ -7,8 +7,6 @@
 我们深知，代码不仅仅是冷冰冰的字符，更是连接开发者与患者的桥梁，是用技术守护生命的温暖力量。
 <img width="1076" alt="image" src="https://github.com/user-attachments/assets/a7e755ea-a444-4ee8-be69-9c31d8705806" />
 
-<img width="1000" height="583" alt="image" src="https://picgo-1302991947.cos.ap-guangzhou.myqcloud.com/images/20260427092121634.png" />
-
 ---
 
 ---
