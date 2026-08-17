@@ -10,11 +10,18 @@
   <img src="https://img.shields.io/badge/License-见许可证文件-lightgrey" alt="License" />
 </p>
 
-<h1 align="center">OpenHarness DSH Plugins</h1>
+<h1 align="center">🔥 <a href="https://info.xiao-x-bao.com.cn">小X宝社区</a> &amp; 小胰宝：用 AI 为肿瘤 / 罕见病 / 慢性病患者点亮希望之光 ✨</h1>
 
 <p align="center">
-  <b>一个面向 <a href="https://github.com/deepseek-ai/dsh">DeepSeek Harness（DSH）</a> 的开源插件生态组织</b><br/>
-  以「小胰宝（XiaoYiBao）」为旗舰，用 AI 为肿瘤 / 罕见病 / 慢性病患者与临床团队点亮希望之光
+  <b>天工开物旗下公益开源项目（<a href="https://www.xiaoyibao.com.cn">www.xiaoyibao.com.cn</a>）｜关注公众号【小胰宝】官方公众号，以及【小胰宝助手】-知识文章发布获取最新进展</b>
+</p>
+
+<p align="center">
+  我们深知，代码不仅仅是冷冰冰的字符，更是连接开发者与患者的桥梁，是用技术守护生命的温暖力量。
+</p>
+
+<p align="center">
+  <img src="assets/community-banner.png" alt="小X宝社区横幅" width="860" />
 </p>
 
 <p align="center">
