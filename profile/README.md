@@ -27,6 +27,7 @@
 <p align="center">
   <a href="https://info.xiao-x-bao.com.cn">小X宝社区</a> ·
   <a href="https://www.xiaoyibao.com.cn">小胰宝官网</a> ·
+  <a href="#社区仓库">社区仓库</a> ·
   <a href="#文档导航">文档</a> ·
   <a href="#贡献指南">贡献</a> ·
   <a href="#联系方式">联系我们</a>
@@ -164,6 +165,8 @@ dsh web
 - **项目结构**：见下方 [项目结构](#项目结构)
 - **小胰宝官网**：<https://www.xiaoyibao.com.cn>
 - **小X宝社区**：<https://info.xiao-x-bao.com.cn>
+- **OpenCare SkillHub 社区仓库**：<https://github.com/opencare-skillhub>
+- **PancrePal（小胰宝）社区仓库**：<https://github.com/PancrePal-xiaoyibao>
 - **DSH 官方仓库**：<https://github.com/deepseek-ai/dsh>
 - **cordis 插件框架**：<https://github.com/cordiverse/cordis>
 
