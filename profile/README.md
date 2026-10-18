@@ -45,6 +45,7 @@
   - [基础使用示例](#基础使用示例)
 - [插件生态](#插件生态)
 - [社区仓库](#社区仓库)
+- [患者工作台路线图](#患者工作台路线图开发目标与招募)
 - [文档导航](#文档导航)
 - [项目结构](#项目结构)
 - [贡献指南](#贡献指南)
@@ -157,10 +158,27 @@ dsh web
 
 ---
 
+## 患者工作台路线图（开发目标与招募）
+
+我们正在为一个个具体病种建设「本机优先」的患者工作台（病程整理 · 指标追踪 · 就诊准备，隐私数据不出设备）。目标池参照 **NCCN Guidelines® 病种目录（57+ 类）** 与 **国家《第二批罕见病目录》（86 种）**，完整清单与进度见 **[ROADMAP.md](ROADMAP.md)**。
+
+| 病种工作台 | 进度 | 仓库 |
+| --- | --- | --- |
+| 乳腺癌 · PinkyPal 小粉宝 | 🔵 开发中（G1–G3 已过，M2 第一段完成） | [breast-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/breast-cancer-workbench) |
+| 淋巴瘤 · LymBell 小铃铛 | 🔵 开发中 | [lymphoma-workbench](https://github.com/xyb-openharness-dsh-plugins/lymphoma-workbench) |
+| 卵巢癌 | 🔵 开发中（设计迭代） | [ovarian-workbench](https://github.com/xyb-openharness-dsh-plugins/ovarian-workbench) |
+| 结直肠癌 / 胃癌 / 食管癌 / 宫颈癌 | 🟡 SPEC 草案阶段 | 待建仓（脚手架就绪） |
+| 其余主要癌种 + 86 项罕见病 | ⬜ **招募认领中** | 见 [ROADMAP.md](ROADMAP.md) |
+
+> 🤝 **诚邀加入**：无论你是开发者、临床/研究者、病友组织志愿者还是写作者，都可以认领一个病种或一个模块——从 Issue 提案开始，走「需求 → 原型 → G2 评审 → 实现 → PR 合入」的流程。所有工作台只做信息整理，不做诊断建议。认领方式见 [ROADMAP.md · 如何参与](ROADMAP.md#三如何参与诚邀加入)。
+
+---
+
 ## 文档导航
 
 - **快速开始**：见上方 [快速开始](#快速开始)
 - **插件开发指南**：见下方 [插件开发](#插件开发)
+- **患者工作台路线图与病种认领**：[ROADMAP.md](ROADMAP.md)
 - **贡献流程**：见下方 [贡献指南](#贡献指南)
 - **项目结构**：见下方 [项目结构](#项目结构)
 - **小胰宝官网**：<https://www.xiaoyibao.com.cn>
