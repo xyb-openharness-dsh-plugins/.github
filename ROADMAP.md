@@ -2,7 +2,7 @@
 
 > 本文件是 **xyb-openharness-dsh-plugins** 组织的公开开发目标清单与进度看板。
 > 目标池主要参照 **NCCN Guidelines® Treatment by Cancer Type**（2025–2026 版本目录，57+ 类）与国家卫健委等六部门 **《第二批罕见病目录》**（2023 年发布，86 种）。
-> 更新日期：2026-10-18。进度以各仓库 `VERSION` 与 `docs/DEV-PLAN.md` 为准，由维护者随迭代更新。
+> 更新日期：2026-10-21。进度以各仓库 `VERSION` 与 `docs/DEV-PLAN.md` 为准，由维护者随迭代更新。
 
 ---
 
@@ -29,8 +29,8 @@
 | 乳腺癌 | PinkyPal 小粉宝 | [breast-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/breast-cancer-workbench) | 🔵 | v0.5.1；G1/G2/G3 通过；M0 工程底座、M1 数据层、M2 第一段（导入→草稿核对）、MinerU 解析接入已完成；进行中：草稿界面、一图秀真实数据、四点位录入、导出、DSH 接入 |
 | 淋巴瘤 | LymBell 小铃铛 | [lymphoma-workbench](https://github.com/xyb-openharness-dsh-plugins/lymphoma-workbench) | 🔵 | v0.2.0；分型整理、疗效回顾与就诊准备工作台开发中 |
 | 卵巢癌 | （ ovarian） | [ovarian-workbench](https://github.com/xyb-openharness-dsh-plugins/ovarian-workbench) | 🔵 | v0.1.48；病程资料、治疗历程、指标趋势与医患沟通，快速迭代中 |
-| 结直肠癌 | Colopal 小畅宝（占位） | 未建仓 | 🟡 | SPEC 草案 + HTML demo 完成（样板项目）；差异化：分子分型矩阵 + 肠道功能与造口 + CEA |
-| 胃癌 | Stompal 小胃宝 | 未建仓 | 🟡 | SPEC 草案；差异化：四标志物（HER2/PD-L1/MSI/CLDN18.2）+ 进食与营养 + 体重 |
+| 结直肠癌 | Colopal 小畅宝 | [colorectal-workbench](https://github.com/xyb-openharness-dsh-plugins/colorectal-workbench) | 🔵 | **v0.1.0 开发版已推送**（未打 tag / 未发 release）；家族样板，走通全链路：SPEC → 原型 v0.2 → 2026 资料包 → schema 冻结（G3）→ 开发版 `public/` + `dsh/`；`npm run check` 全绿；待做：DSH Desktop 实机装机验证；差异化：分子分型矩阵 + 肠道功能与造口 + CEA |
+| 胃癌 | Stompal 小胃宝 | [gastric-workbench](https://github.com/xyb-openharness-dsh-plugins/gastric-workbench) | 🔵 | **v0.1.0 首个开发版已发布**（tag `v0.1.0`，2026-10-21）；2026 资料包 236 条（119 含中国中心）、22 表 schema 冻结、原型↔开发版 parity 测试全绿；待做：DSH Desktop 实机装机验证；差异化：四标志物（未检测≠阴性）+ 进食与营养（切除方式 / 倾倒 / 补充剂）+ 腹膜与腹腔留痕 |
 | 食管癌 | EsopPal 小咽宝（占位） | 未建仓 | 🟡 | SPEC 草案；差异化：鳞/腺 + 分段 + 吞咽与进食通路 + 体重/白蛋白双序列 |
 | 宫颈癌 | CerviPal 小莲宝（占位） | 未建仓 | 🟡 | SPEC 草案；差异化：FIGO 2018 + 性与生育（默认私密）+ 放疗与长期影响 |
 
