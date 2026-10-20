@@ -12,14 +12,24 @@
 
 <h1 align="center">
   🔥 <a href="https://info.xiao-x-bao.com.cn">小X宝社区</a> 携手
-  <a href="https://github.com/anywhere-labs">Dataelement 社区</a><br />
-  <small><small>全心全意为肿瘤和罕见病患者的信息改善而努力！</small></small><br />
-  <small><small>用 AI 为肿瘤 / 罕见病 / 慢性病患者点亮希望之光 ✨</small></small>
+
+  <a href="https://github.com/anywhere-labs">Dataelement 社区</a>
 </h1>
+
+<h3 align="center">
+  全心全意为肿瘤和罕见病患者的信息改善而努力！<br />
+  用 AI 为肿瘤 / 罕见病 / 慢性病患者点亮希望之光 ✨
+</h3>
+
+<br /><br />
+
 
 <p align="center">
   <b>天工开物旗下公益开源项目（<a href="https://www.xiaoyibao.com.cn">www.xiaoyibao.com.cn</a>）｜关注公众号【小胰宝】官方公众号，以及【小胰宝助手】-获取最新进展</b>
 </p>
+
+
+<br /><br />
 
 
 <p align="left">
@@ -27,7 +37,9 @@
 
   <b>◆ 2026年，作为社区重要的生态协同推动落地，我们迎来了第一位伙伴——<a href="https://github.com/anywhere-labs">Dataelement 社区</a>，依托“工作台”这一可能在 AI 应用产品化中成为 cornerstone 的产品形态，加速建立“装好就能用，自带全程病情管理体系”的全新产品。</b><br /><br />
 
-  <b>✧ 毫无疑问，我们在未来 3 个月内，将成为 GitHub 和开源中，肿瘤与罕见病患者公益开源工具领域的一股推动力量。期待您加入，Mark the Dent，期待和开发者们一起为患者信息平权做出改变。这是一个因为参与而可能成为“宗谱新开，功德无量”的项目。</b>
+
+  <b>✧ 毫无疑问，我们在未来 3 个月内，将成为 GitHub 和开源中，肿瘤与罕见病患者公益开源工具领域的一股推动力量。期待您加入，Mark the Dent，期待和开发者们一起为患者信息平权做出改变千万肿瘤/罕见病患者的信息福祉。</b>
+
 </p>
 
 <p align="center">
