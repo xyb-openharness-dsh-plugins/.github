@@ -12,6 +12,7 @@
 
 <h1 align="center">
   🔥 <a href="https://info.xiao-x-bao.com.cn">小X宝社区</a> 携手
+
   <a href="https://github.com/anywhere-labs">Dataelement 社区</a>
 </h1>
 
@@ -22,18 +23,23 @@
 
 <br /><br />
 
+
 <p align="center">
   <b>天工开物旗下公益开源项目（<a href="https://www.xiaoyibao.com.cn">www.xiaoyibao.com.cn</a>）｜关注公众号【小胰宝】官方公众号，以及【小胰宝助手】-获取最新进展</b>
 </p>
 
+
 <br /><br />
+
 
 <p align="left">
   <b>✦ 我们深知，代码不仅仅是冷冰冰的字符，更是连接开发者与患者的桥梁，是用技术守护生命的温暖力量。</b><br /><br />
 
   <b>◆ 2026年，作为社区重要的生态协同推动落地，我们迎来了第一位伙伴——<a href="https://github.com/anywhere-labs">Dataelement 社区</a>，依托“工作台”这一可能在 AI 应用产品化中成为 cornerstone 的产品形态，加速建立“装好就能用，自带全程病情管理体系”的全新产品。</b><br /><br />
 
+
   <b>✧ 毫无疑问，我们在未来 3 个月内，将成为 GitHub 和开源中，肿瘤与罕见病患者公益开源工具领域的一股推动力量。期待您加入，Mark the Dent，期待和开发者们一起为患者信息平权做出改变千万肿瘤/罕见病患者的信息福祉。</b>
+
 </p>
 
 <p align="center">
@@ -75,9 +81,9 @@
 
 ## 项目概述
 
-**OpenHarness DSH Plugins** 是一个围绕 [DeepSeek Harness（DSH）](https://github.com/deepseek-ai/dsh) 构建的开源插件组织。DSH 是一套以 [cordis](https://github.com/cordiverse/cordis) 插件加载器为核心、可组合插件栈的 AI Agent 运行框架；本组织负责维护、孵化并聚合运行在 DSH 之上的各类插件。
+**OpenHarness DSH Plugins** 是一个围绕 [DeepSeek Harness（DSH）](https://github.com/deepseek-ai/dsh) 构建的开源插件组织。DSH 是一套以 [cordis](https://github.com/cordiverse/cordis) 为核心的插件化系统，强调组合式能力与热加载。我们将其用于构建面向社区、研究与临床场景的开放型医疗 AI 插件生态。
 
-我们以「**公益与开源**」为核心，旗舰项目 **小胰宝（XiaoYiBao）** 致力于通过 AI 提供诊疗路径支持、共享决策辅导与个性化随访建议，帮助肿瘤、罕见病与慢性病患者及其临床团队做出更好的决策与管理方案。
+我们以「**公益与开源**」为核心，旗舰项目 **小胰宝（XiaoYiBao）** 致力于通过 AI 提供诊疗路径支持、共享决策辅导与个性化随访建议，帮助肿瘤、罕见病与慢性病患者获得更可持续、更可理解的协同支持。
 
 **核心目标：**
 
@@ -169,14 +175,14 @@ dsh web
 
 | 仓库 | 简介 | 链接 |
 | --- | --- | --- |
-| **OpenCare SkillHub** | 以患者共同决策（SDM）为基础、围绕肿瘤 / 罕见病患者真实需求建设的开源医疗 SkillHub 社区，已积累 **30+** 医疗技能包：国际治疗指南下载、临床试验智能匹配、病历结构化整理、DICOM 影像获取、RAG 知识库构建等。 | [github.com/opencare-skillhub](https://github.com/opencare-skillhub) |
-| **PancrePal（小胰宝）** | 面向胰腺癌 / 肿瘤患者的智能 RAG 平台，基于 AI Agent 构建多癌种病情管理助手与「七色卡」工具库（基因解读 / 并发症 / 营养 / 心理等），是 小X宝社区 的核心开源项目。 | [github.com/PancrePal-xiaoyibao](https://github.com/PancrePal-xiaoyibao) |
+| **OpenCare SkillHub** | 以患者共同决策（SDM）为基础、围绕肿瘤 / 罕见病患者真实需求建设的开源医疗 SkillHub 社区，已积累 **30+** 医疗技能包：国际治疗路径、病情管理与社区支持内容 | [github.com/opencare-skillhub](https://github.com/opencare-skillhub) |
+| **PancrePal（小胰宝）** | 面向胰腺癌 / 肿瘤患者的智能 RAG 平台，基于 AI Agent 构建多癌种病情管理助手与「七色卡」工具库（基因解读 / 并发症 / 营养 / 复诊准备等） | [github.com/PancrePal-xiaoyibao](https://github.com/PancrePal-xiaoyibao) |
 
 ---
 
 ## 患者工作台路线图（开发目标与招募）
 
-我们正在为一个个具体病种建设「本机优先」的患者工作台（病程整理 · 指标追踪 · 就诊准备，隐私数据不出设备）。目标池参照 **NCCN Guidelines® 病种目录（57+ 类）** 与 **国家《第二批罕见病目录》（86 种）**，完整清单与进度见 **[ROADMAP.md](ROADMAP.md)**。
+我们正在为一个个具体病种建设「本机优先」的患者工作台（病程整理 · 指标追踪 · 就诊准备，隐私数据不出设备）。目标池参照 **NCCN Guidelines®** 病种与患者真实需求迭代，聚焦让患者能自主管理、医生可快速复盘和协作。
 
 | 病种工作台 | 进度 | 仓库 |
 | --- | --- | --- |
@@ -186,7 +192,7 @@ dsh web
 | 结直肠癌 / 胃癌 / 食管癌 / 宫颈癌 | 🟡 SPEC 草案阶段 | 待建仓（脚手架就绪） |
 | 其余主要癌种 + 86 项罕见病 | ⬜ **招募认领中** | 见 [ROADMAP.md](ROADMAP.md) |
 
-> 🤝 **诚邀加入**：无论你是开发者、临床/研究者、病友组织志愿者还是写作者，都可以认领一个病种或一个模块——从 Issue 提案开始，走「需求 → 原型 → G2 评审 → 实现 → PR 合入」的流程。所有工作台只做信息整理，不做诊断建议。认领方式见 [ROADMAP.md · 如何参与](ROADMAP.md#三如何参与诚邀加入)。
+> 🤝 **诚邀加入**：无论你是开发者、临床/研究者、病友组织志愿者还是写作者，都可以认领一个病种或一个模块——从 Issue 提案开始，走「需求 → 设计 → 原型 → 评审 → 合入」的开放协作路径。
 
 ---
 
@@ -240,7 +246,7 @@ xyb-openharness-dsh-plugins/
 2. **Fork 并创建分支**：从目标仓库的 `main` 切出特性分支，命名如 `feat/your-feature` 或 `fix/your-bug`。
 3. **本地开发与自测**：遵循本组织的插件规范与代码风格，确保通过现有检查与基础测试。
 4. **提交变更**：提交信息建议遵循 [Conventional Commits](https://www.conventionalcommits.org/)（如 `feat:`, `fix:`, `docs:`）。
-5. **发起 Pull Request**：描述改动动机、范围与验证方式；如涉及医疗相关内容，请额外说明安全与隐私考量。
+5. **发起 Pull Request**：描述改动动机、范围与验证方式；如涉及医疗相关���容，请额外说明安全与隐私考量。
 6. **评审与合入**：至少一名维护者评审通过后合入；重要改动可能需要多方确认。
 
 ### 行为准则
@@ -331,7 +337,7 @@ dsh plugin add @your-scope/dsh-plugin-hello
 
 ### 免责声明
 
-- **非医疗建议**：本组织提供的插件（尤其是「小胰宝」等医疗相关插件）所生成的内容**仅供研究与信息参考，不构成任何形式的专业医疗诊断、治疗或替代医嘱**。任何健康决策请务必咨询具备资质的医疗专业人员。
+- **非医疗建议**：本组织提供的插件（尤其是「小胰宝」等医疗相关插件）所生成的内容**仅供研究与信息参考，不构成任何形式的专业医疗诊断、治疗建议或诊疗决策**。
 - **AI 生成内容**：插件输出由人工智能模型生成，可能存在错误或偏差，使用前请自行核验关键信息与引用来源。
 - **隐私优先**：使用涉及个人健康信息的功能时，请遵循所在地区的数据保护法规，避免上传可识别个人身份信息；本组织不对因误用导致的信息泄露承担责任。
 - **责任限制**：在适用法律允许的最大范围内，本组织及其贡献者对使用本组织插件产生的任何直接或间接损失不承担责任。
