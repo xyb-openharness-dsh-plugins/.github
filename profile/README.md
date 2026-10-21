@@ -5,14 +5,14 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/OpenSource-公益开源-blue" alt="Open Source" />
-  <img src="https://img.shields.io/badge/Built%20on-DSH%20(DeepSeek%20Harness)-green" alt="Built on DSH" />
+  <img src="https://img.shields.io/badge/Built%20on-DSH%20Desktop-green" alt="Built on DSH" />
   <img src="https://img.shields.io/badge/Community-Plugin%20Ecosystem-purple" alt="Community Plugin Ecosystem" />
-  <img src="https://img.shields.io/badge/License-见许可证文件-lightgrey" alt="License" />
+  <img src="https://img.shields.io/badge/License-按各仓库许可-lightgrey" alt="License" />
 </p>
 
 <h1 align="center">
   🔥 <a href="https://info.xiao-x-bao.com.cn">小X宝社区</a> 携手
-  <a href="https://github.com/anywhere-labs">Dataelement 社区</a>
+  <a href="https://github.com/dataelement">Dataelem（数据项素）社区</a>
 </h1>
 
 <h3 align="center">
@@ -31,7 +31,7 @@
 <p align="left">
   <b>✦ 我们深知，代码不仅仅是冷冰冰的字符，更是连接开发者与患者的桥梁，是用技术守护生命的温暖力量。</b><br /><br />
 
-  <b>◆ 2026年，作为社区重要的生态协同推动落地，我们迎来了第一位伙伴——<a href="https://github.com/anywhere-labs">Dataelement 社区</a>，依托“工作台”这一可能在 AI 应用产品化中成为 cornerstone 的产品形态，加速建立“装好就能用，自带全程病情管理体系”的全新产品。</b><br /><br />
+  <b>◆ 2026年，作为社区重要的生态协同推动落地，我们迎来了第一位伙伴——<a href="https://github.com/dataelement">Dataelem（数据项素）社区</a>，依托“工作台”这一可能在 AI 应用产品化中成为 cornerstone 的产品形态，加速建立“装好就能用，自带全程病情管理体系”的全新产品。</b><br /><br />
 
   <b>✧ 毫无疑问，我们在未来 3 个月内，将成为 GitHub 和开源中，肿瘤与罕见病患者公益开源工具领域的一股推动力量。期待您加入，Mark the Dent，期待和开发者们一起为患者信息平权做出改变。这是一个因为参与而为千万人带来命运改变的HVT项目。</b>
 </p>
@@ -40,7 +40,7 @@
 <h2 align="center"><b>项目宣言</b></h2>
 <p align="left">
 
-  <b>✦ 通过与 DSH-DESKTOP 的紧密协作，我们致力于为 40+ 癌症、200+ 罕见病群体打造“开箱即用、自带全程病情管理体系”的新一代 AI Agent 能力，帮助患者获得更清晰的信息、更好的决策支持与持续的随访照护。</b><br /><br />
+  <b>✦ 通过与 DSH Desktop 的紧密协作，我们致力于为 40+ 癌症、200+ 罕见病群体打造“开箱即用、自带全程病情管理体系”的新一代 AI Agent 能力，帮助患者整理病程资料、追踪指标并做好就诊准备。</b><br /><br />
 
   <b>◆ 我们相信，技术的价值不只是提高效率，而是让每一个患者都能获得更好的信息、更多的选择与更有尊严的照护体验。</b><br /><br />
 
@@ -48,7 +48,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/community-banner.png" alt="小X宝社区横幅" width="860" />
+  <img src="https://raw.githubusercontent.com/xyb-openharness-dsh-plugins/.github/main/profile/assets/community-banner.png" alt="小X宝社区横幅" width="860" />
 </p>
 
 <p align="center">
@@ -68,8 +68,8 @@
 - [主要特性](#主要特性)
 - [快速开始](#快速开始)
   - [系统要求](#系统要求)
-  - [安装](#安装)
-  - [基础使用示例](#基础使用示例)
+  - [安装](#安装dsh-desktop推荐路径)
+  - [验证安装](#验证是否真的装上)
 - [插件生态](#插件生态)
 - [社区仓库](#社区仓库)
 - [患者工作台路线图](#患者工作台路线图开发目标与招募)
@@ -86,9 +86,11 @@
 
 ## 项目概述
 
-**OpenHarness DSH Plugins** 是一个围绕 [DeepSeek Harness（DSH）](https://github.com/deepseek-ai/dsh) 构建的开源插件组织。DSH 是一套以 [cordis](https://github.com/cordiverse/cordis) 为核心的插件化系统，强调组合式能力与热加载。我们将其用于构建面向社区、研究与临床场景的开放型医疗 AI 插件生态。
+**OpenHarness DSH Plugins** 是小X宝社区与 [Dataelem（数据项素）](https://github.com/dataelement) 合作建设的患者工作台与插件社区。工作台运行于由 Dataelem 维护的 [DSH Desktop](https://github.com/dataelement/dsh-desktop)，围绕患者的真实场景组织资料、病程和就诊准备。
 
-我们以「**公益与开源**」为核心，旗舰项目 **小胰宝（XiaoYiBao）** 致力于通过 AI 提供诊疗路径支持、共享决策辅导与个性化随访建议，帮助肿瘤、罕见病与慢性病患者获得更可持续、更可理解的协同支持。
+**DSH Desktop by Dataelem** 是由 Dataelem 团队基于上游 [DeepSeek Harness](https://github.com/deepseek-ai/dsh) 开发的桌面 Agent 应用；它不是 DeepSeek 官方桌面产品。小X宝社区贡献患者场景与业务经验，Dataelem 提供桌面宿主、工作台框架和产品化支持，双方共同完善样板与可复用脚手架。
+
+我们以「**公益与开源**」为核心，旗舰项目 **小胰宝（XiaoYiBao）** 与各病种工作台聚焦信息整理、病程记录、指标追踪与就诊准备，帮助患者和家属更清楚地管理资料与沟通问题。工作台不提供诊断、治疗或处置建议，不替代医生判断。
 
 **核心目标：**
 
@@ -101,10 +103,10 @@
 
 ## 主要特性
 
-1. **基于 DSH 的插件框架** —— 复用 DSH / cordis 的插件组合与热加载能力，插件即「可插拔的能力单元」。
-2. **医疗级旗舰插件「小胰宝」** —— 面向肿瘤 / 罕见病 / 慢性病的 AI 共享决策与随访支持，已在公益场景落地。
-3. **共享决策支持（DSH）** —— 以证据为导向，输出可解释的诊疗路径与决策建议，而非黑盒结论。
-4. **病例结构化抽取** —— 支持从文本、影像与检查项中抽取并结构化关键病历信息。
+1. **DSH Desktop 工作台** —— 通过桌面宿主承载病种业务面板与插件能力。
+2. **患者场景驱动** —— 以「小胰宝」等病种工作台为样板，持续完善患者与家属的信息管理流程。
+3. **来源可追溯** —— 医学内容标注来源与版本，未核实项明确标注，不生成诊疗建议。
+4. **病历与指标整理** —— 围绕病程、检查资料和就诊问题建设整理能力；具体支持范围以各工作台说明与验证状态为准。
 5. **可扩展插件机制** —— 通过 `cordis.patch.yml` 的 `insert` 入口或 DSH 的插件安装入口接入第三方插件；在 DSH Desktop 内一律走 app 的工作台市场 / 已安装列表，不另起 Web 界面。
 6. **多语言与本地化** —— 内置中文本地化，文档与界面支持持续扩展更多语言。
 
@@ -123,7 +125,7 @@
 
 ### 安装（DSH Desktop，推荐路径）
 
-1. 安装并启动 **DSH Desktop**，完成首次引导。
+1. 从 [DSH Desktop 官网](https://dshdesktop.com/zh/)安装并启动 **DSH Desktop**，完成首次引导。
 2. **设置 → 通用**，确认「启用工作台功能」处于开启状态（关掉后所有工作台都不加载，但已有会话与数据不受影响）。
 3. 打开左侧 **工作台市场**，搜索病种工作台（如「小粉宝」）后安装。
 4. 出现「工作台安装变更需要重启 Harness 后生效」时点 **立即重启**；没有提示时用菜单 **Harness → 重启 Harness**。
@@ -169,8 +171,8 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 
 | 插件 | 类型 | 简介 | 状态 |
 | --- | --- | --- | --- |
-| **小胰宝 XiaoYiBao** | 官方 · 医疗 | 面向肿瘤 / 罕见病 / 慢性病的 AI 共享决策、病例结构化与随访支持 | 已发布 |
-| 官方示例 / 模板插件 | 官方 · 脚手架 | 用于快速创建符合本组织规范的 DSH 插件 | 规划中 |
+| **小胰宝 XiaoYiBao** | 官方 · 医疗 | 面向患者与家属的病程资料整理、指标追踪与就诊准备 | 已发布 |
+| [xyb-workbench-starter](https://github.com/xyb-openharness-dsh-plugins/xyb-workbench-starter) | 社区 · 脚手架 | 用于创建符合本组织规范的 DSH Desktop 患者工作台 | 已提供，持续迭代 |
 | 文档与知识处理插件 | 官方 / 社区 | 病历、文献与指南的结构化与检索增强 | 规划中 |
 | 社区贡献插件 | 社区 | 由社区开发者遵循本仓库贡献指南提交，经评审后收录 | 欢迎提交 |
 
@@ -191,9 +193,9 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 
 ## 患者工作台路线图（开发目标与招募）
 
-我们正在为一个个具体病种建设「本机优先」的患者工作台（病程整理 · 指标追踪 · 就诊准备，隐私数据不出设备）。目标池参照 **NCCN Guidelines® 病种目录（67 个条目）** 与 **《86 个罕见病病种诊疗指南（2025 年版）》**（合计 **153 项**），聚焦让患者能自主管理、医生可快速复盘和协作。
+我们正在为一个个具体病种建设「本机优先」的患者工作台（病程整理 · 指标追踪 · 就诊准备，不静默上传患者数据，调用外部模型或服务时需明确说明发送内容）。目标池参照 **NCCN Guidelines® 病种目录（67 个条目）** 与 **《86 个罕见病病种诊疗指南（2025 年版）》**（合计 **153 项**），聚焦让患者能自主管理、医生可快速复盘和协作。
 
-**153 个目标不是 153 次全流程**：按 `T0 家族样板 / T1 标准 / T2 模板化 / T3 挂靠 / T4 观察池` 分级，按波次推进，每波结束留 1–2 周回流窗口把经验沉淀进脚手架。详见 [PROGRAM-PLAN.md](PROGRAM-PLAN.md)。
+**153 个目标不是 153 次全流程**：按 `T0 家族样板 / T1 标准 / T2 模板化 / T3 挂靠 / T4 观察池` 分级，按波次推进，每波结束留 1–2 周回流窗口把经验沉淀进脚手架。详见 [PROGRAM-PLAN.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/PROGRAM-PLAN.md)。
 
 | 病种工作台 | 进度 | 仓库 |
 | --- | --- | --- |
@@ -211,33 +213,38 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 | 罕见病形态样板 · FSHD 小飞侠 | 🟡 v0.1.1 | [fshd-workbench](https://github.com/xyb-openharness-dsh-plugins/fshd-workbench) |
 | 罕见病 · ATTR 淀粉宝宝（2026-10-21 认领） | 🟡 v0.1.0 | [attr-workbench](https://github.com/xyb-openharness-dsh-plugins/attr-workbench) |
 | 心理支持（跨病种共用模块） | 🟢 v0.3.14 | [xiaoxinbao-workbench](https://github.com/xyb-openharness-dsh-plugins/xiaoxinbao-workbench) |
-| 其余主要癌种 + 84 项罕见病 | ⬜ **招募认领中**（完整分级与招募对象见 BACKLOG） | [BACKLOG.md](BACKLOG.md) |
+| 其余主要癌种 + 84 项罕见病 | ⬜ **招募认领中**（完整分级与招募对象见 BACKLOG） | [BACKLOG.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md) |
 
-> 🔥 **现在最缺人的 12 个**（ATTR 已认领，其余 11 个仍在招募）：[BACKLOG §〇 优先招募榜](BACKLOG.md#〇现在最缺人优先招募榜) 按「帮扶人群规模 · 信息差 · 危重与时间压力」三维挑选，每项写明**缺什么角色**（👤 患者家属 / 🩺 临床 / 💻 开发 / 📝 内容 / 🤝 病友组织 / 👨‍👩‍👧 患儿家长）和**第一步能做什么**，并附一键认领链接。
+> 🔥 **现在最缺人的 12 个**（ATTR 已认领，其余 11 个仍在招募）：[BACKLOG §〇 优先招募榜](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md#〇现在最缺人优先招募榜) 按「帮扶人群规模 · 信息差 · 危重与时间压力」三维挑选，每项写明**缺什么角色**（👤 患者家属 / 🩺 临床 / 💻 开发 / 📝 内容 / 🤝 病友组织 / 👨‍👩‍👧 患儿家长）和**第一步能做什么**，并附一键认领链接。
 >
-> 🤝 **诚邀加入**：无论你是开发者、临床/研究者、病友组织志愿者还是写作者，都可以认领一个病种或一个模块。四种投入档位（整仓 / 模块 / 内容访谈 / 脚手架）见 **[CONTRIBUTING-WORKBENCH.md](CONTRIBUTING-WORKBENCH.md)**，从 Issue 模板开始。**不需要写代码也能贡献**——一次真实经历访谈、一份就诊问题清单都在缺。所有工作台只做信息整理，不做诊断建议。
+> 🤝 **诚邀加入**：无论你是开发者、临床/研究者、病友组织志愿者还是写作者，都可以认领一个病种或一个模块。四种投入档位（整仓 / 模块 / 内容访谈 / 脚手架）见 **[CONTRIBUTING-WORKBENCH.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/CONTRIBUTING-WORKBENCH.md)**，从 Issue 模板开始。**不需要写代码也能贡献**——一次真实经历访谈、一份就诊问题清单都在缺。所有工作台只做信息整理，不做诊断建议。
 >
-> 🔒 **仓库可见性**：病种工作台一律 private（仅本组织 public 仓库与 `xyb-workbench-starter` 可公开浏览），因此上表里的病种仓库链接对组织外访客会 404，属预期。**每个项目的公开展示页（原型首页截图 + 能力说明）在 [PROJECTS.md](PROJECTS.md)**，外部贡献者的协作方式：**Issue 层认领与评审不需要任何权限**，需要写代码时再由维护者逐人最小授权（见 [CONTRIBUTING §10.3](CONTRIBUTING-WORKBENCH.md)）。
+> 🔒 **仓库可见性**：病种工作台一律 private（仅本组织 public 仓库与 `xyb-workbench-starter` 可公开浏览），因此上表里的病种仓库链接对组织外访客会 404，属预期。**每个项目的公开展示页（原型首页截图 + 能力说明）在 [PROJECTS.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/PROJECTS.md)**，外部贡献者的协作方式：**Issue 层认领与评审不需要任何权限**，需要写代码时再由维护者逐人最小授权（见 [CONTRIBUTING §10.3](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/CONTRIBUTING-WORKBENCH.md)）。
 
 ---
 
 ## 文档导航
 
 - **快速开始**：见上方 [快速开始](#快速开始)
-- **项目画廊**（14 个项目的原型截图与能力说明）：[PROJECTS.md](PROJECTS.md)
+- **项目画廊**（14 个项目的原型截图与能力说明）：[PROJECTS.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/PROJECTS.md)
 - **插件开发指南**：见下方 [插件开发](#插件开发)
-- **患者工作台路线图与病种认领**：[ROADMAP.md](ROADMAP.md)
-- **规模化开发总纲**（分层分级 / 波次 / 七道质量锁）：[PROGRAM-PLAN.md](PROGRAM-PLAN.md)
-- **153 项目标池分层表、招募对象与认领状态**：[BACKLOG.md](BACKLOG.md)（含 [§〇 优先招募榜](BACKLOG.md#〇现在最缺人优先招募榜)）
-- **脚手架迭代与经验回流**：[SCAFFOLD-ITERATION.md](SCAFFOLD-ITERATION.md)
-- **贡献手册（四条路径 / 闸口 / PR 自检）**：[CONTRIBUTING-WORKBENCH.md](CONTRIBUTING-WORKBENCH.md)
+- **患者工作台脚手架**：[xyb-workbench-starter](https://github.com/xyb-openharness-dsh-plugins/xyb-workbench-starter)
+- **患者工作台路线图与病种认领**：[ROADMAP.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/ROADMAP.md)
+- **规模化开发总纲**（分层分级 / 波次 / 七道质量锁）：[PROGRAM-PLAN.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/PROGRAM-PLAN.md)
+- **153 项目标池分层表、招募对象与认领状态**：[BACKLOG.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md)（含 [§〇 优先招募榜](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md#〇现在最缺人优先招募榜)）
+- **脚手架迭代与经验回流**：[SCAFFOLD-ITERATION.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/SCAFFOLD-ITERATION.md)
+- **贡献手册（四条路径 / 闸口 / PR 自检）**：[CONTRIBUTING-WORKBENCH.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/CONTRIBUTING-WORKBENCH.md)
 - **贡献流程**：见下方 [贡献指南](#贡献指南)
 - **项目结构**：见下方 [项目结构](#项目结构)
 - **小胰宝官网**：<https://www.xiaoyibao.com.cn>
 - **小X宝社区**：<https://info.xiao-x-bao.com.cn>
 - **OpenCare SkillHub 社区仓库**：<https://github.com/opencare-skillhub>
 - **PancrePal（小胰宝）社区仓库**：<https://github.com/PancrePal-xiaoyibao>
-- **DSH 官方仓库**：<https://github.com/deepseek-ai/dsh>
+- **Dataelem 官网**：<https://www.dataelem.com/>
+- **DSH Desktop 官网**：<https://dshdesktop.com/zh/>
+- **DSH Desktop 源码（Dataelem）**：<https://github.com/dataelement/dsh-desktop>
+- **DSH 工作台资源**：<https://github.com/dataelement/awesome-dsh-workbench>
+- **上游 DeepSeek Harness**：<https://github.com/deepseek-ai/dsh>
 - **cordis 插件框架**：<https://github.com/cordiverse/cordis>
 
 > 更完整的 Wiki / API 文档链接将随生态完善逐步补充，欢迎认领文档建设。
@@ -250,19 +257,16 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 
 ```text
 xyb-openharness-dsh-plugins/
-├── .github/                      # 组织元仓库（本仓库）
-│   ├── profile/
-│   │   └── README.md             # 组织首页（即本文件，由 GitHub 自动渲染）
-│   └── README.md                 # 本仓库说明
-├── plugins/                      # 官方插件源码（可为子仓库或子目录）
-│   └── xiaoyibao/               # 旗舰插件：小胰宝
-├── templates/                    # 插件脚手架与示例模板
-├── docs/                         # 文档与规范
-├── CONTRIBUTING.md               # 贡献指南
-└── LICENSE                       # 许可证
+├── .github/                      # 组织元仓库
+│   ├── profile/README.md         # 组织首页
+│   ├── PROGRAM-PLAN.md           # 开发总纲
+│   ├── BACKLOG.md                # 目标池与招募
+│   └── CONTRIBUTING-WORKBENCH.md # 贡献手册
+├── xyb-workbench-starter/        # 患者工作台脚手架（独立仓库）
+└── <病种>-workbench/              # 各病种工作台（独立仓库）
 ```
 
-> 注：实际目录可能随仓库调整；上述结构为推荐布局，便于新成员快速定位。
+> 各仓库的具体文件、访问权限与许可证以对应仓库为准。
 
 ---
 
@@ -270,11 +274,11 @@ xyb-openharness-dsh-plugins/
 
 我们欢迎一切形式的贡献：代码、文档、翻译、Issue 反馈与插件孵化。
 
-**患者工作台的详细贡献手册见 [CONTRIBUTING-WORKBENCH.md](CONTRIBUTING-WORKBENCH.md)**，含四条贡献路径（病种认领 / 模块 / 内容与医学核对 / 脚手架）、三闸口、PR 自检清单与评审清单。
+**患者工作台的详细贡献手册见 [CONTRIBUTING-WORKBENCH.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/CONTRIBUTING-WORKBENCH.md)**，含四条贡献路径（病种认领 / 模块 / 内容与医学核对 / 脚手架）、三闸口、PR 自检清单与评审清单。
 
 ### 贡献流程
 
-1. **认领或提出议题**：在 [Issues](https://github.com/xyb-openharness-dsh-plugins) 中搜索或新建议题，讨论需求与方案；认领病种请用「病种认领」模板，并在 Issue 下评论 `/claim` 完成领取。
+1. **认领或提出议题**：在 [Issues](https://github.com/xyb-openharness-dsh-plugins/.github/issues) 中搜索或新建议题，讨论需求与方案；认领病种请用「病种认领」模板，并在 Issue 下评论 `/claim` 完成领取。
 2. **Fork 并创建分支**：从目标仓库的 `main` 切出特性分支，命名如 `feat/your-feature` 或 `fix/your-bug`。
 3. **本地开发与自测**：遵循本组织的插件规范与代码风格，确保通过现有检查与基础测试（`npm run check`）。
 4. **提交变更**：提交信息建议遵循 [Conventional Commits](https://www.conventionalcommits.org/)（如 `feat:`, `fix:`, `docs:`）。
@@ -296,7 +300,7 @@ xyb-openharness-dsh-plugins/
 
 ### 签署与许可
 
-提交即表示你同意以本组织当前许可证（见 [LICENSE](LICENSE)）发布你的贡献，并确认你有权据此授权。
+提交贡献前，请确认目标仓库实际公布的许可证与贡献条款，并确认你有权据此授权；未公布许可证的仓库请先联系维护者确认。
 
 ---
 
@@ -367,7 +371,7 @@ export function apply(ctx: Context) {
 
 - **官方公众号**：【小胰宝】（获取最新进展与知识文章）
 - **官方网站**：<https://www.xiaoyibao.com.cn> ／ 社区：<https://info.xiao-x-bao.com.cn>
-- **GitHub Issues**：用于缺陷反馈与功能建议 —— [xyb-openharness-dsh-plugins](https://github.com/xyb-openharness-dsh-plugins)
+- **GitHub Issues**：用于缺陷反馈与功能建议 —— [组织议题](https://github.com/xyb-openharness-dsh-plugins/.github/issues)
 - **GitHub Discussions**：用于想法交流与新插件提案（如已开启）
 - **邮件**：opensource@xiaoyibao.com.cn（请以实际公布地址为准）
 
@@ -377,7 +381,7 @@ export function apply(ctx: Context) {
 
 ### 许可证
 
-本项目以开源许可证发布，具体条款见仓库根目录的 [LICENSE](LICENSE) 文件。插件可在此基础上附加各自条款，但须兼容本组织许可证。
+各仓库的许可范围与条款以其实际公布的许可证为准。本组织首页不代表所有工作台已公开源码或采用统一许可证；使用、修改或分发前，请查看目标仓库的许可说明，未公布时联系维护者确认。
 
 ### 免责声明
 
