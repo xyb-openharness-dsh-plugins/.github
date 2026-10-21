@@ -8,6 +8,8 @@
 ## 目录说明
 
 - `profile/README.md` —— 组织 Profile 首页（公开展示内容）
+- `PROJECTS.md` —— **项目画廊**：全部病种工作台的原型首页截图与能力说明（对外展示入口，链接指向 Issue）
+- `assets/projects/` —— 画廊截图
 - `CONTRIBUTING.md` —— 贡献指南（如存在）
 - 其他组织级模板（Issue / PR 模板等，如存在）
 

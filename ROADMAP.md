@@ -7,6 +7,7 @@
 > **配套文档（规模化开发）：**
 > [PROGRAM-PLAN.md](PROGRAM-PLAN.md) 总纲（分层分级 / 波次 / 七道质量锁）·
 > [BACKLOG.md](BACKLOG.md) 153 项目标池分层表、招募对象与认领状态（含 [§〇 优先招募榜](BACKLOG.md#〇现在最缺人优先招募榜)）·
+> [PROJECTS.md](PROJECTS.md) 各项目原型首页截图与能力说明（公开侧展示页，链接指向 Issue） ·
 > [SCAFFOLD-ITERATION.md](SCAFFOLD-ITERATION.md) 脚手架迭代与经验回流 ·
 > [CONTRIBUTING-WORKBENCH.md](CONTRIBUTING-WORKBENCH.md) 贡献手册与 PR 流程。
 
@@ -41,8 +42,8 @@
 | 胃癌 | Stompal 小胃宝 | [gastric-workbench](https://github.com/xyb-openharness-dsh-plugins/gastric-workbench) | 🔵 | **v0.1.0 首个开发版已发布**（tag `v0.1.0`，2026-10-21）；2026 资料包 236 条（119 含中国中心）、22 表 schema 冻结、原型↔开发版 parity 测试全绿；待做：DSH Desktop 实机装机验证；差异化：四标志物（未检测≠阴性）+ 进食与营养（切除方式 / 倾倒 / 补充剂）+ 腹膜与腹腔留痕 |
 | 食管癌 | EsopPal 小咽宝 | [esophageal-workbench](https://github.com/xyb-openharness-dsh-plugins/esophageal-workbench) | 🟡 | v0.1.0；鳞/腺 + 分段 + 吞咽与进食通路 + 体重/白蛋白 |
 | 宫颈癌 | CerviPal 小莲宝 | [cervical-workbench](https://github.com/xyb-openharness-dsh-plugins/cervical-workbench) | 🟡 | v0.1.0；FIGO 2018 + 性与生育（默认私密）+ 放疗长期影响 |
-| 肛管癌 | AnalPal 小萌宝 | [anal-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/anal-cancer-workbench) | 🟡 | **2026-10-21 认领开工** · v0.1.1；13 一级页 / 38 二级页原型、19 表 + 1 视图、224 条 2026 临床登记、2 套演示档案；**G1/G2/G3 三道闸口均待签**；差异化：放化疗副作用 + 肠道与排粪功能 + 造口生活 |
-| 胃肠间质瘤（GIST） | GistPal 小吉宝 | [gist-workbench](https://github.com/xyb-openharness-dsh-plugins/gist-workbench) | 🟡 | **2026-10-21 认领开工** · v0.1.0；阶段 2 已完成（原型↔开发版 parity 10/10）、11 一级页 / 32 二级页、25 表 184 列已冻结、16 条 2026 干预性试验；**G3 未签认，装机未开始**；差异化：病理四事实 + 多套危险度体系 + 靶向线序与剂量变更 + 复查影像结论 |
+| 肛管癌 | AnalPal 小萌宝 | [anal-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/anal-cancer-workbench)（对外入口：[Issue #6](https://github.com/xyb-openharness-dsh-plugins/.github/issues/6)） | 🟡 | **2026-10-21 认领开工** · v0.1.1；13 一级页 / 38 二级页原型、19 表 + 1 视图、224 条 2026 临床登记、2 套演示档案；**G1/G2/G3 三道闸口均待签**；差异化：放化疗副作用 + 肠道与排粪功能 + 造口生活 |
+| 胃肠间质瘤（GIST） | GistPal 小吉宝 | [gist-workbench](https://github.com/xyb-openharness-dsh-plugins/gist-workbench)（对外入口：[Issue #7](https://github.com/xyb-openharness-dsh-plugins/.github/issues/7)） | 🟡 | **2026-10-21 认领开工** · v0.1.0；阶段 2 已完成（原型↔开发版 parity 10/10）、11 一级页 / 32 二级页、25 表 184 列已冻结、16 条 2026 干预性试验；**G3 未签认，装机未开始**；差异化：病理四事实 + 多套危险度体系 + 靶向线序与剂量变更 + 复查影像结论 |
 | 胰腺癌（PDAC） | 小胰宝 | [xyb-workbench](https://github.com/xyb-openharness-dsh-plugins/xyb-workbench) | 🔵 | v0.1.29；历史旗舰项目（未走脚手架），已在本机 Desktop Harness 注册；病程一图秀 / 报告导入解析 / 指标趋势 / 临床试验本地快照 / 营养与心理 / 报告导出；待做：迁到消化族家族基线、补「不可切除之后」照护路径 |
 | 心理支持（跨病种） | 小心宝 | [xiaoxinbao-workbench](https://github.com/xyb-openharness-dsh-plugins/xiaoxinbao-workbench) | 🟢 | v0.3.14；作为**共用支撑模块**被各癌种工作台引用 |
 
@@ -75,8 +76,8 @@
 
 | 疾病 | 品牌 / 代号 | 仓库 | 进度 | 当前状态（2026-10） |
 | --- | --- | --- | --- | --- |
-| 转甲状腺素蛋白淀粉样变性（ATTR，目录 #80） | ATTR-Pal 淀粉宝宝 | [attr-workbench](https://github.com/xyb-openharness-dsh-plugins/attr-workbench) | 🟡 | **2026-10-21 认领开工** · v0.1.0；12 一级页 / 41 页签原型、28 表 schema、434 条临床登记摘录（逐通道终态诚实标注，0 结果 ≠ 无试验）；差异化：型别确认 + 心脏/神经受累 + 治疗耐受 + 家族筛查；家族内**无「治疗历程」模块**（参照 FSHD 形态，聚焦生活/照顾/筛查）；待做：H1–H5 五条用户假设的访谈核实、ChiCTR / WHO ICTRP 补查 |
-| 面肩肱型肌营养不良症（FSHD，目录 #25） | 小飞侠 | [fshd-workbench](https://github.com/xyb-openharness-dsh-plugins/fshd-workbench) | 🟡 | v0.1.1；**罕见病样板**：场景排序已确认，SPEC/SCHEMA 草案 + demo HTML（含右侧 AI pane 状态稿）；差异化：基因确诊档案（D4Z4/4qA）+ 功能与康复（分区+辅助器具）+ 并发症筛查（眼 Coats/听力/呼吸/脊柱）+ 医保与资源；家族内唯一无「治疗历程」模块（聚焦生活/照顾/预防） |
+| 转甲状腺素蛋白淀粉样变性（ATTR，目录 #80） | ATTR-Pal 淀粉宝宝 | [attr-workbench](https://github.com/xyb-openharness-dsh-plugins/attr-workbench) | 🟡 | **2026-10-21 认领开工** · v0.1.0；12 一级页 / 41 页签原型、28 表 schema、434 条临床登记摘录（逐通道终态诚实标注，0 结果 ≠ 无试验）；差异化：型别确认 + 心脏/神经受累双序列 + 治疗耐受（用药记录不评价疗效）+ 家族筛查准备；待做：H1–H5 五条用户假设的访谈核实、ChiCTR / WHO ICTRP 补查；对外入口：[Issue #5](https://github.com/xyb-openharness-dsh-plugins/.github/issues/5) |
+| 面肩肱型肌营养不良症（FSHD，目录 #25） | 小飞侠 | [fshd-workbench](https://github.com/xyb-openharness-dsh-plugins/fshd-workbench) | 🟡 | v0.1.1；**罕见病样板**：场景排序已确认，SPEC/SCHEMA 草案 + demo HTML（含右侧 AI pane 状态稿）；差异化：基因确诊档案（D4Z4/4qA）+ 功能与康复（分区+辅助器具）+ 并发症筛查（眼 Coats/听力/呼吸/脊柱）+ 医保与资源；家族内无「治疗历程」模块（无获批治疗药物，聚焦生活/照顾/预防） |
 
 <details>
 <summary>《86 个罕见病病种诊疗指南（2025 年版）》— 三条线分组（完整 86 项见 BACKLOG.md）</summary>
