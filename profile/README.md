@@ -207,9 +207,11 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 | 宫颈癌 · 小莲宝 | 🟡 v0.1.0 | [cervical-workbench](https://github.com/xyb-openharness-dsh-plugins/cervical-workbench) |
 | 罕见病首个样板 · FSHD 小飞侠 | 🟡 v0.1.1 | [fshd-workbench](https://github.com/xyb-openharness-dsh-plugins/fshd-workbench) |
 | 心理支持（跨病种共用模块） | 🟢 v0.3.14 | [cancer-psych-support-workbench](https://github.com/xyb-openharness-dsh-plugins/cancer-psych-support-workbench) |
-| 其余主要癌种 + 85 项罕见病 | ⬜ **招募认领中**（完整分级见 BACKLOG） | [BACKLOG.md](BACKLOG.md) |
+| 其余主要癌种 + 85 项罕见病 | ⬜ **招募认领中**（完整分级与招募对象见 BACKLOG） | [BACKLOG.md](BACKLOG.md) |
 
-> 🤝 **诚邀加入**：无论你是开发者、临床/研究者、病友组织志愿者还是写作者，都可以认领一个病种或一个模块。四条贡献路径（病种认领 / 模块 / 内容与医学核对 / 脚手架）见 **[CONTRIBUTING-WORKBENCH.md](CONTRIBUTING-WORKBENCH.md)**，从 Issue 模板开始。所有工作台只做信息整理，不做诊断建议。
+> 🔥 **现在最缺人的 12 个**：[BACKLOG §〇 优先招募榜](BACKLOG.md#〇现在最缺人优先招募榜) 按「帮扶人群规模 · 信息差 · 危重与时间压力」三维挑选，每项写明**缺什么角色**（👤 患者家属 / 🩺 临床 / 💻 开发 / 📝 内容 / 🤝 病友组织 / 👨‍👩‍👧 患儿家长）和**第一步能做什么**，并附一键认领链接。
+>
+> 🤝 **诚邀加入**：无论你是开发者、临床/研究者、病友组织志愿者还是写作者，都可以认领一个病种或一个模块。四种投入档位（整仓 / 模块 / 内容访谈 / 脚手架）见 **[CONTRIBUTING-WORKBENCH.md](CONTRIBUTING-WORKBENCH.md)**，从 Issue 模板开始。**不需要写代码也能贡献**——一次真实经历访谈、一份就诊问题清单都在缺。所有工作台只做信息整理，不做诊断建议。
 
 ---
 
@@ -219,7 +221,7 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 - **插件开发指南**：见下方 [插件开发](#插件开发)
 - **患者工作台路线图与病种认领**：[ROADMAP.md](ROADMAP.md)
 - **规模化开发总纲**（分层分级 / 波次 / 七道质量锁）：[PROGRAM-PLAN.md](PROGRAM-PLAN.md)
-- **153 项目标池分层表与认领状态**：[BACKLOG.md](BACKLOG.md)
+- **153 项目标池分层表、招募对象与认领状态**：[BACKLOG.md](BACKLOG.md)（含 [§〇 优先招募榜](BACKLOG.md#〇现在最缺人优先招募榜)）
 - **脚手架迭代与经验回流**：[SCAFFOLD-ITERATION.md](SCAFFOLD-ITERATION.md)
 - **贡献手册（四条路径 / 闸口 / PR 自检）**：[CONTRIBUTING-WORKBENCH.md](CONTRIBUTING-WORKBENCH.md)
 - **贡献流程**：见下方 [贡献指南](#贡献指南)

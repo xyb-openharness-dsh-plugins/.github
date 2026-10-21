@@ -6,7 +6,7 @@
 >
 > **配套文档（规模化开发）：**
 > [PROGRAM-PLAN.md](PROGRAM-PLAN.md) 总纲（分层分级 / 波次 / 七道质量锁）·
-> [BACKLOG.md](BACKLOG.md) 153 项目标池分层表与认领状态 ·
+> [BACKLOG.md](BACKLOG.md) 153 项目标池分层表、招募对象与认领状态（含 [§〇 优先招募榜](BACKLOG.md#〇现在最缺人优先招募榜)）·
 > [SCAFFOLD-ITERATION.md](SCAFFOLD-ITERATION.md) 脚手架迭代与经验回流 ·
 > [CONTRIBUTING-WORKBENCH.md](CONTRIBUTING-WORKBENCH.md) 贡献手册与 PR 流程。
 
@@ -50,7 +50,9 @@
 
 ### 全部候选与排期
 
-67 个 NCCN 癌种条目 + 86 个罕见病的**完整分级、波次与认领状态**见 [BACKLOG.md](BACKLOG.md)，本表不再逐个复制。
+67 个 NCCN 癌种条目 + 86 个罕见病的**完整分级、波次、招募对象与认领状态**见 [BACKLOG.md](BACKLOG.md)，本表不再逐个复制。
+
+**现在最缺人的 12 个**（按「帮扶人群规模 · 信息差 · 危重与时间压力」三维挑选，附一键认领链接）：见 [BACKLOG §〇 优先招募榜](BACKLOG.md#〇现在最缺人优先招募榜)。
 招募原则：无人认领的病种**永久停在 ⬜**，不占用波次。宁可停在 ⬜，也不交付半成品。
 
 ---

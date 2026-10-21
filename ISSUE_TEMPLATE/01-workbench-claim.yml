@@ -7,6 +7,7 @@ body:
     attributes:
       value: |
         提交前请先读 [BACKLOG.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md) 确认该病种尚未被认领，并读 [CONTRIBUTING-WORKBENCH.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/CONTRIBUTING-WORKBENCH.md)。
+        **不确定能领什么？** 见 BACKLOG §4.1 三种投入方式——最低门槛是「内容 / 访谈认领」，不需要写代码，两小时的一次访谈也算贡献。
         **提交后在本 Issue 下评论 `/claim` 完成领取**（机器人会自动指派并打 `claimed` 标签，外部贡献者同样可用）。
         我们只做**信息整理与就诊准备**，不做诊断、不做治疗建议。
   - type: input
@@ -50,16 +51,36 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: role
+    id: mode
     attributes:
-      label: 你打算承担的角色
+      label: 投入方式（BACKLOG §4.1）
+      description: 选最贴近你实际情况的一档；随时可以升级，不能降级到"只围观"。
       options:
-        - 全程认领（调研 → 原型 → 实现 → 装机验证）
-        - 只做需求与内容（由开发者接实现）
-        - 只做实现（需求由他人提供）
-        - 只做医学内容核对
+        - ① 整仓认领（T0/T1）：走完 G1→G2→G3→实现→V1/V2/V3，需要长期投入或小团队
+        - ② 模块认领（T2/T3 挂靠）：做一个差异化模块或分型包，单人可完成，不建仓
+        - ③ 内容 / 访谈认领：场景访谈、就诊问题清单、术语表、医学核对，不需要写代码
     validations:
       required: true
+  - type: checkboxes
+    id: roles
+    attributes:
+      label: 我能提供的角色（可多选，对应 BACKLOG「招募对象」列）
+      options:
+        - label: "👤 患者 / 家属：真实经历与场景排序"
+        - label: "👨‍👩‍👧 患儿家长（儿童与遗传线的代记主体）"
+        - label: "🩺 临床 / 科研 / 药学 / 护理：医学内容核对与红线把关"
+        - label: "💻 开发：差异化模块实现"
+        - label: "📝 内容 / 医学写作：资料整理、问题清单、术语表"
+        - label: "🤝 病友组织 / 社群运营：需求征集、用户测试、分发"
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 为什么这个病种现在需要（可选，但会加快分级）
+      description: 从三个维度各写一句就够：① 帮扶人群规模（十万级/万级/千级/罕见）② 信息差（患者拿到的信息与实际决策复杂度落差）③ 危重与时间压力（生存期越短、决策窗越窄，信息整理的需求越迫切）。不确定就写"无可靠数据"，不要猜。
+    validations:
+      required: false
   - type: checkboxes
     id: redline
     attributes:
