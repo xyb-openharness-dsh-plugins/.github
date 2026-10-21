@@ -228,12 +228,20 @@ gh repo create xyb-openharness-dsh-plugins/<name>-workbench --private \
 gh api repos/xyb-openharness-dsh-plugins/<name>-workbench/collaborators/<login> -f permission=push
 ```
 
-### 10.3 外部贡献者与仓库可见性
+### 10.3 外部贡献者与仓库可见性（**当前策略：全部 private**）
 
-当前组织内除 `.github`（public）外多为 **private** 仓库，外部贡献者无法浏览代码。开放外部贡献二选一：
+**决定（2026-10-21，维护者）**：病种工作台仓库**一律 private**，新建仓库暂不对外开放。组织内 public 的只有 `.github`（本文档所在仓库）与 `xyb-workbench-starter`（脚手架）。
 
-1. **逐步转 public（推荐）**：社区定位是公益开源；建议至少把 `xyb-workbench-starter` 与开放认领的病种仓库转 public（Settings → Danger Zone → Change visibility）。转之前先清洗历史中的敏感内容（路径、内网名、患者信息）。
-2. **逐人加 external collaborator**：适合少数深度贡献者，用上面的 `gh api` 命令；权限最小化到单个仓库。
+因此外部贡献者**看不到病种代码**，这是有意为之，不是漏配。对外协作走下面三档，按门槛从低到高：
 
-**外部贡献者 fork-first 流程**：自有仓库/fork 开工 → 走完 G1（需求签认）→ 维护者建组织仓库 → 迁移 PR → 之后正常协作。
+| 档位 | 你不需要什么 | 怎么协作 |
+| --- | --- | --- |
+| **① Issue 层（默认开放）** | 不需要仓库权限 | 在 `.github` 提认领 Issue，把 SPEC 摘要、场景清单、差异化矩阵草案、问题清单写在 Issue 里评审。**认领、讨论、内容与医学核对都在这一层完成** |
+| **② 展示层（可选）** | 不需要进入私有仓 | 原型是单文件 HTML：把可公开的 demo 页面放到 public 的 `xyb-workbench-starter` 示例目录或你自己的仓库，评审看 demo，不看源码 |
+| **③ 代码层（逐人授权）** | 需要人工审核 | 维护者用 `gh api repos/.../collaborators/<login> -f permission=push` **最小化授权到单个仓库**，只给已走完 G1 且需要写代码的人 |
+
+**外部贡献者 fork-first 流程**：自有仓库或 fork 开工 → Issue 里走完 G1（需求与差异化签认）→ 维护者建组织私有仓 → 迁移 PR → 之后按人授权协作。
 **成员流程**：认领 → 维护者建仓 + 加 collaborator → 正常分支 → PR → 合并。
+
+> 换句话说：**认领不需要权限，写代码需要授权**。如果你只有真实经历或医学背景，停在 ① 就够了——那正是最缺的部分。
+> 转为 public 的先决动作（若将来重启）：清洗提交历史里的本机路径、内网名、患者信息与密钥，再改 visibility；不要先公开后清理。
