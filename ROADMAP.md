@@ -41,7 +41,7 @@
 | 胃癌 | Stompal 小胃宝 | [gastric-workbench](https://github.com/xyb-openharness-dsh-plugins/gastric-workbench) | 🔵 | **v0.1.0 首个开发版已发布**（tag `v0.1.0`，2026-10-21）；2026 资料包 236 条（119 含中国中心）、22 表 schema 冻结、原型↔开发版 parity 测试全绿；待做：DSH Desktop 实机装机验证；差异化：四标志物（未检测≠阴性）+ 进食与营养（切除方式 / 倾倒 / 补充剂）+ 腹膜与腹腔留痕 |
 | 食管癌 | EsopPal 小咽宝 | [esophageal-workbench](https://github.com/xyb-openharness-dsh-plugins/esophageal-workbench) | 🟡 | v0.1.0；鳞/腺 + 分段 + 吞咽与进食通路 + 体重/白蛋白 |
 | 宫颈癌 | CerviPal 小莲宝 | [cervical-workbench](https://github.com/xyb-openharness-dsh-plugins/cervical-workbench) | 🟡 | v0.1.0；FIGO 2018 + 性与生育（默认私密）+ 放疗长期影响 |
-| 胰腺癌（PDAC） | 小胰宝 | [xyb-workbench](https://github.com/xyb-openharness-dsh-plugins/xyb-workbench) | 🔵 | 既有项目，待迁到统一家族基线 |
+| 胰腺癌（PDAC） | 小胰宝 | [xyb-workbench](https://github.com/xyb-openharness-dsh-plugins/xyb-workbench) | 🔵 | v0.1.29；历史旗舰项目（未走脚手架），已在本机 Desktop Harness 注册；病程一图秀 / 报告导入解析 / 指标趋势 / 临床试验本地快照 / 营养与心理 / 报告导出；待做：迁到消化族家族基线、补「不可切除之后」照护路径 |
 | 心理支持（跨病种） | 小心宝 | [cancer-psych-support-workbench](https://github.com/xyb-openharness-dsh-plugins/cancer-psych-support-workbench) | 🟢 | v0.3.14；作为**共用支撑模块**被各癌种工作台引用 |
 
 ### 下一波（W1）· 消化族收口 + 中国高发补位

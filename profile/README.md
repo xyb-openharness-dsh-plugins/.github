@@ -200,7 +200,8 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 | 乳腺癌 · PinkyPal 小粉宝 | 🔵 开发中（v0.8.0，G1–G3 已过） | [breast-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/breast-cancer-workbench) |
 | 淋巴瘤 · LymBell 小铃铛 | 🔵 开发中（v0.3.0） | [lymphoma-workbench](https://github.com/xyb-openharness-dsh-plugins/lymphoma-workbench) |
 | 卵巢癌 | 🔵 开发中（v0.1.51） | [ovarian-workbench](https://github.com/xyb-openharness-dsh-plugins/ovarian-workbench) |
-| 肺癌 · 小肺宝 | 🔵 RC（v0.1.2-rc.16） | [lung-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/lung-cancer-workbench) |
+| 肺癌 · 小肺宝（NSCLC + SCLC 已合并） | 🔵 RC（v0.1.2-rc.16） | [lung-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/lung-cancer-workbench) |
+| 胰腺癌 PDAC · 小胰宝（历史旗舰，未走脚手架） | 🔵 v0.1.29 | [xyb-workbench](https://github.com/xyb-openharness-dsh-plugins/xyb-workbench) |
 | 结直肠癌 · 小畅宝（消化族样板） | 🔵 v0.1.0 开发版已推送（待 DSH 装机验证） | [colorectal-workbench](https://github.com/xyb-openharness-dsh-plugins/colorectal-workbench) |
 | 胃癌 · 小胃宝 | 🔵 v0.1.0 开发版已发布（tag v0.1.0，待 DSH 装机验证） | [gastric-workbench](https://github.com/xyb-openharness-dsh-plugins/gastric-workbench) |
 | 食管癌 · 小咽宝 | 🟡 v0.1.0 | [esophageal-workbench](https://github.com/xyb-openharness-dsh-plugins/esophageal-workbench) |

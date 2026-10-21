@@ -64,10 +64,10 @@
 | 目标 | 级别 | 规模 | 信息差 | 危重/时间压力 | 缺谁 | 第一步（可只做这一步） | 紧迫度 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **肝细胞癌**（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E8%82%9D%E7%BB%86%E8%83%9E%E7%99%8C)） | T0 消化/肝样板 · W1 | 十万级（中国高发，乙肝背景为主） | 高：BCLC / CNLC 分期并存，切除·消融·TACE·靶免·移植多路径并行，患者很难自己判断"我属于哪条" | 高：多数确诊已中晚期，肝功能与肿瘤两条线要同时看 | 👤🩺💻 | 先整理一份「分期与治疗路径名词表 + 确诊后两周要问清的 10 个问题」，不写一行代码也行 | ★★★ |
-| **胰腺腺癌**（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E8%83%B0%E8%85%BA%E8%85%BA%E7%99%8C)） | T1（既有 xyb-workbench 待迁） | 十万级（发病率仍在上升） | 极高：可切除性判断、新辅助、临床试验、营养与疼痛管理，公众认知普遍停留在"不能手术就没办法" | 极高：病程进展快、决策窗口窄，家属常在数周内做不可逆决定 | 🩺💻👤 | 把小胰宝既有资料迁到家族基线，并补上「不可切除之后」的照护与营养路径 | ★★★ |
+| **胰腺腺癌**（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E8%83%B0%E8%85%BA%E8%85%BA%E7%99%8C)） | T1 · **已有小胰宝 xyb-workbench v0.1.29**（PDAC 本体，不是待建） | 十万级（发病率仍在上升） | 极高：可切除性判断、新辅助、临床试验、营养与疼痛管理，公众认知普遍停留在"不能手术就没办法" | 极高：病程进展快、决策窗口窄，家属常在数周内做不可逆决定 | 🩺📝💻 | 不是从零建仓：补「不可切除之后」的照护与营养路径，并把既有资料迁到家族基线 | ★★★ |
 | **胆道癌**（胆囊/肝内/肝外胆管）（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E8%83%86%E9%81%93%E7%99%8C)） | T2 · W1 | 万级 | 极高：分型复杂、患者几乎搜不到成体系的中文规范信息，靠碎片帖子做决策 | 高：生存期短，确诊时常已失去手术机会 | 👤🩺📝 | 最需要的是「有真实经历的人」：先做 3–5 位患者/家属访谈，把场景排出来 | ★★★ |
 | **胶质母细胞瘤**（挂 CNS #51 / 罕见病 #38）（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E8%83%B6%E8%B4%A8%E6%AF%8D%E7%BB%86%E8%83%9E%E7%98%A4)） | T1（挂靠模块） | 万级 | 高：放化疗+电场治疗+复发后选择，信息高度不对称 | 极高：病程短，且认知/人格改变对家属的冲击远超其他瘤种 | 🩺📝👨‍👩‍👧 | 先写「家属视角的时间线」：从确诊到复发，每个节点要准备什么 | ★★★ |
-| **小细胞肺癌**（挂肺癌 #7，⚪ 规划中）（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E5%B0%8F%E7%BB%86%E8%83%9E%E8%82%BA%E7%99%8C)） | T3（挂肺） | 十万级 | 高：广泛期进展快、复发后可选方案少，患者常在极短时间内被要求做决定 | 极高：从确诊到需要决策的时间窗非常窄 | 🩺📝 | 作为肺癌工作台的一个分型模块认领：先产出「广泛期治疗时间线」内容包 | ★★★ |
+| **前列腺癌**（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E5%89%8D%E5%88%97%E8%85%BA%E7%99%8C)） | T0 泌尿样板 · W3 | 十万级（老年男性高发） | 高：PSA 筛查争议、主动监测 vs 根治/放疗的取舍、内分泌治疗循环与间歇给药，患者很难自己权衡"要不要现在就治" | 低—中：多数病程长、生存期长，压力在长期副作用（尿控、性功能）而非时间 | 👤🩺💻 | **泌尿族目前零起点**，样板未定：先做 3–5 位患者访谈，把"确诊后到底在纠结什么"排出来，再定 PSA 随访记录模型 | ★★ |
 | **儿童急淋（ALL）**（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E5%84%BF%E7%AB%A5%E6%80%A5%E6%80%A7%E6%B7%8B%E5%B7%B4%E7%BB%86%E8%83%9E%E7%99%BD%E8%A1%80%E7%97%85)） | T0 儿童样板 · W7 | 万级（儿童白血病中最常见） | 高：2–3 年治疗期、方案阶段多、异地就医普遍、全程靠家长记 | 中高：长期治疗，家庭压力主要在过程与不确定性 | 👨‍👩‍👧🩺💻 | 必须**由家长主导**：先把「家长到底在记什么」这份清单写出来（纸质本/微信群/Excel 都算） | ★★★ |
 | **多发性骨髓瘤**（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E5%A4%9A%E5%8F%91%E6%80%A7%E9%AA%A8%E9%AB%93%E7%98%A4)） | T1 · W2 | 万级（老年患者为主，存量持续累积） | 高：自体移植 / 维持治疗 / 骨相关事件 / 费用与医保，长期循环复发让人疲于应付 | 中：慢性病程但反复复发 | 👤🩺💻 | 先做「复发—再治疗循环」的记录模型：怎么记才看得出趋势 | ★★ |
 | **恶性胸膜间皮瘤**（#40 = 罕见病 #47）（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E6%81%B6%E6%80%A7%E8%83%B8%E8%86%9C%E9%97%B4%E7%9A%AE%E7%98%A4)） | T1 · W4 | 千级（罕见，但石棉暴露人群有集中聚集） | 极高：职业暴露追溯、工伤与法援信息几乎无处可查 | 高：生存期短 | 👤📝🩺 | 罕见病种最缺的是素材：先做 2–3 例访谈 + 收集可用的援助与法援渠道 | ★★ |
@@ -88,7 +88,8 @@
 | 卵巢癌 · [ovarian-workbench](https://github.com/xyb-openharness-dsh-plugins/ovarian-workbench) | 🔵 v0.1.51 | 🩺📝 | 复发—维持治疗循环的内容核对；BRCA/HRD 与 PARP 的术语与问题清单 |
 | 胃癌 · [gastric-workbench](https://github.com/xyb-openharness-dsh-plugins/gastric-workbench) | 🟡 v0.1.0 | 👤📝 | 进食与营养的真实场景（术后怎么吃、体重怎么称）；四标志物的人话解释 |
 | 食管癌 · [esophageal-workbench](https://github.com/xyb-openharness-dsh-plugins/esophageal-workbench) | 🟡 v0.1.0 | 👤📝 | 吞咽分级的日常记录方式；营养通路（鼻饲/造瘘）照护场景 |
-| 肺癌 · [lung-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/lung-cancer-workbench) | 🔵 rc.16 | 📝🩺 | 分型模块（SCLC、少见驱动基因）的内容包，与主仓解耦 |
+| 肺癌 · [lung-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/lung-cancer-workbench) | 🔵 rc.16 | 📝🩺 | **小细胞肺癌（SCLC）已并入**：病理分型 SCLC/NSCLC 已区分，临床记录断言与试验检索已按 `histology=SCLC` 过滤。继续补的是少见驱动基因内容包 |
+| 胰腺癌（PDAC）· [xyb-workbench 小胰宝](https://github.com/xyb-openharness-dsh-plugins/xyb-workbench) | 🔵 v0.1.29 | 🩺📝💻 | 「不可切除之后」的照护与营养路径；既有资料迁到消化族家族基线（历史项目，未走脚手架） |
 
 ---
 
@@ -104,11 +105,11 @@
 | 4 | Colon Cancer | 结肠癌 | 4.2025 | 消化 | T0（消化样板） | [colorectal-workbench](https://github.com/xyb-openharness-dsh-plugins/colorectal-workbench) | 🟡 v0.1.0 | 团队在编 |
 | 5 | Rectal Cancer | 直肠癌 | 2.2025 | 消化 | T3（挂结直肠） | 同上 | 🟡 | 团队在编 |
 | 6 | Non-Small Cell Lung Cancer | 非小细胞肺癌 | 7.2025 | 胸部 | T0 | [lung-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/lung-cancer-workbench) | 🔵 v0.1.2-rc.16 | 团队在编 |
-| 7 | Small Cell Lung Cancer | 小细胞肺癌 | 1.2026 | 胸部 | T3（挂肺） | 同上 | 🔵 | 📝🩺 分型模块 |
+| 7 | Small Cell Lung Cancer | 小细胞肺癌 | 1.2026 | 胸部 | T3（**已并入肺癌工作台**） | 同上 | 🔵 已并入 v0.1.2-rc.16 | 已并入（不单独招募） |
 | 8 | Gastric Cancer | 胃癌 | 2.2025 | 消化 | T1 | [gastric-workbench](https://github.com/xyb-openharness-dsh-plugins/gastric-workbench) | 🟡 v0.1.0 | 👤📝 场景/文案 |
 | 9 | Esophageal and Esophagogastric Junction Cancers | 食管癌和食管胃连接处癌 | 3.2025 | 消化 | T1 | [esophageal-workbench](https://github.com/xyb-openharness-dsh-plugins/esophageal-workbench) | 🟡 v0.1.0 | 👤📝 场景/文案 |
 | 10 | Cervical Cancer | 宫颈癌 | 4.2025 | 妇科 | T1 | [cervical-workbench](https://github.com/xyb-openharness-dsh-plugins/cervical-workbench) | 🟡 v0.1.0 | 团队在编 |
-| 11 | Pancreatic Adenocarcinoma | 胰腺腺癌 | 2.2025 | 消化 | T1 | [xyb-workbench](https://github.com/xyb-openharness-dsh-plugins/xyb-workbench)（既有，待迁家族基线） | 🔵 | 🩺💻👤 迁移 |
+| 11 | Pancreatic Adenocarcinoma | 胰腺腺癌（PDAC） | 2.2025 | 消化 | T1 | [xyb-workbench](https://github.com/xyb-openharness-dsh-plugins/xyb-workbench) · **小胰宝**（PDAC 本体，非挂靠） | 🔵 v0.1.29 | 🩺📝 内容补位 · 💻 家族基线迁移 |
 | 12 | Hodgkin Lymphoma | 霍奇金淋巴瘤 | 2.2025 | 血液 | T3（挂淋巴瘤） | lymphoma-workbench | ⚪ 规划中 | 📝 |
 | 13 | T-Cell Lymphomas | T 细胞淋巴瘤 | 2.2025 | 血液 | T3（挂淋巴瘤） | lymphoma-workbench | ⚪ 规划中 | 📝 |
 
