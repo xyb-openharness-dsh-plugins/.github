@@ -105,7 +105,7 @@
 2. **医疗级旗舰插件「小胰宝」** —— 面向肿瘤 / 罕见病 / 慢性病的 AI 共享决策与随访支持，已在公益场景落地。
 3. **共享决策支持（DSH）** —— 以证据为导向，输出可解释的诊疗路径与决策建议，而非黑盒结论。
 4. **病例结构化抽取** —— 支持从文本、影像与检查项中抽取并结构化关键病历信息。
-5. **可扩展插件机制** —— 通过 `cordis.patch.yml` 的 `insert` 入口或 `dsh plugin add` 即可接入第三方插件。
+5. **可扩展插件机制** —— 通过 `cordis.patch.yml` 的 `insert` 入口或 DSH 的插件安装入口接入第三方插件；在 DSH Desktop 内一律走 app 的工作台市场 / 已安装列表，不另起 Web 界面。
 6. **多语言与本地化** —— 内置中文本地化，文档与界面支持持续扩展更多语言。
 
 ---
@@ -114,48 +114,52 @@
 
 ### 系统要求
 
-| 项目 | 最低版本 | 说明 |
+| 项目 | 要求 | 说明 |
 | --- | --- | --- |
-| Node.js | ≥ 18（推荐 20 LTS） | DSH 运行时依赖 |
-| 包管理器 | npm / pnpm | 用于安装 DSH 与插件 |
-| Git | 任意较新版本 | 克隆插件与参与贡献 |
-| DSH CLI | 最新版 | 见下方安装步骤 |
+| **DSH Desktop** | 最新稳定版 | **推荐载体**。工作台与插件的安装、加载都在 app 内完成；app 自带 Node 与 pnpm，无需另装 |
+| Node.js | ≥ 18（推荐 20 LTS） | **仅开发或 CLI 载体需要**，Desktop 用户不用装 |
+| 包管理器 | pnpm（Desktop 自带） | 开发打包用 `pnpm pack` |
+| Git | 任意较新版本 | 克隆仓库、参与贡献 |
 
-### 安装
+### 安装（DSH Desktop，推荐路径）
 
-```bash
-# 1. 安装 DSH 命令行（具体命令以官方文档为准）
-npm install -g @deepseek-ai/dsh
+1. 安装并启动 **DSH Desktop**，完成首次引导。
+2. **设置 → 通用**，确认「启用工作台功能」处于开启状态（关掉后所有工作台都不加载，但已有会话与数据不受影响）。
+3. 打开左侧 **工作台市场**，搜索病种工作台（如「小粉宝」）后安装。
+4. 出现「工作台安装变更需要重启 Harness 后生效」时点 **立即重启**；没有提示时用菜单 **Harness → 重启 Harness**。
+5. 回到市场切到 **已安装** 核对条目，再从左侧固定入口打开业务面板。
 
-# 2. 确认安装成功
-dsh --version
+> ⚠️ **不要用 `dsh web` 起网页版、再到浏览器里找 Settings → Plugins 开关插件。** 那是 CLI / Web 载体，和 DSH Desktop 不是同一个 Harness、不是同一个安装位置——装上去 Desktop 侧不会加载。Desktop 的正规入口只有 app 内的工作台市场 / 已安装列表。
 
-# 3. 进入（或新建）一个 DSH profile 工作区
-dsh web --help
-```
+### 命令行安装（开发者 / 本机自测）
 
-### 基础使用示例
-
-以启用本组织旗舰插件「小胰宝」为例（请将下方包名替换为你实际使用的插件包名）：
+Desktop 自带 Harness 与 pnpm。命令行安装必须显式指向**它**的 Harness 目录，否则会装到 CLI 的 `~/.dsh`（Desktop 看不到）：
 
 ```bash
-# 方式一：使用 DSH 自带的插件管理命令
-dsh plugin add @xyb/dsh-plugin-xiaoyibao
+# macOS：Desktop 的 Harness 目录（其他平台以 app「关于 / 诊断」显示为准）
+export DSH_HOME="$HOME/Library/Application Support/dsh-desktop/harness"
+export PATH="$DSH_HOME/.desktop-bin:$PATH"   # 用 app 自带的 pnpm / node
 
-# 方式二：手动在 profile 的 cordis.patch.yml 中注册（详见「插件开发」）
-# profiles/web/cordis.patch.yml
-# - insert:
-#     - id: xiaoyibao
-#       name: '@xyb/dsh-plugin-xiaoyibao'
+dsh plugin add --help                        # 语法以本机 help 为准，不猜参数
+dsh plugin add ./dist/my-workbench-0.1.0.tgz
 ```
 
-启动 Web 界面后即可在「Settings → Plugins」中看到并开关对应插件：
+装完仍要回到 app 内重启 Harness，并到「已安装」核对条目。**当前版本是否提供 app 内的本地 `.tgz` 安装入口要在「工作台市场／已安装」里实地确认**，没有这个入口的版本不要硬找，直接用上面的命令行方式。
 
-```bash
-dsh web
-```
+> 容易踩的三个坑：
+> ① **Desktop 的 Harness 不等于 `~/.dsh`**。macOS 上默认是 `~/Library/Application Support/dsh-desktop/harness`，活动 profile 目录名还偏偏叫 `web`——名字一样，位置不同。装进 `~/.dsh/profiles/*` 的那一份，Desktop 不会加载。路径以 app「关于／诊断」显示和实际加载证据为准，不要按目录名猜。
+> ② `dsh --profile web --dump-config` 出现插件层只证明配置生效，**不能**当作 UI 加载证据。
+> ③ 工作台要经 Desktop 的隔离 generation 安装并在 `desktop-workbenches/market-installs.json` 留记录，客户端才认得出它的工作台身份；只手工塞 `node_modules` 不会出现在左侧入口。
 
-> 提示：若插件是通过本地源码方式安装，请确保包可被当前 profile 的 `node_modules` 解析（软链接或安装到 `profiles/node_modules/@<scope>/<name>`）。
+### 验证是否真的装上
+
+| 证据层 | 怎么看 | 能证明什么 |
+| --- | --- | --- |
+| 配置层 | `dump-config` 中有本包插件层 | 只证明 patch 生效 |
+| 列表层 | app 内工作台市场切到「已安装」出现条目 | 证明包被识别、注册成功 |
+| 界面层 | 左侧入口打开业务面板，核心流程可点通 | **唯一算「装机通过」的证据** |
+
+三层缺一不可；只跑到前两层时，请写「配置已加载、UI 未验证」，不要写「装机通过」。
 
 ---
 
@@ -324,20 +328,23 @@ export function apply(ctx: Context) {
 
 ### 注册到 DSH 配置
 
-将插件安装 / 链接到目标 profile 的 `node_modules` 后，在 `cordis.patch.yml` 中加入一个 `insert` 入口即可加载：
+插件包被装进目标 profile 的 `node_modules` 后，由 `cordis.patch.yml` 的 `insert` 入口加载：
 
 ```yaml
-# profiles/web/cordis.patch.yml
+# <目标 profile>/cordis.patch.yml
 - insert:
     - id: hello
       name: '@your-scope/dsh-plugin-hello'
 ```
 
-或者使用 DSH 自带的插件管理命令（推荐）：
+安装方式取决于**目标载体**（两者不通用）：
 
-```bash
-dsh plugin add @your-scope/dsh-plugin-hello
-```
+| 载体 | 安装方式 | 目标 profile（以实际加载为准） |
+| --- | --- | --- |
+| DSH Desktop | 工作台：左侧「工作台市场」搜索后安装，装完重启 Harness<br>本机自测：`DSH_HOME` 指向 Desktop Harness 后 `dsh plugin add` | 默认 `~/Library/Application Support/dsh-desktop/harness/profiles/web`，**不是** `~/.dsh` |
+| CLI / Web | `dsh plugin add --help` 确认语法后安装 | `~/.dsh/profiles/web` |
+
+> 工作台（workbench）**只能**装到 Desktop 那侧：除了 bundle，它还要经过 Desktop 的隔离 generation 安装流程并在 `desktop-workbenches/market-installs.json` 留记录，客户端才认得出它的工作台身份。只塞 `node_modules` 不会出现在左侧入口，也不会被市场识别为「已安装」。
 
 开发约定：
 
