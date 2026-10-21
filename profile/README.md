@@ -217,13 +217,14 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 >
 > 🤝 **诚邀加入**：无论你是开发者、临床/研究者、病友组织志愿者还是写作者，都可以认领一个病种或一个模块。四种投入档位（整仓 / 模块 / 内容访谈 / 脚手架）见 **[CONTRIBUTING-WORKBENCH.md](CONTRIBUTING-WORKBENCH.md)**，从 Issue 模板开始。**不需要写代码也能贡献**——一次真实经历访谈、一份就诊问题清单都在缺。所有工作台只做信息整理，不做诊断建议。
 >
-> 🔒 **仓库可见性**：病种工作台一律 private（仅本组织 public 仓库与 `xyb-workbench-starter` 可公开浏览），因此上表里的病种仓库链接对组织外访客会 404，属预期。外部贡献者的协作方式：**Issue 层认领与评审不需要任何权限**，需要写代码时再由维护者逐人最小授权（见 [CONTRIBUTING §10.3](CONTRIBUTING-WORKBENCH.md)）。
+> 🔒 **仓库可见性**：病种工作台一律 private（仅本组织 public 仓库与 `xyb-workbench-starter` 可公开浏览），因此上表里的病种仓库链接对组织外访客会 404，属预期。**每个项目的公开展示页（原型首页截图 + 能力说明）在 [PROJECTS.md](PROJECTS.md)**，外部贡献者的协作方式：**Issue 层认领与评审不需要任何权限**，需要写代码时再由维护者逐人最小授权（见 [CONTRIBUTING §10.3](CONTRIBUTING-WORKBENCH.md)）。
 
 ---
 
 ## 文档导航
 
 - **快速开始**：见上方 [快速开始](#快速开始)
+- **项目画廊**（14 个项目的原型截图与能力说明）：[PROJECTS.md](PROJECTS.md)
 - **插件开发指南**：见下方 [插件开发](#插件开发)
 - **患者工作台路线图与病种认领**：[ROADMAP.md](ROADMAP.md)
 - **规模化开发总纲**（分层分级 / 波次 / 七道质量锁）：[PROGRAM-PLAN.md](PROGRAM-PLAN.md)

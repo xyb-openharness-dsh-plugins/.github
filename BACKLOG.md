@@ -397,6 +397,8 @@
 3. 按 [CONTRIBUTING-WORKBENCH.md](CONTRIBUTING-WORKBENCH.md) 开工。
 4. 达到 🟢 后维护者同步 `ROADMAP.md`。
 
+> 想先看看每个项目长什么样？公开侧的 **[PROJECTS.md](PROJECTS.md)** 收录了全部 14 个项目的原型首页截图与能力说明；每个已开工项目的对外协作入口就是它自己的认领 Issue（ATTR [#5](https://github.com/xyb-openharness-dsh-plugins/.github/issues/5) · 肛管癌 [#6](https://github.com/xyb-openharness-dsh-plugins/.github/issues/6) · GIST [#7](https://github.com/xyb-openharness-dsh-plugins/.github/issues/7)）。
+>
 > **认领 ≠ 建仓。** 建仓发生在 G1 通过之后，由维护者执行（见 CONTRIBUTING §10）。在此之前你在自己的 fork 或本地工作即可。
 >
 > **仓库可见性（2026-10-21 决定）**：病种工作台仓库**一律 private**，新建仓库暂不对外开放；组织内 public 的只有 `.github` 与 `xyb-workbench-starter`。所以本表里的仓库链接**对外部访客会 404，属预期**。外部贡献者在 ① Issue 层认领与评审（不需要权限）→ ② 用可公开的 demo 评审原型 → ③ 需要的写代码的人再逐人最小授权（CONTRIBUTING §10.3）。
