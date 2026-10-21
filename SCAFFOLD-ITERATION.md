@@ -164,3 +164,11 @@ dsh-wb-cli pack --dry-run && dsh-wb-cli pack
 ```
 
 > `init` 只生成文档与骨架，**不代表业务已实现，也不代表 Desktop 已加载**。装机是独立步骤（V2）。
+
+---
+
+## 9. 已上提记录（回流登记）
+
+| 日期 | 档位 | 经验 | 两个来源病种（缺一打回） | 落到 starter 哪里 | 验收 |
+| --- | --- | --- | --- | --- | --- |
+| 2026-10-21 | **L2 能力层** | 「装到哪个 profile」不能按目录名猜：DSH Desktop 0.12.0 实际加载 app 自己的 Harness（`~/Library/Application Support/dsh-desktop/harness/profiles/web`），`~/.dsh/profiles/*` 是 CLI 侧、Desktop 不读；用户侧入口是设置 → 通用开「启用工作台功能」→ 工作台市场安装 → 重启 Harness → 市场「已安装」核对；验收分配置/列表/界面三层，缺界面层只能写"配置已加载、UI 未验证"；`dsh web` + 浏览器 Settings → Plugins 不是 Desktop 的用法 | ① 肺癌（`docs/DEVELOPMENT-RETRO.md`：装到 `~/.dsh/profiles/web` 后切换器没有该工作台）② 结直肠（`docs/RELEASE.md` / `check-install.mjs`：把 CLI desktop profile 当成 Desktop 的） | `docs/06-VALIDATION-AND-RELEASE.md` 新增「用户侧入口与三层验收」；`project-template/scripts/check-install.mjs`（新项目自带只读自检，自动探测 Harness 并打印判定依据） | 临时目录 `init` 生成 136 文件含该脚本且可运行；胃 / 食管 / 宫颈 / 结直肠四仓回归 `npm run check` 全绿，脚本均正确判定为"未装到 Desktop Harness" |
