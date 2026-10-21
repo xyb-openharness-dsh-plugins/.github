@@ -1,8 +1,14 @@
 # 患者工作台开发路线图（Roadmap）
 
 > 本文件是 **xyb-openharness-dsh-plugins** 组织的公开开发目标清单与进度看板。
-> 目标池主要参照 **NCCN Guidelines® Treatment by Cancer Type**（2025–2026 版本目录，57+ 类）与国家卫健委等六部门 **《第二批罕见病目录》**（2023 年发布，86 种）。
+> 目标池主要参照 **NCCN Guidelines® Treatment by Cancer Type**（2025–2026 版本目录，67 个条目）与国家卫生健康委 **《86 个罕见病病种诊疗指南（2025 年版）》**（86 种）。
 > 更新日期：2026-10-21。进度以各仓库 `VERSION` 与 `docs/DEV-PLAN.md` 为准，由维护者随迭代更新。
+>
+> **配套文档（规模化开发）：**
+> [PROGRAM-PLAN.md](PROGRAM-PLAN.md) 总纲（分层分级 / 波次 / 七道质量锁）·
+> [BACKLOG.md](BACKLOG.md) 153 项目标池分层表与认领状态 ·
+> [SCAFFOLD-ITERATION.md](SCAFFOLD-ITERATION.md) 脚手架迭代与经验回流 ·
+> [CONTRIBUTING-WORKBENCH.md](CONTRIBUTING-WORKBENCH.md) 贡献手册与 PR 流程。
 
 ---
 
@@ -17,6 +23,7 @@
 | ⬜ | 未启动 · **招募认领中** |
 
 **质量闸口**：每个工作台按 `G1 需求与范围确认 → G2 原型评审 → G3 数据契约冻结 → 实现 → 装机验证` 逐级推进，闸口标准写在各仓库 `docs/` 下。
+153 个目标**不是 153 次全流程**：按 T0 家族样板 / T1 标准 / T2 模板化 / T3 挂靠 / T4 观察池 分级，按波次推进，每波结束留回流窗口。见 [PROGRAM-PLAN.md](PROGRAM-PLAN.md)。
 
 **立场声明**：所有工作台只提供**信息整理与就诊准备**能力，不做诊断、不做治疗建议、不替代临床判断。
 
@@ -26,36 +33,56 @@
 
 | 癌种 | 品牌 / 代号 | 仓库 | 进度 | 当前状态（2026-10） |
 | --- | --- | --- | --- | --- |
-| 乳腺癌 | PinkyPal 小粉宝 | [breast-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/breast-cancer-workbench) | 🔵 | v0.5.1；G1/G2/G3 通过；M0 工程底座、M1 数据层、M2 第一段（导入→草稿核对）、MinerU 解析接入已完成；进行中：草稿界面、一图秀真实数据、四点位录入、导出、DSH 接入 |
-| 淋巴瘤 | LymBell 小铃铛 | [lymphoma-workbench](https://github.com/xyb-openharness-dsh-plugins/lymphoma-workbench) | 🔵 | v0.2.0；分型整理、疗效回顾与就诊准备工作台开发中 |
-| 卵巢癌 | （ ovarian） | [ovarian-workbench](https://github.com/xyb-openharness-dsh-plugins/ovarian-workbench) | 🔵 | v0.1.48；病程资料、治疗历程、指标趋势与医患沟通，快速迭代中 |
-| 结直肠癌 | Colopal 小畅宝 | [colorectal-workbench](https://github.com/xyb-openharness-dsh-plugins/colorectal-workbench) | 🔵 | **v0.1.0 开发版已推送**（未打 tag / 未发 release）；家族样板，走通全链路：SPEC → 原型 v0.2 → 2026 资料包 → schema 冻结（G3）→ 开发版 `public/` + `dsh/`；`npm run check` 全绿；待做：DSH Desktop 实机装机验证；差异化：分子分型矩阵 + 肠道功能与造口 + CEA |
+| 乳腺癌 | PinkyPal 小粉宝 | [breast-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/breast-cancer-workbench) | 🔵 | v0.8.0；G1/G2/G3 已过；M0–M2 第一段与 MinerU 已完成；进行中：草稿界面、一图秀真实数据、四点位录入、导出、DSH 接入 |
+| 淋巴瘤 | LymBell 小铃铛 | [lymphoma-workbench](https://github.com/xyb-openharness-dsh-plugins/lymphoma-workbench) | 🔵 | v0.3.0；分型整理、疗效回顾与就诊准备；霍奇金/T 细胞/原发皮肤淋巴瘤拟按 T3 挂靠 |
+| 卵巢癌 | Ovarian | [ovarian-workbench](https://github.com/xyb-openharness-dsh-plugins/ovarian-workbench) | 🔵 | v0.1.51；病程资料、治疗历程、指标趋势与医患沟通 |
+| 肺癌（NSCLC + SCLC） | 小肺宝 | [lung-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/lung-cancer-workbench) | 🔵 | v0.1.2-rc.16（RC 阶段，未标正式版） |
+| 结直肠癌 | Colopal 小畅宝 | [colorectal-workbench](https://github.com/xyb-openharness-dsh-plugins/colorectal-workbench) | 🔵 | **v0.1.0 开发版已推送**（未打 tag / 未发 release）；**消化家族样板**，走通全链路：SPEC → 原型 v0.2 → 2026 资料包 → schema 冻结（G3）→ 开发版 `public/` + `dsh/`；`npm run check` 全绿；待做：DSH Desktop 实机装机验证；差异化：分子分型矩阵 + 肠道功能与造口 + CEA |
 | 胃癌 | Stompal 小胃宝 | [gastric-workbench](https://github.com/xyb-openharness-dsh-plugins/gastric-workbench) | 🔵 | **v0.1.0 首个开发版已发布**（tag `v0.1.0`，2026-10-21）；2026 资料包 236 条（119 含中国中心）、22 表 schema 冻结、原型↔开发版 parity 测试全绿；待做：DSH Desktop 实机装机验证；差异化：四标志物（未检测≠阴性）+ 进食与营养（切除方式 / 倾倒 / 补充剂）+ 腹膜与腹腔留痕 |
-| 食管癌 | EsopPal 小咽宝（占位） | 未建仓 | 🟡 | SPEC 草案；差异化：鳞/腺 + 分段 + 吞咽与进食通路 + 体重/白蛋白双序列 |
-| 宫颈癌 | CerviPal 小莲宝（占位） | 未建仓 | 🟡 | SPEC 草案；差异化：FIGO 2018 + 性与生育（默认私密）+ 放疗与长期影响 |
+| 食管癌 | EsopPal 小咽宝 | [esophageal-workbench](https://github.com/xyb-openharness-dsh-plugins/esophageal-workbench) | 🟡 | v0.1.0；鳞/腺 + 分段 + 吞咽与进食通路 + 体重/白蛋白 |
+| 宫颈癌 | CerviPal 小莲宝 | [cervical-workbench](https://github.com/xyb-openharness-dsh-plugins/cervical-workbench) | 🟡 | v0.1.0；FIGO 2018 + 性与生育（默认私密）+ 放疗长期影响 |
+| 胰腺癌（PDAC） | 小胰宝 | [xyb-workbench](https://github.com/xyb-openharness-dsh-plugins/xyb-workbench) | 🔵 | 既有项目，待迁到统一家族基线 |
+| 心理支持（跨病种） | 小心宝 | [cancer-psych-support-workbench](https://github.com/xyb-openharness-dsh-plugins/cancer-psych-support-workbench) | 🟢 | v0.3.14；作为**共用支撑模块**被各癌种工作台引用 |
 
-### 候选癌种（⬜ 未启动 · 招募认领中）
+### 下一波（W1）· 消化族收口 + 中国高发补位
 
-以下按 NCCN 目录与国内患者规模列出高优先候选，欢迎在 Issues 提案认领：
+肝细胞癌（T0 样板，⬜ 招募）· 胆道癌 · 肝胆癌（挂肝）· 小肠腺癌 · 壶腹部腺癌 · 肛门癌
 
-非小细胞肺癌 · 小细胞肺癌 · 前列腺癌 · 肝细胞癌 · 胰腺腺癌 · 甲状腺癌 · 皮肤黑色素瘤 · 多发性骨髓瘤 · 肾癌 · 膀胱癌 · 头颈癌 · 中枢神经系统癌症 · 子宫肿瘤 · 睾丸癌 · 胆道癌 · 胃肠道间质瘤 · 软组织肉瘤 · 原发不明原发灶 …
+### 全部候选与排期
 
-> 完整 NCCN 病种与版本对照见文末附录 A。
+67 个 NCCN 癌种条目 + 86 个罕见病的**完整分级、波次与认领状态**见 [BACKLOG.md](BACKLOG.md)，本表不再逐个复制。
+招募原则：无人认领的病种**永久停在 ⬜**，不占用波次。宁可停在 ⬜，也不交付半成品。
 
 ---
 
 ## 二、罕见病方向（长期目标池）
 
-以《第二批罕见病目录》（86 种）为长期池。**首个罕见病工作台已启动**，其余 ⬜ 未启动 · 欢迎认领。建议优先从有成熟病友组织、随访资料结构化需求明确的病种做起（如肢端肥大症、特发性肺纤维化类、地中海贫血、神经纤维瘤病等）。注意：目录中的「黑色素瘤」「梅克尔细胞癌」「胃肠胰神经内分泌肿瘤」等同时也是癌种，可与主要癌种工作台合并设计。
+以《86 个罕见病病种诊疗指南（2025 年版）》的 **86 种**为长期池（完整目录与页码见 [BACKLOG.md](BACKLOG.md)）。首个罕见病工作台已启动，其余 ⬜ 未启动 · 欢迎认领。
+罕见病分三条线，**形态各不相同**，不能当 86 个癌种做：
+
+- **R1 肿瘤型（20 项）**：黑色素瘤、梅克尔细胞癌、GIST、骨肉瘤、神经母细胞瘤、间皮瘤、皮肤 T 细胞淋巴瘤、华氏巨球蛋白血症…… 与癌种重叠 → **T3 挂靠，不重复建仓**。
+- **R2 非肿瘤慢性病型（34 项）**：肢端肥大症、白塞病、ANCA 相关血管炎、特发性肺纤维化类、地中海贫血、发作性睡病…… → 参照 FSHD 形态：**确诊档案 + 功能与日常 + 并发症筛查 + 医保与资源**，无（或极弱）"治疗历程"模块。
+- **R3 儿童/遗传型（32 项）**：Rett、CDKL5、West 综合征、脆性 X、早老症、软骨发育不全…… → **代记主体 = 家长**，同账号双视角，隐私默认更严。
+
+建议优先从有成熟病友组织、随访结构化需求明确的病种做起。注意：罕见病天然缺指南与 RCT，临床证据模块降级为"登记 + 来源标注"，**不承诺试验匹配**；未核实项一律标注「未核实」，不得用相邻疾病外推。
 
 ### 罕见病进行中
 
 | 疾病 | 品牌 / 代号 | 仓库 | 进度 | 当前状态（2026-10） |
 | --- | --- | --- | --- | --- |
-| 面肩肱型肌营养不良症（FSHD，目录 #25） | 小飞侠 | [fshd-workbench](https://github.com/xyb-openharness-dsh-plugins/fshd-workbench) | 🟡 | v0.1 设计稿：场景排序已确认，SPEC/SCHEMA 草案 + demo HTML（含右侧 AI pane 状态稿）；差异化：基因确诊档案（D4Z4/4qA）+ 功能与康复（分区+辅助器具）+ 并发症筛查（眼 Coats/听力/呼吸/脊柱）+ 医保与资源（罕见病特有）；家族内唯一无「治疗历程」模块（无获批治疗药物，聚焦生活/照顾/预防） |
+| 面肩肱型肌营养不良症（FSHD，目录 #25） | 小飞侠 | [fshd-workbench](https://github.com/xyb-openharness-dsh-plugins/fshd-workbench) | 🟡 | v0.1.1；**罕见病样板**：场景排序已确认，SPEC/SCHEMA 草案 + demo HTML（含右侧 AI pane 状态稿）；差异化：基因确诊档案（D4Z4/4qA）+ 功能与康复（分区+辅助器具）+ 并发症筛查（眼 Coats/听力/呼吸/脊柱）+ 医保与资源；家族内唯一无「治疗历程」模块（聚焦生活/照顾/预防） |
 
 <details>
-<summary>《第二批罕见病目录》86 项全清单（点击展开）</summary>
+<summary>《86 个罕见病病种诊疗指南（2025 年版）》— 三条线分组（完整 86 项见 BACKLOG.md）</summary>
+
+- **R1 肿瘤型（挂靠癌种线，20 项）**：#14 肾透明细胞肉瘤 · #19 梅克尔细胞癌 · #20 皮肤 T 细胞淋巴瘤 · #22 隆突性皮肤纤维肉瘤 · #24 上皮样肉瘤 · #31 胃肠胰神经内分泌肿瘤 · #32 胃肠间质瘤 · #36 骨巨细胞瘤 · #38 胶质母细胞瘤 · #42 炎性肌纤维母细胞瘤 · #47 恶性胸膜间皮瘤 · #48 黑色素瘤 · #53 神经母细胞瘤 · #57 骨肉瘤 · #60 嗜铬细胞瘤/副神经节瘤 · #62 真性红细胞增多症 · #67 原发性骨髓纤维化 · #75 系统性肥大细胞增多症 · #77 腱鞘巨细胞瘤 · #85 华氏巨球蛋白血症
+- **R2 非肿瘤慢性病型（34 项，首批推荐）**：肢端肥大症 · 白塞病 · ANCA 相关血管炎 · 进行性纤维化性间质性肺疾病 · 发作性睡病 · 转甲状腺素蛋白淀粉样变性 · 原发性胆汁性胆管炎 · 大动脉炎 · 成人斯蒂尔病 · 获得性血友病
+- **R3 儿童/遗传型（32 项，首批推荐）**：神经纤维瘤病 · 软骨发育不全 · Rett 综合征 · 地中海贫血（重型）· 原发性免疫缺陷病 · Von Hippel-Lindau 综合征
+
+</details>
+
+<details>
+<summary>《86 个罕见病病种诊疗指南（2025 年版）》86 项全清单（点击展开）</summary>
 
 | # | 疾病 | # | 疾病 |
 | --- | --- | --- | --- |
@@ -109,15 +136,25 @@
 
 ## 三、如何参与（诚邀加入）
 
+完整流程见 [CONTRIBUTING-WORKBENCH.md](CONTRIBUTING-WORKBENCH.md)，四条贡献路径：
+
+| 路径 | 适合谁 | 入口 |
+| --- | --- | --- |
+| **A 病种认领者** | 患者/家属/临床/志愿者/开发者，愿陪一个病种走完 | 用「病种认领」Issue 模板，填分级判定卡 + 差异化矩阵草案 |
+| **B 模块贡献者** | 开发者 | 该病种 G3 已签后，按 `feat/fix/docs` 分支提 PR |
+| **C 内容与医学核对者** | 临床、病友组织、医学编辑（无需写代码） | 用「内容与医学核对」Issue 模板：指标字典 / 术语 / 患者解释 / 指南版本 |
+| **D 脚手架贡献者** | 有 ≥1 个病种实战经验的开发者 | 用「脚手架反馈」Issue；需满足双病种复现（见 SCAFFOLD-ITERATION） |
+
 无论你是**开发者、临床/研究者、病友组织志愿者、翻译或写作者**，都可以认领一个病种或一个模块：
 
-1. **认领病种**：在本仓库或对应工作台仓库提 Issue，说明病种与你的关联（患者/家属/志愿/专业背景均可）。
-2. **需求整理**：从「患者一周的真实生活」出发整理场景（复查、指标、用药、就诊沟通、心理与照护），产出 BRIEF 与 SPEC。
-3. **原型评审**：单文件 HTML 原型 → G2 评审通过后进入实现。
-4. **实现与验证**：本地优先（本机 SQLite，隐私不出设备），遵循数据契约与文案红线（不做诊断建议、不预言复发、不写治愈率）。
+1. **认领病种**：用 Issue 模板，说明病种与你的关联（患者/家属/志愿/专业背景均可）；维护者回复级别与波次。
+2. **需求整理**：从「患者一周的真实生活」出发整理场景，产出 BRIEF 与 SPEC；**差异化矩阵 ≥3 条是准入门槛**。
+3. **原型评审**：单文件 HTML 原型 → G2 评审通过后进入实现（未确认不写业务代码）。
+4. **实现与验证**：本地优先（本机 SQLite，隐私不出设备），遵循数据契约与文案红线；V1 检查链 + V2 装机 + V3 业务，**三层缺一不算通过**。
 5. **提交 PR**：遵循 [Conventional Commits](https://www.conventionalcommits.org/)，使用仓库内 PR/Issue 模板，至少一名维护者评审后合入。
 
 病种工作台基于统一脚手架（xyb-workbench-starter）创建，工程规范与既有仓库保持一致；每个病种必须有**专属差异化模块**，拒绝换名复用。
+波次结束有 1–2 周**回流窗口**，把本波经验沉淀进脚手架并发 tag（见 [SCAFFOLD-ITERATION.md](SCAFFOLD-ITERATION.md)）。
 
 ---
 
@@ -201,4 +238,4 @@
 
 - 本路线图描述的是**患者信息整理工具**的开发计划，不构成医疗建议；所有工作台输出仅供研究与信息参考，不替代专业医疗诊断与医嘱。
 - NCCN® 为美国国家综合癌症网络的注册商标；本组织与 NCCN 无关联，仅引用其公开目录中的病种名称与版本号作为开发范围参照。
-- 《第二批罕见病目录》条目引自国家卫生健康委员会等六部门 2023 年 9 月公开发布的目录文件。
+- 《86 个罕见病病种诊疗指南（2025 年版）》为国家卫生健康委发布的公开文件；本组织仅引用其病种目录与术语作为开发范围参照，**不复制其临床内容**。

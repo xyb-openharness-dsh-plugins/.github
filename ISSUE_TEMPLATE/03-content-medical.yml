@@ -1,0 +1,60 @@
+name: 内容与医学核对
+description: 指标字典 / 术语 / 患者可读解释 / 指南版本核对（路径 C，无需写代码）
+title: "[内容] <病种 + 主题>"
+labels: ["content", "medical-review"]
+body:
+  - type: input
+    id: target
+    attributes:
+      label: 针对哪个工作台 / 病种
+      placeholder: 例如：breast-cancer-workbench / 肢端肥大症
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 内容类型
+      options:
+        - 指标字典（名称/别名/单位/参考范围/可比序列）
+        - 分型或分期术语核对（注明分类标准与版本）
+        - 患者可读解释文案
+        - CTCAE 阈值核对
+        - 指南或规范版本核对
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: content
+    attributes:
+      label: 具体内容
+      description: 表格形式最受欢迎。逐条标注来源。
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 来源
+      description: 机构/文件名/URL、发布或更新日期、版本、地区。未取得原文请明说。
+      placeholder: |
+        - 《xxx 诊疗指南（2025 年版）》第 X 页，2025-xx 发布
+        - NCCN Guidelines® xxx vX.2025（仅目录与版本号，不含临床内容）
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: 局限与未核实项
+      description: 哪些是未核实、哪些样本量不足、哪些只适用于特定人群。
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 确认
+      options:
+        - label: 未复制指南临床内容，只引用术语/目录/版本号
+          required: true
+        - label: 未核实项已明确标注「未核实」，未用相邻疾病外推
+          required: true
+        - label: 论坛叙述只作线索，未当作总体比例
+          required: true

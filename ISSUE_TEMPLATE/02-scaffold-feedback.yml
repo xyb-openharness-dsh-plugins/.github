@@ -1,0 +1,63 @@
+name: 脚手架反馈 / 经验回流
+description: 把某病种踩到的坑沉淀进 xyb-workbench-starter（路径 D）
+title: "[回流] <一句话主题>"
+labels: ["scaffold", "reflow"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        上提门槛见 [SCAFFOLD-ITERATION.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/SCAFFOLD-ITERATION.md)。
+        **只有一个病种遇到 → 先写进该病种 `docs/LESSONS.md`；两个病种独立复现 → 才上提脚手架。**
+  - type: dropdown
+    id: level
+    attributes:
+      label: 建议上提档位
+      options:
+        - L1 项目层（只进该病种 docs/LESSONS.md）
+        - L2 能力层（starter docs / prompts / templates / scripts）
+        - L3 硬约束层（starter AGENTS.md / 检查项 / 冻结合同）
+        - 不确定，请维护者判断
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: 复现与原始错误
+      description: 命令、实际报错、期望行为。日志保留错误附近即可。
+    validations:
+      required: true
+  - type: textarea
+    id: diseases
+    attributes:
+      label: 来源病种（L2/L3 至少 2 个）
+      description: 仓库名 + 版本 + commit。不足 2 个只能停在 L1。
+      placeholder: |
+        1. xxx-workbench v0.1.0 @ abc1234
+        2. yyy-workbench v0.2.1 @ def5678
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议落地形态
+      description: 写成哪份文档 / 哪个提示词 / 哪个模板 / 哪个检查项？为什么它能被自动拦截或复用？
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: 已做的验证
+      description: 临时目录同配置重新生成 diff、starter 的 npm run check / npm test、真实项目回归结果。
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 确认
+      options:
+        - label: 没有把病种特有逻辑塞进通用模板
+          required: true
+        - label: 若改变既有行为，已附老项目的迁移说明
+          required: false
+        - label: 跑测试/装包前已置空 NODE_OPTIONS
+          required: false

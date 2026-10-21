@@ -187,17 +187,25 @@ dsh web
 
 ## 患者工作台路线图（开发目标与招募）
 
-我们正在为一个个具体病种建设「本机优先」的患者工作台（病程整理 · 指标追踪 · 就诊准备，隐私数据不出设备）。目标池参照 **NCCN Guidelines®** 病种与患者真实需求迭代，聚焦让患者能自主管理、医生可快速复盘和协作。
+我们正在为一个个具体病种建设「本机优先」的患者工作台（病程整理 · 指标追踪 · 就诊准备，隐私数据不出设备）。目标池参照 **NCCN Guidelines® 病种目录（67 个条目）** 与 **《86 个罕见病病种诊疗指南（2025 年版）》**（合计 **153 项**），聚焦让患者能自主管理、医生可快速复盘和协作。
+
+**153 个目标不是 153 次全流程**：按 `T0 家族样板 / T1 标准 / T2 模板化 / T3 挂靠 / T4 观察池` 分级，按波次推进，每波结束留 1–2 周回流窗口把经验沉淀进脚手架。详见 [PROGRAM-PLAN.md](PROGRAM-PLAN.md)。
 
 | 病种工作台 | 进度 | 仓库 |
 | --- | --- | --- |
-| 乳腺癌 · PinkyPal 小粉宝 | 🔵 开发中（G1–G3 已过，M2 第一段完成） | [breast-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/breast-cancer-workbench) |
-| 淋巴瘤 · LymBell 小铃铛 | 🔵 开发中 | [lymphoma-workbench](https://github.com/xyb-openharness-dsh-plugins/lymphoma-workbench) |
-| 卵巢癌 | 🔵 开发中（设计迭代） | [ovarian-workbench](https://github.com/xyb-openharness-dsh-plugins/ovarian-workbench) |
-| 结直肠癌 / 胃癌 / 食管癌 / 宫颈癌 | 🟡 SPEC 草案阶段 | 待建仓（脚手架就绪） |
-| 其余主要癌种 + 86 项罕见病 | ⬜ **招募认领中** | 见 [ROADMAP.md](ROADMAP.md) |
+| 乳腺癌 · PinkyPal 小粉宝 | 🔵 开发中（v0.8.0，G1–G3 已过） | [breast-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/breast-cancer-workbench) |
+| 淋巴瘤 · LymBell 小铃铛 | 🔵 开发中（v0.3.0） | [lymphoma-workbench](https://github.com/xyb-openharness-dsh-plugins/lymphoma-workbench) |
+| 卵巢癌 | 🔵 开发中（v0.1.51） | [ovarian-workbench](https://github.com/xyb-openharness-dsh-plugins/ovarian-workbench) |
+| 肺癌 · 小肺宝 | 🔵 RC（v0.1.2-rc.16） | [lung-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/lung-cancer-workbench) |
+| 结直肠癌 · 小畅宝（消化族样板） | 🔵 v0.1.0 开发版已推送（待 DSH 装机验证） | [colorectal-workbench](https://github.com/xyb-openharness-dsh-plugins/colorectal-workbench) |
+| 胃癌 · 小胃宝 | 🔵 v0.1.0 开发版已发布（tag v0.1.0，待 DSH 装机验证） | [gastric-workbench](https://github.com/xyb-openharness-dsh-plugins/gastric-workbench) |
+| 食管癌 · 小咽宝 | 🟡 v0.1.0 | [esophageal-workbench](https://github.com/xyb-openharness-dsh-plugins/esophageal-workbench) |
+| 宫颈癌 · 小莲宝 | 🟡 v0.1.0 | [cervical-workbench](https://github.com/xyb-openharness-dsh-plugins/cervical-workbench) |
+| 罕见病首个样板 · FSHD 小飞侠 | 🟡 v0.1.1 | [fshd-workbench](https://github.com/xyb-openharness-dsh-plugins/fshd-workbench) |
+| 心理支持（跨病种共用模块） | 🟢 v0.3.14 | [cancer-psych-support-workbench](https://github.com/xyb-openharness-dsh-plugins/cancer-psych-support-workbench) |
+| 其余主要癌种 + 85 项罕见病 | ⬜ **招募认领中**（完整分级见 BACKLOG） | [BACKLOG.md](BACKLOG.md) |
 
-> 🤝 **诚邀加入**：无论你是开发者、临床/研究者、病友组织志愿者还是写作者，都可以认领一个病种或一个模块——从 Issue 提案开始，走「需求 → 设计 → 原型 → 评审 → 合入」的开放协作路径。
+> 🤝 **诚邀加入**：无论你是开发者、临床/研究者、病友组织志愿者还是写作者，都可以认领一个病种或一个模块。四条贡献路径（病种认领 / 模块 / 内容与医学核对 / 脚手架）见 **[CONTRIBUTING-WORKBENCH.md](CONTRIBUTING-WORKBENCH.md)**，从 Issue 模板开始。所有工作台只做信息整理，不做诊断建议。
 
 ---
 
@@ -206,6 +214,10 @@ dsh web
 - **快速开始**：见上方 [快速开始](#快速开始)
 - **插件开发指南**：见下方 [插件开发](#插件开发)
 - **患者工作台路线图与病种认领**：[ROADMAP.md](ROADMAP.md)
+- **规模化开发总纲**（分层分级 / 波次 / 七道质量锁）：[PROGRAM-PLAN.md](PROGRAM-PLAN.md)
+- **153 项目标池分层表与认领状态**：[BACKLOG.md](BACKLOG.md)
+- **脚手架迭代与经验回流**：[SCAFFOLD-ITERATION.md](SCAFFOLD-ITERATION.md)
+- **贡献手册（四条路径 / 闸口 / PR 自检）**：[CONTRIBUTING-WORKBENCH.md](CONTRIBUTING-WORKBENCH.md)
 - **贡献流程**：见下方 [贡献指南](#贡献指南)
 - **项目结构**：见下方 [项目结构](#项目结构)
 - **小胰宝官网**：<https://www.xiaoyibao.com.cn>
@@ -245,14 +257,25 @@ xyb-openharness-dsh-plugins/
 
 我们欢迎一切形式的贡献：代码、文档、翻译、Issue 反馈与插件孵化。
 
+**患者工作台的详细贡献手册见 [CONTRIBUTING-WORKBENCH.md](CONTRIBUTING-WORKBENCH.md)**，含四条贡献路径（病种认领 / 模块 / 内容与医学核对 / 脚手架）、三闸口、PR 自检清单与评审清单。
+
 ### 贡献流程
 
-1. **认领或提出议题**：在 [Issues](https://github.com/xyb-openharness-dsh-plugins) 中搜索或新建议题，讨论需求与方案。
+1. **认领或提出议题**：在 [Issues](https://github.com/xyb-openharness-dsh-plugins) 中搜索或新建议题，讨论需求与方案；认领病种请用「病种认领」模板，并在 Issue 下评论 `/claim` 完成领取。
 2. **Fork 并创建分支**：从目标仓库的 `main` 切出特性分支，命名如 `feat/your-feature` 或 `fix/your-bug`。
-3. **本地开发与自测**：遵循本组织的插件规范与代码风格，确保通过现有检查与基础测试。
+3. **本地开发与自测**：遵循本组织的插件规范与代码风格，确保通过现有检查与基础测试（`npm run check`）。
 4. **提交变更**：提交信息建议遵循 [Conventional Commits](https://www.conventionalcommits.org/)（如 `feat:`, `fix:`, `docs:`）。
-5. **发起 Pull Request**：描述改动动机、范围与验证方式；如涉及医疗相关���容，请额外说明安全与隐私考量。
-6. **评审与合入**：至少一名维护者评审通过后合入；重要改动可能需要多方确认。
+5. **发起 Pull Request**：描述改动动机、范围与验证方式；如涉及医疗相关内容，请额外说明安全与隐私考量。
+6. **评审与合入**：至少一名维护者评审通过后合入；涉及闸口或数据契约的改动需两名。
+
+> ⚠️ **质量口径**：`npm run check` 通过只是 V1；还需 V2（Desktop profile 真加载）与 V3（真机业务闭环），**三层缺一不算通过**。**「PR 已合并」不等于「已上线/已验证」。**
+
+### 四条不可让步
+
+1. 不做诊断与处置建议（不写"建议治疗/可能复发/可以停药/无需就医/治愈率"）。
+2. 患者数据本机优先，不引入静默上传。
+3. 医学内容标注来源与版本；未核实项写「未核实」，不用相邻疾病外推。
+4. 不复制指南临床内容，只引用病种名称与版本号作为范围参照。
 
 ### 行为准则
 

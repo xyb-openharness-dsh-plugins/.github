@@ -1,0 +1,93 @@
+name: 病种认领 (/claim)
+
+# 只对本仓库（.github）的 Issue 生效。
+# GitHub 工作流不跨仓库生效：其他仓库需要同样的机器人时，把本文件复制到该仓库的 .github/workflows/ 下。
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  issues: write
+
+jobs:
+  claim:
+    # 只处理 Issue 评论（PR 评论不处理）；命令必须是 /claim 开头
+    if: ${{ !github.event.issue.pull_request && startsWith(github.event.comment.body, '/claim') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: 认领处理
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const user = context.payload.comment.user.login;
+            const labels = issue.labels.map(l => l.name);
+            const repo = context.repo;
+
+            if (!labels.includes('claim')) {
+              await github.rest.issues.createComment({
+                ...repo,
+                issue_number: issue.number,
+                body: `@${user} 这个 Issue 没有 \`claim\` 标签，看起来不是「病种认领」Issue。请先阅读 [CONTRIBUTING-WORKBENCH.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/CONTRIBUTING-WORKBENCH.md)，用「病种认领」模板提一个新的 Issue。`
+              });
+              return;
+            }
+
+            if (labels.includes('claimed')) {
+              const owners = (issue.assignees || []).map(a => a.login);
+              await github.rest.issues.createComment({
+                ...repo,
+                issue_number: issue.number,
+                body: `@${user} 这个病种已被认领${owners.length ? '（@' + owners.join(' @') + '）' : ''}。想接手请先在本 Issue 说明你的情况，由维护者协调。`
+              });
+              return;
+            }
+
+            // 1) 指派给评论者（已评论过的用户可以被指派；失败不阻塞流程）
+            try {
+              await github.rest.issues.addAssignees({
+                ...repo,
+                issue_number: issue.number,
+                assignees: [user]
+              });
+            } catch (e) {
+              core.warning(`无法指派给 @${user}：${e.message}`);
+            }
+
+            // 2) 打 claimed 标签（不存在则创建）
+            try {
+              await github.rest.issues.createLabel({
+                ...repo,
+                name: 'claimed',
+                color: '0e8a16',
+                description: '病种已被认领'
+              });
+            } catch (e) { /* 已存在 */ }
+            await github.rest.issues.addLabels({
+              ...repo,
+              issue_number: issue.number,
+              labels: ['claimed']
+            });
+
+            // 3) 回帖下一步清单
+            await github.rest.issues.createComment({
+              ...repo,
+              issue_number: issue.number,
+              body: [
+                `@${user} 已认领 ✅`,
+                '',
+                '**接下来按顺序做（详见 [CONTRIBUTING-WORKBENCH.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/CONTRIBUTING-WORKBENCH.md)）：**',
+                '',
+                '1. **补全分级判定卡**：Issue 里没答全的项补齐；没有数据就写「无可靠数据」，不要猜。',
+                '2. **等维护者 triage**：确认级别（T0/T1/T2）与波次，并确定工作方式（见下）。',
+                '3. **调研与需求**：从「患者一周的真实生活」出发，产出 `USER-RESEARCH.md` 与 `BRIEF.md`。',
+                '4. **差异化矩阵**：≥3 条「场景 → 功能 → 验收」，这是开工准入；换名复用会被打回。',
+                '',
+                '**工作方式二选一（维护者 triage 时确认）：**',
+                '- **组织成员**：维护者在组织内建仓并把 contributor 加为 collaborator。',
+                '- **外部贡献者**：先在自有仓库/fork 开工，走完 G1（需求签认）后由维护者建组织仓库并接收迁移 PR。**仓库权限不自动发放。**',
+                '',
+                '> 机器人只负责登记与指派；**建仓与权限授予由维护者人工执行**，不向未审核账号自动开放私有仓库权限。'
+              ].join('\n')
+            });

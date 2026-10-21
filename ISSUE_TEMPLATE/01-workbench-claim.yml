@@ -1,0 +1,75 @@
+name: 病种认领
+description: 认领一个癌种或罕见病工作台（路径 A）
+title: "[认领] <病种名>"
+labels: ["claim", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        提交前请先读 [BACKLOG.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md) 确认该病种尚未被认领，并读 [CONTRIBUTING-WORKBENCH.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/CONTRIBUTING-WORKBENCH.md)。
+        **提交后在本 Issue 下评论 `/claim` 完成领取**（机器人会自动指派并打 `claimed` 标签，外部贡献者同样可用）。
+        我们只做**信息整理与就诊准备**，不做诊断、不做治疗建议。
+  - type: input
+    id: disease
+    attributes:
+      label: 想认领的病种
+      description: 若来自 NCCN 目录或《86 个罕见病病种诊疗指南（2025 年版）》，请写标准名称（可附目录编号）
+      placeholder: 例如：肝细胞癌（NCCN）／肢端肥大症（罕见病 #3）
+    validations:
+      required: true
+  - type: textarea
+    id: relation
+    attributes:
+      label: 你与该病种的关联
+      description: 患者本人 / 家属照护者 / 临床或研究专业 / 病友组织志愿者 / 开发者 / 其他。不需要提供任何可识别的个人信息。
+    validations:
+      required: true
+  - type: textarea
+    id: grading
+    attributes:
+      label: 分级判定卡（PROGRAM-PLAN §3）
+      description: 逐项回答，不知道就写"无可靠数据"，不要猜。
+      value: |
+        1. 中国年新发/患病规模：高 / 中 / 低 / 无可靠数据
+        2. 可触达的病友组织或真实患者叙述来源：
+        3. 当前版本的中文诊疗规范（罕见病优先《86 个罕见病病种诊疗指南（2025 年版）》）：
+        4. 随访资料是否天然结构化（周期性化验/影像/评分量表）：
+        5. 与该家族已有样板的差异点（≥3 条）：
+        6. 可投入的时间与合作方式：
+    validations:
+      required: true
+  - type: textarea
+    id: diff
+    attributes:
+      label: 差异化矩阵草案（防换名复用，至少 3 条）
+      description: 每条写清「场景 → 功能 → 怎么验收」。写不出来说明还没到开工的时候，可以先开"需求讨论"类 Issue。
+      placeholder: |
+        1. 场景：… → 功能：… → 验收：…
+        2. …
+        3. …
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: 你打算承担的角色
+      options:
+        - 全程认领（调研 → 原型 → 实现 → 装机验证）
+        - 只做需求与内容（由开发者接实现）
+        - 只做实现（需求由他人提供）
+        - 只做医学内容核对
+    validations:
+      required: true
+  - type: checkboxes
+    id: redline
+    attributes:
+      label: 四条不可让步
+      options:
+        - label: 不做诊断与处置建议，不写"建议治疗/可能复发/可以停药/无需就医/治愈率"
+          required: true
+        - label: 患者数据本机优先，不引入静默上传
+          required: true
+        - label: 医学内容标注来源与版本，未核实项写「未核实」，不用相邻疾病外推
+          required: true
+        - label: 不复制指南临床内容，只引用病种名称与版本号作为范围参照
+          required: true

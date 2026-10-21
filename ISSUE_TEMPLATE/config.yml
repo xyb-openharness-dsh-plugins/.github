@@ -1,0 +1,14 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 目标池与认领进度
+    url: https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md
+    about: 先看这个病种是否已被认领、属于哪个级别与波次。
+  - name: 贡献手册（PR / 闸口 / 红线）
+    url: https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/CONTRIBUTING-WORKBENCH.md
+    about: 开工前必读：四条不可让步、三闸口、PR 自检清单。
+  - name: 规模化开发总纲
+    url: https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/PROGRAM-PLAN.md
+    about: 分层分级、波次排期、家族基线与差异化包。
+  - name: 脚手架（xyb-workbench-starter）问题
+    url: https://github.com/xyb-openharness-dsh-plugins/xyb-workbench-starter/issues
+    about: 脚手架本身的 bug 与能力请求请提到脚手架仓库。
