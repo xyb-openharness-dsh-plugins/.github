@@ -206,11 +206,14 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 | 胃癌 · 小胃宝 | 🔵 v0.1.0 开发版已发布（tag v0.1.0，待 DSH 装机验证） | [gastric-workbench](https://github.com/xyb-openharness-dsh-plugins/gastric-workbench) |
 | 食管癌 · 小咽宝 | 🟡 v0.1.0 | [esophageal-workbench](https://github.com/xyb-openharness-dsh-plugins/esophageal-workbench) |
 | 宫颈癌 · 小莲宝 | 🟡 v0.1.0 | [cervical-workbench](https://github.com/xyb-openharness-dsh-plugins/cervical-workbench) |
-| 罕见病首个样板 · FSHD 小飞侠 | 🟡 v0.1.1 | [fshd-workbench](https://github.com/xyb-openharness-dsh-plugins/fshd-workbench) |
-| 心理支持（跨病种共用模块） | 🟢 v0.3.14 | [cancer-psych-support-workbench](https://github.com/xyb-openharness-dsh-plugins/cancer-psych-support-workbench) |
-| 其余主要癌种 + 85 项罕见病 | ⬜ **招募认领中**（完整分级与招募对象见 BACKLOG） | [BACKLOG.md](BACKLOG.md) |
+| 肛管癌 · AnalPal 小萌宝（2026-10-21 认领） | 🟡 v0.1.1 | [anal-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/anal-cancer-workbench) |
+| 胃肠间质瘤 GIST · GistPal 小吉宝（2026-10-21 认领） | 🟡 v0.1.0 | [gist-workbench](https://github.com/xyb-openharness-dsh-plugins/gist-workbench) |
+| 罕见病形态样板 · FSHD 小飞侠 | 🟡 v0.1.1 | [fshd-workbench](https://github.com/xyb-openharness-dsh-plugins/fshd-workbench) |
+| 罕见病 · ATTR 淀粉宝宝（2026-10-21 认领） | 🟡 v0.1.0 | [attr-workbench](https://github.com/xyb-openharness-dsh-plugins/attr-workbench) |
+| 心理支持（跨病种共用模块） | 🟢 v0.3.14 | [xiaoxinbao-workbench](https://github.com/xyb-openharness-dsh-plugins/xiaoxinbao-workbench) |
+| 其余主要癌种 + 84 项罕见病 | ⬜ **招募认领中**（完整分级与招募对象见 BACKLOG） | [BACKLOG.md](BACKLOG.md) |
 
-> 🔥 **现在最缺人的 12 个**：[BACKLOG §〇 优先招募榜](BACKLOG.md#〇现在最缺人优先招募榜) 按「帮扶人群规模 · 信息差 · 危重与时间压力」三维挑选，每项写明**缺什么角色**（👤 患者家属 / 🩺 临床 / 💻 开发 / 📝 内容 / 🤝 病友组织 / 👨‍👩‍👧 患儿家长）和**第一步能做什么**，并附一键认领链接。
+> 🔥 **现在最缺人的 12 个**（ATTR 已认领，其余 11 个仍在招募）：[BACKLOG §〇 优先招募榜](BACKLOG.md#〇现在最缺人优先招募榜) 按「帮扶人群规模 · 信息差 · 危重与时间压力」三维挑选，每项写明**缺什么角色**（👤 患者家属 / 🩺 临床 / 💻 开发 / 📝 内容 / 🤝 病友组织 / 👨‍👩‍👧 患儿家长）和**第一步能做什么**，并附一键认领链接。
 >
 > 🤝 **诚邀加入**：无论你是开发者、临床/研究者、病友组织志愿者还是写作者，都可以认领一个病种或一个模块。四种投入档位（整仓 / 模块 / 内容访谈 / 脚手架）见 **[CONTRIBUTING-WORKBENCH.md](CONTRIBUTING-WORKBENCH.md)**，从 Issue 模板开始。**不需要写代码也能贡献**——一次真实经历访谈、一份就诊问题清单都在缺。所有工作台只做信息整理，不做诊断建议。
 
