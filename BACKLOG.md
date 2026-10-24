@@ -96,8 +96,8 @@
 | 胃肠间质瘤（GIST）· [gist-workbench](https://github.com/xyb-openharness-dsh-plugins/gist-workbench) | 🟡 v0.1.0（2026-10-21 认领） | 👤🩺 | 靶向线序与剂量变更的患者视角核对；多套危险度体系的人话解释；G3 未签认前不做装机 |
 | ATTR 淀粉样变 · [attr-workbench](https://github.com/xyb-openharness-dsh-plugins/attr-workbench) | 🔵 v0.3.1（2026-10-21 认领，真机装机迭代中） | 👤🩺 | 「哪些信号该怀疑 ATTR」的人话清单；心脏 / 神经受累的日常记录方式；H1–H5 五条用户假设待访谈核实 |
 | 肝细胞癌 · [liver-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/liver-cancer-workbench)（小甘宝 HepPal） | 🔵 v0.3.6（G1–G3 已签认） | 🩺📝 | BCLC/CNLC 分期与治疗路径名词表核对；「确诊后两周要问清的 10 个问题」人话版 |
-| 胶质母细胞瘤 · [glioblastoma-workbench](https://github.com/xyb-openharness-dsh-plugins/glioblastoma-workbench)（小星宝 StarPal） | 🔵 v0.1.5（2026-10-24 认领） | 🩺📝👨‍👩‍👧 | 家属视角时间线核对；KPS / MRI / 激素记录口径的人话解释 |
-| 恶性胸膜间皮瘤 · [mesothelioma-workbench](https://github.com/xyb-openharness-dsh-plugins/mesothelioma-workbench) | 🔵 v0.1.4（2026-10-24 认领） | 👤📝🩺 | 职业暴露追溯与援助/法援渠道素材；2–3 例患者访谈 |
+| 胶质母细胞瘤 · [glioblastoma-workbench](https://github.com/xyb-openharness-dsh-plugins/glioblastoma-workbench)（小星宝 StarPal） | 🔵 v0.1.5（2026-10-25 装机，V2/V3 用户确认；issue #12） | 🩺📝👨‍👩‍👧 | 家属视角时间线核对；KPS / MRI / 激素记录口径的人话解释 |
+| 恶性胸膜间皮瘤 · [mesothelioma-workbench](https://github.com/xyb-openharness-dsh-plugins/mesothelioma-workbench) | 🔵 v0.1.4（2026-10-25 装机，V2/V3 用户确认；issue #13） | 👤📝🩺 | 职业暴露追溯与援助/法援渠道素材；2–3 例患者访谈 |
 | 膀胱癌 · [bladder-workbench](https://github.com/xyb-openharness-dsh-plugins/bladder-workbench)（小泉宝 UroPal） | 🟡 v0.1.0（2026-10-23 认领，SPEC/原型就绪） | 👤🩺 | 灌注与复查场景访谈；SPEC 与 schema 草案的医学核对 |
 | 前列腺癌 · [prostate-workbench](https://github.com/xyb-openharness-dsh-plugins/prostate-workbench) | 🟡 v0.1.0（2026-10-22 认领，脚手架） | 👤🩺 | 3–5 位患者访谈，定 PSA 随访记录模型 |
 | 甲状腺癌 · [thyroid-workbench](https://github.com/xyb-openharness-dsh-plugins/thyroid-workbench) | 🔵 v0.2.1（2026-10-25 装机，V2/V3 用户确认；issue #17） | 👤🩺📝 | 随访结构化需求访谈；T1–T7 需求清单医学核对 |
