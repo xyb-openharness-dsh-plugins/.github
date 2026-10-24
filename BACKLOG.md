@@ -2,7 +2,7 @@
 
 > 与 [PROGRAM-PLAN.md](PROGRAM-PLAN.md) 配套使用。本表是**唯一的目标池权威位置**，进度以各仓库 `VERSION` 与 `docs/DEV-PLAN.md` 为准。
 > 目标池来源：① NCCN Guidelines® Treatment by Cancer Type 目录（2025–2026，67 个条目）②《86 个罕见病病种诊疗指南（2025 年版）》目录（86 种）。
-> 更新日期：2026-10-21。
+> 更新日期：2026-10-24。
 >
 > **想参与但不知道从哪下手 → 直接看 [§〇 优先招募榜](#〇现在最缺人优先招募榜)**：按紧迫度挑了 12 个目标，每项写明"为什么急、缺什么人、第一步能做什么"，附一键认领链接。
 > **不知道 ⬜ 到底是缺谁 → 看 [图例 · 招募对象](#招募对象角色代码)**：每个条目的「招募对象」列用角色代码写明缺哪种人，大部分病种最先缺的不是开发。
@@ -66,7 +66,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **肝细胞癌**（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E8%82%9D%E7%BB%86%E8%83%9E%E7%99%8C)） | T0 消化/肝样板 · W1 | 十万级（中国高发，乙肝背景为主） | 高：BCLC / CNLC 分期并存，切除·消融·TACE·靶免·移植多路径并行，患者很难自己判断"我属于哪条" | 高：多数确诊已中晚期，肝功能与肿瘤两条线要同时看 | 👤🩺💻 | 先整理一份「分期与治疗路径名词表 + 确诊后两周要问清的 10 个问题」，不写一行代码也行 | ★★★ |
 | **胰腺腺癌**（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E8%83%B0%E8%85%BA%E8%85%BA%E7%99%8C)） | T1 · **已有小胰宝 xyb-workbench v0.1.29**（PDAC 本体，不是待建） | 十万级（发病率仍在上升） | 极高：可切除性判断、新辅助、临床试验、营养与疼痛管理，公众认知普遍停留在"不能手术就没办法" | 极高：病程进展快、决策窗口窄，家属常在数周内做不可逆决定 | 🩺📝💻 | 不是从零建仓：补「不可切除之后」的照护与营养路径，并把既有资料迁到家族基线 | ★★★ |
-| **胆道癌**（胆囊/肝内/肝外胆管）（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E8%83%86%E9%81%93%E7%99%8C)） | T2 · W1 | 万级 | 极高：分型复杂、患者几乎搜不到成体系的中文规范信息，靠碎片帖子做决策 | 高：生存期短，确诊时常已失去手术机会 | 👤🩺📝 | 最需要的是「有真实经历的人」：先做 3–5 位患者/家属访谈，把场景排出来 | ★★★ |
+| **胆道癌**（胆囊/肝内/肝外胆管）✅ **已认领 · 2026-10-24**（[#18](https://github.com/xyb-openharness-dsh-plugins/.github/issues/18)） | T2 · W1 | 万级 | 极高：分型复杂、患者几乎搜不到成体系的中文规范信息，靠碎片帖子做决策 | 高：生存期短，确诊时常已失去手术机会 | 👤🩺📝 | 最需要的是「有真实经历的人」：先做 3–5 位患者/家属访谈，把场景排出来 | ★★★ |
 | **胶质母细胞瘤**（挂 CNS #51 / 罕见病 #38）（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E8%83%B6%E8%B4%A8%E6%AF%8D%E7%BB%86%E8%83%9E%E7%98%A4)） | T1（挂靠模块） | 万级 | 高：放化疗+电场治疗+复发后选择，信息高度不对称 | 极高：病程短，且认知/人格改变对家属的冲击远超其他瘤种 | 🩺📝👨‍👩‍👧 | 先写「家属视角的时间线」：从确诊到复发，每个节点要准备什么 | ★★★ |
 | **前列腺癌**（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E5%89%8D%E5%88%97%E8%85%BA%E7%99%8C)） | T0 泌尿样板 · W3 | 十万级（老年男性高发） | 高：PSA 筛查争议、主动监测 vs 根治/放疗的取舍、内分泌治疗循环与间歇给药，患者很难自己权衡"要不要现在就治" | 低—中：多数病程长、生存期长，压力在长期副作用（尿控、性功能）而非时间 | 👤🩺💻 | **泌尿族目前零起点**，样板未定：先做 3–5 位患者访谈，把"确诊后到底在纠结什么"排出来，再定 PSA 随访记录模型 | ★★ |
 | **儿童急淋（ALL）**（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E5%84%BF%E7%AB%A5%E6%80%A5%E6%80%A7%E6%B7%8B%E5%B7%B4%E7%BB%86%E8%83%9E%E7%99%BD%E8%A1%80%E7%97%85)） | T0 儿童样板 · W7 | 万级（儿童白血病中最常见） | 高：2–3 年治疗期、方案阶段多、异地就医普遍、全程靠家长记 | 中高：长期治疗，家庭压力主要在过程与不确定性 | 👨‍👩‍👧🩺💻 | 必须**由家长主导**：先把「家长到底在记什么」这份清单写出来（纸质本/微信群/Excel 都算） | ★★★ |
@@ -94,6 +94,11 @@
 | 肛管癌 · [anal-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/anal-cancer-workbench) | 🟡 v0.1.1（2026-10-21 认领） | 👤📝 | 放化疗副作用（放射性皮炎 / 腹泻 / 骨髓抑制）的日常记录方式；造口与排粪功能的真实场景；G1–G3 三道闸口均待签 |
 | 胃肠间质瘤（GIST）· [gist-workbench](https://github.com/xyb-openharness-dsh-plugins/gist-workbench) | 🟡 v0.1.0（2026-10-21 认领） | 👤🩺 | 靶向线序与剂量变更的患者视角核对；多套危险度体系的人话解释；G3 未签认前不做装机 |
 | ATTR 淀粉样变 · [attr-workbench](https://github.com/xyb-openharness-dsh-plugins/attr-workbench) | 🟡 v0.1.0（2026-10-21 认领） | 👤🩺 | 「哪些信号该怀疑 ATTR」的人话清单；心脏 / 神经受累的日常记录方式；H1–H5 五条用户假设待访谈核实 |
+| 肝细胞癌 · [liver-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/liver-cancer-workbench) | 🔵 v0.3.4（G1–G3 均签认，整体 90%） | 👤🩺 | BCLC / CNLC 两套分期的人话对照；导入链路（病理/化验单）在真实报告上的核对；「不可切除之后」的路径内容 |
+| 胶质母细胞瘤 · [glioblastoma-workbench](https://github.com/xyb-openharness-dsh-plugins/glioblastoma-workbench) | 🔵 v0.1.5（G1–G3 已签，包级已装） | 🩺📝 | 家属视角的时间线（确诊→放化疗→复发）内容核对；认知/人格改变的日常记录方式 |
+| 恶性胸膜间皮瘤 · [mesothelioma-workbench](https://github.com/xyb-openharness-dsh-plugins/mesothelioma-workbench) | 🔵 v0.1.1（G1–G3 已签） | 👤📝🩺 | 职业暴露追溯与工伤/法援渠道；双主体（患者/家属）场景的真实性核对 |
+| 膀胱癌 · 本地 `bladder-workbench` | 🟡 v0.1.0（**仓库未建**，本地开发中） | 👤🩺💻 | 建仓与 G1 签认；BCG 灌注与随访记录的真实节奏；组织学变异型的人话解释 |
+| 胆道癌 · [biliary-tract-workbench](https://github.com/xyb-openharness-dsh-plugins/biliary-tract-workbench) | 🟡 v0.1.0（2026-10-24 认领，脚手架已 init，G1–G3 待签） | 👤🩺 | **最缺有真实经历的人**：3–5 位患者/家属访谈把场景排出来；分型（胆囊/肝内/肝外）与带 PTCD/ENBD 居家照护的真实节奏 |
 
 ---
 
@@ -103,7 +108,7 @@
 
 | # | NCCN 病种 | 中文 | NCCN 版本 | 家族 | 级别 | 仓库 | 状态 | 招募对象 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Breast Cancer | 乳腺癌 | 4.2025 | 乳腺 | T0 | [breast-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/breast-cancer-workbench) | 🔵 v0.8.0 | 团队在编 |
+| 1 | Breast Cancer | 乳腺癌 | 4.2025 | 乳腺 | T0 | [breast-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/breast-cancer-workbench) | 🔵 v0.12.0 | 团队在编 |
 | 2 | B-Cell Lymphomas | B 细胞淋巴瘤 | 2.2025 | 血液 | T0 | [lymphoma-workbench](https://github.com/xyb-openharness-dsh-plugins/lymphoma-workbench) | 🔵 v0.3.0 | 团队在编 |
 | 3 | Ovarian / Fallopian Tube / Primary Peritoneal Cancer | 卵巢癌/输卵管癌/原发性腹膜癌 | 3.2025 | 妇科 | T0 | [ovarian-workbench](https://github.com/xyb-openharness-dsh-plugins/ovarian-workbench) | 🔵 v0.1.51 | 📝🩺 内容补位 |
 | 4 | Colon Cancer | 结肠癌 | 4.2025 | 消化 | T0（消化样板） | [colorectal-workbench](https://github.com/xyb-openharness-dsh-plugins/colorectal-workbench) | 🟡 v0.1.0 | 团队在编 |
@@ -123,8 +128,8 @@
 
 | # | NCCN 病种 | 中文 | 版本 | 级别 | 建议仓库 | 状态 | 招募对象 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 14 | Hepatocellular Carcinoma | 肝细胞癌 | 1.2025 | **T0** 消化/肝 | `liver-cancer-workbench` | ⬜ 招募中 | 🔥 👤🩺💻 |
-| 15 | Biliary Tract Cancers | 胆道癌 | 2.2025 | T2 | `biliary-tract-workbench` | ⬜ 招募中 | 🔥 👤🩺📝 |
+| 14 | Hepatocellular Carcinoma | 肝细胞癌 | 1.2025 | **T0** 消化/肝 | [liver-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/liver-cancer-workbench) | 🔵 v0.3.4（G1–G3 已签，2026-10-24） | 👤🩺 内容补位 |
+| 15 | Biliary Tract Cancers | 胆道癌 | 2.2025 | T2 | [biliary-tract-workbench](https://github.com/xyb-openharness-dsh-plugins/biliary-tract-workbench) | 🟡 v0.1.0（2026-10-24 认领，G1–G3 待签） | 👤🩺 访谈与医学核对补位 |
 | 16 | Hepatobiliary Cancers | 肝胆癌 | 1.2023 | T3（挂肝） | 上 | ⬜ 招募中 | 📝 |
 | 17 | Small Bowel Adenocarcinoma | 小肠腺癌 | 3.2025 | T2 | `small-bowel-workbench` | ⬜ 招募中 | 👤📝 |
 | 18 | Ampullary Adenocarcinoma | 壶腹部腺癌 | 2.2025 | T2 | 挂小肠/胆道 | ⬜ 招募中 | 📝 |
@@ -170,7 +175,7 @@
 | # | NCCN 病种 | 中文 | 版本 | 级别 | 备注 | 招募对象 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 39 | Thymomas and Thymic Carcinomas | 胸腺瘤和胸腺癌 | 2.2025 | T1 | | 👤📝🩺 |
-| 40 | Mesothelioma: Pleural | 间皮瘤：胸膜 | 2.2025 | T1 | = 罕见病 #47 | 🔥 👤🩺📝 |
+| 40 | Mesothelioma: Pleural | 间皮瘤：胸膜 | 2.2025 | T1 | = 罕见病 #47 · [mesothelioma-workbench](https://github.com/xyb-openharness-dsh-plugins/mesothelioma-workbench) 🔵 v0.1.1 | 👤🩺📝 补位 |
 | 41 | Mesothelioma: Peritoneal | 间皮瘤：腹膜 | 2.2025 | T2 | | 📝 |
 | 42 | Melanoma: Cutaneous | 黑色素瘤：皮肤 | 2.2025 | **T0 皮肤样板** | = 罕见病 #48 | 👤🩺💻 |
 | 43 | Melanoma: Uveal | 黑色素瘤：葡萄膜 | 1.2025 | T2 | | 👤📝 |
@@ -188,7 +193,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 49 | Head and Neck Cancers | 头颈癌 | 4.2025 | **T0 头颈样板** | 需覆盖鼻咽癌（中国高发） | 👤🩺💻 |
 | 50 | Thyroid Carcinoma | 甲状腺癌 | 1.2025 | T1 | 中国高发、随访结构化强 | 👤🩺📝 |
-| 51 | Central Nervous System Cancers | 中枢神经系统癌症 | 1.2025 | T1 | 罕见病 #38 挂此 | 🔥 👤🩺💻 |
+| 51 | Central Nervous System Cancers | 中枢神经系统癌症 | 1.2025 | T1 | 罕见病 #38 挂此 · [glioblastoma-workbench](https://github.com/xyb-openharness-dsh-plugins/glioblastoma-workbench) 🔵 v0.1.5 | 🩺📝 补位 |
 | 52 | Occult Primary | 原发不明肿瘤 | 2.2025 | T4 | 诊断路径为主，患者侧需求待研究 | — |
 
 ### 1.7 W6 · 骨与软组织 + 妇科收口
@@ -259,9 +264,9 @@
 | 31 | 胃肠胰神经内分泌肿瘤 | 173 | 消化 / 神经内分泌 | ⚪ 规划中 | 📝🩺 挂靠内容 |
 | 32 | 胃肠间质瘤 | 180 | [gist-workbench](https://github.com/xyb-openharness-dsh-plugins/gist-workbench)（R1 例外：已独立建仓） | 🟡 v0.1.0（2026-10-21 认领） | 已认领 · 👤🩺 补位 |
 | 36 | 骨巨细胞瘤 | 206 | 骨癌 | ⚪ 规划中 | 📝🩺 挂靠内容 |
-| 38 | 胶质母细胞瘤 | 215 | CNS | ⚪ 规划中 | 🩺📝👨‍👩‍👧 优先 |
+| 38 | 胶质母细胞瘤 | 215 | [glioblastoma-workbench](https://github.com/xyb-openharness-dsh-plugins/glioblastoma-workbench)（R1 例外：已独立建仓） | 🔵 v0.1.5（2026-10-24） | 已认领 · 🩺📝 补位 |
 | 42 | 炎性肌纤维母细胞瘤 | 245 | 肉瘤 | ⚪ 规划中 | 📝🩺 挂靠内容 |
-| 47 | 恶性胸膜间皮瘤 | 269 | 胸部 | ⚪ 规划中 | 👤📝🩺 优先 |
+| 47 | 恶性胸膜间皮瘤 | 269 | [mesothelioma-workbench](https://github.com/xyb-openharness-dsh-plugins/mesothelioma-workbench)（R1 例外：已独立建仓） | 🔵 v0.1.1（2026-10-24） | 已认领 · 👤📝🩺 补位 |
 | 48 | 黑色素瘤 | 278 | 皮肤线（T0 样板已含） | ⚪ 规划中 | 已含（皮肤 T0 样板） |
 | 53 | 神经母细胞瘤 | 303 | 儿童线 | ⚪ 规划中 | 👨‍👩‍👧🩺📝 |
 | 57 | 骨肉瘤 | 341 | 骨癌 | ⚪ 规划中 | 👤🩺📝 |
@@ -374,7 +379,7 @@
 | 目标池条目 | **153**（67 个 NCCN 癌种条目 + 86 个罕见病） |
 | 去重后需独立设计的单元 | **123**（57 个癌种 + 66 个罕见病；T3 挂靠与 R1 挂靠不建仓） |
 | 其中需要走满配 T0 的 | **15**（每个家族 / 每种形态一个样板） |
-| 当前已启动 | **14 个仓库**（11 个癌种 + 2 个罕见病 FSHD/ATTR + 1 个跨病种心理支持模块） |
+| 当前已启动 | **17 个仓库**（14 个癌种 + 2 个罕见病 FSHD/ATTR + 1 个跨病种心理支持模块）；另有 1 个本地开发未建仓（膀胱癌） |
 
 ---
 
