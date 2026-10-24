@@ -102,6 +102,7 @@
 | 前列腺癌 · [prostate-workbench](https://github.com/xyb-openharness-dsh-plugins/prostate-workbench) | 🟡 v0.1.0（2026-10-22 认领，脚手架） | 👤🩺 | 3–5 位患者访谈，定 PSA 随访记录模型 |
 | 甲状腺癌 · [thyroid-workbench](https://github.com/xyb-openharness-dsh-plugins/thyroid-workbench) | 🟡 v0.1.0（2026-10-24 认领，设计启动） | 👤🩺📝 | 随访结构化需求访谈；T1–T7 需求清单医学核对 |
 | 胆道癌 · biliary-tract-workbench（本地脚手架，远端仓待建） | 🟡 v0.1.0（2026-10-24 认领） | 👤🩺📝 | 3–5 位患者/家属访谈，把场景排出来 |
+| 肾癌 · kidney-workbench（本地脚手架，远端仓待建） | 🟡 v0.1.0（2026-10-24 认领，[Issue #20](https://github.com/xyb-openharness-dsh-plugins/.github/issues/20)） | 👤🩺 | 术后随访/晚期治疗访谈；保肾决策与肾功能趋势的医学核对 |
 
 ---
 
@@ -161,13 +162,13 @@
 
 ### 1.4 W3 · 泌尿与男性
 
-> #34 前列腺癌、#35 膀胱癌已于 2026-10-22/23 认领开工；其余 **⬜ 招募中**（#38 阴茎癌 T4 观察池除外，暂不招募）。
+> #34 前列腺癌、#35 膀胱癌已于 2026-10-22/23 认领开工，#36 肾癌于 2026-10-24 认领开工；其余 **⬜ 招募中**（#38 阴茎癌 T4 观察池除外，暂不招募）。
 
 | # | NCCN 病种 | 中文 | 版本 | 级别 | 招募对象 |
 | --- | --- | --- | --- | --- | --- |
 | 34 | Prostate Cancer | 前列腺癌 | 2.2025 | **T0 泌尿样板** · 🟡 [prostate-workbench](https://github.com/xyb-openharness-dsh-plugins/prostate-workbench) v0.1.0（10-22 认领，脚手架） | 👤🩺 补位（最缺访谈） |
 | 35 | Bladder Cancer | 膀胱癌 | 1.2025 | T1 · 🟡 [bladder-workbench](https://github.com/xyb-openharness-dsh-plugins/bladder-workbench) v0.1.0（10-23 认领，SPEC/原型就绪） | 👤🩺 补位 |
-| 36 | Kidney Cancer | 肾癌 | 1.2026 | T1 | 👤🩺💻 |
+| 36 | Kidney Cancer | 肾癌 | 1.2026 | T1 · 🟡 [kidney-workbench](https://github.com/xyb-openharness-dsh-plugins/kidney-workbench) v0.1.0（2026-10-24 认领，[Issue #20](https://github.com/xyb-openharness-dsh-plugins/.github/issues/20)） | 👤🩺 补位（最缺访谈） |
 | 37 | Testicular Cancer | 睾丸癌 | 2.2025 | T2 | 👤📝 |
 | 38 | Penile Cancer | 阴茎癌 | 2.2025 | T4 | — |
 
@@ -382,7 +383,7 @@
 | 目标池条目 | **153**（67 个 NCCN 癌种条目 + 86 个罕见病） |
 | 去重后需独立设计的单元 | **123**（57 个癌种 + 66 个罕见病；T3 挂靠与 R1 挂靠不建仓） |
 | 其中需要走满配 T0 的 | **15**（每个家族 / 每种形态一个样板） |
-| 当前已启动 | **21 个工作台**（18 个癌种 + 2 个罕见病 FSHD/ATTR + 1 个跨病种心理支持；其中胆道癌为本地脚手架，远端仓已建 20 个） |
+| 当前已启动 | **22 个工作台**（19 个癌种 + 2 个罕见病 FSHD/ATTR + 1 个跨病种心理支持；其中胆道癌与肾癌为本地脚手架，远端仓已建 20 个） |
 
 ---
 
