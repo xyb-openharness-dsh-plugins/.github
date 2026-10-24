@@ -66,7 +66,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **肝细胞癌**（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E8%82%9D%E7%BB%86%E8%83%9E%E7%99%8C)） | T0 消化/肝样板 · W1 | 十万级（中国高发，乙肝背景为主） | 高：BCLC / CNLC 分期并存，切除·消融·TACE·靶免·移植多路径并行，患者很难自己判断"我属于哪条" | 高：多数确诊已中晚期，肝功能与肿瘤两条线要同时看 | 👤🩺💻 | 先整理一份「分期与治疗路径名词表 + 确诊后两周要问清的 10 个问题」，不写一行代码也行 | ★★★ |
 | **胰腺腺癌**（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E8%83%B0%E8%85%BA%E8%85%BA%E7%99%8C)） | T1 · **已有小胰宝 xyb-workbench v0.1.29**（PDAC 本体，不是待建） | 十万级（发病率仍在上升） | 极高：可切除性判断、新辅助、临床试验、营养与疼痛管理，公众认知普遍停留在"不能手术就没办法" | 极高：病程进展快、决策窗口窄，家属常在数周内做不可逆决定 | 🩺📝💻 | 不是从零建仓：补「不可切除之后」的照护与营养路径，并把既有资料迁到家族基线 | ★★★ |
-| **胆道癌**（胆囊/肝内/肝外胆管）（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E8%83%86%E9%81%93%E7%99%8C)） | T2 · W1 | 万级 | 极高：分型复杂、患者几乎搜不到成体系的中文规范信息，靠碎片帖子做决策 | 高：生存期短，确诊时常已失去手术机会 | 👤🩺📝 | 最需要的是「有真实经历的人」：先做 3–5 位患者/家属访谈，把场景排出来 | ★★★ |
+| **胆道癌**（胆囊/肝内/肝外胆管）✅ **已认领 · 2026-10-24**（[#18](https://github.com/xyb-openharness-dsh-plugins/.github/issues/18)） | T2 · W1 | 万级 | 极高：分型复杂、患者几乎搜不到成体系的中文规范信息，靠碎片帖子做决策 | 高：生存期短，确诊时常已失去手术机会 | 👤🩺📝 | 最需要的是「有真实经历的人」：先做 3–5 位患者/家属访谈，把场景排出来 | ★★★ |
 | **胶质母细胞瘤**（挂 CNS #51 / 罕见病 #38）（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E8%83%B6%E8%B4%A8%E6%AF%8D%E7%BB%86%E8%83%9E%E7%98%A4)） | T1（挂靠模块） | 万级 | 高：放化疗+电场治疗+复发后选择，信息高度不对称 | 极高：病程短，且认知/人格改变对家属的冲击远超其他瘤种 | 🩺📝👨‍👩‍👧 | 先写「家属视角的时间线」：从确诊到复发，每个节点要准备什么 | ★★★ |
 | **前列腺癌**（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E5%89%8D%E5%88%97%E8%85%BA%E7%99%8C)） | T0 泌尿样板 · W3 | 十万级（老年男性高发） | 高：PSA 筛查争议、主动监测 vs 根治/放疗的取舍、内分泌治疗循环与间歇给药，患者很难自己权衡"要不要现在就治" | 低—中：多数病程长、生存期长，压力在长期副作用（尿控、性功能）而非时间 | 👤🩺💻 | **泌尿族目前零起点**，样板未定：先做 3–5 位患者访谈，把"确诊后到底在纠结什么"排出来，再定 PSA 随访记录模型 | ★★ |
 | **儿童急淋（ALL）**（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E5%84%BF%E7%AB%A5%E6%80%A5%E6%80%A7%E6%B7%8B%E5%B7%B4%E7%BB%86%E8%83%9E%E7%99%BD%E8%A1%80%E7%97%85)） | T0 儿童样板 · W7 | 万级（儿童白血病中最常见） | 高：2–3 年治疗期、方案阶段多、异地就医普遍、全程靠家长记 | 中高：长期治疗，家庭压力主要在过程与不确定性 | 👨‍👩‍👧🩺💻 | 必须**由家长主导**：先把「家长到底在记什么」这份清单写出来（纸质本/微信群/Excel 都算） | ★★★ |
@@ -98,6 +98,7 @@
 | 胶质母细胞瘤 · [glioblastoma-workbench](https://github.com/xyb-openharness-dsh-plugins/glioblastoma-workbench) | 🔵 v0.1.5（G1–G3 已签，包级已装） | 🩺📝 | 家属视角的时间线（确诊→放化疗→复发）内容核对；认知/人格改变的日常记录方式 |
 | 恶性胸膜间皮瘤 · [mesothelioma-workbench](https://github.com/xyb-openharness-dsh-plugins/mesothelioma-workbench) | 🔵 v0.1.1（G1–G3 已签） | 👤📝🩺 | 职业暴露追溯与工伤/法援渠道；双主体（患者/家属）场景的真实性核对 |
 | 膀胱癌 · 本地 `bladder-workbench` | 🟡 v0.1.0（**仓库未建**，本地开发中） | 👤🩺💻 | 建仓与 G1 签认；BCG 灌注与随访记录的真实节奏；组织学变异型的人话解释 |
+| 胆道癌 · [biliary-tract-workbench](https://github.com/xyb-openharness-dsh-plugins/biliary-tract-workbench) | 🟡 v0.1.0（2026-10-24 认领，脚手架已 init，G1–G3 待签） | 👤🩺 | **最缺有真实经历的人**：3–5 位患者/家属访谈把场景排出来；分型（胆囊/肝内/肝外）与带 PTCD/ENBD 居家照护的真实节奏 |
 
 ---
 
@@ -128,7 +129,7 @@
 | # | NCCN 病种 | 中文 | 版本 | 级别 | 建议仓库 | 状态 | 招募对象 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14 | Hepatocellular Carcinoma | 肝细胞癌 | 1.2025 | **T0** 消化/肝 | [liver-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/liver-cancer-workbench) | 🔵 v0.3.4（G1–G3 已签，2026-10-24） | 👤🩺 内容补位 |
-| 15 | Biliary Tract Cancers | 胆道癌 | 2.2025 | T2 | `biliary-tract-workbench` | ⬜ 招募中 | 🔥 👤🩺📝 |
+| 15 | Biliary Tract Cancers | 胆道癌 | 2.2025 | T2 | [biliary-tract-workbench](https://github.com/xyb-openharness-dsh-plugins/biliary-tract-workbench) | 🟡 v0.1.0（2026-10-24 认领，G1–G3 待签） | 👤🩺 访谈与医学核对补位 |
 | 16 | Hepatobiliary Cancers | 肝胆癌 | 1.2023 | T3（挂肝） | 上 | ⬜ 招募中 | 📝 |
 | 17 | Small Bowel Adenocarcinoma | 小肠腺癌 | 3.2025 | T2 | `small-bowel-workbench` | ⬜ 招募中 | 👤📝 |
 | 18 | Ampullary Adenocarcinoma | 壶腹部腺癌 | 2.2025 | T2 | 挂小肠/胆道 | ⬜ 招募中 | 📝 |
