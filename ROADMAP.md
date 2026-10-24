@@ -48,9 +48,11 @@
 | 肝细胞癌 | 小甘宝 HepPal | [liver-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/liver-cancer-workbench) | 🟡 | v0.3.2（2026-10-23 开工，G3 已签）；**双轨主脊**：A 肝功能储备 / B 肿瘤负荷并列不加总，门脉高压为第三独立风险线；BCLC 与 CNLC 并存不换算；M5–M7 材料导入链路已闭环。⚠️ 该仓 `VERSION` 与 `package.json` 不同步，待修 |
 | 中枢神经系统（胶质母细胞瘤，#51 / 罕见病 #38） | 小星宝 | [glioblastoma-workbench](https://github.com/xyb-openharness-dsh-plugins/glioblastoma-workbench) | 🟡 | v0.1.5（2026-10-24 开工）；CNS 线首个落地，窄宽自适应与宿主接线四要素是这一轮的主要回收 |
 | 间皮瘤（胸膜，#40 / 罕见病 #47） | 小胸宝 | [mesothelioma-workbench](https://github.com/xyb-openharness-dsh-plugins/mesothelioma-workbench) | 🟡 | v0.1.0（2026-10-24 开工，G1 已签）；10 线 30 页签已签认，待 G2 |
+| 膀胱癌 | 小泉宝 UroPal | [bladder-workbench](https://github.com/xyb-openharness-dsh-plugins/bladder-workbench) | 🟡 | v0.1.0（2026-10-24 建仓）；NMIBC/MIBC 分野 + TURBT/二次电切 + 灌注周期 + 膀胱镜复查与复发恐惧 + 尿流改道三术式；schema 首版与冻结合同已落库、原型 v0.1 已出、第 1 轮设计审查已做（异模型审查未做）；**G1 待签** |
+| 前列腺癌 | 小前宝 ProstaPal | [prostate-workbench](https://github.com/xyb-openharness-dsh-plugins/prostate-workbench) | 🟡 | v0.1.0（2026-10-24 建仓）；**仅脚手架注册骨架，无业务实现**；病理与 PSA 读懂 / ADT 身体与生活 / 排尿与性功能康复 / 主动监测 / 复诊准备；**未签 G1、无原型、无 schema** |
 | 心理支持（跨病种） | 小心宝 | [xiaoxinbao-workbench](https://github.com/xyb-openharness-dsh-plugins/xiaoxinbao-workbench) | 🟢 | v0.3.14；作为**共用支撑模块**被各癌种工作台引用 |
 
-> **计数口径（2026-10-24）**：工作台项目共 **20 个** = 18 个已建仓（上表 17 行 + `xfb-workbench` 空仓）+ 2 个本地在建（膀胱癌、前列腺癌，均 v0.1.0，未建仓未推远端）。`.github`、`xyb-workbench-starter`（脚手架）、`find-museum`（演示工作台）、`dsh-workbuddy-xdpool`（模型池插件）不计入项目数。
+> **计数口径（2026-10-24）**：工作台项目共 **20 个** = 癌种 16（上表 16 行，含 2026-10-24 新建的膀胱癌、前列腺癌）+ 罕见病 2（ATTR / FSHD，见 §二）+ 跨病种支撑 1（小心宝）+ 空仓占位 1（`xfb-workbench`）。**本地在建 0 个**——膀胱癌与前列腺癌已于 2026-10-24 建仓并推远端。`xfb-workbench` 已决定删除，执行后合计变 **19**。`.github`、`xyb-workbench-starter`（脚手架）、`find-museum`（演示工作台）、`dsh-workbuddy-xdpool`（模型池插件）不计入项目数。
 
 ### 下一波（W1）· 消化族收口 + 中国高发补位
 

@@ -104,7 +104,7 @@ v0.3.14，跨病种的共用支撑模块：为患者与照护者提供情绪陪�
 
 ## 已开工但尚未收录
 
-以下三个仓 2026-10-23/24 才建，原型首页截图与能力说明待补（不先写"已完成"）：`liver-cancer-workbench`（小甘宝 · 肝细胞癌，v0.3.2，G3 已签）、`glioblastoma-workbench`（小星宝 · 胶质母细胞瘤，v0.1.5）、`mesothelioma-workbench`（小胸宝 · 间皮瘤，v0.1.0，G1 已签）。进度见 [ROADMAP](ROADMAP.md) 与 [BACKLOG](BACKLOG.md)。
+以下仓 2026-10-23/24 才建，原型首页截图与能力说明待补（不先写"已完成"）：`liver-cancer-workbench`（小甘宝 · 肝细胞癌，v0.3.2，G3 已签）、`glioblastoma-workbench`（小星宝 · 胶质母细胞瘤，v0.1.5）、`mesothelioma-workbench`（小胸宝 · 间皮瘤，v0.1.0，G1 已签）、`bladder-workbench`（小泉宝 · 膀胱癌，v0.1.0，2026-10-24 建仓）、`prostate-workbench`（小前宝 · 前列腺癌，v0.1.0，2026-10-24 建仓，仅骨架）。进度见 [ROADMAP](ROADMAP.md) 与 [BACKLOG](BACKLOG.md)。
 
 ## 状态图例
 

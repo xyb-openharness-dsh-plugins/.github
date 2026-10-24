@@ -58,7 +58,7 @@
 
 > 下面 12 个是**按紧迫度挑出来的**，不是按波次顺序。它们在 §一/§二 里也各自出现，这里集中写清楚"为什么急、缺谁、第一步做什么"。
 > 想认领但不确定从哪下手 → 直接从这张表里挑一个。
-> 榜内 12 项里已有 5 项开工：ATTR v0.2.0（2026-10-21）、肝细胞癌 v0.3.2（2026-10-23）、胶质母细胞瘤 v0.1.5 与恶性胸膜间皮瘤 v0.1.0（2026-10-24）、胰腺腺癌（小胰宝 v0.1.34，PDAC 本体）。**它们仍需 🩺📝👤 补位**，只是不再"从零招募"；剩下 7 项仍全部 ⬜。
+> 榜内 12 项里已有 6 项开工：ATTR v0.2.0（2026-10-21）、肝细胞癌 v0.3.2（2026-10-23）、胶质母细胞瘤 v0.1.5 与恶性胸膜间皮瘤 v0.1.0（2026-10-24）、胰腺腺癌（小胰宝 v0.1.34，PDAC 本体）、前列腺癌 v0.1.0（2026-10-24 建仓，骨架）。**它们仍需 🩺📝👤 补位**，只是不再"从零招募"；剩下 6 项仍全部 ⬜。
 
 ### 癌种（8）
 
@@ -68,7 +68,7 @@
 | **胰腺腺癌**（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E8%83%B0%E8%85%BA%E8%85%BA%E7%99%8C)） | T1 · **已有小胰宝 xyb-workbench v0.1.34**（PDAC 本体，不是待建） | 十万级（发病率仍在上升） | 极高：可切除性判断、新辅助、临床试验、营养与疼痛管理，公众认知普遍停留在"不能手术就没办法" | 极高：病程进展快、决策窗口窄，家属常在数周内做不可逆决定 | 🩺📝💻 | 不是从零建仓：补「不可切除之后」的照护与营养路径，并把既有资料迁到家族基线 | ★★★ |
 | **胆道癌**（胆囊/肝内/肝外胆管）（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E8%83%86%E9%81%93%E7%99%8C)） | T2 · W1 | 万级 | 极高：分型复杂、患者几乎搜不到成体系的中文规范信息，靠碎片帖子做决策 | 高：生存期短，确诊时常已失去手术机会 | 👤🩺📝 | 最需要的是「有真实经历的人」：先做 3–5 位患者/家属访谈，把场景排出来 | ★★★ |
 | **胶质母细胞瘤** ✅ **已开工 2026-10-24**（挂 CNS #51 / 罕见病 #38，[glioblastoma-workbench](https://github.com/xyb-openharness-dsh-plugins/glioblastoma-workbench) v0.1.5）（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E8%83%B6%E8%B4%A8%E6%AF%8D%E7%BB%86%E8%83%9E%E7%98%A4)） | T1（挂靠模块） | 万级 | 高：放化疗+电场治疗+复发后选择，信息高度不对称 | 极高：病程短，且认知/人格改变对家属的冲击远超其他瘤种 | 🩺📝👨‍👩‍👧 | 先写「家属视角的时间线」：从确诊到复发，每个节点要准备什么 | ★★★ |
-| **前列腺癌**（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E5%89%8D%E5%88%97%E8%85%BA%E7%99%8C)） | T0 泌尿样板 · W3 | 十万级（老年男性高发） | 高：PSA 筛查争议、主动监测 vs 根治/放疗的取舍、内分泌治疗循环与间歇给药，患者很难自己权衡"要不要现在就治" | 低—中：多数病程长、生存期长，压力在长期副作用（尿控、性功能）而非时间 | 👤🩺💻 | **泌尿族目前零起点**，样板未定：先做 3–5 位患者访谈，把"确诊后到底在纠结什么"排出来，再定 PSA 随访记录模型 | ★★ |
+| **前列腺癌** ✅ **已开工 2026-10-24**（[prostate-workbench](https://github.com/xyb-openharness-dsh-plugins/prostate-workbench) v0.1.0，仅脚手架骨架）（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E5%89%8D%E5%88%97%E8%85%BA%E7%99%8C)） | T0 泌尿样板 · W3 | 十万级（老年男性高发） | 高：PSA 筛查争议、主动监测 vs 根治/放疗的取舍、内分泌治疗循环与间歇给药，患者很难自己权衡"要不要现在就治" | 低—中：多数病程长、生存期长，压力在长期副作用（尿控、性功能）而非时间 | 👤🩺💻 | 仓已建但**仍是空骨架**：先做 3–5 位患者访谈，把"确诊后到底在纠结什么"排出来，再定 PSA 随访记录模型 | ★★ |
 | **儿童急淋（ALL）**（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E5%84%BF%E7%AB%A5%E6%80%A5%E6%80%A7%E6%B7%8B%E5%B7%B4%E7%BB%86%E8%83%9E%E7%99%BD%E8%A1%80%E7%97%85)） | T0 儿童样板 · W7 | 万级（儿童白血病中最常见） | 高：2–3 年治疗期、方案阶段多、异地就医普遍、全程靠家长记 | 中高：长期治疗，家庭压力主要在过程与不确定性 | 👨‍👩‍👧🩺💻 | 必须**由家长主导**：先把「家长到底在记什么」这份清单写出来（纸质本/微信群/Excel 都算） | ★★★ |
 | **多发性骨髓瘤**（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E5%A4%9A%E5%8F%91%E6%80%A7%E9%AA%A8%E9%AB%93%E7%98%A4)） | T1 · W2 | 万级（老年患者为主，存量持续累积） | 高：自体移植 / 维持治疗 / 骨相关事件 / 费用与医保，长期循环复发让人疲于应付 | 中：慢性病程但反复复发 | 👤🩺💻 | 先做「复发—再治疗循环」的记录模型：怎么记才看得出趋势 | ★★ |
 | **恶性胸膜间皮瘤** ✅ **已开工 2026-10-24**（#40 = 罕见病 #47，[mesothelioma-workbench](https://github.com/xyb-openharness-dsh-plugins/mesothelioma-workbench) v0.1.0，G1 已签）（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E6%81%B6%E6%80%A7%E8%83%B8%E8%86%9C%E9%97%B4%E7%9A%AE%E7%98%A4)） | T1 · W4 | 千级（罕见，但石棉暴露人群有集中聚集） | 极高：职业暴露追溯、工伤与法援信息几乎无处可查 | 高：生存期短 | 👤📝🩺 | 罕见病种最缺的是素材：先做 2–3 例访谈 + 收集可用的援助与法援渠道 | ★★ |
@@ -94,6 +94,7 @@
 | 肛管癌 · [anal-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/anal-cancer-workbench) | 🟡 v0.2.0（2026-10-21 认领） | 👤📝 | 放化疗副作用（放射性皮炎 / 腹泻 / 骨髓抑制）的日常记录方式；造口与排粪功能的真实场景；G1–G3 三道闸口均待签 |
 | 胃肠间质瘤（GIST）· [gist-workbench](https://github.com/xyb-openharness-dsh-plugins/gist-workbench) | 🟡 v0.1.0（2026-10-21 认领） | 👤🩺 | 靶向线序与剂量变更的患者视角核对；多套危险度体系的人话解释；G3 未签认前不做装机 |
 | ATTR 淀粉样变 · [attr-workbench](https://github.com/xyb-openharness-dsh-plugins/attr-workbench) | 🟡 v0.2.0（2026-10-21 认领） | 👤🩺 | 「哪些信号该怀疑 ATTR」的人话清单；心脏 / 神经受累的日常记录方式；H1–H5 五条用户假设待访谈核实 |
+| 膀胱癌 · [bladder-workbench](https://github.com/xyb-openharness-dsh-plugins/bladder-workbench) | 🟡 v0.1.0（2026-10-24 建仓） | 👤🩺 | NMIBC/MIBC 分野的人话解释；灌注周期与膀胱镜复查的真实记录方式；尿流改道三术式与造口日常的照护场景；G1–G3 三道闸口均待签 |
 
 ---
 
@@ -153,12 +154,12 @@
 
 ### 1.4 W3 · 泌尿与男性
 
-> 本节尚未启动，**全部 ⬜ 招募中**（#38 阴茎癌 T4 观察池除外，暂不招募）。
+> 本节已有 2 项建仓：前列腺癌（[prostate-workbench](https://github.com/xyb-openharness-dsh-plugins/prostate-workbench) v0.1.0，2026-10-24 建仓，仅脚手架骨架）与膀胱癌（[bladder-workbench](https://github.com/xyb-openharness-dsh-plugins/bladder-workbench) v0.1.0，同日建仓，已有 schema 首版与原型 v0.1）；两者**均未签 G1**。其余 ⬜ 招募中（#38 阴茎癌 T4 观察池除外，暂不招募）。
 
 | # | NCCN 病种 | 中文 | 版本 | 级别 | 招募对象 |
 | --- | --- | --- | --- | --- | --- |
-| 34 | Prostate Cancer | 前列腺癌 | 2.2025 | **T0 泌尿样板** | 👤🩺 补位 · **本地在建 v0.1.0**（未建仓、未推远端、未签 G1），先做访谈定模型 |
-| 35 | Bladder Cancer | 膀胱癌 | 1.2025 | T1 | 🩺📝 补位 · **本地在建 v0.1.0**（未建仓、未推远端、未签 G1） |
+| 34 | Prostate Cancer | 前列腺癌 | 2.2025 | **T0 泌尿样板** | 👤🩺 补位 · **已建仓 v0.1.0**（2026-10-24，脚手架骨架，无业务实现；未签 G1）——仍最缺患者访谈 |
+| 35 | Bladder Cancer | 膀胱癌 | 1.2025 | T1 | 🩺📝 补位 · **已建仓 v0.1.0**（2026-10-24；schema 首版 + 原型 v0.1 + 第 1 轮设计审查，异模型审查与 G1 均未做） |
 | 36 | Kidney Cancer | 肾癌 | 1.2026 | T1 | 👤🩺💻 |
 | 37 | Testicular Cancer | 睾丸癌 | 2.2025 | T2 | 👤📝 |
 | 38 | Penile Cancer | 阴茎癌 | 2.2025 | T4 | — |
@@ -374,17 +375,17 @@
 | 目标池条目 | **153**（67 个 NCCN 癌种条目 + 86 个罕见病） |
 | 去重后需独立设计的单元 | **123**（57 个癌种 + 66 个罕见病；T3 挂靠与 R1 挂靠不建仓） |
 | 其中需要走满配 T0 的 | **15**（每个家族 / 每种形态一个样板） |
-| 工作台项目合计 | **20 个** = 18 个已建仓 + 2 个本地在建 |
+| 工作台项目合计 | **20 个** = 20 个已建仓（含 1 个空仓待删）+ 0 个本地在建 |
 
 **20 个项目的构成（口径：只数工作台，不数基础设施与插件）**
 
 | 分类 | 数量 | 明细 |
 | --- | --- | --- |
-| 已建仓 · 癌种 | 14 | 乳腺 · 淋巴瘤 · 卵巢 · 结直肠 · 肺癌 · 胃癌 · 食管 · 宫颈 · 胰腺(小胰宝) · 肛管 · GIST · 肝细胞癌 · 胶质母细胞瘤 · 间皮瘤 |
+| 已建仓 · 癌种 | 16 | 乳腺 · 淋巴瘤 · 卵巢 · 结直肠 · 肺癌 · 胃癌 · 食管 · 宫颈 · 胰腺(小胰宝) · 肛管 · GIST · 肝细胞癌 · 胶质母细胞瘤 · 间皮瘤 · **膀胱癌(2026-10-24)** · **前列腺癌(2026-10-24)** |
 | 已建仓 · 罕见病 | 2 | ATTR · FSHD |
 | 已建仓 · 跨病种支撑 | 1 | 小心宝（心理支持，被各癌种工作台引用，不占病种名额） |
 | 已建仓 · 空仓占位 | 1 | `xfb-workbench`：只有一个 initial commit 和 MIT LICENSE，无代码无 README。**已决定删除**（执行后本行去掉，合计变 19） |
-| 本地在建 · 未建仓 | 2 | 膀胱癌 `bladder-workbench` v0.1.0、前列腺癌 `prostate-workbench` v0.1.0（均未推远端、未签 G1） |
+| 本地在建 · 未建仓 | 0 | 膀胱癌与前列腺癌已于 2026-10-24 建仓并推远端，本行为 0；新病种在 G1 通过前不建仓 |
 
 **不计入项目数的仓**：`.github`（组织配置与目标池文档）、`xyb-workbench-starter`（脚手架工具，不服务单一病种）、`find-museum`（用 starter 做的演示工作台，非病种）、`dsh-workbuddy-xdpool`（WorkBuddy 账号模型池插件，不是工作台）。这四个**不写进本表的癌种/罕见病任何一行**，也不参与"已启动"计数。
 
