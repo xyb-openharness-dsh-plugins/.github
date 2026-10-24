@@ -50,6 +50,8 @@
 | 间皮瘤（胸膜，#40 / 罕见病 #47） | 小胸宝 | [mesothelioma-workbench](https://github.com/xyb-openharness-dsh-plugins/mesothelioma-workbench) | 🟡 | v0.1.0（2026-10-24 开工，G1 已签）；10 线 30 页签已签认，待 G2 |
 | 心理支持（跨病种） | 小心宝 | [xiaoxinbao-workbench](https://github.com/xyb-openharness-dsh-plugins/xiaoxinbao-workbench) | 🟢 | v0.3.14；作为**共用支撑模块**被各癌种工作台引用 |
 
+> **计数口径（2026-10-24）**：工作台项目共 **20 个** = 18 个已建仓（上表 17 行 + `xfb-workbench` 空仓）+ 2 个本地在建（膀胱癌、前列腺癌，均 v0.1.0，未建仓未推远端）。`.github`、`xyb-workbench-starter`（脚手架）、`find-museum`（演示工作台）、`dsh-workbuddy-xdpool`（模型池插件）不计入项目数。
+
 ### 下一波（W1）· 消化族收口 + 中国高发补位
 
 ~~肝细胞癌~~（🟡 已于 2026-10-23 开工，见上表）· 胆道癌 · 肝胆癌（挂肝）· 小肠腺癌 · 壶腹部腺癌 · ~~肛门癌~~（🟡 已于 2026-10-21 认领，见上表）
