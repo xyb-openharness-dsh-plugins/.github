@@ -295,7 +295,7 @@
 | # | 疾病 | 页 | 级别 | 状态 | 招募对象 |
 | --- | --- | --- | --- | --- | --- |
 | 2 | 获得性血友病 | 5 | T2 | ⬜ 招募中 | 👤🤝📝 |
-| 3 | 肢端肥大症 | 12 | **T0 R2 样板** | 🔵 [acromegaly-workbench](https://github.com/xyb-openharness-dsh-plugins/acromegaly-workbench) v0.2.1（2026-10-25 认领开工，[Issue #30](https://github.com/xyb-openharness-dsh-plugins/.github/issues/30)；V1 过+V2 装机，V3 真机待走查；0.2.1 用户需求：AI 协助一键发送） | 👤🤝📝🩺（开发位已满） |
+| 3 | 肢端肥大症 | 12 | **T0 R2 样板** | 🔵 [acromegaly-workbench](https://github.com/xyb-openharness-dsh-plugins/acromegaly-workbench) v0.2.3（2026-10-25 认领开工，[Issue #30](https://github.com/xyb-openharness-dsh-plugins/.github/issues/30)；G1–G3 签认、V1 过+V2 装机，V3 真机待走查；0.2.1 用户需求：AI 协助一键发送→沉淀 34 号契约入架） | 👤🤝📝🩺（开发位已满） |
 | 4 | 成人斯蒂尔病 | 17 | T1 | ⬜ 招募中 | 👤🤝📝🩺 |
 | 6 | α1-抗胰蛋白酶缺乏症 | 27 | T2 | ⬜ 招募中 | 👤🤝📝 |
 | 7 | ANCA 相关血管炎 | 33 | T1 | 🔥 优先招募 | 👤🤝📝🩺 |
