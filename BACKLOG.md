@@ -59,7 +59,7 @@
 > 下面 12 个是**按紧迫度挑出来的**，不是按波次顺序。它们在 §一/§二 里也各自出现，这里集中写清楚"为什么急、缺谁、第一步做什么"。
 > 想认领但不确定从哪下手 → 直接从这张表里挑一个。
 > ✅ **2026-10-21 → 10-24 更新：榜内已有 6 个被认领开工**——ATTR（[attr-workbench](https://github.com/xyb-openharness-dsh-plugins/attr-workbench) 🔵 v0.3.1，真机装机迭代中）、肝细胞癌（[liver-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/liver-cancer-workbench) 🔵 v0.3.6，G1–G3 已签认）、胶质母细胞瘤（[glioblastoma-workbench](https://github.com/xyb-openharness-dsh-plugins/glioblastoma-workbench) 🔵 v0.1.5，已独立建仓）、恶性胸膜间皮瘤（[mesothelioma-workbench](https://github.com/xyb-openharness-dsh-plugins/mesothelioma-workbench) 🔵 v0.1.4）、前列腺癌（[prostate-workbench](https://github.com/xyb-openharness-dsh-plugins/prostate-workbench) 🟡 v0.1.0 脚手架）、胆道癌（🟡 v0.1.0 本地脚手架，远端仓待建）。
-> **榜内仍在招募 5 个：儿童急淋（ALL）· 多发性骨髓瘤 · PF-ILD · 重型地中海贫血 · 神经纤维瘤病。** 已开工的这批同样缺人——最缺的仍是患者/家属访谈与医学核对，见下方「已在推进、但缺人的」表。
+> **榜内仍在招募 4 个：儿童急淋（ALL）· 多发性骨髓瘤 · PF-ILD · 重型地中海贫血。** 已开工的这批同样缺人——最缺的仍是患者/家属访谈与医学核对，见下方「已在推进、但缺人的」表。
 
 ### 癌种（9）
 
@@ -82,7 +82,7 @@
 | **转甲状腺素蛋白淀粉样变性（ATTR）** ✅ **已认领 · 2026-10-21 · 🔵 v0.3.1（真机装机迭代中）** | R2 · T1 优先 | 罕见（但**误诊池远大于确诊数**） | 极高：长期被当作心衰 / 周围神经病 / 老年退化处理，确诊常滞后数年；新药出现后诊疗路径剧变，网上信息新旧混杂 | 高：确诊晚意味着已出现不可逆器官损害 | 🩺📝👤 | 医学核对是最关键的一环：先把「哪些信号该怀疑 ATTR」做成人话版清单 | ★★★ |
 | **进行性纤维化性间质性肺疾病（PF-ILD）** **已认领 · 2026-10-25 · 🔵 v0.2.0（G1 已签 · V1 通过 · V2/V3 未验）**（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E8%BF%9B%E8%A1%8C%E6%80%A7%E7%BA%A4%E7%BB%B4%E5%8C%96%E6%80%A7%E9%97%B4%E8%B4%A8%E6%80%A7%E8%82%BA%E7%96%BE%E7%97%85)） | R2 · T1 优先 | 万级 | 高：抗纤维化药物、氧疗、肺移植评估的决策节点多且不可逆 | 高：肺功能下降不可逆，错过评估窗口就没机会 | 🩺📝 | 先做「肺功能趋势怎么记 + 移植评估该在什么时间点问」 | ★★★ |
 | **重型地中海贫血**（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E9%87%8D%E5%9E%8B%E5%9C%B0%E4%B8%AD%E6%B5%B7%E8%B4%AB%E8%A1%80)） | R3 · T1 优先 | 万级（南方省份集中，存量患者规模大） | 高：规律输血 + 去铁治疗是终身管理，费用、医保、生育与遗传咨询信息分散 | 中：长期生存，压力在终身负担与家庭规划 | 👨‍👩‍👧🤝📝 | 病友组织成熟，最容易启动：先征集 10 位家长现有记录方式 | ★★★ |
-| **神经纤维瘤病**（[认领](https://github.com/xyb-openharness-dsh-plugins/.github/issues/new?template=01-workbench-claim.yml&title=%5B%E8%AE%A4%E9%A2%86%5D%20%E7%A5%9E%E7%BB%8F%E7%BA%A4%E7%BB%B4%E7%98%A4%E7%97%85)） | R3 · T1 优先 | 万级 | 高：多系统受累、终身随访、从皮肤到神经到骨骼，患者不知道该挂哪个科 | 中：终身随访，压力在不确定性与代际遗传 | 👤🤝📝🩺 | 先做「终身随访日历」：不同年龄段该查什么 | ★★ |
+| **神经纤维瘤病** ✅ **已认领开工 · 2026-10-25**（[neurofibromatosis-workbench](https://github.com/xyb-openharness-dsh-plugins/neurofibromatosis-workbench) 🔵 v0.1.2（2026-10-25 发布 tag+Release 附 tgz，依据：M0–M7 完成、M6 装机 0.1.2 双登记+重启、界面加载待用户新建会话；[认领 Issue #41](https://github.com/xyb-openharness-dsh-plugins/.github/issues/41)） | R3 · T1 优先 | 万级 | 高：多系统受累、终身随访、从皮肤到神经到骨骼，患者不知道该挂哪个科 | 中：终身随访，压力在不确定性与代际遗传 | 👤🤝📝🩺 | 先做「终身随访日历」：不同年龄段该查什么 | ★★ |
 
 ### 已在推进、但缺人的（既有仓与新开工仓都在补位）
 
