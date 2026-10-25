@@ -102,6 +102,8 @@
 | 膀胱癌 · [bladder-workbench](https://github.com/xyb-openharness-dsh-plugins/bladder-workbench)（小泉宝 UroPal） | 🔵 v0.1.0（2026-10-24 **G1–G3 均已签认**；M0–M5 完成，M6 装机 45/46，M7–M9 未开始；**尚无写入闭环**，开发版只能读） | 👤🩺 | **写入闭环**（记一笔 → 入库 → 回来看见）；灌注与复查场景访谈；组织学变异型的人话解释 |
 | 前列腺癌 · [prostate-workbench](https://github.com/xyb-openharness-dsh-plugins/prostate-workbench) | 🟡 v0.1.0（2026-10-22 认领，脚手架） | 👤🩺 | 3–5 位患者访谈，定 PSA 随访记录模型 |
 | 甲状腺癌 · [thyroid-workbench](https://github.com/xyb-openharness-dsh-plugins/thyroid-workbench) | 🔵 v0.2.1（2026-10-25 装机，V2/V3 用户确认；issue #17） | 👤🩺📝 | 随访结构化需求访谈；T1–T7 需求清单医学核对 |
+| 子宫内膜癌 · [endometrial-workbench](https://github.com/xyb-openharness-dsh-plugins/endometrial-workbench)（小膜宝 EndoPal） | 🔵 v0.1.0（2026-10-25 认领，设计启动；issue #28） | 👤🩺📝 | 分子分型与 Lynch 家系语境核对；保育经历者访谈 |
+| 多发性骨髓瘤 · [myeloma-workbench](https://github.com/xyb-openharness-dsh-plugins/myeloma-workbench)（小浆宝 MyeloPal） | 🟡 v0.1.0（2026-10-25 认领，M0 快照待续；issue #27） | 👤🩺💻 | M 蛋白与治疗线循环记录模型；骨事件与感染医学核对 |
 | 皮肤黑色素瘤 · [melanoma-workbench](https://github.com/xyb-openharness-dsh-plugins/melanoma-workbench)（小痣宝 MolePal · T0 样板） | 🔵 v0.3.1（2026-10-25 装机，V2/V3 用户确认；issue #22） | 👤🩺💻 | 自查档案与肢端语境医学核对；T0 样板功能线评审 |
 | 胆道癌 · biliary-tract-workbench（本地脚手架，远端仓待建） | 🟡 v0.1.0（2026-10-24 认领） | 👤🩺📝 | 3–5 位患者/家属访谈，把场景排出来 |
 | 肾癌 · [github.com/xyb-openharness-dsh-plugins/kidney-workbench](https://github.com/xyb-openharness-dsh-plugins/kidney-workbench)（小肾宝 RenalPal） | 🔵 v0.3.0（2026-10-25 包级装机，G1 已签、M6 开发版完成；[Issue #20](https://github.com/xyb-openharness-dsh-plugins/.github/issues/20)） | 👤🩺 | 术后随访/晚期治疗访谈；保肾决策与肾功能趋势的医学核对 |
@@ -124,6 +126,7 @@
 | 8 | Gastric Cancer | 胃癌 | 2.2025 | 消化 | T1 | [gastric-workbench](https://github.com/xyb-openharness-dsh-plugins/gastric-workbench) | 🟡 v0.1.0 | 👤📝 场景/文案 |
 | 9 | Esophageal and Esophagogastric Junction Cancers | 食管癌和食管胃连接处癌 | 3.2025 | 消化 | T1 | [esophageal-workbench](https://github.com/xyb-openharness-dsh-plugins/esophageal-workbench) | 🟡 v0.1.0 | 👤📝 场景/文案 |
 | 10 | Cervical Cancer | 宫颈癌 | 4.2025 | 妇科 | T1 | [cervical-workbench](https://github.com/xyb-openharness-dsh-plugins/cervical-workbench) | 🟡 v0.1.1 | 团队在编 |
+| 68 | Uterine Neoplasms（子宫内膜癌） | 子宫内膜癌 | 待核验 | 妇科 | T1 | **2026-10-25 新增条目**（妇科肿瘤分支；FIGO 2023 分子分型整合分期） |
 | 11 | Pancreatic Adenocarcinoma | 胰腺腺癌（PDAC） | 2.2025 | 消化 | T1 | [xyb-workbench](https://github.com/xyb-openharness-dsh-plugins/xyb-workbench) · **小胰宝**（PDAC 本体，非挂靠） | 🔵 v0.1.34 | 🩺📝 内容补位 · 💻 家族基线迁移 |
 | 12 | Hodgkin Lymphoma | 霍奇金淋巴瘤 | 2.2025 | 血液 | T3（挂淋巴瘤） | lymphoma-workbench | ⚪ 规划中 | 📝 |
 | 13 | T-Cell Lymphomas | T 细胞淋巴瘤 | 2.2025 | 血液 | T3（挂淋巴瘤） | lymphoma-workbench | ⚪ 规划中 | 📝 |
