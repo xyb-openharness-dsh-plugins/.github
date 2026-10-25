@@ -197,7 +197,7 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 
 **153 个目标不是 153 次全流程**：按 `T0 家族样板 / T1 标准 / T2 模板化 / T3 挂靠 / T4 观察池` 分级，按波次推进，每波结束留 1–2 周回流窗口把经验沉淀进脚手架。详见 [PROGRAM-PLAN.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/PROGRAM-PLAN.md)。
 
-**已启动 38 个工作台**（截至 2026-10-25：28 个癌种线 + 9 个罕见病 + 1 个跨病种心理支持；🔵 开发中 / 🟡 设计中 / 🟢 社区可用，完整状态与认领方式见 [BACKLOG.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md)）：
+**已启动 38 个工作台**（截至 2026-10-26：28 个癌种线 + 9 个罕见病 + 1 个跨病种心理支持；🔵 开发中 / 🟡 设计中 / 🟢 社区可用，完整状态与认领方式见 [BACKLOG.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md)）：
 
 | 病种工作台 | 进度 | 仓库 |
 | --- | --- | --- |
@@ -224,18 +224,18 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 | 头颈癌 · 小嗓宝 VoicePal（T0 样板，10-25 认领） | 🔵 v0.1.6 | [head-neck-workbench](https://github.com/xyb-openharness-dsh-plugins/head-neck-workbench) |
 | 软组织肉瘤（T0 样板，10-25 认领） | 🟡 v0.1.0 | [sarcoma-workbench](https://github.com/xyb-openharness-dsh-plugins/sarcoma-workbench) |
 | 多发性骨髓瘤 · 小浆宝 MyeloPal（10-25 认领） | 🟡 v0.1.0 | [myeloma-workbench](https://github.com/xyb-openharness-dsh-plugins/myeloma-workbench) |
-| 子宫内膜癌 · 小膜宝 EndoPal（10-25 认领） | 🔵 v0.1.0 | [endometrial-workbench](https://github.com/xyb-openharness-dsh-plugins/endometrial-workbench) |
+| 子宫内膜癌 · 小膜宝 EndoPal（10-25 认领） | 🔵 v0.3.2 | [endometrial-workbench](https://github.com/xyb-openharness-dsh-plugins/endometrial-workbench) |
 | 慢性粒细胞白血病 · 小粒宝 GranPal（T0 血液样板，10-25 认领） | 🟡 v0.1.0 | [cml-workbench](https://github.com/xyb-openharness-dsh-plugins/cml-workbench) |
-| CLL/SLL · 小淋宝 LymPal（10-25 认领） | 🟡 v0.1.0 | [cll-workbench](https://github.com/xyb-openharness-dsh-plugins/cll-workbench) |
+| CLL/SLL · 小淋宝 LymPal（10-25 认领） | 🔵 v0.7.0 | [cll-workbench](https://github.com/xyb-openharness-dsh-plugins/cll-workbench) |
 | 神经内分泌和肾上腺肿瘤 · 小肽宝（10-25 认领） | 🟡 v0.1.0 | [neuroendocrine-workbench](https://github.com/xyb-openharness-dsh-plugins/neuroendocrine-workbench) |
 | 妊娠滋养细胞肿瘤 · 小葡宝 GraPal（10-25 认领） | 🔵 v0.5.0 | [gtn-workbench](https://github.com/xyb-openharness-dsh-plugins/gtn-workbench) |
 | 罕见病样板 · FSHD 小飞侠 | 🟡 v0.1.1 | [fshd-workbench](https://github.com/xyb-openharness-dsh-plugins/fshd-workbench) |
 | 罕见病 · ATTR 淀粉宝宝 ATTR-Pal（10-21 认领） | 🔵 v0.3.1（真机装机迭代中） | [attr-workbench](https://github.com/xyb-openharness-dsh-plugins/attr-workbench) |
 | 肢端肥大症 · 小肢宝 LimbPal（R2 样板，10-25 认领） | 🔵 v0.2.3 | [acromegaly-workbench](https://github.com/xyb-openharness-dsh-plugins/acromegaly-workbench) |
 | ANCA 相关血管炎 · 小脉宝 VasPal（10-25 认领） | 🟡 v0.1.0 | [anca-vasculitis-workbench](https://github.com/xyb-openharness-dsh-plugins/anca-vasculitis-workbench) |
-| 原发性胆汁性胆管炎 · 小管宝 DuctPal（10-25 认领） | 🔵 v0.2.5 | [pbc-workbench](https://github.com/xyb-openharness-dsh-plugins/pbc-workbench) |
+| 原发性胆汁性胆管炎 · 小管宝 DuctPal（10-25 认领） | 🟡 v0.2.7（G1–G3 待签认） | [pbc-workbench](https://github.com/xyb-openharness-dsh-plugins/pbc-workbench) |
 | PF-ILD · 小呼宝 BreathPal（10-25 认领） | 🔵 v0.2.1（G1 已签） | [pf-ild-workbench](https://github.com/xyb-openharness-dsh-plugins/pf-ild-workbench) |
-| 神经纤维瘤病 · 小纤宝 FibroPal（10-25 认领） | 🟡 v0.1.2 | [neurofibromatosis-workbench](https://github.com/xyb-openharness-dsh-plugins/neurofibromatosis-workbench) |
+| 神经纤维瘤病 · 小纤宝 FibroPal（10-25 认领） | 🔵 v0.1.4 | [neurofibromatosis-workbench](https://github.com/xyb-openharness-dsh-plugins/neurofibromatosis-workbench) |
 | 发作性睡病（10-25 认领） | ⚪ 已认领 · 建仓待开工 | （空仓占位） |
 | 重型地中海贫血（10-25 认领） | ⚪ 已认领 · 建仓待开工 | （空仓占位） |
 | 心理支持 · 小心宝（跨病种共用模块） | 🟢 v0.3.14 | [xiaoxinbao-workbench](https://github.com/xyb-openharness-dsh-plugins/xiaoxinbao-workbench) |
