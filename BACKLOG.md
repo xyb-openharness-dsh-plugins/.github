@@ -108,7 +108,7 @@
 | 胆道癌 · biliary-tract-workbench（本地脚手架，远端仓待建） | 🟡 v0.1.0（2026-10-24 认领） | 👤🩺📝 | 3–5 位患者/家属访谈，把场景排出来 |
 | 肾癌 · [github.com/xyb-openharness-dsh-plugins/kidney-workbench](https://github.com/xyb-openharness-dsh-plugins/kidney-workbench)（小肾宝 RenalPal） | 🔵 v0.3.0（2026-10-25 包级装机，G1 已签、M6 开发版完成；[Issue #20](https://github.com/xyb-openharness-dsh-plugins/.github/issues/20)） | 👤🩺 | 术后随访/晚期治疗访谈；保肾决策与肾功能趋势的医学核对 |
 | 慢性粒细胞白血病（CML）· [cml-workbench](https://github.com/xyb-openharness-dsh-plugins/cml-workbench)（小粒宝 GranPal · T0 血液样板） | 🟡 v0.1.0（2026-10-25 认领，[Issue #31](https://github.com/xyb-openharness-dsh-plugins/.github/issues/31)） | 👤🩺 | TKI 线序与随访节奏访谈；血液学/细胞遗传学/分子学三层反应口径核对 |
-| 慢性淋巴细胞白血病（CLL/SLL）· [cll-workbench](https://github.com/xyb-openharness-dsh-plugins/cll-workbench)（小淋宝 LymPal） | 🟡 v0.1.0（2026-10-25 认领，[Issue #45](https://github.com/xyb-openharness-dsh-plugins/.github/issues/45)） | 👤🩺📝 | 「观察等待」阶段的心理与记录场景；治疗指征术语人话化 |
+| 慢性淋巴细胞白血病（CLL/SLL）· [cll-workbench](https://github.com/xyb-openharness-dsh-plugins/cll-workbench)（小淋宝 LymPal） | 🔵 v0.2.0（2026-10-25 认领；当日 M0–M7 走完并发布 v0.2.0 tag+Release 附 tgz+sha256，装机 v0.2.0 进 DSH Desktop web profile、安装副本 smoke-activate PASS、41 测试/audit 37/37；**真机人眼走查待用户打开工作台**；[Issue #45](https://github.com/xyb-openharness-dsh-plugins/.github/issues/45)） | 👤🩺📝 | 「观察等待」阶段的心理与记录场景；治疗指征术语人话化 |
 | 神经内分泌肿瘤 · [neuroendocrine-workbench](https://github.com/xyb-openharness-dsh-plugins/neuroendocrine-workbench)（小肽宝） | 🟡 v0.1.0（2026-10-25 认领，[Issue #42](https://github.com/xyb-openharness-dsh-plugins/.github/issues/42)） | 👤🩺📝 | 类癌综合征与激素分泌场景访谈；胃肠胰 NET 分级术语核对 |
 | 妊娠滋养细胞肿瘤（GTN）· [gtn-workbench](https://github.com/xyb-openharness-dsh-plugins/gtn-workbench)（小葡宝 GraPal） | 🔵 v0.5.0（2026-10-25 认领，[Issue #38](https://github.com/xyb-openharness-dsh-plugins/.github/issues/38)；hCG 趋势与指标管理已实现） | 👤🩺📝 | 生育保育决策场景访谈；hCG 随访口径医学核对 |
 | 原发性胆汁性胆管炎（PBC）· [pbc-workbench](https://github.com/xyb-openharness-dsh-plugins/pbc-workbench)（小管宝 DuctPal） | 🔵 v0.2.5（2026-10-25 认领，[Issue #35](https://github.com/xyb-openharness-dsh-plugins/.github/issues/35)） | 👤🩺 | 熊去氧胆酸随访与碱性磷酸酶/胆红素趋势核对；乏力瘙痒场景访谈 |
@@ -160,7 +160,7 @@
 | 21 | Acute Myeloid Leukemia | 急性髓系白血病 | 2.2025 | T1 | | 👤🩺💻 |
 | 22 | Acute Lymphoblastic Leukemia | 急性淋巴细胞白血病 | 2.2025 | T1 | | 👤🩺💻 |
 | 23 | Multiple Myeloma | 多发性骨髓瘤 | 2.2026 | T1 · 🟡 [myeloma-workbench](https://github.com/xyb-openharness-dsh-plugins/myeloma-workbench) v0.1.0（10-25 认领，小浆宝 MyeloPal） | 与罕见病 #85 共用族基线 | 👤🩺 补位 |
-| 24 | Chronic Lymphocytic Leukemia/SLL | 慢性淋巴细胞白血病/小淋巴细胞淋巴瘤 | 3.2025 | T1 · 🟡 [cll-workbench](https://github.com/xyb-openharness-dsh-plugins/cll-workbench) v0.1.0（10-25 认领，小淋宝 LymPal） | | 👤🩺📝 补位 |
+| 24 | Chronic Lymphocytic Leukemia/SLL | 慢性淋巴细胞白血病/小淋巴细胞淋巴瘤 | 3.2025 | T1 · 🔵 [cll-workbench](https://github.com/xyb-openharness-dsh-plugins/cll-workbench) v0.2.0（10-25 认领并发布：tag+Release 附 tgz，装机 v0.2.0 进 Desktop web profile，41 测试/audit 37/37；真机人眼走查待确认） | | 👤🩺📝 补位 |
 | 25 | Myelodysplastic Syndromes | 骨髓增生异常综合征 | 2.2025 | T2 | | 👤🩺📝 |
 | 26 | Myeloproliferative Neoplasms | 骨髓增生性肿瘤 | 2.2025 | T2 | 罕见病 #62/#67 挂此 | 👤🩺📝 |
 | 27 | Hairy Cell Leukemia | 毛细胞白血病 | 1.2025 | T2 | | 📝 |
