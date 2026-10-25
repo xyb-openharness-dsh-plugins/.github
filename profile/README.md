@@ -197,25 +197,51 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 
 **153 个目标不是 153 次全流程**：按 `T0 家族样板 / T1 标准 / T2 模板化 / T3 挂靠 / T4 观察池` 分级，按波次推进，每波结束留 1–2 周回流窗口把经验沉淀进脚手架。详见 [PROGRAM-PLAN.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/PROGRAM-PLAN.md)。
 
+**已启动 38 个工作台**（截至 2026-10-25：28 个癌种线 + 9 个罕见病 + 1 个跨病种心理支持；🔵 开发中 / 🟡 设计中 / 🟢 社区可用，完整状态与认领方式见 [BACKLOG.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md)）：
+
 | 病种工作台 | 进度 | 仓库 |
 | --- | --- | --- |
-| 乳腺癌 · PinkyPal 小粉宝 | 🔵 开发中（v0.8.0，G1–G3 已过） | [breast-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/breast-cancer-workbench) |
-| 淋巴瘤 · LymBell 小铃铛 | 🔵 开发中（v0.3.0） | [lymphoma-workbench](https://github.com/xyb-openharness-dsh-plugins/lymphoma-workbench) |
-| 卵巢癌 | 🔵 开发中（v0.1.51） | [ovarian-workbench](https://github.com/xyb-openharness-dsh-plugins/ovarian-workbench) |
-| 肺癌 · 小肺宝（NSCLC + SCLC 已合并） | 🔵 RC（v0.1.2-rc.16） | [lung-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/lung-cancer-workbench) |
-| 胰腺癌 PDAC · 小胰宝（历史旗舰，未走脚手架） | 🔵 v0.1.29 | [xyb-workbench](https://github.com/xyb-openharness-dsh-plugins/xyb-workbench) |
-| 结直肠癌 · 小畅宝（消化族样板） | 🔵 v0.1.0 开发版已推送（待 DSH 装机验证） | [colorectal-workbench](https://github.com/xyb-openharness-dsh-plugins/colorectal-workbench) |
-| 胃癌 · 小胃宝 | 🔵 v0.1.0 开发版已发布（tag v0.1.0，待 DSH 装机验证） | [gastric-workbench](https://github.com/xyb-openharness-dsh-plugins/gastric-workbench) |
-| 食管癌 · 小咽宝 | 🟡 v0.1.0 | [esophageal-workbench](https://github.com/xyb-openharness-dsh-plugins/esophageal-workbench) |
-| 宫颈癌 · 小莲宝 | 🟡 v0.1.0 | [cervical-workbench](https://github.com/xyb-openharness-dsh-plugins/cervical-workbench) |
-| 肛管癌 · AnalPal 小萌宝（2026-10-21 认领） | 🟡 v0.1.1 | [anal-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/anal-cancer-workbench) |
-| 胃肠间质瘤 GIST · GistPal 小吉宝（2026-10-21 认领） | 🟡 v0.1.0 | [gist-workbench](https://github.com/xyb-openharness-dsh-plugins/gist-workbench) |
-| 罕见病形态样板 · FSHD 小飞侠 | 🟡 v0.1.1 | [fshd-workbench](https://github.com/xyb-openharness-dsh-plugins/fshd-workbench) |
-| 罕见病 · ATTR 淀粉宝宝（2026-10-21 认领） | 🟡 v0.1.0 | [attr-workbench](https://github.com/xyb-openharness-dsh-plugins/attr-workbench) |
-| 心理支持（跨病种共用模块） | 🟢 v0.3.14 | [xiaoxinbao-workbench](https://github.com/xyb-openharness-dsh-plugins/xiaoxinbao-workbench) |
-| 其余主要癌种 + 84 项罕见病 | ⬜ **招募认领中**（完整分级与招募对象见 BACKLOG） | [BACKLOG.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md) |
+| 乳腺癌 · 小粉宝 PinkyPal | 🔵 v0.12.0（G1–G3 已过） | [breast-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/breast-cancer-workbench) |
+| 淋巴瘤 · 小铃铛 LymBell | 🔵 v0.3.0 | [lymphoma-workbench](https://github.com/xyb-openharness-dsh-plugins/lymphoma-workbench) |
+| 卵巢癌 · 小巢宝 | 🔵 v0.1.51 | [ovarian-workbench](https://github.com/xyb-openharness-dsh-plugins/ovarian-workbench) |
+| 肺癌 · 小肺宝（NSCLC + SCLC 已合并） | 🔵 v0.1.2-rc.16 | [lung-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/lung-cancer-workbench) |
+| 胰腺癌 PDAC · 小胰宝（历史旗舰） | 🔵 v0.1.34 | [xyb-workbench](https://github.com/xyb-openharness-dsh-plugins/xyb-workbench) |
+| 结直肠癌 · 小畅宝 Colopal（消化族样板） | 🟡 v0.1.0 | [colorectal-workbench](https://github.com/xyb-openharness-dsh-plugins/colorectal-workbench) |
+| 胃癌 · 小胃宝 Stompal | 🟡 v0.1.0 | [gastric-workbench](https://github.com/xyb-openharness-dsh-plugins/gastric-workbench) |
+| 食管癌 · 小咽宝 EsopPal | 🟡 v0.1.0 | [esophageal-workbench](https://github.com/xyb-openharness-dsh-plugins/esophageal-workbench) |
+| 宫颈癌 · 小莲宝 CerviPal | 🟡 v0.1.1 | [cervical-workbench](https://github.com/xyb-openharness-dsh-plugins/cervical-workbench) |
+| 肛管癌 · 小萌宝 AnalPal（10-21 认领） | 🔵 v0.2.0（G2 已签） | [anal-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/anal-cancer-workbench) |
+| 胃肠间质瘤 · 小吉宝 GistPal（10-21 认领） | 🟡 v0.1.0 | [gist-workbench](https://github.com/xyb-openharness-dsh-plugins/gist-workbench) |
+| 肝细胞癌 · 小甘宝 HepPal（10-24 认领） | 🔵 v0.3.6（G1–G3 已签认） | [liver-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/liver-cancer-workbench) |
+| 胆道癌（10-24 认领） | 🟡 v0.1.0（本地脚手架，远端仓待建） | — |
+| 胶质母细胞瘤 · 小星宝 StarPal（10-24 认领，独立建仓） | 🔵 v0.1.5 | [glioblastoma-workbench](https://github.com/xyb-openharness-dsh-plugins/glioblastoma-workbench) |
+| 恶性胸膜间皮瘤（10-24 认领） | 🔵 v0.1.4 | [mesothelioma-workbench](https://github.com/xyb-openharness-dsh-plugins/mesothelioma-workbench) |
+| 膀胱癌 · 小泉宝 UroPal（10-23 认领） | 🔵 v0.1.0（G1–G3 已签） | [bladder-workbench](https://github.com/xyb-openharness-dsh-plugins/bladder-workbench) |
+| 前列腺癌（T0 泌尿样板，10-22 认领） | 🟡 v0.1.0 | [prostate-workbench](https://github.com/xyb-openharness-dsh-plugins/prostate-workbench) |
+| 甲状腺癌（10-24 认领） | 🔵 v0.2.1 | [thyroid-workbench](https://github.com/xyb-openharness-dsh-plugins/thyroid-workbench) |
+| 肾癌 · 小肾宝 RenalPal（10-22 认领） | 🔵 v0.3.0（G1 已签） | [kidney-workbench](https://github.com/xyb-openharness-dsh-plugins/kidney-workbench) |
+| 皮肤黑色素瘤 · 小痣宝 MolePal（T0 样板，10-25 认领） | 🔵 v0.3.1 | [melanoma-workbench](https://github.com/xyb-openharness-dsh-plugins/melanoma-workbench) |
+| 头颈癌 · 小嗓宝 VoicePal（T0 样板，10-25 认领） | 🔵 v0.1.6 | [head-neck-workbench](https://github.com/xyb-openharness-dsh-plugins/head-neck-workbench) |
+| 软组织肉瘤（T0 样板，10-25 认领） | 🟡 v0.1.0 | [sarcoma-workbench](https://github.com/xyb-openharness-dsh-plugins/sarcoma-workbench) |
+| 多发性骨髓瘤 · 小浆宝 MyeloPal（10-25 认领） | 🟡 v0.1.0 | [myeloma-workbench](https://github.com/xyb-openharness-dsh-plugins/myeloma-workbench) |
+| 子宫内膜癌 · 小膜宝 EndoPal（10-25 认领） | 🔵 v0.1.0 | [endometrial-workbench](https://github.com/xyb-openharness-dsh-plugins/endometrial-workbench) |
+| 慢性粒细胞白血病 · 小粒宝 GranPal（T0 血液样板，10-25 认领） | 🟡 v0.1.0 | [cml-workbench](https://github.com/xyb-openharness-dsh-plugins/cml-workbench) |
+| CLL/SLL · 小淋宝 LymPal（10-25 认领） | 🟡 v0.1.0 | [cll-workbench](https://github.com/xyb-openharness-dsh-plugins/cll-workbench) |
+| 神经内分泌和肾上腺肿瘤 · 小肽宝（10-25 认领） | 🟡 v0.1.0 | [neuroendocrine-workbench](https://github.com/xyb-openharness-dsh-plugins/neuroendocrine-workbench) |
+| 妊娠滋养细胞肿瘤 · 小葡宝 GraPal（10-25 认领） | 🔵 v0.5.0 | [gtn-workbench](https://github.com/xyb-openharness-dsh-plugins/gtn-workbench) |
+| 罕见病样板 · FSHD 小飞侠 | 🟡 v0.1.1 | [fshd-workbench](https://github.com/xyb-openharness-dsh-plugins/fshd-workbench) |
+| 罕见病 · ATTR 淀粉宝宝 ATTR-Pal（10-21 认领） | 🔵 v0.3.1（真机装机迭代中） | [attr-workbench](https://github.com/xyb-openharness-dsh-plugins/attr-workbench) |
+| 肢端肥大症 · 小肢宝 LimbPal（R2 样板，10-25 认领） | 🔵 v0.2.3 | [acromegaly-workbench](https://github.com/xyb-openharness-dsh-plugins/acromegaly-workbench) |
+| ANCA 相关血管炎 · 小脉宝 VasPal（10-25 认领） | 🟡 v0.1.0 | [anca-vasculitis-workbench](https://github.com/xyb-openharness-dsh-plugins/anca-vasculitis-workbench) |
+| 原发性胆汁性胆管炎 · 小管宝 DuctPal（10-25 认领） | 🔵 v0.2.5 | [pbc-workbench](https://github.com/xyb-openharness-dsh-plugins/pbc-workbench) |
+| PF-ILD · 小呼宝 BreathPal（10-25 认领） | 🔵 v0.2.1（G1 已签） | [pf-ild-workbench](https://github.com/xyb-openharness-dsh-plugins/pf-ild-workbench) |
+| 神经纤维瘤病 · 小纤宝 FibroPal（10-25 认领） | 🟡 v0.1.2 | [neurofibromatosis-workbench](https://github.com/xyb-openharness-dsh-plugins/neurofibromatosis-workbench) |
+| 发作性睡病（10-25 认领） | ⚪ 已认领 · 建仓待开工 | （空仓占位） |
+| 重型地中海贫血（10-25 认领） | ⚪ 已认领 · 建仓待开工 | （空仓占位） |
+| 心理支持 · 小心宝（跨病种共用模块） | 🟢 v0.3.14 | [xiaoxinbao-workbench](https://github.com/xyb-openharness-dsh-plugins/xiaoxinbao-workbench) |
+| 其余主要癌种 + 罕见病 | ⬜ **招募认领中**（完整分级与招募对象见 BACKLOG） | [BACKLOG.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md) |
 
-> 🔥 **现在最缺人的 12 个**（ATTR 已认领，其余 11 个仍在招募）：[BACKLOG §〇 优先招募榜](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md#〇现在最缺人优先招募榜) 按「帮扶人群规模 · 信息差 · 危重与时间压力」三维挑选，每项写明**缺什么角色**（👤 患者家属 / 🩺 临床 / 💻 开发 / 📝 内容 / 🤝 病友组织 / 👨‍👩‍👧 患儿家长）和**第一步能做什么**，并附一键认领链接。
+> 🔥 **优先招募榜 12 项已全部认领（截至 2026-10-25）**：[BACKLOG §〇 优先招募榜](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md#〇现在最缺人优先招募榜) 按「帮扶人群规模 · 信息差 · 危重与时间压力」三维挑选的 12 个目标已在 10-21 → 10-25 全部有主。当前最缺的是**已开工工作台的 🩺 医学核对与 👤 患者访谈补位**，以及尚未启动病种的新认领（W2 其余血液肿瘤、W4 皮肤/胸腺、R2/R3 大部分仍 ⬜）。缺什么角色（👤 患者家属 / 🩺 临床 / 💻 开发 / 📝 内容 / 🤝 病友组织 / 👨‍👩‍👧 患儿家长）与第一步能做什么，见 [BACKLOG.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md)。
 >
 > 🤝 **诚邀加入**：无论你是开发者、临床/研究者、病友组织志愿者还是写作者，都可以认领一个病种或一个模块。四种投入档位（整仓 / 模块 / 内容访谈 / 脚手架）见 **[CONTRIBUTING-WORKBENCH.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/CONTRIBUTING-WORKBENCH.md)**，从 Issue 模板开始。**不需要写代码也能贡献**——一次真实经历访谈、一份就诊问题清单都在缺。所有工作台只做信息整理，不做诊断建议。
 >
@@ -226,7 +252,7 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 ## 文档导航
 
 - **快速开始**：见上方 [快速开始](#快速开始)
-- **项目画廊**（14 个项目的原型截图与能力说明）：[PROJECTS.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/PROJECTS.md)
+- **项目画廊**（首批 14 个项目的原型截图与能力说明；其后新开工 20+ 个见各病种认领 Issue 与 [BACKLOG.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md)）：[PROJECTS.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/PROJECTS.md)
 - **插件开发指南**：见下方 [插件开发](#插件开发)
 - **患者工作台脚手架**：[xyb-workbench-starter](https://github.com/xyb-openharness-dsh-plugins/xyb-workbench-starter)
 - **患者工作台路线图与病种认领**：[ROADMAP.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/ROADMAP.md)
