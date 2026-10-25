@@ -215,7 +215,7 @@
 | 54 | Bone Cancer | 骨癌 | 2.2025 | T1 | 罕见病 #36/#57 挂此 | ⚪ 规划中 | 👤🩺📝 |
 | 55 | Gastrointestinal Stromal Tumors | 胃肠道间质瘤 | 1.2025 | T1 | = 罕见病 #32 · [gist-workbench](https://github.com/xyb-openharness-dsh-plugins/gist-workbench) | 🟡 v0.1.0（2026-10-21 认领） | 👤🩺 补位 |
 | 56 | Uterine Neoplasms | 子宫肿瘤 | 3.2025 | T1 | | ⚪ 规划中 | 👤🩺📝 |
-| 57 | Gestational Trophoblastic Neoplasia | 妊娠滋养细胞肿瘤 | 3.2025 | T1 | 生育与随访强相关 | 🔵 v0.4.0（2026-10-25 认领 issue #38 并发布 v0.4.0 tag+Release；M0–M7 完成，装机层四要素+profile 双登记已验，界面加载待用户新建会话确认） | 👤🩺📝 |
+| 57 | Gestational Trophoblastic Neoplasia | 妊娠滋养细胞肿瘤 | 3.2025 | T1 | 生育与随访强相关 | 🔵 v0.5.0（2026-10-25 认领 issue #38；v0.4.0 走完 M0–M7，v0.5.0 按用户反馈补 12 页菜单/3D 指标卡/营养心理/三档临床匹配/检查与指标二级页签+指标管理；装机层已验 0.5.0，界面加载待用户新建会话确认） | 👤🩺📝 |
 | 58 | Vaginal Cancer | 阴道癌 | 5.2025 | T2 | | ⚪ 规划中 | 📝 |
 | 59 | Vulvar Cancer | 外阴癌 | 1.2025 | T2 | | ⚪ 规划中 | 📝 |
 
