@@ -158,7 +158,7 @@
 | # | NCCN 病种 | 中文 | 版本 | 级别 | 说明 | 招募对象 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 20 | Chronic Myeloid Leukemia | 慢性粒细胞白血病 | 1.2026 | **T0 血液样板** · 🟡 [cml-workbench](https://github.com/xyb-openharness-dsh-plugins/cml-workbench) v0.1.0（10-25 认领，小粒宝 GranPal） | 最简、路径最清晰，适合开荒 | 👤🩺 补位 |
-| 21 | Acute Myeloid Leukemia | 急性髓系白血病 | 2.2025 | T1 | 🔵 [aml-workbench](https://github.com/xyb-openharness-dsh-plugins/aml-workbench) v0.3.1（2026-10-26 认领开发，[Issue #48](https://github.com/xyb-openharness-dsh-plugins/.github/issues/48)；G1 决策定稿/G2·G3 待签；V1 过+V2 装机，V3 真机待走查；家族首创 dayGrid 按天历 + hourLane 小时轨道） | 👤🩺（开发位已满） |
+| 21 | Acute Myeloid Leukemia | 急性髓系白血病 | 2.2025 | T1 | 🔵 [aml-workbench](https://github.com/xyb-openharness-dsh-plugins/aml-workbench) v0.4.0（2026-10-26 认领开发，[Issue #48](https://github.com/xyb-openharness-dsh-plugins/.github/issues/48)；G1 决策定稿/G2·G3 待签；V1 过+V2 装机，V3 真机待走查；家族首创 dayGrid 按天历 + hourLane 小时轨道；0.4.0 真机反馈轮：临床研究一级菜单按 35 号三步 + 通用写族） | 👤🩺（开发位已满） |
 | 22 | Acute Lymphoblastic Leukemia | 急性淋巴细胞白血病 | 2.2025 | T1 | | 👤🩺💻 |
 | 23 | Multiple Myeloma | 多发性骨髓瘤 | 2.2026 | T1 · 🟡 [myeloma-workbench](https://github.com/xyb-openharness-dsh-plugins/myeloma-workbench) v0.1.0（10-25 认领，小浆宝 MyeloPal） | 与罕见病 #85 共用族基线 | 👤🩺 补位 |
 | 24 | Chronic Lymphocytic Leukemia/SLL | 慢性淋巴细胞白血病/小淋巴细胞淋巴瘤 | 3.2025 | T1 · 🔵 [cll-workbench](https://github.com/xyb-openharness-dsh-plugins/cll-workbench) v0.7.0（10-25 认领，小淋宝 LymPal） | | 👤🩺📝 补位 |
