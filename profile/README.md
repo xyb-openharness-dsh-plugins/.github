@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/OpenSource-公益开源-blue" alt="Open Source" />
   <img src="https://img.shields.io/badge/Built%20on-DSH%20Desktop-green" alt="Built on DSH" />
   <img src="https://img.shields.io/badge/Community-Plugin%20Ecosystem-purple" alt="Community Plugin Ecosystem" />
-  <img src="https://img.shields.io/badge/License-按各仓库许可-lightgrey" alt="License" />
+  <img src="https://img.shields.io/badge/License-MIT%20(per%20repo)-green" alt="License" />
 </p>
 
 <h1 align="center">
@@ -60,12 +60,22 @@
   <a href="#联系方式">联系我们</a>
 </p>
 
+> [!IMPORTANT]
+> **当前发布版本不是“全部病种开箱即用”。**
+> 罕见病与部分社区尚未覆盖的癌种，仍在骨架、设计或招募阶段；已发布工作台的成熟度也不一致。
+> 首个版本的目标不是交付成品，而是给**熟悉病情管理逻辑、愿意一起做的罕见病社区伙伴、开发者、患者家属、志愿者**一个可上手的台阶，一起把产品做得更好。
+> 先看 [PROJECTS.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/PROJECTS.md) 与 [BACKLOG.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md) 确认病种状态，再选择试用、认领或共建。
+
 ---
 
 ## 目录
 
 - [项目概述](#项目概述)
+- [当前版本边界与共建邀请](#当前版本边界与共建邀请)
+- [适合谁](#适合谁)
 - [主要特性](#主要特性)
+- [架构一览](#架构一览)
+- [我们最需要的能力（招募）](#我们最需要的能力招募)
 - [快速开始](#快速开始)
   - [系统要求](#系统要求)
   - [安装](#安装dsh-desktop推荐路径)
@@ -101,6 +111,63 @@
 
 ---
 
+## 当前版本边界与共建邀请
+
+### 先说清楚：不是全部病种都开箱即用
+
+- **罕见病与部分社区尚未覆盖的癌种**：仍在骨架、设计或招募阶段，功能与内容不完整。
+- **已发布工作台**：成熟度也不一致；有的可以日常使用，有的只是可点通的初版。
+- **不同工作台**：数据模型、字段、导入/解析能力可能不同；以各自 README 与 [PROJECTS.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/PROJECTS.md) / [BACKLOG.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md) 的状态为准。
+
+### 成熟度标记
+
+| 标记 | 含义 |
+| --- | --- |
+| 🟢 | 社区初期版本可用：核心流程可走通，已有社区使用，仍在持续迭代 |
+| 🔵 | 开发中：主要功能已落地，仍在真机迭代 |
+| 🟡 | 设计中 / 初版：骨架或原型，流程尚未完整 |
+| ⚪ | 已认领，待开工 |
+| ⬜ | 招募中：尚无固定维护者 |
+
+### 产品能力约束（先读）
+
+- **不是医疗器械**：不做诊断、治疗建议或疗效判断，不替代医院系统与医生。
+- **解析成功 ≠ 结构化成功**：MinerU/OCR 受原件质量、Token/同意、文档类型影响；可能 0 候选，需要看解析文本或人工补录。
+- **AI 只做“读并提议候选”**：不直接写事实库；接受/修改/拒绝由人完成。
+- **AI 自动入库尚未闭环**：公开会话合同只有草稿与发送，没有完成回复事件；当前是“手动导入/粘贴回复”，宿主补 `completed` 事件后才做自动解析。
+- **知识库、批量导入、多文件、AI 抽取仍在迭代**：不是所有工作台都有。
+- **数据默认本机**：云解析/外部 API 需用户同意，并说明发送范围。
+- **病种覆盖不完整**：不要把它当成“所有病种都能直接用”的产品。
+
+### 首个版本的目标：给共建者一个台阶
+
+我们希望它不是“成品发布会”，而是一个**可上手的台阶**：
+
+- **罕见病社区伙伴**：带着病种知识来，补流程、字段、话术和真实场景。
+- **开发者**：补模块、接 OCR/MinerU/知识库/API，修 bug。
+- **患者家属 / 志愿者**：试用、访谈、校对内容、组织培训；不需要写代码也能贡献。
+- **医护 / 研究者**：校对医学逻辑，指出不该做、不能做的边界。
+
+从哪里开始：[PROJECTS.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/PROJECTS.md) 看已开工病种 → [BACKLOG.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md) 看缺口与认领 → [CONTRIBUTING.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/CONTRIBUTING.md) 选路径 → [CONTRIBUTING-WORKBENCH.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/CONTRIBUTING-WORKBENCH.md) 看闸口与 PR 自检。
+
+---
+
+## 适合谁
+
+| 人群 | 适合做什么 | 说明 |
+| --- | --- | --- |
+| **有一定技术能力的患者/家属** | 自建档案、导入病历、整理指标、准备就诊问题 | 默认推荐；需要会选资料目录、安装插件 |
+| **社区志愿者** | 经过集中培训后，帮助病友建档、导入、核对 | 重点人群；培训后可批量帮扶，降低患者上手门槛 |
+| **医护团队** | 二次开发、校对字段与流程、病种差异化 | 不做诊疗决策，只做资料整理与就诊准备 |
+| **代诊/陪诊人员** | 帮患者把资料整理成就诊材料 | 需患者授权；遵守隐私与数据保护要求 |
+| **病友组织/运营团队** | 认领病种、组织内容访谈、培训与试用 | 不需要写代码也能贡献；见 [CONTRIBUTING-WORKBENCH.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/CONTRIBUTING-WORKBENCH.md) |
+
+许可：本组织推荐/默认 **MIT**；历史仓库以各自 `LICENSE` 为准。
+
+> 工作台只做信息整理与就诊准备，**不提供诊断、治疗建议或疗效判断**。
+
+---
+
 ## 主要特性
 
 1. **DSH Desktop 工作台** —— 通过桌面宿主承载病种业务面板与插件能力。
@@ -109,6 +176,58 @@
 4. **病历与指标整理** —— 围绕病程、检查资料和就诊问题建设整理能力；具体支持范围以各工作台说明与验证状态为准。
 5. **可扩展插件机制** —— 通过 `cordis.patch.yml` 的 `insert` 入口或 DSH 的插件安装入口接入第三方插件；在 DSH Desktop 内一律走 app 的工作台市场 / 已安装列表，不另起 Web 界面。
 6. **多语言与本地化** —— 内置中文本地化，文档与界面支持持续扩展更多语言。
+
+---
+
+## 架构一览
+
+**工作台为核心，向下接基础能力，向上承载端应用；AI 与工作台双向，MinerU 只负责解析。**
+
+```text
+┌────────────────────────────────────────────────────────────────────┐
+│ 端应用层                                                           │
+│   Harness Web UI（Desktop 内；独立 Web 需单独部署）                │
+│   DSH Desktop（工作台面板） · 未来：手机/小程序（依赖宿主 API）     │
+└───────────────────────────────┬────────────────────────────────────┘
+                                │
+┌───────────────────────────────▼────────────────────────────────────┐
+│ 工作台核心                                                         │
+│   壳层：customFrame / 原生会话绑定 / 权限与审计                     │
+│   业务：多档案 · 病程与指标 · 资料整理 · 就诊准备 · 候选核对 · 导出 │
+│         心理支持（陪伴 → 安宁疗护 → 哀伤管理）· 营养支持 · 临床匹配 │
+│         药物查询 · 并发症管理 · 更多场景（持续扩展）                │
+└───────┬───────────────────┬───────────────────┬────────────────────┘
+        │ 双向              │ 原件/批量         │ 检索/索引
+┌───────▼────────┐  ┌───────▼────────┐  ┌───────▼────────┐
+│ AI 集成        │  │ MinerU（外部） │  │ 知识库（本地） │
+│ 原生会话       │  │ OCR/版面/表格  │  │ 文件 + FTS5    │
+│ 后台任务待定   │  │ markdown/JSON  │  │ 未来向量检索   │
+└───────┬────────┘  └───────┬────────┘  └───────┬────────┘
+        │                   │                   │
+┌───────▼───────────────────▼───────────────────▼────────────────────┐
+│ 未来 API：knows API · XYB RAG API · OCR 多通道 · 心理/营养/影像/基因 │
+└────────────────────────────────────────────────────────────────────┘
+```
+
+- **AI ↔ 工作台**：工作台把提示词、已确认事实、检索片段交给原生会话；AI 只回候选/解释，不直接写事实库。
+- **MinerU 链路**：原件 → MinerU 批量解析 → markdown/content_list → `parsed/<docId>.md` + 候选 → 人工确认 → SQLite 事实层。
+- **运行时**：这是逻辑分层，不是进程图；工作台是 profile 内的 DSH 插件——服务端在 Harness 进程，Panel 在 Harness Web UI，业务页在 iframe，原生会话由宿主传入；资料在工作台自己的 workspace。详见 [ARCHITECTURE.md §2.2](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/ARCHITECTURE.md#22-运行时映射工作台作为-dsh-插件)。
+- **数据面**：工作台 SQLite 在用户选择的资料目录（如 `pinkypal.sqlite`），不在 DSH profile，也不在会话库；AI 不直接打开它。
+- **AI 写回**：AI 回复只做候选，经工作台 API + 人工确认后才写 SQLite；默认不提供 SQL/代码写工具，不改前端。
+- 完整架构、AI 写 SQLite 的底层路径见 **[ARCHITECTURE.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/ARCHITECTURE.md)**。
+
+---
+
+## 我们最需要的能力（招募）
+
+| 能力 | 需要谁 | 具体做什么 |
+| --- | --- | --- |
+| **MinerU 融合** | MinerU 原厂 / 解析高手 | 让 PDF/图片/表格抽取更快、更准、更简单：批量解析、表格对齐、跨页结构、失败重试 |
+| **OCR 多通道** | 熟悉 OCR 工具/项目的开发者 | 接入 DeepSeek-OCR2、GLM-OCR、PaddleOCR-VL-1.5、Youtu-Parsing、Indra OCR、macOS Vision、云 OCR 等；统一输出 `text/pageRef/tables`，用户可切换；选型表与魔搭地址见 [CONTRIBUTING §2.2](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/CONTRIBUTING.md#22-其它-ocr-工具与项目多通道) |
+| **罕见病/肿瘤社区开发者与运营** | 病种社区、病友组织、一线患者 | 补病情管理逻辑与细节、校对内容、组织培训与试用；当前版本与真实应用仍有差距 |
+| **开源技术力量与公益 API 提供方** | API/能力提供方 | 心理咨询、营养咨询、医疗知识库、医学影像、基因解读（如 KHUB OpenGene）、knows API、XYB RAG API |
+
+入口：Issue 模板或 [CONTRIBUTING.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/CONTRIBUTING.md)；病种认领见 [BACKLOG.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md)。
 
 ---
 
@@ -197,7 +316,7 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 
 **153 个目标不是 153 次全流程**：按 `T0 家族样板 / T1 标准 / T2 模板化 / T3 挂靠 / T4 观察池` 分级，按波次推进，每波结束留 1–2 周回流窗口把经验沉淀进脚手架。详见 [PROGRAM-PLAN.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/PROGRAM-PLAN.md)。
 
-**已启动 38 个工作台**（截至 2026-10-26：28 个癌种线 + 9 个罕见病 + 1 个跨病种心理支持；🔵 开发中 / 🟡 设计中 / 🟢 社区可用，完整状态与认领方式见 [BACKLOG.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md)）：
+**已启动 38 个工作台**（截至 2026-10-26：28 个癌种线 + 9 个罕见病 + 1 个跨病种心理支持；🔵 开发中 / 🟡 设计中 / 🟢 社区初期版本可用，完整状态与认领方式见 [BACKLOG.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md)）：
 
 | 病种工作台 | 进度 | 仓库 |
 | --- | --- | --- |
@@ -251,6 +370,11 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 
 ## 文档导航
 
+- **架构说明**（三层架构 / AI 双向 / MinerU 链路 / AI 写 SQLite）：[ARCHITECTURE.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/ARCHITECTURE.md)
+- **开发与贡献指南**（环境 / 合同 / 接入能力 / 测试 / 发布）：[DEVELOPMENT.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/DEVELOPMENT.md)
+- **安装与验证**（市场/命令行安装、三层验收、排错）：[INSTALL.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/INSTALL.md)
+- **使用说明**（适合谁 / 第一次使用 / 多档案 / 解析核对）：[USAGE.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/USAGE.md)
+- **贡献入口**（角色 / 四条路径 / 最需要的能力）：[CONTRIBUTING.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/CONTRIBUTING.md)
 - **快速开始**：见上方 [快速开始](#快速开始)
 - **项目画廊**（首批 14 个项目的原型截图与能力说明；其后新开工 20+ 个见各病种认领 Issue 与 [BACKLOG.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md)）：[PROJECTS.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/PROJECTS.md)
 - **插件开发指南**：见下方 [插件开发](#插件开发)
@@ -407,7 +531,7 @@ export function apply(ctx: Context) {
 
 ### 许可证
 
-各仓库的许可范围与条款以其实际公布的许可证为准。本组织首页不代表所有工作台已公开源码或采用统一许可证；使用、修改或分发前，请查看目标仓库的许可说明，未公布时联系维护者确认。
+本组织推荐/默认采用 **MIT** 协议；历史仓库与实际发布包以其各自 `LICENSE` 为准。使用、修改或分发前，请查看目标仓库的许可说明；未单独声明的仓库请联系维护者确认。
 
 ### 免责声明
 
