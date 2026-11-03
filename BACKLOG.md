@@ -303,7 +303,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 2 | 获得性血友病 | 5 | T2 | ⬜ 招募中 | 👤🤝📝 |
 | 3 | 肢端肥大症 | 12 | **T0 R2 样板** | 🔵 [acromegaly-workbench](https://github.com/xyb-openharness-dsh-plugins/acromegaly-workbench) v0.2.3（2026-10-25 认领开工，[Issue #30](https://github.com/xyb-openharness-dsh-plugins/.github/issues/30)；G1–G3 签认、V1 过+V2 装机，V3 真机待走查；0.2.1 用户需求：AI 协助一键发送→沉淀 34 号契约入架） | 👤🤝📝🩺（开发位已满） |
-| 4 | 成人斯蒂尔病 | 17 | T1 | ⬜ 招募中 | 👤🤝📝🩺 |
+| 4 | 成人斯蒂尔病 | 17 | T1 | 🔵 开发中（2026-10-28 认领，[Issue #51](https://github.com/xyb-openharness-dsh-plugins/.github/issues/51)，[aosd-workbench](https://github.com/xyb-openharness-dsh-plugins/aosd-workbench) v0.5.0 开发版已发布；G1 已签、M0–M7 完成，V2/V3 真机待走查） | 👤🤝📝🩺 |
 | 6 | α1-抗胰蛋白酶缺乏症 | 27 | T2 | ⬜ 招募中 | 👤🤝📝 |
 | 7 | ANCA 相关血管炎 | 33 | T1 | 🟡 [anca-vasculitis-workbench](https://github.com/xyb-openharness-dsh-plugins/anca-vasculitis-workbench) v0.1.0（2026-10-25 认领，小脉宝 VasPal，[Issue #44](https://github.com/xyb-openharness-dsh-plugins/.github/issues/44)） | 👤🤝📝🩺 补位 |
 | 9 | 白塞病/贝赫切特综合征 | 50 | T1 | 🔥 优先招募 | 👤🤝📝🩺 |
