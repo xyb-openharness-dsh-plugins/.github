@@ -369,7 +369,7 @@
 | 61 | PIK3CA 相关过度生长综合征 | 360 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 64 | 原发性生长激素缺乏症 | 374 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 65 | 原发性胰岛素样生长因子-1 缺乏症 | 382 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
-| 66 | 原发性免疫缺陷病 | 385 | T1 | 🔥 优先招募 | 👨‍👩‍👧🤝📝🩺 |
+| 66 | 原发性免疫缺陷病 | 385 | T1 | 🔵 [primary-immunodeficiency-workbench](https://github.com/xyb-openharness-dsh-plugins/primary-immunodeficiency-workbench) v0.2.0（2026-11-13 认领开工，[Issue #74](https://github.com/xyb-openharness-dsh-plugins/.github/issues/74)；M0–M6 完成、v0.2.0 已装 Desktop（verify-desktop-load exit 0），试验线裁剪可推翻，V3 真机走查待人工） | 👨‍👩‍👧🤝📝🩺 |
 | 71 | 早产儿视网膜病 | 417 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 72 | Rett 综合征 | 423 | T2 | 🔥 优先招募 | 👨‍👩‍👧🤝📝🩺 |
 | 74 | 全身型幼年特发性关节炎 | 436 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
