@@ -59,7 +59,7 @@
 > 下面 12 个是**按紧迫度挑出来的**，不是按波次顺序。它们在 §一/§二 里也各自出现，这里集中写清楚"为什么急、缺谁、第一步做什么"。
 > 想认领但不确定从哪下手 → 直接从这张表里挑一个。
 > ✅ **截至 2026-10-25：榜内 12 项已全部认领。** 进度最快的一批：肝细胞癌（[liver-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/liver-cancer-workbench) 🔵 v0.3.6，G1–G3 已签认）、ATTR（🔵 v0.3.1，真机装机迭代中）、头颈癌（🔵 v0.1.6 已发布，待装机确认）、胶质母细胞瘤 / 胸膜间皮瘤 / 膀胱癌 / 甲状腺癌 / 皮肤黑色素瘤 / 肢端肥大症（G 签认与装机阶段）、肾癌 / GTN（开发版）；儿童急淋（ALL）已认领、建仓待启动（[Issue #40](https://github.com/xyb-openharness-dsh-plugins/.github/issues/40)）。
-> **招募重点转向两类：① 已开工工作台的 🩺 医学核对与 👤 患者访谈补位（见「已在推进、但缺人的」表）；② 尚未启动病种的新认领**——W2 其余血液肿瘤、W4 皮肤/胸腺、R2/R3 大部分仍在 ⬜。
+> **招募重点转向两类：① 已开工工作台的 🩺 医学核对与 👤 患者访谈补位（见「已在推进、但缺人的」表）；② 尚未启动病种的新认领**——W2 其余血液肿瘤、W4 皮肤/胸腺、R3 大部分仍在 ⬜（R2 已大部认领，余 9 项）。
 
 ### 癌种（9）
 
@@ -301,36 +301,36 @@
 
 | # | 疾病 | 页 | 级别 | 状态 | 招募对象 |
 | --- | --- | --- | --- | --- | --- |
-| 2 | 获得性血友病 | 5 | T2 | ⬜ 招募中 | 👤🤝📝 |
+| 2 | 获得性血友病 | 5 | T2 | ✅ 已认领开工 · 2026-11-11（acquired-hemophilia-workbench · 认领 Issue #71） | 👤🤝📝 |
 | 3 | 肢端肥大症 | 12 | **T0 R2 样板** | 🔵 [acromegaly-workbench](https://github.com/xyb-openharness-dsh-plugins/acromegaly-workbench) v0.2.3（2026-10-25 认领开工，[Issue #30](https://github.com/xyb-openharness-dsh-plugins/.github/issues/30)；G1–G3 签认、V1 过+V2 装机，V3 真机待走查；0.2.1 用户需求：AI 协助一键发送→沉淀 34 号契约入架） | 👤🤝📝🩺（开发位已满） |
-| 4 | 成人斯蒂尔病 | 17 | T1 | ⬜ 招募中 | 👤🤝📝🩺 |
-| 6 | α1-抗胰蛋白酶缺乏症 | 27 | T2 | ⬜ 招募中 | 👤🤝📝 |
+| 4 | 成人斯蒂尔病 | 17 | T1 | ✅ 已认领开工 · 2026-10-27（aosd-workbench · 认领 Issue #51） | 👤🤝📝🩺 |
+| 6 | α1-抗胰蛋白酶缺乏症 | 27 | T2 | ✅ 已认领开工 · 2026-11-04（aatd-workbench · 认领 Issue #58） | 👤🤝📝 |
 | 7 | ANCA 相关血管炎 | 33 | T1 | 🟡 [anca-vasculitis-workbench](https://github.com/xyb-openharness-dsh-plugins/anca-vasculitis-workbench) v0.1.0（2026-10-25 认领，小脉宝 VasPal，[Issue #44](https://github.com/xyb-openharness-dsh-plugins/.github/issues/44)） | 👤🤝📝🩺 补位 |
 | 9 | 白塞病/贝赫切特综合征 | 50 | T1 | 🔥 优先招募 | 👤🤝📝🩺 |
-| 13 | 慢性炎性脱髓鞘性多发性神经根神经病 | 70 | T2 | ⬜ 招募中 | 👤🤝📝 |
-| 15 | 冷凝集素病 | 82 | T2 | ⬜ 招募中 | 👤🤝📝 |
+| 13 | 慢性炎性脱髓鞘性多发性神经根神经病 | 70 | T2 | ✅ 已认领开工 · 2026-11-11（cidp-workbench · 认领 Issue #72） | 👤🤝📝 |
+| 15 | 冷凝集素病 | 82 | T2 | ✅ 已认领开工 · 2026-11-08（cold-agglutinin-workbench · 认领 Issue #68） | 👤🤝📝 |
 | 17 | 先天性凝血因子Ⅶ缺乏症 | 90 | T2 | ⬜ 招募中 | 👤🤝📝 |
-| 18 | NLRP3-相关自身炎症性疾病 | 96 | T2 | ⬜ 招募中 | 👤🤝📝 |
-| 23 | 嗜酸性粒细胞性胃肠炎 | 134 | T2 | ⬜ 招募中 | 👤🤝📝 |
+| 18 | NLRP3-相关自身炎症性疾病 | 96 | T2 | ✅ 已认领开工 · 2026-11-15（nlrp3-workbench · 认领 Issue #83） | 👤🤝📝 |
+| 23 | 嗜酸性粒细胞性胃肠炎 | 134 | T2 | ✅ 已认领开工 · 2026-11-07（eosinophilic-gastroenteritis-workbench · 认领 Issue #64） | 👤🤝📝 |
 | 25 | 面肩肱型肌营养不良症（FSHD） | 144 | **T0 罕见病样板** | 🟡 [fshd-workbench](https://github.com/xyb-openharness-dsh-plugins/fshd-workbench) v0.1.1 | 团队在编 |
 | 26 | 家族性噬血细胞淋巴组织细胞增生症 | 151 | T2 | ⬜ 招募中 | 👤🤝📝 |
-| 33 | 泛发性脓疱型银屑病 | 185 | T2 | ⬜ 招募中 | 👤🤝📝 |
-| 34 | 遗传性甲状旁腺功能减退症 | 189 | T2 | ⬜ 招募中 | 👤🤝📝 |
-| 35 | 巨细胞动脉炎 | 200 | T2 | ⬜ 招募中 | 👤🤝📝 |
+| 33 | 泛发性脓疱型银屑病 | 185 | T2 | ✅ 已认领开工 · 2026-11-13（gpp-workbench · 认领 Issue #76） | 👤🤝📝 |
+| 34 | 遗传性甲状旁腺功能减退症 | 189 | T2 | ✅ 已认领开工 · 2026-11-14（hypoparathyroidism-workbench · 认领 Issue #81） | 👤🤝📝 |
+| 35 | 巨细胞动脉炎 | 200 | T2 | ✅ 已认领开工 · 2026-11-13（gca-workbench · 认领 Issue #77） | 👤🤝📝 |
 | 37 | 血小板无力症 | 210 | T2 | ⬜ 招募中 | 👤🤝📝 |
-| 40 | 化脓性汗腺炎 | 229 | T2 | ⬜ 招募中 | 👤🤝📝 |
+| 40 | 化脓性汗腺炎 | 229 | T2 | ✅ 已认领开工 · 2026-11-13（hs-workbench · 认领 Issue #78） | 👤🤝📝 |
 | 45 | 角膜缘干细胞缺乏症 | 261 | T2 | ⬜ 招募中 | 👤🤝📝 |
 | 46 | 恶性高热 | 265 | T2 | ⬜ 招募中 | 👤🤝📝 |
 | 52 | 发作性睡病 | 295 | T1 | ✅ 已认领（2026-10-25，[Issue #37](https://github.com/xyb-openharness-dsh-plugins/.github/issues/37)；[narcolepsy-workbench](https://github.com/xyb-openharness-dsh-plugins/narcolepsy-workbench) 空仓占位，待开工） | 👤🤝📝🩺 |
 | 56 | 神经营养性角膜炎 | 336 | T2 | ⬜ 招募中 | 👤🤝📝 |
-| 58 | 天疱疮 | 346 | T2 | ⬜ 招募中 | 👤🤝📝 |
+| 58 | 天疱疮 | 346 | T2 | ✅ 已认领开工 · 2026-11-10（pemphigus-workbench · 认领 Issue #70） | 👤🤝📝 |
 | 63 | 原发性胆汁性胆管炎 | 371 | T1 | 🟡 [pbc-workbench](https://github.com/xyb-openharness-dsh-plugins/pbc-workbench) v0.2.7（2026-10-25 认领，小管宝 DuctPal；包已装 / 探针全绿，**G1–G3 待签认、真机未确认**） | 已认领 · 👤🤝📝🩺 |
-| 68 | 原发性硬化性胆管炎 | 401 | T2 | ⬜ 招募中 | 👤🤝📝 |
+| 68 | 原发性硬化性胆管炎 | 401 | T2 | ✅ 已认领开工 · 2026-11-12（psc-workbench · 认领 Issue #73） | 👤🤝📝 |
 | 69 | 进行性纤维化性间质性肺疾病 | 408 | T1 | 🔵 [pf-ild-workbench](https://github.com/xyb-openharness-dsh-plugins/pf-ild-workbench) v0.2.1（2026-10-25 认领，小呼宝 BreathPal；G1 已签 · V1 通过 · V2/V3 未验） | 🩺📝 补位 |
-| 70 | 复发性心包炎 | 412 | T2 | ⬜ 招募中 | 👤🤝📝 |
-| 73 | 短肠综合征 | 428 | T2 | ⬜ 招募中 | 👤🤝📝 |
+| 70 | 复发性心包炎 | 412 | T2 | ✅ 已认领开工 · 2026-11-06（pericarditis-workbench · 认领 Issue #62） | 👤🤝📝 |
+| 73 | 短肠综合征 | 428 | T2 | ✅ 已认领开工 · 2026-11-07（short-bowel-workbench · 认领 Issue #65） | 👤🤝📝 |
 | 76 | 大动脉炎 | 454 | T1 | 🔥 优先招募 | 👤🤝📝🩺 |
-| 79 | 血栓性血小板减少性紫癜 | 472 | T2 | ⬜ 招募中 | 👤🤝📝 |
+| 79 | 血栓性血小板减少性紫癜 | 472 | T2 | ✅ 已认领开工 · 2026-11-03（ttp-workbench · 认领 Issue #57） | 👤🤝📝 |
 | 80 | 转甲状腺素蛋白淀粉样变性 | 478 | T1 | 🔵 [attr-workbench](https://github.com/xyb-openharness-dsh-plugins/attr-workbench) v0.3.1（2026-10-21 认领，真机装机迭代中） | 已认领 · 👤🩺📝 补位 |
 | 81 | 肿瘤坏死因子受体相关周期性综合征 | 486 | T2 | ⬜ 招募中 | 👤🤝📝 |
 | 82 | 肿瘤相关骨软化症 | 490 | T2 | ⬜ 招募中 | 👤🤝📝 |
