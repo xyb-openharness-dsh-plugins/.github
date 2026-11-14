@@ -147,8 +147,8 @@
 | 14 | Hepatocellular Carcinoma | 肝细胞癌 | 1.2025 | **T0** 消化/肝 | [liver-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/liver-cancer-workbench) | 🔵 v0.3.6（2026-10-24 认领开工，G1–G3 已签认） | 🩺📝 补位 |
 | 15 | Biliary Tract Cancers | 胆道癌 | 2.2025 | T2 | biliary-tract-workbench（本地脚手架，远端仓待建） | 🟡 v0.1.0（2026-10-24 认领，[Issue #18](https://github.com/xyb-openharness-dsh-plugins/.github/issues/18)） | 🔥 👤🩺📝 |
 | 16 | Hepatobiliary Cancers | 肝胆癌 | 1.2023 | T3（挂肝） | 上 | ⬜ 招募中 | 📝 |
-| 17 | Small Bowel Adenocarcinoma | 小肠腺癌 | 3.2025 | T2 | `small-bowel-workbench` | ⬜ 招募中 | 👤📝 |
-| 18 | Ampullary Adenocarcinoma | 壶腹部腺癌 | 2.2025 | T2 | 挂小肠/胆道 | ⬜ 招募中 | 📝 |
+| 17 | Small Bowel Adenocarcinoma | 小肠腺癌 | 3.2025 | T2 | `small-bowel-workbench` | ✅ 已认领开工 · 2026-11-14（[small-bowel-workbench](https://github.com/xyb-openharness-dsh-plugins/small-bowel-workbench) v0.1.0 · M0–M3 已 push，[认领 Issue #79](https://github.com/xyb-openharness-dsh-plugins/.github/issues/79)） | 👤📝 |
+| 18 | Ampullary Adenocarcinoma | 壶腹部腺癌 | 2.2025 | T2 | `ampullary-workbench` | ✅ 已认领开工 · 2026-10-26（[ampullary-workbench](https://github.com/xyb-openharness-dsh-plugins/ampullary-workbench) v0.1.6 · 小壶宝 AmpuPal，[认领 Issue #49](https://github.com/xyb-openharness-dsh-plugins/.github/issues/49)） | 📝 |
 | 19 | Anal Carcinoma | 肛门癌 | 4.2025 | T2 | [anal-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/anal-cancer-workbench) | 🔵 v0.2.0（2026-10-21 认领，G2 已签） | 👤📝 补位 |
 
 ### 1.3 W2 · 血液肿瘤家族开荒（13 项，最大一族）
