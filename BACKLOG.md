@@ -113,6 +113,7 @@
 | 妊娠滋养细胞肿瘤（GTN）· [gtn-workbench](https://github.com/xyb-openharness-dsh-plugins/gtn-workbench)（小葡宝 GraPal） | 🔵 v0.5.0（2026-10-25 认领，[Issue #38](https://github.com/xyb-openharness-dsh-plugins/.github/issues/38)；hCG 趋势与指标管理已实现） | 👤🩺📝 | 生育保育决策场景访谈；hCG 随访口径医学核对 |
 | 原发性胆汁性胆管炎（PBC）· [pbc-workbench](https://github.com/xyb-openharness-dsh-plugins/pbc-workbench)（小管宝 DuctPal） | 🟡 v0.2.7（2026-10-25 认领，包已装 / 2 探针全绿 / 85 test；**G1–G3 待签认、真机未确认**，[回填 Issue #43](https://github.com/xyb-openharness-dsh-plugins/.github/issues/43)） | 👤🩺 | 熊去氧胆酸随访与碱性磷酸酶/胆红素趋势核对；乏力瘙痒场景访谈 |
 | PF-ILD · [pf-ild-workbench](https://github.com/xyb-openharness-dsh-plugins/pf-ild-workbench)（小呼宝 BreathPal） | 🔵 v0.2.1（2026-10-25 认领，G1 已签 · V1 通过 · V2/V3 未验） | 🩺📝 | 肺功能（FVC/DLCO）趋势记录口径核对；移植评估时间点清单 |
+| 跨癌种政策工具 · [cancer-policy-workbench](https://github.com/xyb-openharness-dsh-plugins/cancer-policy-workbench)（小保宝） | 🔵 v0.2.1（2026-11-20 M0–M9；装机待用户重启 Desktop；0 访谈/0 临床审核） | 👤🩺📝 | 患者与家属访谈；政策条件与地方细则逐省核对；病友社区/基金会项目与金额时限更新机制 |
 
 ---
 
