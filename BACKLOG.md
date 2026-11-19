@@ -423,9 +423,11 @@
 >
 > **认领 ≠ 建仓。** 建仓发生在 G1 通过之后，由维护者执行（见 CONTRIBUTING §10）。在此之前你在自己的 fork 或本地工作即可。
 >
-> **仓库可见性（2026-10-21 决定）**：病种工作台仓库**一律 private**，新建仓库暂不对外开放；组织内 public 的只有 `.github` 与 `xyb-workbench-starter`。所以本表里的仓库链接**对外部访客会 404，属预期**。外部贡献者在 ① Issue 层认领与评审（不需要权限）→ ② 用可公开的 demo 评审原型 → ③ 需要的写代码的人再逐人最小授权（CONTRIBUTING §10.3）。
+> **仓库可见性（2026-10-21 决定，2026-11-19 修订）**：病种工作台仓库**以 private 为主**；2026-11-12 起的夜班波次中部分仓库已公开（如 `cerebral-infarction-workbench`、`mpn-workbench`、`small-bowel-workbench` 等），以各仓库实际可见性为准。private 仓库的链接**对外部访客会 404，属预期**。外部贡献者在 ① Issue 层认领与评审（不需要权限）→ ② 用可公开的 demo 评审原型 → ③ 需要的写代码的人再逐人最小授权（CONTRIBUTING §10.3）。
 >
 > 无人认领的病种**永久停在 ⬜**，不占用波次资源。宁可目标池停在 ⬜，也不交付半成品。
+>
+> 🧪 **交付质量基线（每台必过）**：A 家族外壳 iframe sandbox 白名单必须含 `allow-popups allow-popups-to-escape-sandbox`，业务页外链走「window.open → 返回空 postMessage `<pkg>:open-external` → 壳层代开」兜底——沙箱拦截是静默的，登记页/指南原件点不开不会有任何报错（2026-11-19 mpn / small-bowel 真机验收回收，starter L129）。
 
 ---
 
