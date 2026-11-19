@@ -82,6 +82,7 @@
   - [验证安装](#验证是否真的装上)
 - [插件生态](#插件生态)
 - [社区仓库](#社区仓库)
+- [新增模块线（2026-11-19）](#新增模块线2026-11-19)
 - [患者工作台路线图](#患者工作台路线图开发目标与招募)
 - [文档导航](#文档导航)
 - [项目结构](#项目结构)
@@ -310,13 +311,27 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 
 ---
 
+## 新增模块线（2026-11-19）
+
+在原有「病种线」之外，2026-11-19 起工作台按**四条线**组织。新增的三条线都只做**信息整理与办理准备**，不做诊断、不做治疗或报销资格判定：
+
+| 模块线 | 解决什么 | 首批试点 / 状态 |
+| --- | --- | --- |
+| **① 并发症线**（肿瘤患者并发症） | 肿瘤治疗过程中真实发生的并发症：出血、感染、营养与进食障碍、肠梗阻、输液港/导管问题等——识别「什么时候必须马上联系医生」＋把当时的病程资料整理成医生能快速读懂的一页 | 🔵 试点已上线：[消化道出血 workbench](https://github.com/xyb-openharness-dsh-plugins/gastrointestinal-bleeding-workbench) v0.1.0（CX-001，识别需立即求助的出血表现＋结构化就诊摘要）；其余并发症按认领陆续开工 |
+| **② 高危急症线**（脑梗、心梗等） | 急症发作当下与出院后：卒中识别（BE-FAST 等公开识别口径原样呈现）、入院资料准备、出院后的二级预防随访与康复记录 | 🔵 试点已上线：[脑梗死 workbench](https://github.com/xyb-openharness-dsh-plugins/cerebral-infarction-workbench) v0.2.0（夜班开发，M4 已收口）；心梗等条目**招募认领中** |
+| **③ 生活服务工作台线**（肿瘤患者生活支持） | 把患者真正跑腿的事整理成「政策原文 + 办理清单 + 官方入口」：社保与医保（异地就医备案与报销口径）、残障津贴/护理补贴的认定标准与申请材料、公益基金会援助通道、医保目录与药物查询（适应症/供应/价格口径）、二次理赔与商业保险流程、异地就医交通住宿等 | 🟡 **规划中，招募认领**：目标仓 `life-service-workbench`（未建仓）。红线：只引用政策原文并标注来源与生效日期，不代办、不承诺资格；办理口径以当地官方答复为准 |
+
+> 三条线的共同纪律：**不生成资格判定**（「你能不能领/能不能报」一律给原文与咨询入口）、**急症识别只用公开口径原话**（如 BE-FAST，不写「你已卒中」）、**政策条目必须带来源、版本与生效日期**，过期即标注「待核实」。
+
+---
+
 ## 患者工作台路线图（开发目标与招募）
 
 我们正在为一个个具体病种建设「本机优先」的患者工作台（病程整理 · 指标追踪 · 就诊准备，不静默上传患者数据，调用外部模型或服务时需明确说明发送内容）。目标池参照 **NCCN Guidelines® 病种目录（67 个条目）** 与 **《86 个罕见病病种诊疗指南（2025 年版）》**（合计 **153 项**），聚焦让患者能自主管理、医生可快速复盘和协作。
 
 **153 个目标不是 153 次全流程**：按 `T0 家族样板 / T1 标准 / T2 模板化 / T3 挂靠 / T4 观察池` 分级，按波次推进，每波结束留 1–2 周回流窗口把经验沉淀进脚手架。详见 [PROGRAM-PLAN.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/PROGRAM-PLAN.md)。
 
-**71 个工作台仓**（截至 2026-11-19：63 个公开 + 8 个 private；版本取自各仓 VERSION 文件实读）：
+**71 个工作台仓**（截至 2026-11-19：**全部 public**；版本取自各仓 VERSION 文件实读）：
 
 | 病种工作台 | 版本 | 仓库 | 备注 |
 | --- | --- | --- | --- |
@@ -387,8 +402,9 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 | 甲状旁腺功能减退症 | 🔵 v0.1.0 | [hypoparathyroidism-workbench](https://github.com/xyb-openharness-dsh-plugins/hypoparathyroidism-workbench) |  |
 | CIDP（慢性炎性脱髓鞘性多发性神经病） | 🔵 v0.2.0 | [cidp-workbench](https://github.com/xyb-openharness-dsh-plugins/cidp-workbench) |  |
 | TRAPS（肿瘤坏死因子受体相关周期性综合征） | 🔵 v0.2.0 | [traps-workbench](https://github.com/xyb-openharness-dsh-plugins/traps-workbench) | 占位名待用户追认 |
-| 消化道出血（并发症试点·CX-001） | 🔵 v0.1.0 | [gastrointestinal-bleeding-workbench](https://github.com/xyb-openharness-dsh-plugins/gastrointestinal-bleeding-workbench) | 识别需立即求助的表现＋就诊摘要；不诊断不分级 |
-| 脑梗死（缺血性卒中） | 🔵 v0.2.0 | [cerebral-infarction-workbench](https://github.com/xyb-openharness-dsh-plugins/cerebral-infarction-workbench) | 夜班开发；M4 已收口 |
+| 消化道出血（**并发症线**试点·CX-001） | 🔵 v0.1.0 | [gastrointestinal-bleeding-workbench](https://github.com/xyb-openharness-dsh-plugins/gastrointestinal-bleeding-workbench) | 识别需立即求助的表现＋就诊摘要；不诊断不分级 |
+| 脑梗死（缺血性卒中）· **高危急症线**试点 | 🔵 v0.2.0 | [cerebral-infarction-workbench](https://github.com/xyb-openharness-dsh-plugins/cerebral-infarction-workbench) | 卒中识别（公开口径原话）＋入院资料＋二级预防随访；M4 已收口 |
+| 生活服务工作台（社保/津贴/基金会/二次理赔）· **生活服务线** | 🟡 规划中 · 招募 | — | 目标仓 life-service-workbench；只做政策整理与办理清单 |
 | 睾丸癌 · 小勇宝 TestiPal | 🔵 v0.2.0 | [testicular-workbench](https://github.com/xyb-openharness-dsh-plugins/testicular-workbench) |  |
 | 心理支持 · 小心宝（跨病种共用模块） | 🔵 v0.3.15 | [xiaoxinbao-workbench](https://github.com/xyb-openharness-dsh-plugins/xiaoxinbao-workbench) |  |
 | 其余主要癌种 + 罕见病 | ⬜ **招募认领中**（完整分级与招募对象见 BACKLOG） | — | 目标池 153 项 |
@@ -397,7 +413,7 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 >
 > 🤝 **诚邀加入**：无论你是开发者、临床/研究者、病友组织志愿者还是写作者，都可以认领一个病种或一个模块。四种投入档位（整仓 / 模块 / 内容访谈 / 脚手架）见 **[CONTRIBUTING-WORKBENCH.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/CONTRIBUTING-WORKBENCH.md)**，从 Issue 模板开始。**不需要写代码也能贡献**——一次真实经历访谈、一份就诊问题清单都在缺。所有工作台只做信息整理，不做诊断建议。
 >
-> 🔒 **仓库可见性**（2026-11-19 实测）：71 个病种工作台仓中 **63 个已公开、8 个 private**（traps / testicular / hypoparathyroidism / neuroblastoma / gca / hs / gpp / psc）——8 个 private 仓的链接对组织外访客会 404，属预期。**每个项目的公开展示页（原型首页截图 + 能力说明）在 [PROJECTS.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/PROJECTS.md)**，外部贡献者的协作方式：**Issue 层认领与评审不需要任何权限**，需要写代码时再由维护者逐人最小授权（见 [CONTRIBUTING §10.3](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/CONTRIBUTING-WORKBENCH.md)）。
+> 🔓 **仓库可见性**（2026-11-19 起）：**71 个病种工作台仓已全部 public**（原 8 个 private：traps / testicular / hypoparathyroidism / neuroblastoma / gca / hs / gpp / psc，已于 2026-11-19 转为公开）。外部贡献者可直接浏览代码与原型；协作仍走 Issue 认领与评审。**每个项目的公开展示页（原型首页截图 + 能力说明）在 [PROJECTS.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/PROJECTS.md)**，外部贡献者的协作方式：**Issue 层认领与评审不需要任何权限**，需要写代码时再由维护者逐人最小授权（见 [CONTRIBUTING §10.3](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/CONTRIBUTING-WORKBENCH.md)）。
 
 ---
 
