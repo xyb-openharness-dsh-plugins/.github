@@ -423,7 +423,7 @@
 >
 > **认领 ≠ 建仓。** 建仓发生在 G1 通过之后，由维护者执行（见 CONTRIBUTING §10）。在此之前你在自己的 fork 或本地工作即可。
 >
-> **仓库可见性（2026-10-21 决定，2026-11-19 修订）**：病种工作台仓库**以 private 为主**；2026-11-12 起的夜班波次中部分仓库已公开（如 `cerebral-infarction-workbench`、`mpn-workbench`、`small-bowel-workbench` 等），以各仓库实际可见性为准。private 仓库的链接**对外部访客会 404，属预期**。外部贡献者在 ① Issue 层认领与评审（不需要权限）→ ② 用可公开的 demo 评审原型 → ③ 需要的写代码的人再逐人最小授权（CONTRIBUTING §10.3）。
+> **仓库可见性（2026-10-21 决定，2026-11-19 按实测修订）**：71 个病种工作台仓中 **63 个已公开、8 个 private**（traps / testicular / hypoparathyroidism / neuroblastoma / gca / hs / gpp / psc）。private 仓库的链接**对外部访客会 404，属预期**。外部贡献者在 ① Issue 层认领与评审（不需要权限）→ ② 用可公开的 demo 评审原型 → ③ 需要的写代码的人再逐人最小授权（CONTRIBUTING §10.3）。
 >
 > 无人认领的病种**永久停在 ⬜**，不占用波次资源。宁可目标池停在 ⬜，也不交付半成品。
 >

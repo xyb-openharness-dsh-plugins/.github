@@ -2,7 +2,7 @@
 
 > 本文件是 **xyb-openharness-dsh-plugins** 组织的公开开发目标清单与进度看板。
 > 目标池主要参照 **NCCN Guidelines® Treatment by Cancer Type**（2025–2026 版本目录，67 个条目）与国家卫生健康委 **《86 个罕见病病种诊疗指南（2025 年版）》**（86 种）。
-> 更新日期：2026-10-21。进度以各仓库 `VERSION` 与 `docs/DEV-PLAN.md` 为准，由维护者随迭代更新。
+> 更新日期：2026-11-19。**逐仓版本与状态的权威表在 [profile/README.md 路线图](profile/README.md#患者工作台路线图开发目标与招募)**（71 个工作台仓，版本取自各仓 VERSION 实读）；本文件保留分层、波次与各项目立项时的详细状态说明，历史文案未逐条重写时以权威表为准。
 >
 > **配套文档（规模化开发）：**
 > [PROGRAM-PLAN.md](PROGRAM-PLAN.md) 总纲（分层分级 / 波次 / 七道质量锁）·
@@ -32,7 +32,7 @@
 
 ## 一、主要癌种工作台
 
-| 癌种 | 品牌 / 代号 | 仓库 | 进度 | 当前状态（2026-10） |
+| 癌种 | 品牌 / 代号 | 仓库 | 进度 | 当前状态（2026-10 立项记录；最新版本见 profile 表） |
 | --- | --- | --- | --- | --- |
 | 乳腺癌 | PinkyPal 小粉宝 | [breast-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/breast-cancer-workbench) | 🔵 | v0.8.0；G1/G2/G3 已过；M0–M2 第一段与 MinerU 已完成；进行中：草稿界面、一图秀真实数据、四点位录入、导出、DSH 接入 |
 | 淋巴瘤 | LymBell 小铃铛 | [lymphoma-workbench](https://github.com/xyb-openharness-dsh-plugins/lymphoma-workbench) | 🔵 | v0.3.0；分型整理、疗效回顾与就诊准备；霍奇金/T 细胞/原发皮肤淋巴瘤拟按 T3 挂靠 |
@@ -63,7 +63,7 @@
 
 ## 二、罕见病方向（长期目标池）
 
-以《86 个罕见病病种诊疗指南（2025 年版）》的 **86 种**为长期池（完整目录与页码见 [BACKLOG.md](BACKLOG.md)）。**已启动 2 个**（FSHD 形态样板 + ATTR），其余 ⬜ 未启动 · 欢迎认领。
+以《86 个罕见病病种诊疗指南（2025 年版）》的 **86 种**为长期池（完整目录与页码见 [BACKLOG.md](BACKLOG.md)）。**已启动 29 个**（截至 2026-11-19；FSHD 形态样板与 ATTR 为最早两个，其后夜班波次陆续开工，完整清单与版本见 [profile/README.md 路线图](profile/README.md#患者工作台路线图开发目标与招募)），其余 ⬜ 未启动 · 欢迎认领。
 罕见病分三条线，**形态各不相同**，不能当 86 个癌种做：
 
 - **R1 肿瘤型（20 项）**：黑色素瘤、梅克尔细胞癌、GIST、骨肉瘤、神经母细胞瘤、间皮瘤、皮肤 T 细胞淋巴瘤、华氏巨球蛋白血症…… 与癌种重叠 → **T3 挂靠，不重复建仓**。
@@ -74,7 +74,7 @@
 
 ### 罕见病进行中
 
-| 疾病 | 品牌 / 代号 | 仓库 | 进度 | 当前状态（2026-10） |
+| 疾病 | 品牌 / 代号 | 仓库 | 进度 | 当前状态（2026-10 立项记录；最新版本见 profile 表） |
 | --- | --- | --- | --- | --- |
 | 转甲状腺素蛋白淀粉样变性（ATTR，目录 #80） | ATTR-Pal 淀粉宝宝 | [attr-workbench](https://github.com/xyb-openharness-dsh-plugins/attr-workbench) | 🟡 | **2026-10-21 认领开工** · v0.1.0；12 一级页 / 41 页签原型、28 表 schema、434 条临床登记摘录（逐通道终态诚实标注，0 结果 ≠ 无试验）；差异化：型别确认 + 心脏/神经受累双序列 + 治疗耐受（用药记录不评价疗效）+ 家族筛查准备；待做：H1–H5 五条用户假设的访谈核实、ChiCTR / WHO ICTRP 补查；对外入口：[Issue #5](https://github.com/xyb-openharness-dsh-plugins/.github/issues/5) |
 | 面肩肱型肌营养不良症（FSHD，目录 #25） | 小飞侠 | [fshd-workbench](https://github.com/xyb-openharness-dsh-plugins/fshd-workbench) | 🟡 | v0.1.1；**罕见病样板**：场景排序已确认，SPEC/SCHEMA 草案 + demo HTML（含右侧 AI pane 状态稿）；差异化：基因确诊档案（D4Z4/4qA）+ 功能与康复（分区+辅助器具）+ 并发症筛查（眼 Coats/听力/呼吸/脊柱）+ 医保与资源；家族内无「治疗历程」模块（无获批治疗药物，聚焦生活/照顾/预防） |
