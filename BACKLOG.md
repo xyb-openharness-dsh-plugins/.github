@@ -57,7 +57,7 @@
 ## 〇、现在最缺人：优先招募榜
 
 > 下面 12 个是**按紧迫度挑出来的**，不是按波次顺序。它们在 §一/§二 里也各自出现，这里集中写清楚"为什么急、缺谁、第一步做什么"。
-> 想认领但不确定从哪下手 → 直接从这张表里挑一个。
+> 想认领但不确定从哪下手 → 直接从这张表里挑一个。**想看全部还能领什么 → 见下方 [⬜⬜ 剩余待领取全量速查](#⬜⬜-剩余待领取全量速查visitor-版--2026-11-21)。**
 > ✅ **截至 2026-10-25：榜内 12 项已全部认领。** 进度最快的一批：肝细胞癌（[liver-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/liver-cancer-workbench) 🔵 v0.3.6，G1–G3 已签认）、ATTR（🔵 v0.3.1，真机装机迭代中）、头颈癌（🔵 v0.1.6 已发布，待装机确认）、胶质母细胞瘤 / 胸膜间皮瘤 / 膀胱癌 / 甲状腺癌 / 皮肤黑色素瘤 / 肢端肥大症（G 签认与装机阶段）、肾癌 / GTN（开发版）；儿童急淋（ALL）已认领、建仓待启动（[Issue #40](https://github.com/xyb-openharness-dsh-plugins/.github/issues/40)）。
 > **招募重点转向两类：① 已开工工作台的 🩺 医学核对与 👤 患者访谈补位（见「已在推进、但缺人的」表）；② 尚未启动病种的新认领**——W2 其余血液肿瘤、W4 皮肤/胸腺、R3 大部分仍在 ⬜（R2 已大部认领，余 9 项）。
 
@@ -129,12 +129,12 @@
 
 | 病种目录 # | 名称 | 级别 / 家族 |
 | --- | --- | --- |
-| 12 | Hodgkin Lymphoma | 2.2025 |
-| 13 | T-Cell Lymphomas | 2.2025 |
-| 16 | Hepatobiliary Cancers | 1.2023 |
-| 54 | Bone Cancer | 2.2025 |
-| 58 | Vaginal Cancer | 5.2025 |
-| 59 | Vulvar Cancer | 1.2025 |
+| 12 | Hodgkin Lymphoma | 血液 · T3（挂淋巴瘤） |
+| 13 | T-Cell Lymphomas | 血液 · T3（挂淋巴瘤） |
+| 16 | Hepatobiliary Cancers | 消化 / 肝 · T3（挂肝） |
+| 54 | Bone Cancer | 骨 · T1（W6 收口） |
+| 58 | Vaginal Cancer | 妇科 · T3（W6 收口） |
+| 59 | Vulvar Cancer | 妇科 · T3（W6 收口） |
 
 
 ### B. 罕见病 R1 · 肿瘤型挂靠（17 项 · 默认不建仓，先与对应癌种线讨论挂靠形态）
