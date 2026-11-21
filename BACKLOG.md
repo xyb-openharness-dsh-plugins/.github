@@ -2,7 +2,7 @@
 
 > 与 [PROGRAM-PLAN.md](PROGRAM-PLAN.md) 配套使用。本表是**唯一的目标池权威位置**，进度以各仓库 `VERSION` 与 `docs/DEV-PLAN.md` 为准。
 > 目标池来源：① NCCN Guidelines® Treatment by Cancer Type 目录（2025–2026，67 个条目）②《86 个罕见病病种诊疗指南（2025 年版）》目录（86 种）。
-> 更新日期：2026-10-26。
+> 更新日期：2026-11-21。
 >
 > **想参与但不知道从哪下手 → 直接看 [§〇 优先招募榜](#〇现在最缺人优先招募榜)**：按紧迫度挑了 12 个目标，每项写明"为什么急、缺什么人、第一步能做什么"，附一键认领链接。
 > **不知道 ⬜ 到底是缺谁 → 看 [图例 · 招募对象](#招募对象角色代码)**：每个条目的「招募对象」列用角色代码写明缺哪种人，大部分病种最先缺的不是开发。
@@ -310,7 +310,7 @@
 | 9 | 白塞病/贝赫切特综合征 | 50 | T1 | 🔥 优先招募 | 👤🤝📝🩺 |
 | 13 | 慢性炎性脱髓鞘性多发性神经根神经病 | 70 | T2 | ✅ 已认领开工 · 2026-11-11（cidp-workbench · 认领 Issue #72） | 👤🤝📝 |
 | 15 | 冷凝集素病 | 82 | T2 | ✅ 已认领开工 · 2026-11-08（cold-agglutinin-workbench · 认领 Issue #68） | 👤🤝📝 |
-| 17 | 先天性凝血因子Ⅶ缺乏症 | 90 | T2 | ⬜ 招募中 | 👤🤝📝 |
+| 17 | 先天性凝血因子Ⅶ缺乏症 | 90 | T2 | 🔵 [factor-vii-deficiency-workbench](https://github.com/xyb-openharness-dsh-plugins/factor-vii-deficiency-workbench) v0.2.0-rc.3（2026-11-20 认领，[Issue #89](https://github.com/xyb-openharness-dsh-plugins/.github/issues/89)；2026-11-21 接管重构：32 号整页视图整条接入 + MinerU 六部件全链 + 体检 P0 清零；check/test/三探针/audit 全绿） | 👤🤝📝 |
 | 18 | NLRP3-相关自身炎症性疾病 | 96 | T2 | ✅ 已认领开工 · 2026-11-15（nlrp3-workbench · 认领 Issue #83） | 👤🤝📝 |
 | 23 | 嗜酸性粒细胞性胃肠炎 | 134 | T2 | ✅ 已认领开工 · 2026-11-07（eosinophilic-gastroenteritis-workbench · 认领 Issue #64） | 👤🤝📝 |
 | 25 | 面肩肱型肌营养不良症（FSHD） | 144 | **T0 罕见病样板** | 🟡 [fshd-workbench](https://github.com/xyb-openharness-dsh-plugins/fshd-workbench) v0.1.1 | 团队在编 |
@@ -318,7 +318,7 @@
 | 33 | 泛发性脓疱型银屑病 | 185 | T2 | ✅ 已认领开工 · 2026-11-13（gpp-workbench · 认领 Issue #76） | 👤🤝📝 |
 | 34 | 遗传性甲状旁腺功能减退症 | 189 | T2 | ✅ 已认领开工 · 2026-11-14（hypoparathyroidism-workbench · 认领 Issue #81） | 👤🤝📝 |
 | 35 | 巨细胞动脉炎 | 200 | T2 | ✅ 已认领开工 · 2026-11-13（gca-workbench · 认领 Issue #77） | 👤🤝📝 |
-| 37 | 血小板无力症 | 210 | T2 | ⬜ 招募中 | 👤🤝📝 |
+| 37 | 血小板无力症 | 210 | T2 | 🔵 [glanzmann-thrombasthenia-workbench](https://github.com/xyb-openharness-dsh-plugins/glanzmann-thrombasthenia-workbench) v0.2.0（2026-11-20 认领，小板宝 PlatePal，[Issue #90](https://github.com/xyb-openharness-dsh-plugins/.github/issues/90)；M0–M6+D1–D3 全绿、MinerU 六部件全链、装机 0.2.0；V3 真机待人工） | 👤🤝📝 |
 | 40 | 化脓性汗腺炎 | 229 | T2 | ✅ 已认领开工 · 2026-11-13（hs-workbench · 认领 Issue #78） | 👤🤝📝 |
 | 45 | 角膜缘干细胞缺乏症 | 261 | T2 | ⬜ 招募中 | 👤🤝📝 |
 | 46 | 恶性高热 | 265 | T2 | ⬜ 招募中 | 👤🤝📝 |
