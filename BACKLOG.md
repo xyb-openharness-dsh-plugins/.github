@@ -421,7 +421,7 @@
 | 35 | 巨细胞动脉炎 | 200 | T2 | ✅ 已认领开工 · 2026-11-13（gca-workbench · 认领 Issue #77） | 👤🤝📝 |
 | 37 | 血小板无力症 | 210 | T2 | 🔵 [glanzmann-thrombasthenia-workbench](https://github.com/xyb-openharness-dsh-plugins/glanzmann-thrombasthenia-workbench) v0.2.0（2026-11-20 认领，小板宝 PlatePal，[Issue #90](https://github.com/xyb-openharness-dsh-plugins/.github/issues/90)；M0–M6+D1–D3 全绿、MinerU 六部件全链、装机 0.2.0；V3 真机待人工） | 👤🤝📝 |
 | 40 | 化脓性汗腺炎 | 229 | T2 | ✅ 已认领开工 · 2026-11-13（hs-workbench · 认领 Issue #78） | 👤🤝📝 |
-| 45 | 角膜缘干细胞缺乏症 | 261 | T2 | ⬜ 招募中 | 👤🤝📝 |
+| 45 | 角膜缘干细胞缺乏症 | 261 | T2 | 🔵 [lscd-workbench](https://github.com/xyb-openharness-dsh-plugins/lscd-workbench) v0.1.0（2026-11-22 认领，小膜宝 LimbalPal，[Issue #97](https://github.com/xyb-openharness-dsh-plugins/.github/issues/97)；M0–M6+D1–D4 全绿、MinerU 六部件全链、装机 0.1.0；V3 真机待人工） | 👤🤝📝 |
 | 46 | 恶性高热 | 265 | T2 | ⬜ 招募中 | 👤🤝📝 |
 | 52 | 发作性睡病 | 295 | T1 | ✅ 已认领（2026-10-25，[Issue #37](https://github.com/xyb-openharness-dsh-plugins/.github/issues/37)；[narcolepsy-workbench](https://github.com/xyb-openharness-dsh-plugins/narcolepsy-workbench) 空仓占位，待开工） | 👤🤝📝🩺 |
 | 56 | 神经营养性角膜炎 | 336 | T2 | ⬜ 招募中 | 👤🤝📝 |
