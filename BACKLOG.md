@@ -435,7 +435,7 @@
 | 79 | 血栓性血小板减少性紫癜 | 472 | T2 | ✅ 已认领开工 · 2026-11-03（ttp-workbench · 认领 Issue #57） | 👤🤝📝 |
 | 80 | 转甲状腺素蛋白淀粉样变性 | 478 | T1 | 🔵 [attr-workbench](https://github.com/xyb-openharness-dsh-plugins/attr-workbench) v0.3.1（2026-10-21 认领，真机装机迭代中） | 已认领 · 👤🩺📝 补位 |
 | 81 | 肿瘤坏死因子受体相关周期性综合征 | 486 | T2 | ⬜ 招募中 | 👤🤝📝 |
-| 82 | 肿瘤相关骨软化症 | 490 | T2 | ⬜ 招募中 | 👤🤝📝 |
+| 82 | 肿瘤相关骨软化症 | 490 | T2 | 🔵 [tio-workbench](https://github.com/xyb-openharness-dsh-plugins/tio-workbench) v0.1.0（2026-11-22 认领，小磷宝 PhosPal，[Issue #93](https://github.com/xyb-openharness-dsh-plugins/.github/issues/93)；M0–M6+D1–D4 全绿、MinerU 六部件全链、澄净冷青新母题、装机 0.1.0；V3 真机待人工） | 👤🤝📝 |
 | 84 | 血管性血友病 3 型 | 500 | T2 | ⬜ 招募中 | 👤🤝📝 |
 
 ### 2.3 R3 儿童 / 遗传型（32 项，代记主体 = 家长）
