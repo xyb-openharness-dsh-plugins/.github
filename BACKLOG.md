@@ -415,7 +415,7 @@
 | 18 | NLRP3-相关自身炎症性疾病 | 96 | T2 | ✅ 已认领开工 · 2026-11-15（nlrp3-workbench · 认领 Issue #83） | 👤🤝📝 |
 | 23 | 嗜酸性粒细胞性胃肠炎 | 134 | T2 | ✅ 已认领开工 · 2026-11-07（eosinophilic-gastroenteritis-workbench · 认领 Issue #64） | 👤🤝📝 |
 | 25 | 面肩肱型肌营养不良症（FSHD） | 144 | **T0 罕见病样板** | 🟡 [fshd-workbench](https://github.com/xyb-openharness-dsh-plugins/fshd-workbench) v0.1.1 | 团队在编 |
-| 26 | 家族性噬血细胞淋巴组织细胞增生症 | 151 | T2 | ⬜ 招募中 | 👤🤝📝 |
+| 26 | 家族性噬血细胞淋巴组织细胞增生症 | 151 | T2 | 🔵 [fhl-workbench](https://github.com/xyb-openharness-dsh-plugins/fhl-workbench) v0.1.0（2026-11-22 认领，小噬宝 PhagoPal，[Issue #95](https://github.com/xyb-openharness-dsh-plugins/.github/issues/95)；M0–M6+D1–D4 全绿、MinerU 六部件全链、装机 0.1.0；V3 真机待人工） | 👤🤝📝 |
 | 33 | 泛发性脓疱型银屑病 | 185 | T2 | ✅ 已认领开工 · 2026-11-13（gpp-workbench · 认领 Issue #76） | 👤🤝📝 |
 | 34 | 遗传性甲状旁腺功能减退症 | 189 | T2 | ✅ 已认领开工 · 2026-11-14（hypoparathyroidism-workbench · 认领 Issue #81） | 👤🤝📝 |
 | 35 | 巨细胞动脉炎 | 200 | T2 | ✅ 已认领开工 · 2026-11-13（gca-workbench · 认领 Issue #77） | 👤🤝📝 |
