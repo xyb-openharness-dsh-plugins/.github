@@ -125,7 +125,7 @@
 >
 > **领取三步**：① 在下方选中条目 → ② 按「病种认领」模板提 Issue（分级判定卡 + 差异化矩阵 ≥3 条）→ ③ 评论 /claim 等 `claimed` 标签，按 [NIGHT-SHIFT-FULLSTACK](prompts/NIGHT-SHIFT-FULLSTACK.md) 基准提示词开工。
 
-### A. NCCN 癌种剩余（6 项 · 均为 T3 挂靠 / 收口类）
+### A. NCCN 癌种剩余（4 项 · 均为 T3 挂靠 / 收口类；#58 阴道癌、#59 外阴癌已于 2026-11-23 发布 v0.1.0 收口）
 
 | 病种目录 # | 名称 | 级别 / 家族 |
 | --- | --- | --- |
@@ -133,8 +133,6 @@
 | 13 | T-Cell Lymphomas | 血液 · T3（挂淋巴瘤） |
 | 16 | Hepatobiliary Cancers | 消化 / 肝 · T3（挂肝） |
 | 54 | Bone Cancer | 骨 · T1（W6 收口） |
-| 58 | Vaginal Cancer | 妇科 · T3（W6 收口） |
-| 59 | Vulvar Cancer | 妇科 · T3（W6 收口） |
 
 
 ### B. 罕见病 R1 · 肿瘤型挂靠（17 项 · 默认不建仓，先与对应癌种线讨论挂靠形态）
@@ -316,7 +314,7 @@
 
 ### 1.7 W6 · 骨与软组织 + 妇科收口
 
-> GIST（#55，10-21）、软组织肉瘤（#53，10-25，T0 样板）、子宫肿瘤/子宫内膜癌（#56，10-25，与 1.1 #68 条目同仓）、妊娠滋养细胞肿瘤（#57，10-25）已认领开工；其余 **⬜ 招募中**。
+> GIST（#55，10-21）、软组织肉瘤（#53，10-25，T0 样板）、子宫肿瘤/子宫内膜癌（#56，10-25，与 1.1 #68 条目同仓）、妊娠滋养细胞肿瘤（#57，10-25）、阴道癌（#58，11-23）与外阴癌（#59，11-23）已全部落地，**妇科肿瘤 W6 全线收口**。
 
 | # | NCCN 病种 | 中文 | 版本 | 级别 | 备注 | 状态 | 招募对象 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -325,8 +323,8 @@
 | 55 | Gastrointestinal Stromal Tumors | 胃肠道间质瘤 | 1.2025 | T1 | = 罕见病 #32 · [gist-workbench](https://github.com/xyb-openharness-dsh-plugins/gist-workbench) | 🟡 v0.1.0（2026-10-21 认领） | 👤🩺 补位 |
 | 56 | Uterine Neoplasms | 子宫肿瘤 | 3.2025 | T1 · 🔵 [endometrial-workbench](https://github.com/xyb-openharness-dsh-plugins/endometrial-workbench) v0.3.2（10-25 认领，小膜宝 EndoPal；与 1.1 #68 条目同仓） | | 👤🩺📝 补位 |
 | 57 | Gestational Trophoblastic Neoplasia | 妊娠滋养细胞肿瘤 | 3.2025 | T1 | 生育与随访强相关 | 🔵 v0.5.0（2026-10-25 认领 issue #38；v0.4.0 走完 M0–M7，v0.5.0 按用户反馈补 12 页菜单/3D 指标卡/营养心理/三档临床匹配/检查与指标二级页签+指标管理；装机层已验 0.5.0，界面加载待用户新建会话确认） | 👤🩺📝 |
-| 58 | Vaginal Cancer | 阴道癌 | 5.2025 | T2 | | ⚪ 规划中 | 📝 |
-| 59 | Vulvar Cancer | 外阴癌 | 1.2025 | T2 | | ⚪ 规划中 | 📝 |
+| 58 | Vaginal Cancer | 阴道癌 | 5.2025 | T2 | 原发排除 + EBRT/近距离放疗 EQD2 与 8 周疗程 + 扩张康复与私密隔离 | 🔵 [vaginal-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/vaginal-cancer-workbench) v0.1.0（2026-11-23 认领，小兰宝 VagiPal，[Issue #102](https://github.com/xyb-openharness-dsh-plugins/.github/issues/102)；M0–M7 全绿、快照 432 条、52 单测/44 审计/三探针全通过、已装机 0.1.0） | 👤🩺📝 |
+| 59 | Vulvar Cancer | 外阴癌 | 1.2025 | T2 | 2021 FIGO + HPV/硬化性苔藓双路径 + 切缘 ≥8mm/SLN/IFLD + 淋巴水肿腿围差 | 🔵 [vulvar-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/vulvar-cancer-workbench) v0.1.0（2026-11-23 认领，小槿宝 VulvaPal，[Issue #103](https://github.com/xyb-openharness-dsh-plugins/.github/issues/103)；M0–M7 全绿、快照 304 条、60 单测/44 审计/三探针全通过、已装机 0.1.0） | 👤🩺📝 |
 
 ### 1.8 W7 · 儿童线（代记主体 = 家长，独立产品形态）
 
