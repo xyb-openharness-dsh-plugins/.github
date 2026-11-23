@@ -125,7 +125,7 @@
 >
 > **领取三步**：① 在下方选中条目 → ② 按「病种认领」模板提 Issue（分级判定卡 + 差异化矩阵 ≥3 条）→ ③ 评论 /claim 等 `claimed` 标签，按 [NIGHT-SHIFT-FULLSTACK](prompts/NIGHT-SHIFT-FULLSTACK.md) 基准提示词开工。
 
-### A. NCCN 癌种剩余（6 项 · 均为 T3 挂靠 / 收口类）
+### A. NCCN 癌种剩余（4 项 · 均为 T3 挂靠 / 收口类）
 
 | 病种目录 # | 名称 | 级别 / 家族 |
 | --- | --- | --- |
@@ -133,16 +133,14 @@
 | 13 | T-Cell Lymphomas | 血液 · T3（挂淋巴瘤） |
 | 16 | Hepatobiliary Cancers | 消化 / 肝 · T3（挂肝） |
 | 54 | Bone Cancer | 骨 · T1（W6 收口） |
-| 58 | Vaginal Cancer | 妇科 · T3（W6 收口） |
-| 59 | Vulvar Cancer | 妇科 · T3（W6 收口） |
 
 
-### B. 罕见病 R1 · 肿瘤型挂靠（17 项 · 默认不建仓，先与对应癌种线讨论挂靠形态）
+### B. 罕见病 R1 · 肿瘤型挂靠（16 项 · 默认不建仓，先与对应癌种线讨论挂靠形态）
 
 | 病种目录 # | 名称 | 级别 / 家族 |
 | --- | --- | --- |
 | 14 | 肾透明细胞肉瘤 | 儿童肾肿瘤（Wilms） |
-| 19 | 梅克尔细胞癌 | 皮肤线 |
+| 19 | 梅克尔细胞癌 | 皮肤线 · 🔵 [merkel-cell-carcinoma-workbench](https://github.com/xyb-openharness-dsh-plugins/merkel-cell-carcinoma-workbench) v0.1.0（小默宝 MerkelPal，已建独立仓） |
 | 20 | 皮肤 T 细胞淋巴瘤 | 淋巴瘤 |
 | 22 | 隆突性皮肤纤维肉瘤 | 肉瘤 |
 | 24 | 上皮样肉瘤 | 肉瘤 |
@@ -296,8 +294,8 @@
 | 40 | Mesothelioma: Pleural | 间皮瘤：胸膜 | 2.2025 | T1 · 🔵 [mesothelioma-workbench](https://github.com/xyb-openharness-dsh-plugins/mesothelioma-workbench) v0.1.4（10-24 认领） | = 罕见病 #47 | 👤🩺📝 补位（访谈素材仍最缺） |
 | 41 | Mesothelioma: Peritoneal | 间皮瘤：腹膜 | 2.2025 | T2 | | 📝 |
 | 42 | Melanoma: Cutaneous | 黑色素瘤：皮肤 | 2.2025 | **T0 皮肤样板** · 🔵 [melanoma-workbench](https://github.com/xyb-openharness-dsh-plugins/melanoma-workbench) v0.3.1（10-25 认领，小痣宝 MolePal，[Issue #22](https://github.com/xyb-openharness-dsh-plugins/.github/issues/22)） | = 罕见病 #48 | 👤🩺 补位 |
-| 43 | Melanoma: Uveal | 黑色素瘤：葡萄膜 | 1.2025 | T2 | | 👤📝 |
-| 44 | Merkel Cell Carcinoma | 默克尔细胞癌 | 2.2025 | T2 | = 罕见病 #19 | 👤📝 |
+| 43 | Melanoma: Uveal | 黑色素瘤：葡萄膜 | 1.2025 | T2 · 🔵 [uveal-melanoma-workbench](https://github.com/xyb-openharness-dsh-plugins/uveal-melanoma-workbench) v0.1.0（小瞳宝 UveaPal · M0–M9 全周期交付 · DSH 已装机，[Issue #106](https://github.com/xyb-openharness-dsh-plugins/.github/issues/106)） | 331 项快照 / 4 组 8 项指标 / 敷贴抗 VEGF / 一图秀样条 | 👤🩺 补位 |
+| 44 | Merkel Cell Carcinoma | 默克尔细胞癌 | 2.2025 | T2 · 🔵 [merkel-cell-carcinoma-workbench](https://github.com/xyb-openharness-dsh-plugins/merkel-cell-carcinoma-workbench) v0.1.0（小默宝 MerkelPal · M0–M9 全周期交付 · DSH 已装机，[Issue #105](https://github.com/xyb-openharness-dsh-plugins/.github/issues/105)） | = 罕见病 #19 · 161 项快照 / 4 组 8 项指标 / 免疫毒性 irAE / 一图秀样条 | 👤🩺 补位 |
 | 45 | Basal Cell Skin Cancer | 基底细胞皮肤癌 | 2.2025 | T2 | | 📝 |
 | 46 | Squamous Cell Skin Cancer | 鳞状细胞皮肤癌 | 2.2025 | T2 | | 📝 |
 | 47 | Kaposi Sarcoma | 卡波西肉瘤 | 2.2025 | T3（挂皮肤） | | 📝 |
@@ -325,8 +323,8 @@
 | 55 | Gastrointestinal Stromal Tumors | 胃肠道间质瘤 | 1.2025 | T1 | = 罕见病 #32 · [gist-workbench](https://github.com/xyb-openharness-dsh-plugins/gist-workbench) | 🟡 v0.1.0（2026-10-21 认领） | 👤🩺 补位 |
 | 56 | Uterine Neoplasms | 子宫肿瘤 | 3.2025 | T1 · 🔵 [endometrial-workbench](https://github.com/xyb-openharness-dsh-plugins/endometrial-workbench) v0.3.2（10-25 认领，小膜宝 EndoPal；与 1.1 #68 条目同仓） | | 👤🩺📝 补位 |
 | 57 | Gestational Trophoblastic Neoplasia | 妊娠滋养细胞肿瘤 | 3.2025 | T1 | 生育与随访强相关 | 🔵 v0.5.0（2026-10-25 认领 issue #38；v0.4.0 走完 M0–M7，v0.5.0 按用户反馈补 12 页菜单/3D 指标卡/营养心理/三档临床匹配/检查与指标二级页签+指标管理；装机层已验 0.5.0，界面加载待用户新建会话确认） | 👤🩺📝 |
-| 58 | Vaginal Cancer | 阴道癌 | 5.2025 | T2 | | ⚪ 规划中 | 📝 |
-| 59 | Vulvar Cancer | 外阴癌 | 1.2025 | T2 | | ⚪ 规划中 | 📝 |
+| 58 | Vaginal Cancer | 阴道癌 | 5.2025 | T2 · 🔵 [vaginal-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/vaginal-cancer-workbench) v0.1.0（小兰宝 VagiPal · M0–M9 全周期交付 · DSH 已装机，[Issue #103](https://github.com/xyb-openharness-dsh-plugins/.github/issues/103)） | 432 项快照 / 4 组 8 项指标 / 阴道扩张康复 / 一图秀样条 | 👤🩺 补位 |
+| 59 | Vulvar Cancer | 外阴癌 | 1.2025 | T2 · 🔵 [vulvar-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/vulvar-cancer-workbench) v0.1.0（小槿宝 HibisPal · M0–M9 全周期交付 · DSH 已装机，[Issue #104](https://github.com/xyb-openharness-dsh-plugins/.github/issues/104)） | 243 项快照 / 4 组 8 项指标 / 切缘造口淋巴水肿 / 一图秀样条 | 👤🩺 补位 |
 
 ### 1.8 W7 · 儿童线（代记主体 = 家长，独立产品形态）
 
