@@ -296,10 +296,10 @@
 | 42 | Melanoma: Cutaneous | 黑色素瘤：皮肤 | 2.2025 | **T0 皮肤样板** · 🔵 [melanoma-workbench](https://github.com/xyb-openharness-dsh-plugins/melanoma-workbench) v0.3.1（10-25 认领，小痣宝 MolePal，[Issue #22](https://github.com/xyb-openharness-dsh-plugins/.github/issues/22)） | = 罕见病 #48 | 👤🩺 补位 |
 | 43 | Melanoma: Uveal | 黑色素瘤：葡萄膜 | 1.2025 | T2 · 🔵 [uveal-melanoma-workbench](https://github.com/xyb-openharness-dsh-plugins/uveal-melanoma-workbench) v0.1.0（小瞳宝 UveaPal · M0–M9 全周期交付 · DSH 已装机，[Issue #106](https://github.com/xyb-openharness-dsh-plugins/.github/issues/106)） | 331 项快照 / 4 组 8 项指标 / 敷贴抗 VEGF / 一图秀样条 | 👤🩺 补位 |
 | 44 | Merkel Cell Carcinoma | 默克尔细胞癌 | 2.2025 | T2 · 🔵 [merkel-cell-carcinoma-workbench](https://github.com/xyb-openharness-dsh-plugins/merkel-cell-carcinoma-workbench) v0.1.0（小默宝 MerkelPal · M0–M9 全周期交付 · DSH 已装机，[Issue #105](https://github.com/xyb-openharness-dsh-plugins/.github/issues/105)） | = 罕见病 #19 · 161 项快照 / 4 组 8 项指标 / 免疫毒性 irAE / 一图秀样条 | 👤🩺 补位 |
-| 45 | Basal Cell Skin Cancer | 基底细胞皮肤癌 | 2.2025 | T2 | | 📝 |
+| 45 | Basal Cell Skin Cancer | 基底细胞皮肤癌 | 2.2025 | T2 · 🔵 [basal-cell-carcinoma-workbench](https://github.com/xyb-openharness-dsh-plugins/basal-cell-carcinoma-workbench) v0.1.0（小基宝 BasePal · M0–M9 全周期交付 · DSH 已装机，[Issue #109](https://github.com/xyb-openharness-dsh-plugins/.github/issues/109)） | 523 项快照 / 4 组 8 项指标 / Mohs术与维莫德吉随访 / 一图秀样条 | 👤🩺 补位 |
 | 46 | Squamous Cell Skin Cancer | 鳞状细胞皮肤癌 | 2.2025 | T2 | | 📝 |
 | 47 | Kaposi Sarcoma | 卡波西肉瘤 | 2.2025 | T3（挂皮肤） | | 📝 |
-| 48 | Dermatofibrosarcoma Protuberans | 隆突性皮肤纤维肉瘤 | 1.2025 | T3（挂肉瘤） | = 罕见病 #22 | 📝 |
+| 48 | Dermatofibrosarcoma Protuberans | 隆突性皮肤纤维肉瘤 | 1.2025 | T3 · 🔵 [dfsp-workbench](https://github.com/xyb-openharness-dsh-plugins/dfsp-workbench) v0.1.0（小隆宝 FibroPal · M0–M9 全周期交付 · DSH 已装机，[Issue #110](https://github.com/xyb-openharness-dsh-plugins/.github/issues/110)） | = 罕见病 #22 · 44 项快照 / 4 组 8 项指标 / COL1A1-PDGFB 融合与靶向监测 / 一图秀样条 | 👤🩺 补位 |
 
 ### 1.6 W5 · 头颈与中枢神经
 
@@ -375,7 +375,7 @@
 | 14 | 肾透明细胞肉瘤 | 76 | 儿童肾肿瘤（Wilms） | ⚪ 规划中 | 📝🩺 挂靠内容 |
 | 19 | 梅克尔细胞癌 | 101 | 皮肤线 | ⚪ 规划中 | 📝🩺 挂靠内容 |
 | 20 | 皮肤 T 细胞淋巴瘤 | 106 | 淋巴瘤 | ⚪ 规划中 | 📝🩺 挂靠内容 |
-| 22 | 隆突性皮肤纤维肉瘤 | 127 | 肉瘤 | ⚪ 规划中 | 📝🩺 挂靠内容 |
+| 22 | 隆突性皮肤纤维肉瘤 | 127 | [dfsp-workbench](https://github.com/xyb-openharness-dsh-plugins/dfsp-workbench)（R1 例外：已独立建仓） | 🔵 v0.1.0（小隆宝 FibroPal · M0–M9 全周期交付，[Issue #110](https://github.com/xyb-openharness-dsh-plugins/.github/issues/110)） | 44 项快照 / 4 组 8 项指标 / 一图秀样条 |
 | 24 | 上皮样肉瘤 | 139 | 肉瘤 | ⚪ 规划中 | 📝🩺 挂靠内容 |
 | 31 | 胃肠胰神经内分泌肿瘤 | 173 | 消化 / 神经内分泌 | ⚪ 规划中 | 📝🩺 挂靠内容 |
 | 32 | 胃肠间质瘤 | 180 | [gist-workbench](https://github.com/xyb-openharness-dsh-plugins/gist-workbench)（R1 例外：已独立建仓） | 🟡 v0.1.0（2026-10-21 认领） | 已认领 · 👤🩺 补位 |
