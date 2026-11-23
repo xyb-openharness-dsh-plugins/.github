@@ -264,7 +264,7 @@
 | 24 | Chronic Lymphocytic Leukemia/SLL | 慢性淋巴细胞白血病/小淋巴细胞淋巴瘤 | 3.2025 | T1 · 🔵 [cll-workbench](https://github.com/xyb-openharness-dsh-plugins/cll-workbench) v0.7.0（10-25 认领，小淋宝 LymPal） | | 👤🩺📝 补位 |
 | 25 | Myelodysplastic Syndromes | 骨髓增生异常综合征 | 2.2025 | T2 | | 👤🩺📝 |
 | 26 | Myeloproliferative Neoplasms | 骨髓增生性肿瘤 | 2.2025 | T2 | 罕见病 #62/#67 挂此 | 👤🩺📝 |
-| 27 | Hairy Cell Leukemia | 毛细胞白血病 | 1.2025 | T2 | | 📝 |
+| 27 | Hairy Cell Leukemia | 毛细胞白血病 | 1.2025 | T2 · 🔵 [hairy-cell-leukemia-workbench](https://github.com/xyb-openharness-dsh-plugins/hairy-cell-leukemia-workbench) v0.1.5（小毛宝 HairyPal · M0–M9 全周期交付 · DSH 已装机，[Issue #107](https://github.com/xyb-openharness-dsh-plugins/.github/issues/107)） | 249 项快照 / 4 组 8 项指标 / 克拉屈滨与维罗非尼靶向随访 / 一图秀样条 | 👤🩺 补位 |
 | 28 | Systemic Mastocytosis | 系统性肥大细胞增多症 | 1.2025 | T2 | = 罕见病 #75 | 👤📝 |
 | 29 | Castleman Disease | 卡斯尔曼病 | 2.2025 | T2 | | 👤📝 |
 | 30 | Systemic Light Chain Amyloidosis | 系统性轻链淀粉样变性 | 1.2026 | T3（挂 MM） | | 📝 |
