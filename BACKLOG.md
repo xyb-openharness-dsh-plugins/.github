@@ -234,8 +234,8 @@
 | 10 | Cervical Cancer | 宫颈癌 | 4.2025 | 妇科 | T1 | [cervical-workbench](https://github.com/xyb-openharness-dsh-plugins/cervical-workbench) | 🟡 v0.1.1 | 团队在编 |
 | 68 | Uterine Neoplasms（子宫内膜癌） | 子宫内膜癌 | 待核验 | 妇科 | T1 | [endometrial-workbench](https://github.com/xyb-openharness-dsh-plugins/endometrial-workbench)（2026-10-25 新增条目，FIGO 2023 分子分型整合分期；与 1.7 #56 子宫肿瘤同一仓） | 🔵 v0.3.2（10-25 认领，小膜宝 EndoPal） | 👤🩺📝 补位 |
 | 11 | Pancreatic Adenocarcinoma | 胰腺腺癌（PDAC） | 2.2025 | 消化 | T1 | [xyb-workbench](https://github.com/xyb-openharness-dsh-plugins/xyb-workbench) · **小胰宝**（PDAC 本体，非挂靠） | 🔵 v0.1.34 | 🩺📝 内容补位 · 💻 家族基线迁移 |
-| 12 | Hodgkin Lymphoma | 霍奇金淋巴瘤 | 2.2025 | 血液 | T3（挂淋巴瘤） | lymphoma-workbench | ⚪ 规划中 | 📝 |
-| 13 | T-Cell Lymphomas | T 细胞淋巴瘤 | 2.2025 | 血液 | T3（挂淋巴瘤） | lymphoma-workbench | ⚪ 规划中 | 📝 |
+| 12 | Hodgkin Lymphoma | 霍奇金淋巴瘤 | 2.2025 | 血液 | T2（独立仓） | [hodgkin-lymphoma-workbench](https://github.com/xyb-openharness-dsh-plugins/hodgkin-lymphoma-workbench) | 🔵 v0.1.0（小霍宝 HodgPal · M0–M7 交付 · DSH 已装机，[Issue #115](https://github.com/xyb-openharness-dsh-plugins/.github/issues/115) · 1873 项快照 / Deauville 5 分法 / 一图秀） | 👤🩺 补位 |
+| 13 | T-Cell Lymphomas | T 细胞淋巴瘤 | 2.2025 | 血液 | T2（独立仓） | [t-cell-lymphoma-workbench](https://github.com/xyb-openharness-dsh-plugins/t-cell-lymphoma-workbench) | 🔵 v0.1.0（小T宝 TCellPal · M0–M7 交付 · DSH 已装机，[Issue #116](https://github.com/xyb-openharness-dsh-plugins/.github/issues/116) · 326 项快照 / EBV-DNA 与 HLH / 一图秀） | 👤🩺 补位 |
 
 > 非 NCCN 病种但已在族内：心理支持线 [xiaoxinbao-workbench](https://github.com/xyb-openharness-dsh-plugins/xiaoxinbao-workbench)（🟢 0.3.14），作为**共用支撑模块**被各癌种工作台引用，不占病种名额。
 > 2026-10-25 跨仓统一动作：各工作台新增「疾病概要」模块（业务顶栏「?」入口 + README 四段式介绍），primer 模板同步自 starter 1.6.1（脚手架已迭代至 1.7.0，补 Windows 装机写法）。
