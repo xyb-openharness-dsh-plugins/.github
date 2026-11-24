@@ -265,10 +265,10 @@
 | 25 | Myelodysplastic Syndromes | 骨髓增生异常综合征 | 2.2025 | T2 | | 👤🩺📝 |
 | 26 | Myeloproliferative Neoplasms | 骨髓增生性肿瘤 | 2.2025 | T2 | 罕见病 #62/#67 挂此 | 👤🩺📝 |
 | 27 | Hairy Cell Leukemia | 毛细胞白血病 | 1.2025 | T2 · 🔵 [hairy-cell-leukemia-workbench](https://github.com/xyb-openharness-dsh-plugins/hairy-cell-leukemia-workbench) v0.1.5（小毛宝 HairyPal · M0–M9 全周期交付 · DSH 已装机，[Issue #107](https://github.com/xyb-openharness-dsh-plugins/.github/issues/107)） | 249 项快照 / 4 组 8 项指标 / 克拉屈滨与维罗非尼靶向随访 / 一图秀样条 | 👤🩺 补位 |
-| 28 | Systemic Mastocytosis | 系统性肥大细胞增多症 | 1.2025 | T2 | = 罕见病 #75 | 👤📝 |
+| 28 | Systemic Mastocytosis | 系统性肥大细胞增多症 | 1.2025 | T2 · 🔵 [systemic-mastocytosis-workbench](https://github.com/xyb-openharness-dsh-plugins/systemic-mastocytosis-workbench) v0.1.0（小肥宝 MastPal · M0–M7 交付 · DSH 已装机，[Issue #117](https://github.com/xyb-openharness-dsh-plugins/.github/issues/117)） | = 罕见病 #75 · 114 项快照 / 类胰蛋白酶与 KIT VAF / 一图秀 | 👤🩺 补位 |
 | 29 | Castleman Disease | 卡斯尔曼病 | 2.2025 | T2 | | 👤📝 |
 | 30 | Systemic Light Chain Amyloidosis | 系统性轻链淀粉样变性 | 1.2026 | T3（挂 MM） | | 📝 |
-| 31 | Waldenström Macroglobulinemia/LPL | 华氏巨球蛋白血症 | 1.2026 | T3（挂 B 细胞淋巴瘤） | = 罕见病 #85 | 📝 |
+| 31 | Waldenström Macroglobulinemia/LPL | 华氏巨球蛋白血症 | 1.2026 | T2 · 🔵 [waldenstrom-workbench](https://github.com/xyb-openharness-dsh-plugins/waldenstrom-workbench) v0.1.0（小华宝 WaldPal · M0–M7 交付 · DSH 已装机，[Issue #118](https://github.com/xyb-openharness-dsh-plugins/.github/issues/118)） | = 罕见病 #85 · 569 项快照 / MYD88+CXCR4 与 IgM 黏滞度 / 一图秀 | 👤🩺 补位 |
 | 32 | Myeloid/Lymphoid Neoplasms with Eosinophilia and TK Fusions | 伴嗜酸粒细胞增多和 TK 基因融合的髓系/淋巴系肿瘤 | 2.2025 | T4 | 国内资料稀缺，暂观察 | — |
 | 33 | Histiocytic Neoplasms | 组织细胞肿瘤 | 1.2025 | T4 | 同 #32 | — |
 
