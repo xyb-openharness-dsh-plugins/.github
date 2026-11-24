@@ -292,13 +292,13 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 39 | Thymomas and Thymic Carcinomas | 胸腺瘤和胸腺癌 | 2.2025 | T1 | | 👤📝🩺 |
 | 40 | Mesothelioma: Pleural | 间皮瘤：胸膜 | 2.2025 | T1 · 🔵 [mesothelioma-workbench](https://github.com/xyb-openharness-dsh-plugins/mesothelioma-workbench) v0.1.4（10-24 认领） | = 罕见病 #47 | 👤🩺📝 补位（访谈素材仍最缺） |
-| 41 | Mesothelioma: Peritoneal | 间皮瘤：腹膜 | 2.2025 | T2 | | 📝 |
+| 41 | Mesothelioma: Peritoneal | 间皮瘤：腹膜 | 2.2025 | T2 · 🔵 [peritoneal-mesothelioma-workbench](https://github.com/xyb-openharness-dsh-plugins/peritoneal-mesothelioma-workbench) v0.1.0（小腹宝 PeriPal · M0–M7 交付 · DSH 已装机，[Issue #114](https://github.com/xyb-openharness-dsh-plugins/.github/issues/114)） | 91 项快照 / 4 组 8 项指标 / PCI 与 CRS+HIPEC / 一图秀样条 | 👤🩺 补位 |
 | 42 | Melanoma: Cutaneous | 黑色素瘤：皮肤 | 2.2025 | **T0 皮肤样板** · 🔵 [melanoma-workbench](https://github.com/xyb-openharness-dsh-plugins/melanoma-workbench) v0.3.1（10-25 认领，小痣宝 MolePal，[Issue #22](https://github.com/xyb-openharness-dsh-plugins/.github/issues/22)） | = 罕见病 #48 | 👤🩺 补位 |
 | 43 | Melanoma: Uveal | 黑色素瘤：葡萄膜 | 1.2025 | T2 · 🔵 [uveal-melanoma-workbench](https://github.com/xyb-openharness-dsh-plugins/uveal-melanoma-workbench) v0.1.0（小瞳宝 UveaPal · M0–M9 全周期交付 · DSH 已装机，[Issue #106](https://github.com/xyb-openharness-dsh-plugins/.github/issues/106)） | 331 项快照 / 4 组 8 项指标 / 敷贴抗 VEGF / 一图秀样条 | 👤🩺 补位 |
 | 44 | Merkel Cell Carcinoma | 默克尔细胞癌 | 2.2025 | T2 · 🔵 [merkel-cell-carcinoma-workbench](https://github.com/xyb-openharness-dsh-plugins/merkel-cell-carcinoma-workbench) v0.1.0（小默宝 MerkelPal · M0–M9 全周期交付 · DSH 已装机，[Issue #105](https://github.com/xyb-openharness-dsh-plugins/.github/issues/105)） | = 罕见病 #19 · 161 项快照 / 4 组 8 项指标 / 免疫毒性 irAE / 一图秀样条 | 👤🩺 补位 |
 | 45 | Basal Cell Skin Cancer | 基底细胞皮肤癌 | 2.2025 | T2 · 🔵 [basal-cell-carcinoma-workbench](https://github.com/xyb-openharness-dsh-plugins/basal-cell-carcinoma-workbench) v0.1.0（小基宝 BasePal · M0–M9 全周期交付 · DSH 已装机，[Issue #109](https://github.com/xyb-openharness-dsh-plugins/.github/issues/109)） | 523 项快照 / 4 组 8 项指标 / Mohs术与维莫德吉随访 / 一图秀样条 | 👤🩺 补位 |
 | 46 | Squamous Cell Skin Cancer | 鳞状细胞皮肤癌 | 2.2025 | T2 | | 📝 |
-| 47 | Kaposi Sarcoma | 卡波西肉瘤 | 2.2025 | T3（挂皮肤） | | 📝 |
+| 47 | Kaposi Sarcoma | 卡波西肉瘤 | 2.2025 | T3 · 🔵 [kaposi-sarcoma-workbench](https://github.com/xyb-openharness-dsh-plugins/kaposi-sarcoma-workbench) v0.1.0（小卡宝 KaposiPal · M0–M7 交付 · DSH 已装机，[Issue #113](https://github.com/xyb-openharness-dsh-plugins/.github/issues/113)） | 191 项快照 / 4 组 8 项指标 / ACTSG TIS / 一图秀样条 | 👤🩺 补位 |
 | 48 | Dermatofibrosarcoma Protuberans | 隆突性皮肤纤维肉瘤 | 1.2025 | T3 · 🔵 [dfsp-workbench](https://github.com/xyb-openharness-dsh-plugins/dfsp-workbench) v0.1.0（小隆宝 FibroPal · M0–M9 全周期交付 · DSH 已装机，[Issue #110](https://github.com/xyb-openharness-dsh-plugins/.github/issues/110)） | = 罕见病 #22 · 44 项快照 / 4 组 8 项指标 / COL1A1-PDGFB 融合与靶向监测 / 一图秀样条 | 👤🩺 补位 |
 
 ### 1.6 W5 · 头颈与中枢神经
