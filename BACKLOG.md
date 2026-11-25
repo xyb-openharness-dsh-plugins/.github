@@ -270,7 +270,7 @@
 | 30 | Systemic Light Chain Amyloidosis | 系统性轻链淀粉样变性 | 1.2026 | T2 · 🔵 [light-chain-amyloidosis-workbench](https://github.com/xyb-openharness-dsh-plugins/light-chain-amyloidosis-workbench) v0.1.0（小轻宝 ALPal · M0–M7 交付 · DSH 已装机，[Issue #119](https://github.com/xyb-openharness-dsh-plugins/.github/issues/119)） | 272 项快照 / dFLC 与心肾双轨 / 一图秀 | 👤🩺 补位 |
 | 31 | Waldenström Macroglobulinemia/LPL | 华氏巨球蛋白血症 | 1.2026 | T2 · 🔵 [waldenstrom-workbench](https://github.com/xyb-openharness-dsh-plugins/waldenstrom-workbench) v0.1.0（小华宝 WaldPal · M0–M7 交付 · DSH 已装机，[Issue #118](https://github.com/xyb-openharness-dsh-plugins/.github/issues/118)） | = 罕见病 #85 · 569 项快照 / MYD88+CXCR4 与 IgM 黏滞度 / 一图秀 | 👤🩺 补位 |
 | 32 | Myeloid/Lymphoid Neoplasms with Eosinophilia and TK Fusions | 伴嗜酸粒细胞增多和 TK 基因融合的髓系/淋巴系肿瘤 | 2.2025 | T4 | 国内资料稀缺，暂观察 | — |
-| 33 | Histiocytic Neoplasms | 组织细胞肿瘤 | 1.2025 | T4 | 同 #32 | — |
+| 33 | Histiocytic Neoplasms | 组织细胞肿瘤 | 1.2025 | T2 · 🔵 [histiocytic-neoplasms-workbench](https://github.com/xyb-openharness-dsh-plugins/histiocytic-neoplasms-workbench) v0.1.0（小组宝 HistioPal · M0–M7 交付 · DSH 已装机，[Issue #122](https://github.com/xyb-openharness-dsh-plugins/.github/issues/122)） | 44 项快照 / LCH·ECD·RDD 与 BRAF·尿渗透压 / 一图秀 | 👤🩺 补位 |
 
 ### 1.4 W3 · 泌尿与男性
 
@@ -309,7 +309,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 49 | Head and Neck Cancers | 头颈癌 | 4.2025 | **T0 头颈样板** · 🔵 [head-neck-workbench](https://github.com/xyb-openharness-dsh-plugins/head-neck-workbench) v0.1.6（2026-10-25 认领并发布；G1/G2/G3 已过，10 一级 / 34 二级原型 + 46 表 SQLite + customFrame 外壳；装机产物层已验：34 页签 0 异常、页签差异度审计正文最高 0.227 / 结构最高 0.214（证伪「同一套字段换标题」）、医学断言来源审计 0 硬失败、激活烟测 PASS、重启持久化与 7 组路由 PASS；本机界面加载待用户打开 DSH Desktop（已用 `verify-desktop-load` 把判据固化：运行段切片 / 装机先后 / dshHomePath / state.json / profile 兄弟工作台，含五条反例）；市场条目 YAML + 12 张截图已按 0.1.5 重拍（脚本化，带版本同源断言，修掉了 serve-artifact 写死 0.1.0 导致页面与截图一起显示旧版的问题），**投稿被仓库私有卡住待授权**） | 已覆盖鼻咽癌独立路径（33 二级） | 👤🩺💻 补位 |
 | 50 | Thyroid Carcinoma | 甲状腺癌 | 1.2025 | T1 · 🟡 [thyroid-workbench](https://github.com/xyb-openharness-dsh-plugins/thyroid-workbench) v0.1.0（10-24 认领） | 中国高发、随访结构化强 | 👤🩺📝 补位 |
-| 51 | Central Nervous System Cancers | 中枢神经系统癌症 | 1.2025 | T1 | 胶质母细胞瘤已独立建仓 [glioblastoma-workbench](https://github.com/xyb-openharness-dsh-plugins/glioblastoma-workbench) 🔵 v0.1.5 小星宝（罕见病 #38 落此仓） | 🩺📝👨‍👩‍👧 补位 |
+| 51 | Central Nervous System Cancers | 中枢神经系统癌症 | 1.2025 | T2 · 🔵 [cns-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/cns-cancer-workbench) v0.1.0（小脑宝 CNSPal · M0–M7 交付 · DSH 已装机，[Issue #121](https://github.com/xyb-openharness-dsh-plugins/.github/issues/121)）；胶质母细胞瘤已独立建仓 [glioblastoma-workbench](https://github.com/xyb-openharness-dsh-plugins/glioblastoma-workbench) 🔵 v0.1.5 小星宝 | 199 项快照 / IDH+1p19q+MGMT 与 RANO / 一图秀 | 👤🩺 补位 |
 | 52 | Occult Primary | 原发不明肿瘤 | 2.2025 | T4 | 诊断路径为主，患者侧需求待研究 | — |
 
 ### 1.7 W6 · 骨与软组织 + 妇科收口
