@@ -462,11 +462,11 @@
 | 44 | Lennox-Gastaut 综合征 | 257 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 49 | 异染性脑白质营养不良 | 283 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 50 | 单基因非综合征性肥胖 | 288 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
-| 51 | 多发性内分泌腺瘤病 | 291 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
+| 51 | 多发性内分泌腺瘤病 | 291 | T2 · 🔵 [men-workbench](https://github.com/xyb-openharness-dsh-plugins/men-workbench) v0.1.0（小腺宝 MenPal · M0–M7 交付 · DSH 已装机，[Issue #148](https://github.com/xyb-openharness-dsh-plugins/.github/issues/148)） | 51 条快照 / 4 组 8 项指标 / MEN1-MEN2 术前嗜铬细胞瘤 α 阻滞红线 / 一图秀 | 👨‍👩‍👧🤝📝 补位 |
 | 54 | 神经纤维瘤病 | 314 | T1 | 🔵 [neurofibromatosis-workbench](https://github.com/xyb-openharness-dsh-plugins/neurofibromatosis-workbench) v0.1.4（2026-10-25 认领，小纤宝 FibroPal，[Issue #41](https://github.com/xyb-openharness-dsh-plugins/.github/issues/41)；M0–M7 完成、装机 0.1.4，界面加载待用户新建会话） | 👨‍👩‍👧🤝📝🩺 补位 |
 | 55 | 神经元蜡样脂褐质沉积症 | 326 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 59 | 新生儿持续肺动脉高压 | 350 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
-| 61 | PIK3CA 相关过度生长综合征 | 360 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
+| 61 | PIK3CA 相关过度生长综合征 | 360 | T2 · 🔵 [pros-workbench](https://github.com/xyb-openharness-dsh-plugins/pros-workbench) v0.1.0（小增宝 ProsPal · M0–M7 交付 · DSH 已装机，[Issue #149](https://github.com/xyb-openharness-dsh-plugins/.github/issues/149)） | 4 组 8 项指标 / CLOVES-KTS-MCAP 嵌合突变与 Alpelisib-LIC 专护 / 一图秀 | 👨‍👩‍👧🤝📝 补位 |
 | 64 | 原发性生长激素缺乏症 | 374 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 65 | 原发性胰岛素样生长因子-1 缺乏症 | 382 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 66 | 原发性免疫缺陷病 | 385 | T1 | 🔥 优先招募 | 👨‍👩‍👧🤝📝🩺 |
