@@ -189,7 +189,7 @@
 | 39 | 高林综合征 | T2 |
 | 41 | 早老症 | T2 |
 | 43 | Leber 先天性黑矇 | T2 |
-| 44 | Lennox-Gastaut 综合征 | T2 |
+| 44 | Lennox-Gastaut 综合征 | T2 · 🔵 [lgs-workbench](https://github.com/xyb-openharness-dsh-plugins/lgs-workbench) v0.1.0（小安宝 LgsPal · M0–M7 交付 · DSH 已装机，[Issue #139](https://github.com/xyb-openharness-dsh-plugins/.github/issues/139) · 211 项快照 / SSW·GPFA 脑电与跌倒发作·CBD·VNS / 一图秀） |
 | 49 | 异染性脑白质营养不良 | T2 |
 | 50 | 单基因非综合征性肥胖 | T2 |
 | 51 | 多发性内分泌腺瘤病 | T2 |
