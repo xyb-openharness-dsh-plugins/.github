@@ -267,7 +267,7 @@
 | 27 | Hairy Cell Leukemia | 毛细胞白血病 | 1.2025 | T2 · 🔵 [hairy-cell-leukemia-workbench](https://github.com/xyb-openharness-dsh-plugins/hairy-cell-leukemia-workbench) v0.1.5（小毛宝 HairyPal · M0–M9 全周期交付 · DSH 已装机，[Issue #107](https://github.com/xyb-openharness-dsh-plugins/.github/issues/107)） | 249 项快照 / 4 组 8 项指标 / 克拉屈滨与维罗非尼靶向随访 / 一图秀样条 | 👤🩺 补位 |
 | 28 | Systemic Mastocytosis | 系统性肥大细胞增多症 | 1.2025 | T2 · 🔵 [systemic-mastocytosis-workbench](https://github.com/xyb-openharness-dsh-plugins/systemic-mastocytosis-workbench) v0.1.0（小肥宝 MastPal · M0–M7 交付 · DSH 已装机，[Issue #117](https://github.com/xyb-openharness-dsh-plugins/.github/issues/117)） | = 罕见病 #75 · 114 项快照 / 类胰蛋白酶与 KIT VAF / 一图秀 | 👤🩺 补位 |
 | 29 | Castleman Disease | 卡斯尔曼病 | 2.2025 | T2 | | 👤📝 |
-| 30 | Systemic Light Chain Amyloidosis | 系统性轻链淀粉样变性 | 1.2026 | T3（挂 MM） | | 📝 |
+| 30 | Systemic Light Chain Amyloidosis | 系统性轻链淀粉样变性 | 1.2026 | T2 · 🔵 [light-chain-amyloidosis-workbench](https://github.com/xyb-openharness-dsh-plugins/light-chain-amyloidosis-workbench) v0.1.0（小轻宝 ALPal · M0–M7 交付 · DSH 已装机，[Issue #119](https://github.com/xyb-openharness-dsh-plugins/.github/issues/119)） | 272 项快照 / dFLC 与心肾双轨 / 一图秀 | 👤🩺 补位 |
 | 31 | Waldenström Macroglobulinemia/LPL | 华氏巨球蛋白血症 | 1.2026 | T2 · 🔵 [waldenstrom-workbench](https://github.com/xyb-openharness-dsh-plugins/waldenstrom-workbench) v0.1.0（小华宝 WaldPal · M0–M7 交付 · DSH 已装机，[Issue #118](https://github.com/xyb-openharness-dsh-plugins/.github/issues/118)） | = 罕见病 #85 · 569 项快照 / MYD88+CXCR4 与 IgM 黏滞度 / 一图秀 | 👤🩺 补位 |
 | 32 | Myeloid/Lymphoid Neoplasms with Eosinophilia and TK Fusions | 伴嗜酸粒细胞增多和 TK 基因融合的髓系/淋巴系肿瘤 | 2.2025 | T4 | 国内资料稀缺，暂观察 | — |
 | 33 | Histiocytic Neoplasms | 组织细胞肿瘤 | 1.2025 | T4 | 同 #32 | — |
@@ -345,7 +345,7 @@
 
 | # | NCCN 病种 | 中文 | 版本 | 级别 | 说明 | 招募对象 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 66 | Primary Cutaneous Lymphomas | 原发性皮肤淋巴瘤 | 3.2025 | T3（挂淋巴瘤） | = 罕见病 #20 皮肤 T 细胞淋巴瘤 | 📝 |
+| 66 | Primary Cutaneous Lymphomas | 原发性皮肤淋巴瘤 | 3.2025 | T2 · 🔵 [cutaneous-lymphoma-workbench](https://github.com/xyb-openharness-dsh-plugins/cutaneous-lymphoma-workbench) v0.1.0（小皮淋宝 CutisPal · M0–M7 交付 · DSH 已装机，[Issue #120](https://github.com/xyb-openharness-dsh-plugins/.github/issues/120)） | = 罕见病 #20 · 95 项快照 / mSWAT 与 Sézary 计数 / 一图秀 | 👤🩺 补位 |
 | 67 | Neuroendocrine and Adrenal Tumors | 神经内分泌和肾上腺肿瘤 | 2.2025 | T1（W1） · 🟡 [neuroendocrine-workbench](https://github.com/xyb-openharness-dsh-plugins/neuroendocrine-workbench) v0.1.0（10-25 认领，小肽宝） | 罕见病 #31 胃肠胰神经内分泌肿瘤、#60 嗜铬细胞瘤/副神经节瘤 挂此 | 👤🩺📝 补位 |
 
 ### 1.10 癌种小计
