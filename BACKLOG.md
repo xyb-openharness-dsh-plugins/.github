@@ -456,8 +456,8 @@
 | 28 | 进行性骨化性纤维发育不良（FOP） | 160 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 29 | 脆性 X 综合征 | 164 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 30 | 神经节苷脂贮积症 | 168 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
-| 39 | 高林综合征 | 224 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
-| 41 | 早老症 | 236 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
+| 39 | 高林综合征 | 224 | T2 | 🟡 设计中（2026-11-25 认领 · [Issue #145](https://github.com/xyb-openharness-dsh-plugins/.github/issues/145) · 仓 `gorlin-workbench`（私有孵化）· **G1/G2 未签**，v0.1 调研+原型已交） | 👨‍👩‍👧🤝📝 |
+| 41 | 早老症 | 236 | T2 | 🟡 设计中（2026-11-25 认领 · [Issue #146](https://github.com/xyb-openharness-dsh-plugins/.github/issues/146) · 仓 `progeria-workbench`（私有孵化）· **G1/G2 未签**，v0.1 调研+原型已交） | 👨‍👩‍👧🤝📝 |
 | 43 | Leber 先天性黑矇 | 251 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 44 | Lennox-Gastaut 综合征 | 257 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 49 | 异染性脑白质营养不良 | 283 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
@@ -470,7 +470,7 @@
 | 64 | 原发性生长激素缺乏症 | 374 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 65 | 原发性胰岛素样生长因子-1 缺乏症 | 382 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 66 | 原发性免疫缺陷病 | 385 | T1 | 🔥 优先招募 | 👨‍👩‍👧🤝📝🩺 |
-| 71 | 早产儿视网膜病 | 417 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
+| 71 | 早产儿视网膜病 | 417 | T2 | 🟡 设计中（2026-11-25 认领 · [Issue #147](https://github.com/xyb-openharness-dsh-plugins/.github/issues/147) · 仓 `rop-workbench`（私有孵化）· **G1/G2 未签**，v0.1 调研+原型已交） | 👨‍👩‍👧🤝📝 |
 | 72 | Rett 综合征 | 423 | T2 | 🔥 优先招募 | 👨‍👩‍👧🤝📝🩺 |
 | 74 | 全身型幼年特发性关节炎 | 436 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 78 | 地中海贫血（重型） | 466 | T1 | ✅ 已认领（2026-10-25，[Issue #34](https://github.com/xyb-openharness-dsh-plugins/.github/issues/34)；[thalassemia-workbench](https://github.com/xyb-openharness-dsh-plugins/thalassemia-workbench) 空仓占位，待开工） | 👨‍👩‍👧🤝📝🩺 |
