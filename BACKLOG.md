@@ -269,12 +269,12 @@
 | 29 | Castleman Disease | 卡斯尔曼病 | 2.2025 | T2 | | 👤📝 |
 | 30 | Systemic Light Chain Amyloidosis | 系统性轻链淀粉样变性 | 1.2026 | T2 · 🔵 [light-chain-amyloidosis-workbench](https://github.com/xyb-openharness-dsh-plugins/light-chain-amyloidosis-workbench) v0.1.0（小轻宝 ALPal · M0–M7 交付 · DSH 已装机，[Issue #119](https://github.com/xyb-openharness-dsh-plugins/.github/issues/119)） | 272 项快照 / dFLC 与心肾双轨 / 一图秀 | 👤🩺 补位 |
 | 31 | Waldenström Macroglobulinemia/LPL | 华氏巨球蛋白血症 | 1.2026 | T2 · 🔵 [waldenstrom-workbench](https://github.com/xyb-openharness-dsh-plugins/waldenstrom-workbench) v0.1.0（小华宝 WaldPal · M0–M7 交付 · DSH 已装机，[Issue #118](https://github.com/xyb-openharness-dsh-plugins/.github/issues/118)） | = 罕见病 #85 · 569 项快照 / MYD88+CXCR4 与 IgM 黏滞度 / 一图秀 | 👤🩺 补位 |
-| 32 | Myeloid/Lymphoid Neoplasms with Eosinophilia and TK Fusions | 伴嗜酸粒细胞增多和 TK 基因融合的髓系/淋巴系肿瘤 | 2.2025 | T4 | 国内资料稀缺，暂观察 | — |
+| 32 | Myeloid/Lymphoid Neoplasms with Eosinophilia and TK Fusions | 伴嗜酸粒细胞增多和 TK 基因融合的髓系/淋巴系肿瘤 | 2.2025 | T2 · 🔵 [mln-eo-workbench](https://github.com/xyb-openharness-dsh-plugins/mln-eo-workbench) v0.1.0（小嗜宝 EosiPal · M0–M7 交付 · DSH 已装机，[Issue #125](https://github.com/xyb-openharness-dsh-plugins/.github/issues/125)） | 17 项快照 / FIP1L1::PDGFRA+FGFR1 与 AEC·心肌双轨 / 一图秀 | 👤🩺 补位 |
 | 33 | Histiocytic Neoplasms | 组织细胞肿瘤 | 1.2025 | T2 · 🔵 [histiocytic-neoplasms-workbench](https://github.com/xyb-openharness-dsh-plugins/histiocytic-neoplasms-workbench) v0.1.0（小组宝 HistioPal · M0–M7 交付 · DSH 已装机，[Issue #122](https://github.com/xyb-openharness-dsh-plugins/.github/issues/122)） | 44 项快照 / LCH·ECD·RDD 与 BRAF·尿渗透压 / 一图秀 | 👤🩺 补位 |
 
 ### 1.4 W3 · 泌尿与男性
 
-> #34 前列腺癌、#35 膀胱癌已于 2026-10-22/23 认领开工，#36 肾癌于 2026-10-24 认领开工；其余 **⬜ 招募中**（#38 阴茎癌 T4 观察池除外，暂不招募）。
+> #34 前列腺癌、#35 膀胱癌已于 2026-10-22/23 认领开工，#36 肾癌于 2026-10-24 认领开工，#38 阴茎癌（[penile-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/penile-cancer-workbench)）已于 2026-11-25 交付装机；其余 **⬜ 招募中**。
 
 | # | NCCN 病种 | 中文 | 版本 | 级别 | 招募对象 |
 | --- | --- | --- | --- | --- | --- |
@@ -282,7 +282,7 @@
 | 35 | Bladder Cancer | 膀胱癌 | 1.2025 | T1 · 🟡 [bladder-workbench](https://github.com/xyb-openharness-dsh-plugins/bladder-workbench) v0.1.0（10-23 认领，SPEC/原型就绪） | 👤🩺 补位 |
 | 36 | Kidney Cancer | 肾癌 | 1.2026 | T1 · 🔵 [kidney-workbench](https://github.com/xyb-openharness-dsh-plugins/kidney-workbench) v0.3.0（2026-10-25 包级装机，G1 已签、M6 开发版完成；[Issue #20](https://github.com/xyb-openharness-dsh-plugins/.github/issues/20)） | 👤🩺 补位（最缺访谈） |
 | 37 | Testicular Cancer | 睾丸癌 | 2.2025 | T2 | 👤📝 |
-| 38 | Penile Cancer | 阴茎癌 | 2.2025 | T4 | — |
+| 38 | Penile Cancer | 阴茎癌 | 2.2025 | T2 · 🔵 [penile-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/penile-cancer-workbench) v0.1.0（小茎宝 PeniPal · M0–M7 交付 · DSH 已装机，[Issue #124](https://github.com/xyb-openharness-dsh-plugins/.github/issues/124)） | 43 项快照 / pT1b-T2 与 SCC-Ag·下肢淋巴水肿双轨 / 一图秀 | 👤🩺 补位 |
 
 ### 1.5 W4 · 胸部收口 + 皮肤开荒
 
