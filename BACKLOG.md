@@ -183,7 +183,7 @@
 | 16 | 先天性胆道闭锁 | T2 |
 | 21 | 胱氨酸贮积症 | T2 |
 | 27 | 家族性腺瘤性息肉病 | T2 |
-| 28 | 进行性骨化性纤维发育不良（FOP） | T2 |
+| 28 | 进行性骨化性纤维发育不良（FOP） | T2 · 🔵 [fop-workbench](https://github.com/xyb-openharness-dsh-plugins/fop-workbench) v0.1.0（小石宝 FopPal · M0–M7 交付 · DSH 已装机，[Issue #138](https://github.com/xyb-openharness-dsh-plugins/.github/issues/138) · 19 项快照 / ACVR1 禁忌与 CAJIS·肺活量 / 一图秀） |
 | 29 | 脆性 X 综合征 | T2 |
 | 30 | 神经节苷脂贮积症 | T2 |
 | 39 | 高林综合征 | T2 |
