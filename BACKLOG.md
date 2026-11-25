@@ -447,7 +447,7 @@
 | 1 | 软骨发育不全 | 1 | **T0 R3 样板** | 🔥 优先招募 | 👨‍👩‍👧🤝📝🩺💻（R3 样板） |
 | 5 | 阿拉杰里综合征 | 22 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 8 | Bardet-Biedl 综合征 | 40 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
-| 10 | 蓝色橡皮疱样痣 | 57 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
+| 10 | 蓝色橡皮疱样痣 | 57 | T2 · 🔵 [brbns-workbench](https://github.com/xyb-openharness-dsh-plugins/brbns-workbench) v0.1.0（小蓝宝 BrbnsPal · M0–M7 交付 · DSH 已装机，[Issue #151](https://github.com/xyb-openharness-dsh-plugins/.github/issues/151)） | 37 条快照 / 4 组 8 项指标 / TEK-TIE2 与西罗莫司 TDM·LIC 凝血防线 / 一图秀 | 👨‍👩‍👧🤝📝 补位 |
 | 11 | 细胞周期蛋白依赖性激酶样 5 缺乏症（CDKL5） | 60 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 12 | 无脉络膜症 | 63 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 16 | 先天性胆道闭锁 | 87 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
@@ -472,7 +472,7 @@
 | 66 | 原发性免疫缺陷病 | 385 | T1 | 🔥 优先招募 | 👨‍👩‍👧🤝📝🩺 |
 | 71 | 早产儿视网膜病 | 417 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 72 | Rett 综合征 | 423 | T2 | 🔥 优先招募 | 👨‍👩‍👧🤝📝🩺 |
-| 74 | 全身型幼年特发性关节炎 | 436 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
+| 74 | 全身型幼年特发性关节炎 | 436 | T2 · 🔵 [sjia-workbench](https://github.com/xyb-openharness-dsh-plugins/sjia-workbench) v0.1.0（小幼宝 SjiaPal · M0–M7 交付 · DSH 已装机，[Issue #152](https://github.com/xyb-openharness-dsh-plugins/.github/issues/152)） | 72 条快照 / 4 组 8 项指标 / Ravelli 2016 MAS 预警与 sJIA-LD 筛查 / 一图秀 | 👨‍👩‍👧🤝📝 补位 |
 | 78 | 地中海贫血（重型） | 466 | T1 | ✅ 已认领（2026-10-25，[Issue #34](https://github.com/xyb-openharness-dsh-plugins/.github/issues/34)；[thalassemia-workbench](https://github.com/xyb-openharness-dsh-plugins/thalassemia-workbench) 空仓占位，待开工） | 👨‍👩‍👧🤝📝🩺 |
 | 83 | Von Hippel-Lindau 综合征 | 494 | T2 | 🔥 优先招募 | 👨‍👩‍👧🤝📝🩺 |
 | 86 | West 综合征/婴儿癫痫痉挛综合征 | 509 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
