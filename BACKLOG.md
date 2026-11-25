@@ -471,7 +471,7 @@
 | 65 | 原发性胰岛素样生长因子-1 缺乏症 | 382 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 66 | 原发性免疫缺陷病 | 385 | T1 | 🔥 优先招募 | 👨‍👩‍👧🤝📝🩺 |
 | 71 | 早产儿视网膜病 | 417 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
-| 72 | Rett 综合征 | 423 | T2 | 🔥 优先招募 | 👨‍👩‍👧🤝📝🩺 |
+| 72 | Rett 综合征 | 423 | T2 | 🟡 设计中（2026-11-25 认领 · [Issue #126](https://github.com/xyb-openharness-dsh-plugins/.github/issues/126) · 仓 `rett-workbench`（私有孵化）· **G1/G2 未签**，v0.1 调研+原型已交） | 👨‍👩‍👧🤝📝🩺 |
 | 74 | 全身型幼年特发性关节炎 | 436 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 78 | 地中海贫血（重型） | 466 | T1 | ✅ 已认领（2026-10-25，[Issue #34](https://github.com/xyb-openharness-dsh-plugins/.github/issues/34)；[thalassemia-workbench](https://github.com/xyb-openharness-dsh-plugins/thalassemia-workbench) 空仓占位，待开工） | 👨‍👩‍👧🤝📝🩺 |
 | 83 | Von Hippel-Lindau 综合征 | 494 | T2 | 🔥 优先招募 | 👨‍👩‍👧🤝📝🩺 |
