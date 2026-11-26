@@ -372,7 +372,7 @@
 
 | # | 疾病 | 页 | 挂靠到 | 状态 | 招募对象 |
 | --- | --- | --- | --- | --- | --- |
-| 14 | 肾透明细胞肉瘤 | 76 | 儿童肾肿瘤（Wilms） | ⚪ 规划中 | 📝🩺 挂靠内容 |
+| 14 | 肾透明细胞肉瘤 | 76 | 儿童肾肿瘤（Wilms） · [ccsk-workbench](https://github.com/xyb-openharness-dsh-plugins/ccsk-workbench)（R1 例外：已独立建仓） | 🔵 v0.1.0（小清肾宝 CcskPal · M0–M7 交付 · DSH 已装机，[Issue #172](https://github.com/xyb-openharness-dsh-plugins/.github/issues/172) · BCOR-ITD/孤立肾保护与骨脑防线） | 📝🩺 挂靠内容 |
 | 19 | 梅克尔细胞癌 | 101 | 皮肤线 | ⚪ 规划中 | 📝🩺 挂靠内容 |
 | 20 | 皮肤 T 细胞淋巴瘤 | 106 | 淋巴瘤 | ⚪ 规划中 | 📝🩺 挂靠内容 |
 | 22 | 隆突性皮肤纤维肉瘤 | 127 | [dfsp-workbench](https://github.com/xyb-openharness-dsh-plugins/dfsp-workbench)（R1 例外：已独立建仓） | 🔵 v0.1.0（小隆宝 FibroPal · M0–M9 全周期交付，[Issue #110](https://github.com/xyb-openharness-dsh-plugins/.github/issues/110)） | 44 项快照 / 4 组 8 项指标 / 一图秀样条 |
@@ -385,7 +385,7 @@
 | 47 | 恶性胸膜间皮瘤 | 269 | 胸部 · [mesothelioma-workbench](https://github.com/xyb-openharness-dsh-plugins/mesothelioma-workbench)（R1 例外：已独立建仓） | 🔵 v0.1.4（2026-10-24 认领） | 已认领 · 👤📝🩺 补位 |
 | 48 | 黑色素瘤 | 278 | 皮肤线（T0 样板已含） | ⚪ 规划中 | 已含（皮肤 T0 样板） |
 | 53 | 神经母细胞瘤 | 303 | 儿童线 | ⚪ 规划中 | 👨‍👩‍👧🩺📝 |
-| 57 | 骨肉瘤 | 341 | 骨癌 | ⚪ 规划中 | 👤🩺📝 |
+| 57 | 骨肉瘤 | 341 | 骨癌 · [osteosarcoma-workbench](https://github.com/xyb-openharness-dsh-plugins/osteosarcoma-workbench)（R1 例外：已独立建仓） | 🔵 v0.1.0（小骨肉宝 OsteoPal · M0–M7 交付 · DSH 已装机，[Issue #171](https://github.com/xyb-openharness-dsh-plugins/.github/issues/171) · HD-MTX 药代/Huvos 坏死率与 MSTS 保肢） | 👨‍👩‍👧🩺📝 |
 | 60 | 嗜铬细胞瘤/副神经节瘤 | 356 | 神经内分泌与肾上腺 | ⚪ 规划中 | 📝🩺 挂靠内容 |
 | 62 | 真性红细胞增多症 | 363 | MPN | ⚪ 规划中 | 📝🩺 挂靠内容 |
 | 67 | 原发性骨髓纤维化 | 392 | MPN | ⚪ 规划中 | 📝🩺 挂靠内容 |
