@@ -337,7 +337,7 @@
 | 62 | Wilms Tumor (Nephroblastoma) | 肾母细胞瘤 | 2.2025 | T1 | 👨‍👩‍👧🩺📝 |
 | 63 | Neuroblastoma | 神经母细胞瘤 | 1.2025 | T1（= 罕见病 #53） | 👨‍👩‍👧🩺📝 |
 | 64 | Pediatric Hodgkin Lymphoma | 儿童霍奇金淋巴瘤 | 2.2025 | T2 · 🔵 [pediatric-hodgkin-workbench](https://github.com/xyb-openharness-dsh-plugins/pediatric-hodgkin-workbench) v0.1.0（小童霍宝 PedHlPal · M0–M7 交付 · DSH 已装机，[Issue #162](https://github.com/xyb-openharness-dsh-plugins/.github/issues/162)） | 👨‍👩‍👧📝 |
-| 65 | Pediatric Aggressive Mature B-Cell Lymphomas | 儿童侵袭性成熟 B 细胞淋巴瘤 | 2.2025 | T2 | 👨‍👩‍👧📝 |
+| 65 | Pediatric Aggressive Mature B-Cell Lymphomas | 儿童侵袭性成熟 B 细胞淋巴瘤 | 2.2025 | T2 · 🔵 [pediatric-b-cell-workbench](https://github.com/xyb-openharness-dsh-plugins/pediatric-b-cell-workbench) v0.1.0（小童淋宝 PedBcellPal · M0–M7 交付 · DSH 已装机，[Issue #163](https://github.com/xyb-openharness-dsh-plugins/.github/issues/163)） | 👨‍👩‍👧📝 |
 
 ### 1.9 补充条目
 
@@ -390,7 +390,7 @@
 | 62 | 真性红细胞增多症 | 363 | MPN | ⚪ 规划中 | 📝🩺 挂靠内容 |
 | 67 | 原发性骨髓纤维化 | 392 | MPN | ⚪ 规划中 | 📝🩺 挂靠内容 |
 | 75 | 系统性肥大细胞增多症 | 443 | 血液族 | ⚪ 规划中 | 📝🩺 挂靠内容 |
-| 77 | 腱鞘巨细胞瘤/色素沉着绒毛结节性滑膜炎 | 462 | 肉瘤 | ⚪ 规划中 | 📝🩺 挂靠内容 |
+| 77 | 腱鞘巨细胞瘤/色素沉着绒毛结节性滑膜炎 | 462 | 肉瘤 · [tgct-workbench](https://github.com/xyb-openharness-dsh-plugins/tgct-workbench)（R1 例外：已独立建仓） | 🔵 v0.1.0（小腱宝 TgctPal · M0–M7 交付 · DSH 已装机，[Issue #164](https://github.com/xyb-openharness-dsh-plugins/.github/issues/164) · TVS/ROM/PRO 与 CSF1R 肝毒性防线） | 📝🩺 挂靠内容 |
 | 85 | 华氏巨球蛋白血症/淋巴浆细胞淋巴瘤 | 505 | B 细胞淋巴瘤 | ⚪ 规划中 | 📝🩺 挂靠内容 |
 
 ### 2.2 R2 非肿瘤慢性病型（34 项，FSHD 形态）
