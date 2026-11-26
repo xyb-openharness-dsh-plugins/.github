@@ -333,10 +333,10 @@
 | # | NCCN 病种 | 中文 | 版本 | 级别 | 招募对象 |
 | --- | --- | --- | --- | --- | --- |
 | 60 | Pediatric Acute Lymphoblastic Leukemia | 儿童急性淋巴细胞白血病 | 3.2025 | **T0 儿童样板** · ✅ 已认领（10-25，待建仓） | 👨‍👩‍👧🩺💻 |
-| 61 | Pediatric Central Nervous System Cancers | 儿童中枢神经系统癌症 | 2.2025 | T1 | 👨‍👩‍👧🩺💻 |
+| 61 | Pediatric Central Nervous System Cancers | 儿童中枢神经系统癌症 | 2.2025 | T1 · 🔵 [pediatric-cns-workbench](https://github.com/xyb-openharness-dsh-plugins/pediatric-cns-workbench) v0.1.0（小童脑宝 PedCnsPal · M0–M7 交付 · DSH 已装机，[Issue #161](https://github.com/xyb-openharness-dsh-plugins/.github/issues/161)） | 👨‍👩‍👧🩺💻 |
 | 62 | Wilms Tumor (Nephroblastoma) | 肾母细胞瘤 | 2.2025 | T1 | 👨‍👩‍👧🩺📝 |
 | 63 | Neuroblastoma | 神经母细胞瘤 | 1.2025 | T1（= 罕见病 #53） | 👨‍👩‍👧🩺📝 |
-| 64 | Pediatric Hodgkin Lymphoma | 儿童霍奇金淋巴瘤 | 2.2025 | T2 | 👨‍👩‍👧📝 |
+| 64 | Pediatric Hodgkin Lymphoma | 儿童霍奇金淋巴瘤 | 2.2025 | T2 · 🔵 [pediatric-hodgkin-workbench](https://github.com/xyb-openharness-dsh-plugins/pediatric-hodgkin-workbench) v0.1.0（小童霍宝 PedHlPal · M0–M7 交付 · DSH 已装机，[Issue #162](https://github.com/xyb-openharness-dsh-plugins/.github/issues/162)） | 👨‍👩‍👧📝 |
 | 65 | Pediatric Aggressive Mature B-Cell Lymphomas | 儿童侵袭性成熟 B 细胞淋巴瘤 | 2.2025 | T2 | 👨‍👩‍👧📝 |
 
 ### 1.9 补充条目
