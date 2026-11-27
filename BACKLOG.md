@@ -259,7 +259,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 20 | Chronic Myeloid Leukemia | 慢性粒细胞白血病 | 1.2026 | **T0 血液样板** · 🟡 [cml-workbench](https://github.com/xyb-openharness-dsh-plugins/cml-workbench) v0.1.0（10-25 认领，小粒宝 GranPal） | 最简、路径最清晰，适合开荒 | 👤🩺 补位 |
 | 21 | Acute Myeloid Leukemia | 急性髓系白血病 | 2.2025 | T1 | 🔵 [aml-workbench](https://github.com/xyb-openharness-dsh-plugins/aml-workbench) v0.4.0（2026-10-26 认领开发，[Issue #48](https://github.com/xyb-openharness-dsh-plugins/.github/issues/48)；G1 决策定稿/G2·G3 待签；V1 过+V2 装机，V3 真机待走查；家族首创 dayGrid 按天历 + hourLane 小时轨道；0.4.0 真机反馈轮：临床研究一级菜单按 35 号三步 + 通用写族） | 👤🩺（开发位已满） |
-| 22 | Acute Lymphoblastic Leukemia | 急性淋巴细胞白血病 | 2.2025 | T1 | | 👤🩺💻 |
+| 22 | Acute Lymphoblastic Leukemia | 急性淋巴细胞白血病 | 2.2025 | T1 · 🔵 [all-workbench](https://github.com/xyb-openharness-dsh-plugins/all-workbench) v0.1.0（小急淋宝 AllPal · M0–M7 交付 · DSH 已装机，[Issue #55](https://github.com/xyb-openharness-dsh-plugins/.github/issues/55)） | Ph+/Ph-like/T-ALL · MRD/CRS/培门冬酶防线 | 👤🩺💻 |
 | 23 | Multiple Myeloma | 多发性骨髓瘤 | 2.2026 | T1 · 🟡 [myeloma-workbench](https://github.com/xyb-openharness-dsh-plugins/myeloma-workbench) v0.1.0（10-25 认领，小浆宝 MyeloPal） | 与罕见病 #85 共用族基线 | 👤🩺 补位 |
 | 24 | Chronic Lymphocytic Leukemia/SLL | 慢性淋巴细胞白血病/小淋巴细胞淋巴瘤 | 3.2025 | T1 · 🔵 [cll-workbench](https://github.com/xyb-openharness-dsh-plugins/cll-workbench) v0.7.0（10-25 认领，小淋宝 LymPal） | | 👤🩺📝 补位 |
 | 25 | Myelodysplastic Syndromes | 骨髓增生异常综合征 | 2.2025 | T2 | | 👤🩺📝 |
@@ -332,7 +332,7 @@
 
 | # | NCCN 病种 | 中文 | 版本 | 级别 | 招募对象 |
 | --- | --- | --- | --- | --- | --- |
-| 60 | Pediatric Acute Lymphoblastic Leukemia | 儿童急性淋巴细胞白血病 | 3.2025 | **T0 儿童样板** · ✅ 已认领（10-25，待建仓） | 👨‍👩‍👧🩺💻 |
+| 60 | Pediatric Acute Lymphoblastic Leukemia | 儿童急性淋巴细胞白血病 | 3.2025 | **T0 儿童样板** · 🔵 [pediatric-all-workbench](https://github.com/xyb-openharness-dsh-plugins/pediatric-all-workbench) v0.1.0（小童白宝 PedAllPal · M0–M7 交付 · DSH 已装机，[Issue #40](https://github.com/xyb-openharness-dsh-plugins/.github/issues/40)） | 👨‍👩‍👧🩺💻 |
 | 61 | Pediatric Central Nervous System Cancers | 儿童中枢神经系统癌症 | 2.2025 | T1 · 🔵 [pediatric-cns-workbench](https://github.com/xyb-openharness-dsh-plugins/pediatric-cns-workbench) v0.1.0（小童脑宝 PedCnsPal · M0–M7 交付 · DSH 已装机，[Issue #161](https://github.com/xyb-openharness-dsh-plugins/.github/issues/161)） | 👨‍👩‍👧🩺💻 |
 | 62 | Wilms Tumor (Nephroblastoma) | 肾母细胞瘤 | 2.2025 | T1 | 👨‍👩‍👧🩺📝 |
 | 63 | Neuroblastoma | 神经母细胞瘤 | 1.2025 | T1（= 罕见病 #53） | 👨‍👩‍👧🩺📝 |

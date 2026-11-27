@@ -11,7 +11,7 @@
 
 | 目录范围 | 总条目 | 已建仓/已覆盖 | 待开发 / 待续建说明 |
 | --- | --- | --- | --- |
-| **NCCN 主要癌种** | 67 项（+1 补充） | **65 项已建仓/已并入** | 仅余 **2 项**已认领但未建仓（`#22 成人 ALL`、`#60 儿童 ALL`）；另有 3 项 T3 挂靠未独立建仓 |
+| **NCCN 主要癌种** | 67 项（+1 补充） | **67 项已全部建仓/并入（100%）** | 主表 2 项未建仓项（`#22 成人 ALL`、`#60 儿童 ALL`）已补齐交付；仅余 3 项 T3 挂靠未独立建仓 |
 | **罕见病 · R1 肿瘤型（挂靠）** | 20 项 | **19 项已独立建仓或挂靠** | 16 项已独立建仓（含并发在途），3 项已含/在途，仅余 **1 项** `#31 GEP-NET` 未独立建仓 |
 | **罕见病 · R2 非肿瘤慢性病型** | 34 项 | **34 项远端仓库已 100% 建立** | 全部已建仓或已交付装机 |
 | **罕见病 · R3 儿童/遗传型** | 32 项 | **32 项远端仓库已 100% 建立** | 其中 19 项已交付/在途，**13 项为远端 M0–M2 私有孵化仓**（非空仓，缺 M3–M7 与 DSH 装机） |
@@ -46,12 +46,9 @@
 | **NCCN #05** | NCCN W0 · T3 | 直肠癌（Rectal Cancer） | `colorectal-workbench` | `rectal-workbench`（未建仓） |
 | **NCCN #07** | NCCN W0 · T3 | 小细胞肺癌（SCLC） | 已并入 `lung-cancer-workbench` | 已作为分型并入肺癌仓 |
 
-### 第三类（建议 2-A）：NCCN 主表已认领但远端/本地均未建仓（2 项，可直接补建仓开工）
+### 第三类（建议 2-A）：NCCN 主表已认领但远端/本地均未建仓（✅ 已全部清零）
 
-| 目录编号 | 类型 | 病种名称 | 级别 | 既有 Issue | 建议仓库名 |
-| --- | --- | --- | --- | --- | --- |
-| **NCCN #22** | NCCN W2 血液肿瘤 | 成人急性淋巴细胞白血病（Adult ALL） | T1 | `#55`（OPEN） | `all-workbench` |
-| **NCCN #60** | NCCN W7 儿童肿瘤 | 儿童急性淋巴细胞白血病（Pediatric ALL） | **T0 儿童样板** | `#40`（OPEN） | `pediatric-all-workbench` |
+> NCCN `#22 成人急性淋巴细胞白血病`（`all-workbench` · Issue `#55`）与 NCCN `#60 儿童急性淋巴细胞白血病`（`pediatric-all-workbench` · Issue `#40`）均已于 2026-11-27 补齐建仓并交付 `v0.1.0`。
 
 ### 第四类（建议 2-B）：13 个 R3 远端 M0–M2 私有孵化仓（非空仓，待接管续建 M3–M7 并装机）
 
@@ -84,6 +81,8 @@
 - **罕见病 #77 腱鞘巨细胞瘤 / PVNS**：`tgct-workbench` `v0.1.0`（小腱宝 TgctPal · Issue `#164` 已关闭 · 已装机）
 - **罕见病 #57 骨肉瘤**：`osteosarcoma-workbench` `v0.1.0`（小骨肉宝 OsteoPal · Issue `#171` 已关闭 · 已写入 DSH `package.json`）
 - **罕见病 #14 肾透明细胞肉瘤**：`ccsk-workbench` `v0.1.0`（小清肾宝 CcskPal · Issue `#172` 已关闭 · 已写入 DSH `package.json`）
+- **NCCN #22 成人急性淋巴细胞白血病**：`all-workbench` `v0.1.0`（小急淋宝 AllPal · Issue `#55` 已关闭 · 已装机）
+- **NCCN #60 儿童急性淋巴细胞白血病（T0 儿童样板）**：`pediatric-all-workbench` `v0.1.0`（小童白宝 PedAllPal · Issue `#40` 已关闭 · 已装机）
 - **并发症线 CX-006 发热性中性粒细胞减少（FN）**：`fn-workbench` `v0.1.0`（小粒护宝 FnPal · Issue `#176` 已关闭 · `v0.1.0` Release · 已写入 DSH `package.json` 并装机）
 - **罕见病 #31 胃肠胰神经内分泌肿瘤（GEP-NET）**：`gep-net-workbench` `v0.1.0`（小肠肽宝 GepNetPal · Issue `#177` 已关闭 · `v0.1.0` Release · 已写入 DSH `package.json` 并装机）
 
