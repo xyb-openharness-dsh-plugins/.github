@@ -405,6 +405,8 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 | TRAPS（肿瘤坏死因子受体相关周期性综合征） | 🔵 v0.2.0 | [traps-workbench](https://github.com/xyb-openharness-dsh-plugins/traps-workbench) | 占位名待用户追认 |
 | 消化道出血（**并发症线**试点·CX-001） | 🔵 v0.1.0 | [gastrointestinal-bleeding-workbench](https://github.com/xyb-openharness-dsh-plugins/gastrointestinal-bleeding-workbench) | 识别需立即求助的表现＋就诊摘要；不诊断不分级 |
 | 发热性中性粒细胞减少（**并发症线**·CX-006）· 小粒护宝 FnPal | 🔵 v0.1.0 | [fn-workbench](https://github.com/xyb-openharness-dsh-plugins/fn-workbench) | 1h 抗菌黄金窗＋禁肛温红线/MASCC 要素/G-CSF 泳道；DSH 已装机 |
+| 脓毒症/严重感染风险（**并发症线**·CX-003）· 小清源宝 SepsisPal | 🔵 v0.1.0 | [sepsis-workbench](https://github.com/xyb-openharness-dsh-plugins/sepsis-workbench) | SSC Hour-1 Bundle 黄金窗＋禁冲管红线/qSOFA/血乳酸泳道；DSH 已装机 |
+| 急性肾损伤（**并发症线**·CX-008）· 小护肾宝 AkiPal | 🔵 v0.1.0 | [aki-workbench](https://github.com/xyb-openharness-dsh-plugins/aki-workbench) | 禁 NSAIDs＋限钾防高钾双红线/KDIGO 要素/SCr-eGFR-尿量；DSH 已装机 |
 | 脑梗死（缺血性卒中）· **高危急症线**试点 | 🔵 v0.2.0 | [cerebral-infarction-workbench](https://github.com/xyb-openharness-dsh-plugins/cerebral-infarction-workbench) | 卒中识别（公开口径原话）＋入院资料＋二级预防随访；M4 已收口 |
 | 生活服务工作台（社保/津贴/基金会/二次理赔）· **生活服务线** | 🟡 规划中 · 招募 | — | 目标仓 life-service-workbench；只做政策整理与办理清单 |
 | 儿童中枢神经系统肿瘤 · 小童脑宝 PedCnsPal（NCCN #61） | 🔵 v0.1.0 | [pediatric-cns-workbench](https://github.com/xyb-openharness-dsh-plugins/pediatric-cns-workbench) | WNT/SHH/G3/G4、RAPNO 面积与质子/耳毒性双轨；DSH 已装机 |

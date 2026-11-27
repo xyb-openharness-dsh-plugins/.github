@@ -29,8 +29,6 @@
 | 编号 | 类型 | 病种 / 主题名称 | 建议仓库名 | 状态 |
 | --- | --- | --- | --- | --- |
 | **CX-007** | 并发症线 | 静脉血栓栓塞（VTE / 深静脉血栓与肺栓塞） | `vte-workbench` | 🔵 `v0.1.0` 已交付（小栓宝 VtePal · #180） |
-| **CX-003** | 并发症线 | 脓毒症 / 严重感染风险（Sepsis） | `sepsis-workbench` | 🔵 并发实例在途（#178） |
-| **CX-008** | 并发症线 | 急性肾损伤（AKI） | `aki-workbench` | 🔵 并发实例在途（#179） |
 | **CX-009** | 并发症线 | 消化道穿孔（GI Perforation） | `gi-perforation-workbench` | `proposed`（未认领、无仓） |
 | **CX-010** | 并发症线 | 谵妄 / 急性意识改变（Delirium） | `delirium-workbench` | `proposed`（未认领、无仓） |
 | **CX-011** | 并发症线 | 疼痛危象 / 剧痛（Pain Crisis） | `pain-crisis-workbench` | `proposed`（未认领、无仓） |
@@ -85,6 +83,8 @@
 - **NCCN #60 儿童急性淋巴细胞白血病（T0 儿童样板）**：`pediatric-all-workbench` `v0.1.0`（小童白宝 PedAllPal · Issue `#40` 已关闭 · 已装机）
 - **并发症线 CX-006 发热性中性粒细胞减少（FN）**：`fn-workbench` `v0.1.0`（小粒护宝 FnPal · Issue `#176` 已关闭 · `v0.1.0` Release · 已写入 DSH `package.json` 并装机）
 - **罕见病 #31 胃肠胰神经内分泌肿瘤（GEP-NET）**：`gep-net-workbench` `v0.1.0`（小肠肽宝 GepNetPal · Issue `#177` 已关闭 · `v0.1.0` Release · 已写入 DSH `package.json` 并装机）
+- **并发症线 CX-003 脓毒症/严重感染风险（Sepsis）**：`sepsis-workbench` `v0.1.0`（小清源宝 SepsisPal · Issue `#178` 已关闭 · `v0.1.0` Release · 已写入 DSH `package.json` 并装机）
+- **并发症线 CX-008 急性肾损伤（AKI）**：`aki-workbench` `v0.1.0`（小护肾宝 AkiPal · Issue `#179` 已关闭 · `v0.1.0` Release · 已写入 DSH `package.json` 并装机）
 
 ### 并发实例在途（勿重复认领）
 - `monogenic-obesity-workbench`（#159）、`pphn-workbench`（#160）、`pghd-workbench`（#157）、`igf1d-workbench`（#158）、`epithelioid-sarcoma-workbench`（#165）、`ppgl-workbench`（#166）、`imt-workbench`（#167）、`gctb-workbench`（#168）、`polycythemia-vera-workbench`（#173）、`myelofibrosis-workbench`（#174）、`CX-005 恶性肠梗阻`（#175）。
