@@ -405,9 +405,15 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 | 消化道出血（**并发症线**试点·CX-001） | 🔵 v0.1.0 | [gastrointestinal-bleeding-workbench](https://github.com/xyb-openharness-dsh-plugins/gastrointestinal-bleeding-workbench) | 识别需立即求助的表现＋就诊摘要；不诊断不分级 |
 | 脑梗死（缺血性卒中）· **高危急症线**试点 | 🔵 v0.2.0 | [cerebral-infarction-workbench](https://github.com/xyb-openharness-dsh-plugins/cerebral-infarction-workbench) | 卒中识别（公开口径原话）＋入院资料＋二级预防随访；M4 已收口 |
 | 生活服务工作台（社保/津贴/基金会/二次理赔）· **生活服务线** | 🟡 规划中 · 招募 | — | 目标仓 life-service-workbench；只做政策整理与办理清单 |
+| 儿童中枢神经系统肿瘤 · 小童脑宝 PedCnsPal（NCCN #61） | 🔵 v0.1.0 | [pediatric-cns-workbench](https://github.com/xyb-openharness-dsh-plugins/pediatric-cns-workbench) | WNT/SHH/G3/G4、RAPNO 面积与质子/耳毒性双轨；DSH 已装机 |
+| 儿童霍奇金淋巴瘤 · 小童霍宝 PedHlPal（NCCN #64） | 🔵 v0.1.0 | [pediatric-hodgkin-workbench](https://github.com/xyb-openharness-dsh-plugins/pediatric-hodgkin-workbench) | Ann Arbor 分期、Deauville 5 分法离散散点与远期心肺随访；DSH 已装机 |
+| 儿童成熟 B 细胞淋巴瘤 · 小童淋宝 PedBcellPal（NCCN #65） | 🔵 v0.1.0 | [pediatric-b-cell-workbench](https://github.com/xyb-openharness-dsh-plugins/pediatric-b-cell-workbench) | IPNHLSS/FAB-LMB、TLS 防线与 HD-MTX 药代监测；DSH 已装机 |
+| 腱鞘巨细胞瘤 / PVNS · 小腱宝 TgctPal（罕见病 #77） | 🔵 v0.1.0 | [tgct-workbench](https://github.com/xyb-openharness-dsh-plugins/tgct-workbench) | MRI TVS/ROM/PRO 与 CSF1R 抑制剂胆汁淤积性肝毒性防线；DSH 已装机 |
+| 骨肉瘤 · 小骨肉宝 OsteoPal（罕见病 #57） | 🔵 v0.1.0 | [osteosarcoma-workbench](https://github.com/xyb-openharness-dsh-plugins/osteosarcoma-workbench) | Huvos 坏死率、HD-MTX 药代、肺结节与 MSTS 保肢康复；v0.1.0 已发布 |
+| 肾透明细胞肉瘤 · 小清肾宝 CcskPal（罕见病 #14） | 🔵 v0.1.0 | [ccsk-workbench](https://github.com/xyb-openharness-dsh-plugins/ccsk-workbench) | BCOR-ITD/YWHAE 融合、骨脑防线与孤立肾终身保护；v0.1.0 已发布 |
 | 睾丸癌 · 小勇宝 TestiPal | 🔵 v0.2.0 | [testicular-workbench](https://github.com/xyb-openharness-dsh-plugins/testicular-workbench) |  |
 | 心理支持 · 小心宝（跨病种共用模块） | 🔵 v0.3.15 | [xiaoxinbao-workbench](https://github.com/xyb-openharness-dsh-plugins/xiaoxinbao-workbench) |  |
-| 其余主要癌种 + 罕见病 | ⬜ **招募认领中**（完整分级与招募对象见 BACKLOG） | — | 目标池 153 项 |
+| 其余主要癌种 + 罕见病 + 并发症线 | ⬜ **招募认领中**（全量待开发清单见 [DEVELOPMENT-PROGRESS.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/docs/DEVELOPMENT-PROGRESS.md) 与 BACKLOG） | — | 提交一个更新一次（同步更新进度文档、BACKLOG 与本表） |
 
 > 🔥 **优先招募榜 12 项已全部认领（截至 2026-10-25）**：[BACKLOG §〇 优先招募榜](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md#〇现在最缺人优先招募榜) 按「帮扶人群规模 · 信息差 · 危重与时间压力」三维挑选的 12 个目标已在 10-21 → 10-25 全部有主。当前最缺的是**已开工工作台的 🩺 医学核对与 👤 患者访谈补位**，以及尚未启动病种的新认领（W2 其余血液肿瘤、W4 皮肤/胸腺、R2/R3 大部分仍 ⬜）。缺什么角色（👤 患者家属 / 🩺 临床 / 💻 开发 / 📝 内容 / 🤝 病友组织 / 👨‍👩‍👧 患儿家长）与第一步能做什么，见 [BACKLOG.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md)。
 >
