@@ -28,9 +28,9 @@
 
 | 编号 | 类型 | 病种 / 主题名称 | 建议仓库名 | 状态 |
 | --- | --- | --- | --- | --- |
-| **CX-007** | 并发症线 | 静脉血栓栓塞（VTE / 深静脉血栓与肺栓塞） | `vte-workbench` | `proposed`（本地存在痕迹，需核验） |
-| **CX-003** | 并发症线 | 脓毒症 / 严重感染风险（Sepsis） | `sepsis-workbench` | `proposed`（未认领、无仓） |
-| **CX-008** | 并发症线 | 急性肾损伤（AKI） | `aki-workbench` | `proposed`（未认领、无仓） |
+| **CX-007** | 并发症线 | 静脉血栓栓塞（VTE / 深静脉血栓与肺栓塞） | `vte-workbench` | 🔵 `v0.1.0` 已交付（小栓宝 VtePal · #180） |
+| **CX-003** | 并发症线 | 脓毒症 / 严重感染风险（Sepsis） | `sepsis-workbench` | 🔵 并发实例在途（#178） |
+| **CX-008** | 并发症线 | 急性肾损伤（AKI） | `aki-workbench` | 🔵 并发实例在途（#179） |
 | **CX-009** | 并发症线 | 消化道穿孔（GI Perforation） | `gi-perforation-workbench` | `proposed`（未认领、无仓） |
 | **CX-010** | 并发症线 | 谵妄 / 急性意识改变（Delirium） | `delirium-workbench` | `proposed`（未认领、无仓） |
 | **CX-011** | 并发症线 | 疼痛危象 / 剧痛（Pain Crisis） | `pain-crisis-workbench` | `proposed`（未认领、无仓） |
@@ -42,7 +42,7 @@
 
 | 目录编号 | 类型 | 病种名称 | 原挂靠宿主 | 建议独立仓库名 |
 | --- | --- | --- | --- | --- |
-| **NCCN #16** | NCCN W1 · T3 | 肝胆癌（Hepatobiliary Cancers） | `liver-cancer-workbench` / `biliary-tract-workbench` | `hepatobiliary-workbench`（未建仓） |
+| **NCCN #16** | NCCN W1 · T3 | 肝胆癌（Hepatobiliary Cancers） | `hepatobiliary-workbench` | 🔵 `v0.1.0` 已交付（小肝胆宝 HepbiliPal · #182） |
 | **NCCN #05** | NCCN W0 · T3 | 直肠癌（Rectal Cancer） | `colorectal-workbench` | `rectal-workbench`（未建仓） |
 | **NCCN #07** | NCCN W0 · T3 | 小细胞肺癌（SCLC） | 已并入 `lung-cancer-workbench` | 已作为分型并入肺癌仓 |
 

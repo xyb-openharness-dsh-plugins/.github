@@ -208,7 +208,7 @@
 | 线 | 已领（首项） | 剩余 |
 | --- | --- | --- |
 | TOP10 慢病线（医保住院人次口径） | 脑梗死（[#86](https://github.com/xyb-openharness-dsh-plugins/.github/issues/86)，cerebral-infarction-workbench） | **9 项候选待维护者定名单**（TOP10 其余位次） |
-| 并发症线 | 消化道出血（[#87](https://github.com/xyb-openharness-dsh-plugins/.github/issues/87)，gastrointestinal-bleeding-workbench，试点·首项） | 后续并发症项（肠梗阻 / 血栓 / 粒缺发热 等）待维护者按数据频率定名单 |
+| 并发症线 | 消化道出血（[#87](https://github.com/xyb-openharness-dsh-plugins/.github/issues/87)，gastrointestinal-bleeding-workbench，试点·首项）· 静脉血栓栓塞（[#180](https://github.com/xyb-openharness-dsh-plugins/.github/issues/180)，[vte-workbench](https://github.com/xyb-openharness-dsh-plugins/vte-workbench) 🔵 v0.1.0）· 粒缺伴发热（fn-workbench 🔵 v0.1.0） | 后续并发症项（CX-009..CX-013）待认领 |
 | 急症线 | 未开线 | 整线待定义（ARCHITECTURE 模块图已预留急症场景位） |
 | 跨病种工具 | 癌症政策工具（[#88](https://github.com/xyb-openharness-dsh-plugins/.github/issues/88)，cancer-policy-workbench v0.2.1） | 更多政策 / 费用 / 医保类工具按需求提 Issue |
 
@@ -246,7 +246,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14 | Hepatocellular Carcinoma | 肝细胞癌 | 1.2025 | **T0** 消化/肝 | [liver-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/liver-cancer-workbench) | 🔵 v0.3.6（2026-10-24 认领开工，G1–G3 已签认） | 🩺📝 补位 |
 | 15 | Biliary Tract Cancers | 胆道癌 | 2.2025 | T2 | biliary-tract-workbench（本地脚手架，远端仓待建） | 🟡 v0.1.0（2026-10-24 认领，[Issue #18](https://github.com/xyb-openharness-dsh-plugins/.github/issues/18)） | 🔥 👤🩺📝 |
-| 16 | Hepatobiliary Cancers | 肝胆癌 | 1.2023 | T3（挂肝） | 上 | ⬜ 招募中 | 📝 |
+| 16 | Hepatobiliary Cancers | 肝胆癌 | 1.2023 | T3 · 🔵 [hepatobiliary-workbench](https://github.com/xyb-openharness-dsh-plugins/hepatobiliary-workbench) v0.1.0（小肝胆宝 HepbiliPal · M0–M7 交付 · DSH 已装机，[Issue #182](https://github.com/xyb-openharness-dsh-plugins/.github/issues/182)） | 独立建仓（cHCC-CCA/Klatskin/FLHCC） | 📝🩺 |
 | 17 | Small Bowel Adenocarcinoma | 小肠腺癌 | 3.2025 | T2 | `small-bowel-workbench` | ✅ 已认领开工 · 2026-11-14（[small-bowel-workbench](https://github.com/xyb-openharness-dsh-plugins/small-bowel-workbench) v0.1.0 · M0–M3 已 push，[认领 Issue #79](https://github.com/xyb-openharness-dsh-plugins/.github/issues/79)） | 👤📝 |
 | 18 | Ampullary Adenocarcinoma | 壶腹部腺癌 | 2.2025 | T2 | `ampullary-workbench` | ✅ 已认领开工 · 2026-10-26（[ampullary-workbench](https://github.com/xyb-openharness-dsh-plugins/ampullary-workbench) v0.1.6 · 小壶宝 AmpuPal，[认领 Issue #49](https://github.com/xyb-openharness-dsh-plugins/.github/issues/49)） | 📝 |
 | 19 | Anal Carcinoma | 肛门癌 | 4.2025 | T2 | [anal-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/anal-cancer-workbench) | 🔵 v0.2.0（2026-10-21 认领，G2 已签） | 👤📝 补位 |

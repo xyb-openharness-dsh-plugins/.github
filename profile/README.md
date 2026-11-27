@@ -415,6 +415,8 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 | 肾透明细胞肉瘤 · 小清肾宝 CcskPal（罕见病 #14） | 🔵 v0.1.0 | [ccsk-workbench](https://github.com/xyb-openharness-dsh-plugins/ccsk-workbench) | BCOR-ITD/YWHAE 融合、骨脑防线与孤立肾终身保护；v0.1.0 已发布 |
 | 成人急性淋巴细胞白血病 · 小急淋宝 AllPal（NCCN #22） | 🔵 v0.1.0 | [all-workbench](https://github.com/xyb-openharness-dsh-plugins/all-workbench) | Ph+/Ph-like/T-ALL、MRD/CRS 与培门冬酶防线；DSH 已装机 |
 | 儿童急性淋巴细胞白血病 · 小童白宝 PedAllPal（NCCN #60 · T0 样板） | 🔵 v0.1.0 | [pediatric-all-workbench](https://github.com/xyb-openharness-dsh-plugins/pediatric-all-workbench) | 家长代记、d15/d33 MRD、6-MP/MTX 维持靶窗与鞘注；DSH 已装机 |
+| 肿瘤相关静脉血栓栓塞 · 小栓宝 VtePal（并发症线 CX-007） | 🔵 v0.1.0 | [vte-workbench](https://github.com/xyb-openharness-dsh-plugins/vte-workbench) | DVT/PE/CRT、sPESI/Khorana、PLT<50 抗凝防线与出血分级；DSH 已装机 |
+| 肝胆癌 · 小肝胆宝 HepbiliPal（NCCN #16） | 🔵 v0.1.0 | [hepatobiliary-workbench](https://github.com/xyb-openharness-dsh-plugins/hepatobiliary-workbench) | cHCC-CCA/Klatskin/FLHCC、双轨标志物与 HBV/支架/残肝比；DSH 已装机 |
 | 睾丸癌 · 小勇宝 TestiPal | 🔵 v0.2.0 | [testicular-workbench](https://github.com/xyb-openharness-dsh-plugins/testicular-workbench) |  |
 | 心理支持 · 小心宝（跨病种共用模块） | 🔵 v0.3.15 | [xiaoxinbao-workbench](https://github.com/xyb-openharness-dsh-plugins/xiaoxinbao-workbench) |  |
 | 其余主要癌种 + 罕见病 + 并发症线 | ⬜ **招募认领中**（全量待开发清单见 [DEVELOPMENT-PROGRESS.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/docs/DEVELOPMENT-PROGRESS.md) 与 BACKLOG） | — | 提交一个更新一次（同步更新进度文档、BACKLOG 与本表） |
