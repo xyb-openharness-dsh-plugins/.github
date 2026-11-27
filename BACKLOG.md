@@ -144,7 +144,7 @@
 | 20 | 皮肤 T 细胞淋巴瘤 | 淋巴瘤 |
 | 22 | 隆突性皮肤纤维肉瘤 | 肉瘤 |
 | 24 | 上皮样肉瘤 | 肉瘤 |
-| 31 | 胃肠胰神经内分泌肿瘤 | 消化 / 神经内分泌 |
+| 31 | 胃肠胰神经内分泌肿瘤 | 消化 / 神经内分泌 · 🔵 [gep-net-workbench](https://github.com/xyb-openharness-dsh-plugins/gep-net-workbench) v0.1.0（小肠肽宝 GepNetPal · 已独立建仓发布） |
 | 36 | 骨巨细胞瘤 | 骨癌 |
 | 42 | 炎性肌纤维母细胞瘤 | 肉瘤 |
 | 48 | 黑色素瘤 | 皮肤线（T0 样板已含） |
@@ -377,7 +377,7 @@
 | 20 | 皮肤 T 细胞淋巴瘤 | 106 | 淋巴瘤 | ⚪ 规划中 | 📝🩺 挂靠内容 |
 | 22 | 隆突性皮肤纤维肉瘤 | 127 | [dfsp-workbench](https://github.com/xyb-openharness-dsh-plugins/dfsp-workbench)（R1 例外：已独立建仓） | 🔵 v0.1.0（小隆宝 FibroPal · M0–M9 全周期交付，[Issue #110](https://github.com/xyb-openharness-dsh-plugins/.github/issues/110)） | 44 项快照 / 4 组 8 项指标 / 一图秀样条 |
 | 24 | 上皮样肉瘤 | 139 | 肉瘤 | ⚪ 规划中 | 📝🩺 挂靠内容 |
-| 31 | 胃肠胰神经内分泌肿瘤 | 173 | 消化 / 神经内分泌 | ⚪ 规划中 | 📝🩺 挂靠内容 |
+| 31 | 胃肠胰神经内分泌肿瘤 | 173 | [gep-net-workbench](https://github.com/xyb-openharness-dsh-plugins/gep-net-workbench)（R1 例外：已独立建仓） | 🔵 v0.1.0（小肠肽宝 GepNetPal · M0–M7 交付 · DSH 已装机，[Issue #177](https://github.com/xyb-openharness-dsh-plugins/.github/issues/177)） | 73 项快照 / CgA-PPI 干扰与 SSA 洗脱 / PRRT 泳道与离散症状 |
 | 32 | 胃肠间质瘤 | 180 | [gist-workbench](https://github.com/xyb-openharness-dsh-plugins/gist-workbench)（R1 例外：已独立建仓） | 🟡 v0.1.0（2026-10-21 认领） | 已认领 · 👤🩺 补位 |
 | 36 | 骨巨细胞瘤 | 206 | 骨癌 | ⚪ 规划中 | 📝🩺 挂靠内容 |
 | 38 | 胶质母细胞瘤 | 215 | [glioblastoma-workbench](https://github.com/xyb-openharness-dsh-plugins/glioblastoma-workbench)（R1 例外：已独立建仓，同 #32 GIST） | 🔵 v0.1.5（2026-10-24 认领） | 已认领 · 🩺📝👨‍👩‍👧 补位 |

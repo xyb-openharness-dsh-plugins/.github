@@ -345,7 +345,8 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 | 胰腺癌 PDAC · 小胰宝（历史旗舰） | 🔵 v0.1.36 | [xyb-workbench](https://github.com/xyb-openharness-dsh-plugins/xyb-workbench) | 未走脚手架 |
 | 壶腹癌 | 🔵 v0.1.6 | [ampullary-workbench](https://github.com/xyb-openharness-dsh-plugins/ampullary-workbench) |  |
 | 胃肠间质瘤 · 小吉宝 GistPal | 🔵 v0.1.3 | [gist-workbench](https://github.com/xyb-openharness-dsh-plugins/gist-workbench) |  |
-| 胃肠胰神经内分泌肿瘤 · 小肽宝 | 🔵 v0.1.11 | [neuroendocrine-workbench](https://github.com/xyb-openharness-dsh-plugins/neuroendocrine-workbench) |  |
+| 胃肠胰神经内分泌肿瘤 · 小肽宝 | 🔵 v0.1.11 | [neuroendocrine-workbench](https://github.com/xyb-openharness-dsh-plugins/neuroendocrine-workbench) | 综合 NET 总仓 |
+| 胃肠胰神经内分泌肿瘤（GEP-NET）· 小肠肽宝 GepNetPal（罕见病 #31） | 🔵 v0.1.0 | [gep-net-workbench](https://github.com/xyb-openharness-dsh-plugins/gep-net-workbench) | WHO 分级/CgA-PPI 红线/SSA 洗脱/177Lu-PRRT 与离散症状；DSH 已装机 |
 | 宫颈癌 · 小莲宝 CerviPal | 🔵 v0.1.6 | [cervical-workbench](https://github.com/xyb-openharness-dsh-plugins/cervical-workbench) |  |
 | 子宫内膜癌 · 小膜宝 EndoPal | 🔵 v0.3.6 | [endometrial-workbench](https://github.com/xyb-openharness-dsh-plugins/endometrial-workbench) |  |
 | 卵巢癌 · 小巢宝 | 🔵 v0.1.57 | [ovarian-workbench](https://github.com/xyb-openharness-dsh-plugins/ovarian-workbench) |  |
@@ -403,6 +404,7 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 | CIDP（慢性炎性脱髓鞘性多发性神经病） | 🔵 v0.2.0 | [cidp-workbench](https://github.com/xyb-openharness-dsh-plugins/cidp-workbench) |  |
 | TRAPS（肿瘤坏死因子受体相关周期性综合征） | 🔵 v0.2.0 | [traps-workbench](https://github.com/xyb-openharness-dsh-plugins/traps-workbench) | 占位名待用户追认 |
 | 消化道出血（**并发症线**试点·CX-001） | 🔵 v0.1.0 | [gastrointestinal-bleeding-workbench](https://github.com/xyb-openharness-dsh-plugins/gastrointestinal-bleeding-workbench) | 识别需立即求助的表现＋就诊摘要；不诊断不分级 |
+| 发热性中性粒细胞减少（**并发症线**·CX-006）· 小粒护宝 FnPal | 🔵 v0.1.0 | [fn-workbench](https://github.com/xyb-openharness-dsh-plugins/fn-workbench) | 1h 抗菌黄金窗＋禁肛温红线/MASCC 要素/G-CSF 泳道；DSH 已装机 |
 | 脑梗死（缺血性卒中）· **高危急症线**试点 | 🔵 v0.2.0 | [cerebral-infarction-workbench](https://github.com/xyb-openharness-dsh-plugins/cerebral-infarction-workbench) | 卒中识别（公开口径原话）＋入院资料＋二级预防随访；M4 已收口 |
 | 生活服务工作台（社保/津贴/基金会/二次理赔）· **生活服务线** | 🟡 规划中 · 招募 | — | 目标仓 life-service-workbench；只做政策整理与办理清单 |
 | 儿童中枢神经系统肿瘤 · 小童脑宝 PedCnsPal（NCCN #61） | 🔵 v0.1.0 | [pediatric-cns-workbench](https://github.com/xyb-openharness-dsh-plugins/pediatric-cns-workbench) | WNT/SHH/G3/G4、RAPNO 面积与质子/耳毒性双轨；DSH 已装机 |

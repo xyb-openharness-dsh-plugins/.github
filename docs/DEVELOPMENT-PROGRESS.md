@@ -28,8 +28,7 @@
 
 | 编号 | 类型 | 病种 / 主题名称 | 建议仓库名 | 状态 |
 | --- | --- | --- | --- | --- |
-| **CX-006** | 并发症线（官方第二候选） | 发热性中性粒细胞减少（FN / 粒缺伴发热） | `fn-workbench` | `proposed`（未认领、无仓） |
-| **CX-007** | 并发症线 | 静脉血栓栓塞（VTE / 深静脉血栓与肺栓塞） | `vte-workbench` | `proposed`（未认领、无仓） |
+| **CX-007** | 并发症线 | 静脉血栓栓塞（VTE / 深静脉血栓与肺栓塞） | `vte-workbench` | `proposed`（本地存在痕迹，需核验） |
 | **CX-003** | 并发症线 | 脓毒症 / 严重感染风险（Sepsis） | `sepsis-workbench` | `proposed`（未认领、无仓） |
 | **CX-008** | 并发症线 | 急性肾损伤（AKI） | `aki-workbench` | `proposed`（未认领、无仓） |
 | **CX-009** | 并发症线 | 消化道穿孔（GI Perforation） | `gi-perforation-workbench` | `proposed`（未认领、无仓） |
@@ -43,7 +42,6 @@
 
 | 目录编号 | 类型 | 病种名称 | 原挂靠宿主 | 建议独立仓库名 |
 | --- | --- | --- | --- | --- |
-| **罕见病 #31** | R1 肿瘤型 | 胃肠胰神经内分泌肿瘤（GEP-NET） | `neuroendocrine-workbench` | `gep-net-workbench`（未建仓） |
 | **NCCN #16** | NCCN W1 · T3 | 肝胆癌（Hepatobiliary Cancers） | `liver-cancer-workbench` / `biliary-tract-workbench` | `hepatobiliary-workbench`（未建仓） |
 | **NCCN #05** | NCCN W0 · T3 | 直肠癌（Rectal Cancer） | `colorectal-workbench` | `rectal-workbench`（未建仓） |
 | **NCCN #07** | NCCN W0 · T3 | 小细胞肺癌（SCLC） | 已并入 `lung-cancer-workbench` | 已作为分型并入肺癌仓 |
@@ -86,6 +84,8 @@
 - **罕见病 #77 腱鞘巨细胞瘤 / PVNS**：`tgct-workbench` `v0.1.0`（小腱宝 TgctPal · Issue `#164` 已关闭 · 已装机）
 - **罕见病 #57 骨肉瘤**：`osteosarcoma-workbench` `v0.1.0`（小骨肉宝 OsteoPal · Issue `#171` 已关闭 · 已写入 DSH `package.json`）
 - **罕见病 #14 肾透明细胞肉瘤**：`ccsk-workbench` `v0.1.0`（小清肾宝 CcskPal · Issue `#172` 已关闭 · 已写入 DSH `package.json`）
+- **并发症线 CX-006 发热性中性粒细胞减少（FN）**：`fn-workbench` `v0.1.0`（小粒护宝 FnPal · Issue `#176` 已关闭 · `v0.1.0` Release · 已写入 DSH `package.json` 并装机）
+- **罕见病 #31 胃肠胰神经内分泌肿瘤（GEP-NET）**：`gep-net-workbench` `v0.1.0`（小肠肽宝 GepNetPal · Issue `#177` 已关闭 · `v0.1.0` Release · 已写入 DSH `package.json` 并装机）
 
 ### 并发实例在途（勿重复认领）
 - `monogenic-obesity-workbench`（#159）、`pphn-workbench`（#160）、`pghd-workbench`（#157）、`igf1d-workbench`（#158）、`epithelioid-sarcoma-workbench`（#165）、`ppgl-workbench`（#166）、`imt-workbench`（#167）、`gctb-workbench`（#168）、`polycythemia-vera-workbench`（#173）、`myelofibrosis-workbench`（#174）、`CX-005 恶性肠梗阻`（#175）。
