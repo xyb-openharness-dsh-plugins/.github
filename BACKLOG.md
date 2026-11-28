@@ -448,13 +448,13 @@
 | 5 | 阿拉杰里综合征 | 22 | T2 · 🔵 [alagille-workbench](https://github.com/xyb-openharness-dsh-plugins/alagille-workbench) v0.1.0（小杰宝 AlagillePal · M3–M7 续建交付 · DSH 已装机，[Issue #136](https://github.com/xyb-openharness-dsh-plugins/.github/issues/136)） | 👨‍👩‍👧🤝📝 补位 |
 | 8 | Bardet-Biedl 综合征 | 40 | T2 · 🔵 [bbs-workbench](https://github.com/xyb-openharness-dsh-plugins/bbs-workbench) v0.1.0（小纤毛宝 BbsPal · M3–M7 续建交付 · DSH 已装机，[Issue #137](https://github.com/xyb-openharness-dsh-plugins/.github/issues/137)） | 👨‍👩‍👧🤝📝 补位 |
 | 10 | 蓝色橡皮疱样痣 | 57 | T2 · 🔵 [brbns-workbench](https://github.com/xyb-openharness-dsh-plugins/brbns-workbench) v0.1.0（小蓝宝 BrbnsPal · M0–M7 交付 · DSH 已装机，[Issue #151](https://github.com/xyb-openharness-dsh-plugins/.github/issues/151)） | 37 条快照 / 4 组 8 项指标 / TEK-TIE2 与西罗莫司 TDM·LIC 凝血防线 / 一图秀 | 👨‍👩‍👧🤝📝 补位 |
-| 11 | 细胞周期蛋白依赖性激酶样 5 缺乏症（CDKL5） | 60 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
-| 12 | 无脉络膜症 | 63 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
-| 16 | 先天性胆道闭锁 | 87 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
-| 21 | 胱氨酸贮积症 | 122 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
-| 27 | 家族性腺瘤性息肉病 | 155 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
+| 11 | 细胞周期蛋白依赖性激酶样 5 缺乏症（CDKL5） | 60 | T2 · 🔵 [cdkl5-workbench](https://github.com/xyb-openharness-dsh-plugins/cdkl5-workbench) v0.1.0（小激酶宝 Cdkl5Pal · M3–M7 续建交付 · DSH 已装机，[Issue #143](https://github.com/xyb-openharness-dsh-plugins/.github/issues/143)） | 👨‍👩‍👧🤝📝 补位 |
+| 12 | 无脉络膜症 | 63 | T2 · 🔵 [choroideremia-workbench](https://github.com/xyb-openharness-dsh-plugins/choroideremia-workbench) v0.1.0（小脉络宝 ChmPal · M3–M7 续建交付 · DSH 已装机，[Issue #131](https://github.com/xyb-openharness-dsh-plugins/.github/issues/131)） | 👨‍👩‍👧🤝📝 补位 |
+| 16 | 先天性胆道闭锁 | 87 | T2 · 🔵 [biliary-atresia-workbench](https://github.com/xyb-openharness-dsh-plugins/biliary-atresia-workbench) v0.1.0（小胆宝 BaPal · M3–M7 续建交付 · DSH 已装机，[Issue #142](https://github.com/xyb-openharness-dsh-plugins/.github/issues/142)） | 👨‍👩‍👧🤝📝 补位 |
+| 21 | 胱氨酸贮积症 | 122 | T2 · 🔵 [cystinosis-workbench](https://github.com/xyb-openharness-dsh-plugins/cystinosis-workbench) v0.1.0（小胱宝 CystiPal · M3–M7 续建交付 · DSH 已装机，[Issue #141](https://github.com/xyb-openharness-dsh-plugins/.github/issues/141)） | 👨‍👩‍👧🤝📝 补位 |
+| 27 | 家族性腺瘤性息肉病 | 155 | T2 · 🔵 [fap-workbench](https://github.com/xyb-openharness-dsh-plugins/fap-workbench) v0.1.0（小息宝 FapPal · M3–M7 续建交付 · DSH 已装机，[Issue #129](https://github.com/xyb-openharness-dsh-plugins/.github/issues/129)） | 👨‍👩‍👧🤝📝 补位 |
 | 28 | 进行性骨化性纤维发育不良（FOP） | 160 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
-| 29 | 脆性 X 综合征 | 164 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
+| 29 | 脆性 X 综合征 | 164 | T2 · 🔵 [fragile-x-workbench](https://github.com/xyb-openharness-dsh-plugins/fragile-x-workbench) v0.1.0（小脆宝 FragxPal · M3–M7 续建交付 · DSH 已装机，[Issue #130](https://github.com/xyb-openharness-dsh-plugins/.github/issues/130)） | 👨‍👩‍👧🤝📝 补位 |
 | 30 | 神经节苷脂贮积症 | 168 | T2 · 🔵 [gangliosidosis-workbench](https://github.com/xyb-openharness-dsh-plugins/gangliosidosis-workbench) v0.1.1（小苷宝 GanglioPal · M0–M7 深度重构交付 · DSH 已装机，[Issue #156](https://github.com/xyb-openharness-dsh-plugins/.github/issues/156)） | 39 条快照 / 4 组 8 项指标 / GLB1-HEXA-HEXB 酶活性与吞咽防误吸 / 一图秀 | 👨‍👩‍👧🤝📝 补位 |
 | 39 | 高林综合征 | 224 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 41 | 早老症 | 236 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |

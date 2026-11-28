@@ -56,12 +56,12 @@
 | --- | --- | --- | --- | --- |
 | **#05** | 阿拉杰里综合征（Alagille） | `alagille-workbench` | `#136` | 🔵 `v0.1.0` 已交付（小杰宝 AlagillePal · #136 已关闭） |
 | **#08** | Bardet-Biedl 综合征 | `bbs-workbench` | `#137` | 🔵 `v0.1.0` 已交付（小纤毛宝 BbsPal · #137 已关闭） |
-| **#11** | CDKL5 缺乏症 | `cdkl5-workbench` | `#143` | 待续建 M3–M7 与装机 |
-| **#12** | 无脉络膜症（Choroideremia） | `choroideremia-workbench` | `#131` | 待续建 M3–M7 与装机 |
-| **#16** | 先天性胆道闭锁 | `biliary-atresia-workbench` | `#142` | 待续建 M3–M7 与装机 |
-| **#21** | 胱氨酸贮积症（Cystinosis） | `cystinosis-workbench` | `#141` | 待续建 M3–M7 与装机 |
-| **#27** | 家族性腺瘤性息肉病（FAP） | `fap-workbench` | `#129` | 待续建 M3–M7 与装机 |
-| **#29** | 脆性 X 综合征（Fragile X） | `fragile-x-workbench` | `#130` | 待续建 M3–M7 与装机 |
+| **#11** | CDKL5 缺乏症 | `cdkl5-workbench` | `#143` | 🔵 `v0.1.0` 已交付（小激酶宝 Cdkl5Pal · #143 已关闭） |
+| **#12** | 无脉络膜症（Choroideremia） | `choroideremia-workbench` | `#131` | 🔵 `v0.1.0` 已交付（小脉络宝 ChmPal · #131 已关闭） |
+| **#16** | 先天性胆道闭锁 | `biliary-atresia-workbench` | `#142` | 🔵 `v0.1.0` 已交付（小胆宝 BaPal · #142 已关闭） |
+| **#21** | 胱氨酸贮积症（Cystinosis） | `cystinosis-workbench` | `#141` | 🔵 `v0.1.0` 已交付（小胱宝 CystiPal · #141 已关闭） |
+| **#27** | 家族性腺瘤性息肉病（FAP） | `fap-workbench` | `#129` | 🔵 `v0.1.0` 已交付（小息宝 FapPal · #129 已关闭） |
+| **#29** | 脆性 X 综合征（Fragile X） | `fragile-x-workbench` | `#130` | 🔵 `v0.1.0` 已交付（小脆宝 FragxPal · #130 已关闭） |
 | **#39** | 高林综合征（Gorlin） | `gorlin-workbench` | `#145` | 待续建 M3–M7 与装机 |
 | **#41** | 早老症（Progeria / HGPS） | `progeria-workbench` | `#146` | 待续建 M3–M7 与装机 |
 | **#43** | Leber 先天性黑矇（LCA） | `lca-workbench` | `#135` | 待续建 M3–M7 与装机 |
