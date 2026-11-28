@@ -25,8 +25,8 @@
 </h1>
 
 <h3 align="center">
-  Dedicated wholeheartedly to improving information access for oncology and rare disease patients!<br />
-  Lighting a beacon of hope with AI for patients with cancer, rare diseases, and chronic conditions ✨
+  Better information for everyone facing cancer and rare diseases.<br />
+  Open-source AI built to bring clarity, agency, and hope to patients and families ✨
 </h3>
 
 <p align="center">
@@ -36,32 +36,32 @@
 <br /><br />
 
 <p align="center">
-  <b>A public-interest open-source project under Tiangong Kaiwu (<a href="https://www.xiaoyibao.com.cn">www.xiaoyibao.com.cn</a>) | Follow the official WeChat accounts [小胰宝] and [小胰宝助手] for the latest updates</b>
+  <b>A nonprofit open-source initiative under Tiangong Kaiwu (<a href="https://www.xiaoyibao.com.cn">www.xiaoyibao.com.cn</a>) · Follow our official WeChat accounts [小胰宝] and [小胰宝助手] for updates</b>
 </p>
 
 <br /><br />
 
 <p align="left">
-  <b>✦ We deeply understand that code is not merely cold characters—it is a bridge connecting developers and patients, and a warm force using technology to protect life.</b><br /><br />
+  <b>✦ Code isn't just lines of text—it's a bridge between builders and patients, and a quiet force that helps protect lives.</b><br /><br />
 
-  <b>◆ In 2026, as a key ecosystem collaboration milestone, we welcomed our first partner—<a href="https://github.com/dataelement">Dataelem Community</a>. Built around the "workbench" form factor—which may become a cornerstone in AI application productization—we are accelerating a new generation of products that are "ready to use out of the box, with an integrated end-to-end disease management system."</b><br /><br />
+  <b>◆ In 2026, we partnered with <a href="https://github.com/dataelement">Dataelem Community</a> to build around the "workbench" model—an emerging cornerstone for real-world AI apps—creating tools that work out of the box for end-to-end care management.</b><br /><br />
 
-  <b>✧ Without a doubt, within the next 3 months, we will become a driving force in the open-source ecosystem on GitHub for public-interest tools serving oncology and rare disease patients. We look forward to having you join us—Mark the Dent—and working together with developers to advance information equity for patients. This is an HVT project that changes the lives of tens of millions through community participation.</b>
+  <b>✧ Over the next few months, we're building one of the most active open-source movements on GitHub for cancer and rare-disease patient tools. Come make a dent with us—advance information equity for patients and help reshape care for millions.</b>
 </p>
 
 <br /><br />
 <h2 align="center"><b>Project Manifesto</b></h2>
 <p align="left">
 
-  <b>✦ Through close collaboration with DSH Desktop, we are committed to building next-generation AI Agent capabilities—ready out of the box with a built-in end-to-end disease management system—for 40+ cancers and 200+ rare diseases, helping patients organize medical records, track biomarkers, and prepare for clinical visits.</b><br /><br />
+  <b>✦ Working closely with DSH Desktop, we're building out-of-the-box AI agent workbenches for 40+ cancers and 200+ rare diseases—helping patients organize medical records, track biomarkers, and walk into every appointment prepared.</b><br /><br />
 
-  <b>◆ We believe the value of technology lies not merely in boosting efficiency, but in empowering every patient with better information, more choices, and a more dignified care experience.</b><br /><br />
+  <b>◆ Technology matters most not when it merely saves time, but when it gives every patient clearer information, better choices, and more dignified care.</b><br /><br />
 
-  <b>✧ Therefore, by opening our development scaffolds and plugin ecosystem extensions, we warmly invite all developers, researchers, and partners in the open-source community who wish to make a difference for patient information and well-being to join us in advancing this warm and meaningful cause.</b>
+  <b>✧ By opening our scaffolds and plugin ecosystem, we invite developers, clinicians, researchers, and patient advocates everywhere to build this with us.</b>
 </p>
 
 > [!NOTE]
-> **Speaking with Data (Verified GitHub Public Repository Snapshot as of 2026-11-28):**
+> **By the Numbers (Verified GitHub Public Repository Snapshot, 2026-11-28):**
 > 1. **Oncology Patient Care**: Across public repositories on GitHub, projects directly focused on cancer patient care and support remain scarce (`"cancer patient" care` returns only **100** repositories, `"cancer patient" support` only **155**, and Chinese `肿瘤 患者` only **21**), and most are academic models or isolated scripts.
 > 2. **Rare Disease Patient Care**: Patient-facing open-source tools for rare diseases are even rarer (`"rare disease" patient` returns only **128** repositories, `"rare disease" support` only **43**, `"rare disease" care` only **8**, and Chinese `罕见病 患者` only **12**—with patient-facing rare-disease workbenches virtually nonexistent).
 > 3. **Innovation & Scale of This Project**: Within the entire GitHub `"dsh-workbench"` ecosystem (**136** exact-match public repositories), this organization has pioneered a "local-first + unified scaffold + disease-specific differentiation" paradigm, open-sourcing **157** patient workbench repositories covering major cancers, rare diseases, complications, and daily-life support (**153** with versioned code, **97** with published Releases)—making it GitHub's **largest open-source `dsh-workbench` project** for oncology and rare disease patients and their families.
