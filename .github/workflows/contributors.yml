@@ -1,0 +1,287 @@
+name: Update organization contributors
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3 * * 1'
+  push:
+    paths:
+      - '.github/workflows/contributors.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update-contributors:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Collect organization statistics and generate contributor avatars
+        uses: actions/github-script@v7
+        env:
+          PROFILE_PATH: profile/README.md
+        with:
+          github-token: ${{ secrets.ORG_READ_TOKEN || secrets.GITHUB_TOKEN }}
+          script: |
+            const { owner, repo } = context.repo;
+            const fs = require('fs');
+            const profilePath = process.env.PROFILE_PATH;
+            const start = '<!-- CONTRIBUTORS:START -->';
+            const end = '<!-- CONTRIBUTORS:END -->';
+
+            const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+            const escapeHtml = (value) => String(value)
+              .replaceAll('&', '&amp;')
+              .replaceAll('"', '&quot;')
+              .replaceAll('<', '&lt;')
+              .replaceAll('>', '&gt;');
+
+            const isBotUser = (user) => {
+              if (!user?.login) return true;
+              return user.type === 'Bot' || user.login.endsWith('[bot]');
+            };
+
+            const users = new Map();
+            const remember = (user, source) => {
+              if (isBotUser(user)) return null;
+              const existing = users.get(user.login) || {
+                login: user.login,
+                avatar: user.avatar_url || `https://avatars.githubusercontent.com/${encodeURIComponent(user.login)}`,
+                commits: 0,
+                prs: 0,
+                reviews: 0,
+                sources: new Set(),
+              };
+              existing.sources.add(source);
+              users.set(user.login, existing);
+              return existing;
+            };
+
+            const publicRepos = await github.paginate(github.rest.repos.listForOrg, {
+              org: owner,
+              type: 'public',
+              per_page: 100,
+            });
+
+            let orgMemberCount = 0;
+            try {
+              const members = await github.paginate(github.rest.orgs.listMembers, {
+                org: owner,
+                per_page: 100,
+              });
+              for (const member of members) {
+                if (remember(member, 'organization member')) {
+                  orgMemberCount += 1;
+                }
+              }
+            } catch (error) {
+              core.warning(`Could not read organization members: ${error.message}`);
+            }
+
+            let commitCount = 0;
+            let mergedPrCount = 0;
+            let lineChanges = 0;
+
+            for (const item of publicRepos) {
+              if (!item.size) continue;
+
+              try {
+                const contributors = await github.paginate(github.rest.repos.listContributors, {
+                  owner,
+                  repo: item.name,
+                  anon: '0',
+                  per_page: 100,
+                });
+                for (const contributor of contributors) {
+                  const count = Number(contributor.contributions || 0);
+                  const person = remember(contributor, 'contributor');
+                  if (person) {
+                    person.commits += count;
+                    commitCount += count;
+                  }
+                }
+              } catch (error) {
+                core.warning(`Could not read contributors for ${item.name}: ${error.message}`);
+              }
+
+              try {
+                const prs = await github.paginate(github.rest.pulls.list, {
+                  owner,
+                  repo: item.name,
+                  state: 'closed',
+                  sort: 'updated',
+                  direction: 'desc',
+                  per_page: 100,
+                });
+                for (const pr of prs) {
+                  if (!pr.merged_at) continue;
+                  mergedPrCount += 1;
+                  if (pr.user) {
+                    const person = remember(pr.user, 'merged pull request');
+                    if (person) person.prs += 1;
+                  }
+
+                  try {
+                    const reviews = await github.paginate(github.rest.pulls.listReviews, {
+                      owner,
+                      repo: item.name,
+                      pull_number: pr.number,
+                      per_page: 100,
+                    });
+                    for (const review of reviews) {
+                      if (review.user) {
+                        const reviewer = remember(review.user, 'review');
+                        if (reviewer) reviewer.reviews += 1;
+                      }
+                    }
+                  } catch (error) {
+                    core.warning(`Could not read reviews for ${item.name}#${pr.number}: ${error.message}`);
+                  }
+                }
+              } catch (error) {
+                core.warning(`Could not read pull requests for ${item.name}: ${error.message}`);
+              }
+
+              // Count commit lines from per-user repository statistics; bounded to public repo data.
+              try {
+                let statsData = null;
+                for (let attempt = 0; attempt < 3; attempt += 1) {
+                  const res = await github.rest.repos.getContributorsStats({
+                    owner,
+                    repo: item.name,
+                  });
+                  if (res.status === 200 && Array.isArray(res.data)) {
+                    statsData = res.data;
+                    break;
+                  }
+                  if (res.status === 202 && attempt < 2) {
+                    await sleep(2000);
+                    continue;
+                  }
+                  break;
+                }
+                if (Array.isArray(statsData)) {
+                  for (const stat of statsData) {
+                    if (isBotUser(stat.author)) continue;
+                    remember(stat.author, 'contributor');
+                    for (const week of stat.weeks || []) {
+                      lineChanges += Number(week.a || 0) + Number(week.d || 0);
+                    }
+                  }
+                }
+              } catch (error) {
+                core.warning(`Could not read commit statistics for ${item.name}: ${error.message}`);
+              }
+            }
+
+            for (const person of users.values()) {
+              person.points = person.commits + person.prs * 3 + person.reviews * 2;
+            }
+
+            const ranked = [...users.values()].sort(
+              (a, b) => b.points - a.points || b.commits - a.commits || a.login.localeCompare(b.login)
+            );
+            const top = ranked.slice(0, 7);
+            const others = ranked.slice(7);
+
+            const makeTopCard = (person, index) => {
+              const medal = index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : '';
+              const login = escapeHtml(person.login);
+              const title = escapeHtml(`${person.login} · ${person.points} pts · ${person.commits} commits · ${person.prs} PRs · ${person.reviews} reviews`);
+              const avatar = escapeHtml(`${person.avatar}${person.avatar.includes('?') ? '&' : '?'}s=128`);
+              const label = medal ? `${medal} ${login}` : login;
+              return `<td align="center" width="14%"><a href="https://github.com/${encodeURIComponent(person.login)}" title="${title}"><img src="${avatar}" width="64" alt="${login}"/><br/><sub><b>${label}</b></sub></a><br/><sub><code>${person.points}</code></sub></td>`;
+            };
+
+            const makeMiniCards = (people) => {
+              const rows = [];
+              for (let i = 0; i < people.length; i += 12) {
+                const row = people.slice(i, i + 12).map((person) => {
+                  const login = escapeHtml(person.login);
+                  const title = escapeHtml(`${person.login} · ${person.points} pts · ${person.commits} commits · ${person.prs} PRs · ${person.reviews} reviews`);
+                  const avatar = escapeHtml(`${person.avatar}${person.avatar.includes('?') ? '&' : '?'}s=80`);
+                  return `<td align="center" width="8%"><a href="https://github.com/${encodeURIComponent(person.login)}" title="${title}"><img src="${avatar}" width="40" alt="${login}"/></a></td>`;
+                }).join('');
+                rows.push(`<tr>${row}</tr>`);
+              }
+              return rows.join('\n');
+            };
+
+            const fmtK = (n) => n >= 1000 ? `${(n / 1000).toFixed(1)}k` : String(n);
+            const now = new Date().toISOString().slice(0, 10);
+
+            const firstMetric = orgMemberCount > 0
+              ? `<b>${orgMemberCount}</b><br/><sub>个组织成员账号</sub>`
+              : `<b>${mergedPrCount}</b><br/><sub>次合并 PR</sub>`;
+
+            const lines = [
+              start,
+              '## 🌟 星河贡献者 · 微光成炬',
+              '',
+              '*每一位贡献者，都是照亮患者旅途的一束光*',
+              '',
+              `<table border="0" cellspacing="0" cellpadding="12" width="100%"><tr><td align="center" width="20%">${firstMetric}</td><td align="center" width="20%"><b>${ranked.length}</b><br/><sub>位贡献者</sub></td><td align="center" width="20%"><b>${publicRepos.length}</b><br/><sub>个公开仓库</sub></td><td align="center" width="20%"><b>${fmtK(commitCount)}</b><br/><sub>次提交</sub></td><td align="center" width="20%"><b>${fmtK(lineChanges)}</b><br/><sub>行代码变更</sub></td></tr></table>`,
+              '',
+            ];
+
+            if (top.length > 0) {
+              lines.push(
+                '<div align="center">',
+                '',
+                '<table border="0" cellspacing="0" cellpadding="10">',
+                '<tr>' + top.map(makeTopCard).join('') + '</tr>',
+                '</table>',
+                '',
+                '</div>',
+                ''
+              );
+            }
+
+            if (others.length > 0) {
+              lines.push(
+                '<div align="center">',
+                '',
+                '<table border="0" cellspacing="0" cellpadding="6">',
+                makeMiniCards(others),
+                '</table>',
+                '',
+                '</div>',
+                ''
+              );
+            }
+
+            lines.push(
+              '<p align="center">',
+              '  <sub>',
+              '    <code>综合分 = commits × 1 + PRs × 3 + reviews × 2</code> &nbsp;·&nbsp; 数据更新于 <b>' + now + '</b>',
+              '    <br/>',
+              '    <a href="https://github.com/' + owner + '/' + repo + '/issues">参与贡献</a>',
+              '  </sub>',
+              '</p>',
+              end
+            );
+
+            const section = lines.join('\n');
+
+            let content = fs.readFileSync(profilePath, 'utf8');
+            if (content.includes(start) && content.includes(end)) {
+              content = content.replace(new RegExp(`${start}[\\s\\S]*?${end}`), section);
+            } else {
+              content = `${content.trimEnd()}\n\n---\n\n${section}\n`;
+            }
+            fs.writeFileSync(profilePath, content);
+
+      - name: Commit and push contributor section
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- profile/README.md; then
+            echo "No contributor changes"
+            exit 0
+          fi
+          git add profile/README.md
+          git commit -m "docs: update organization contributor avatars"
+          git push

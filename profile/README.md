@@ -92,6 +92,7 @@
   - [注册到 DSH 配置](#注册到-dsh-配置)
 - [联系方式](#联系方式)
 - [许可证和免责声明](#许可证和免责声明)
+- [星河贡献者 · 微光成炬](#-星河贡献者--微光成炬)
 
 ---
 
@@ -621,3 +622,8 @@ export function apply(ctx: Context) {
 <p align="center">
   用技术守护生命，用开源连接希望 —— 欢迎加入 OpenHarness DSH Plugins。
 </p>
+
+---
+
+<!-- CONTRIBUTORS:START -->
+<!-- CONTRIBUTORS:END -->
