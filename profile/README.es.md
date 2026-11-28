@@ -53,7 +53,7 @@
 <h2 align="center"><b>Manifiesto del Proyecto</b></h2>
 <p align="left">
 
-  <b>✦ Junto con DSH Desktop, creamos espacios de trabajo con agentes de IA listos para usar para más de 40 tipos de cáncer y 200 enfermedades raras, ayudando a los pacientes a ordenar su historial, seguir sus indicadores y llegar mejor preparados a cada consulta.</b><br /><br />
+  <b>✦ Junto con DSH Desktop, creamos espacios de trabajo con agentes de IA listos para usar para los 67 tipos de cáncer del catálogo NCCN Guidelines® y las 86 enfermedades raras de las Guías de Diagnóstico y Tratamiento de Enfermedades Raras (edición 2025), ayudando a los pacientes a ordenar su historial, seguir sus indicadores y llegar mejor preparados a cada consulta.</b><br /><br />
 
   <b>◆ La tecnología importa de verdad no solo cuando ahorra tiempo, sino cuando brinda a cada paciente información más clara, mejores opciones y un cuidado más digno.</b><br /><br />
 

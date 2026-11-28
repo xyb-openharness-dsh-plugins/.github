@@ -53,7 +53,7 @@
 <h2 align="center"><b>Project Manifesto</b></h2>
 <p align="left">
 
-  <b>✦ Working closely with DSH Desktop, we're building out-of-the-box AI agent workbenches for 40+ cancers and 200+ rare diseases—helping patients organize medical records, track biomarkers, and walk into every appointment prepared.</b><br /><br />
+  <b>✦ Working closely with DSH Desktop, we're building out-of-the-box AI agent workbenches for the 67 cancer types in the NCCN Guidelines® catalog and the 86 rare diseases in the 2025 Rare Disease Diagnosis & Treatment Guidelines—helping patients organize medical records, track biomarkers, and walk into every appointment prepared.</b><br /><br />
 
   <b>◆ Technology matters most not when it merely saves time, but when it gives every patient clearer information, better choices, and more dignified care.</b><br /><br />
 

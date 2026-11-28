@@ -53,7 +53,7 @@
 <h2 align="center"><b>Manifeste du projet</b></h2>
 <p align="left">
 
-  <b>✦ En collaboration étroite avec DSH Desktop, nous créons des espaces de travail IA prêts à l'emploi pour plus de 40 cancers et 200 maladies rares, afin d'aider chaque patient à organiser ses dossiers, suivre ses biomarqueurs et préparer sereinement ses consultations.</b><br /><br />
+  <b>✦ En collaboration étroite avec DSH Desktop, nous créons des espaces de travail IA prêts à l'emploi pour les 67 types de cancers du catalogue NCCN Guidelines® et les 86 maladies rares du Guide de diagnostic et de traitement des maladies rares (édition 2025), afin d'aider chaque patient à organiser ses dossiers, suivre ses biomarqueurs et préparer sereinement ses consultations.</b><br /><br />
 
   <b>◆ La technologie prend tout son sens non pas lorsqu'elle fait simplement gagner du temps, mais lorsqu'elle offre à chaque patient une information plus fiable, de vrais choix et un accompagnement plus digne.</b><br /><br />
 
