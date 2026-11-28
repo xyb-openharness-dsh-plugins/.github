@@ -121,7 +121,25 @@
 
 ---
 
-## 10. 相关文档
+## 10. 给 AI Agent 的提示词（HOW-TO-USE）
+
+因各病种的核心指标、分期口径与安全红线差异很大，**可直接复制给 AI Agent 的提示词存放在各具体工作台仓库的 `HOW-TO-USE.md` 中**（同时提供「患者/志愿者使用版」与「开发者 Coding Agent 版」）：
+
+- **标杆示例（乳腺癌 · PinkyPal）**：[breast-cancer-workbench/HOW-TO-USE.md](https://github.com/xyb-openharness-dsh-plugins/breast-cancer-workbench/blob/main/HOW-TO-USE.md)
+- **标准模板（供新工作台参考）**：[xyb-workbench-starter/templates/HOW-TO-USE.md](https://github.com/xyb-openharness-dsh-plugins/xyb-workbench-starter/blob/main/templates/HOW-TO-USE.md)
+
+若目标工作台尚未补充 `HOW-TO-USE.md`，可先使用下方通用兜底提示词发给 AI Agent：
+
+```text
+请帮我按「只整理信息、不做医疗诊断或治疗/停药建议」的原则，整理这份病历/检查资料：
+1. 提取关键时间线、分期/分型原话、核心化验与影像指标原值（标注报告日期与页码）；
+2. 未写明的信息一律标注「未核实 / 原件未见」，不要猜测或外推；
+3. 输出「待我核对的结构化事实表」和「下一次复诊建议向医生确认的 5 个问题」。
+```
+
+---
+
+## 11. 相关文档
 
 - [INSTALL.md](INSTALL.md) —— 安装、验证、排错
 - [ARCHITECTURE.md](ARCHITECTURE.md) —— 架构与数据写入
