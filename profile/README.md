@@ -444,6 +444,12 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 | 85 | 胱氨酸贮积症 · 小胱宝 CystiPal（罕见病 #21） | 🔵 v0.1.0 | [cystinosis-workbench](https://github.com/xyb-openharness-dsh-plugins/cystinosis-workbench) | CTNS/LCL-eGFR双轨/q6h半胱胺/角膜结晶/Fanconi；DSH 已装机 |
 | 86 | 家族性腺瘤性息肉病 · 小息宝 FapPal（罕见病 #27） | 🔵 v0.1.0 | [fap-workbench](https://github.com/xyb-openharness-dsh-plugins/fap-workbench) | APC/分部位息肉/Spigelman/IPAA储袋/硬纤维瘤；DSH 已装机 |
 | 87 | 脆性 X 综合征 · 小脆宝 FragxPal（罕见病 #29） | 🔵 v0.1.0 | [fragile-x-workbench](https://github.com/xyb-openharness-dsh-plugins/fragile-x-workbench) | FMR1 CGG/Vineland-ABC-C/感统过载/IEP 家长代记；DSH 已装机 |
+| Leber 先天性黑矇 · 小明眸宝 LcaPal（罕见病 #43） | 🔵 v0.1.0 | [lca-workbench](https://github.com/xyb-openharness-dsh-plugins/lca-workbench) | RPE65-CEP290/FST-MLMT/Luxturna/揉眼征家长代记；DSH 已装机 |
+| 早产儿视网膜病 · 小早瞳宝 RopPal（罕见病 #71） | 🔵 v0.1.0 | [rop-workbench](https://github.com/xyb-openharness-dsh-plugins/rop-workbench) | PMA矫正月龄/ICROP3/抗VEGF复发窗/低视力；DSH 已装机 |
+| Rett 综合征 · 小蕾宝 RettPal（罕见病 #72） | 🔵 v0.1.0 | [rett-workbench](https://github.com/xyb-openharness-dsh-plugins/rett-workbench) | MECP2/手部-呼吸-癫痫分轨/曲非奈肽/眼动AAC；DSH 已装机 |
+| 恶性肠梗阻 · 小通宝 MboPal（**并发症线**·CX-005） | 🔵 v0.1.0 | [malignant-bowel-obstruction-workbench](https://github.com/xyb-openharness-dsh-plugins/malignant-bowel-obstruction-workbench) | 绞窄急诊红旗/NG-PEG引流/三联打卡/TPN与SEMS；DSH 已装机 |
+| 原发性生长激素缺乏症 · 小苗宝 PghdPal（罕见病 #64） | 🔵 v0.1.0 | [pghd-workbench](https://github.com/xyb-openharness-dsh-plugins/pghd-workbench) | 双药激发/rhGH轮换/GV-IGF1靶窗/骨龄与多轴；DSH 已装机 |
+| 原发性 IGF-1 缺乏症 · 小素宝 IgfPal（罕见病 #65） | 🔵 v0.1.0 | [igf1d-workbench](https://github.com/xyb-openharness-dsh-plugins/igf1d-workbench) | GHR-STAT5B/替卡生餐后20分防低血糖/GV追赶；DSH 已装机 |
 | 88 | 儿童中枢神经系统肿瘤 · 小童脑宝 PedCnsPal（NCCN #61） | 🔵 v0.1.0 | [pediatric-cns-workbench](https://github.com/xyb-openharness-dsh-plugins/pediatric-cns-workbench) | WNT/SHH/G3/G4、RAPNO 面积与质子/耳毒性双轨；DSH 已装机 |
 | 89 | 儿童霍奇金淋巴瘤 · 小童霍宝 PedHlPal（NCCN #64） | 🔵 v0.1.0 | [pediatric-hodgkin-workbench](https://github.com/xyb-openharness-dsh-plugins/pediatric-hodgkin-workbench) | Ann Arbor 分期、Deauville 5 分法离散散点与远期心肺随访；DSH 已装机 |
 | 90 | 儿童成熟 B 细胞淋巴瘤 · 小童淋宝 PedBcellPal（NCCN #65） | 🔵 v0.1.0 | [pediatric-b-cell-workbench](https://github.com/xyb-openharness-dsh-plugins/pediatric-b-cell-workbench) | IPNHLSS/FAB-LMB、TLS 防线与 HD-MTX 药代监测；DSH 已装机 |

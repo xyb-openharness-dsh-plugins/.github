@@ -64,9 +64,9 @@
 | **#29** | 脆性 X 综合征（Fragile X） | `fragile-x-workbench` | `#130` | 🔵 `v0.1.0` 已交付（小脆宝 FragxPal · #130 已关闭） |
 | **#39** | 高林综合征（Gorlin） | `gorlin-workbench` | `#145` | 🔵 `v0.1.0` 已交付（小高林宝 GorlinPal · #145 已关闭） |
 | **#41** | 早老症（Progeria / HGPS） | `progeria-workbench` | `#146` | 🔵 `v0.1.0` 已交付（小早老宝 ProgeriaPal · #146 已关闭） |
-| **#43** | Leber 先天性黑矇（LCA） | `lca-workbench` | `#135` | 待续建 M3–M7 与装机 |
-| **#71** | 早产儿视网膜病（ROP） | `rop-workbench` | `#147` | 待续建 M3–M7 与装机 |
-| **#72** | Rett 综合征 | `rett-workbench` | `#126` | 待续建 M3–M7 与装机 |
+| **#43** | Leber 先天性黑矇（LCA） | `lca-workbench` | `#135` | 🔵 `v0.1.0` 已交付（小明眸宝 LcaPal · #135 已关闭） |
+| **#71** | 早产儿视网膜病（ROP） | `rop-workbench` | `#147` | 🔵 `v0.1.0` 已交付（小早瞳宝 RopPal · #147 已关闭） |
+| **#72** | Rett 综合征 | `rett-workbench` | `#126` | 🔵 `v0.1.0` 已交付（小蕾宝 RettPal · #126 已关闭） |
 
 ---
 
@@ -91,4 +91,5 @@
 - **罕见病 #41 早老症（Progeria / HGPS）**：`progeria-workbench` `v0.1.0`（小早老宝 ProgeriaPal · 模式 B M3–M7 续建交付 · Issue `#146` 已关闭 · `v0.1.0` Release · 已写入 DSH `package.json` 并装机）
 
 ### 并发实例在途（勿重复认领）
-- `monogenic-obesity-workbench`（#159）、`pphn-workbench`（#160）、`pghd-workbench`（#157）、`igf1d-workbench`（#158）、`epithelioid-sarcoma-workbench`（#165）、`ppgl-workbench`（#166）、`imt-workbench`（#167）、`gctb-workbench`（#168）、`polycythemia-vera-workbench`（#173）、`myelofibrosis-workbench`（#174）、`CX-005 恶性肠梗阻`（#175）。
+- `monogenic-obesity-workbench`（#159）、`pphn-workbench`（#160）、`epithelioid-sarcoma-workbench`（#165）、`ppgl-workbench`（#166）、`imt-workbench`（#167）、`gctb-workbench`（#168）、`polycythemia-vera-workbench`（#173）、`myelofibrosis-workbench`（#174）、`gorlin-workbench`（#145）、`progeria-workbench`（#146）。
+- 本轮补齐交付：`malignant-bowel-obstruction-workbench`（CX-005 · 小通宝 MboPal · #175 已关闭）、`pghd-workbench`（罕见病 #64 · 小苗宝 PghdPal · #157 已关闭）、`igf1d-workbench`（罕见病 #65 · 小素宝 IgfPal · #158 已关闭）。

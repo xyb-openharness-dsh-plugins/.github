@@ -14,7 +14,7 @@
 | CX-002 | 感染（总题） | 感染、治疗相关感染 | 总题太宽，不可直接交付；须拆为具体条目（如 CX-003）或定义为「治疗相关感染风险识别」 | 肿瘤/免疫抑制、术后、慢病、导管人群 | split-required | — | — | — |
 | CX-003 | 脓毒症/严重感染风险 | sepsis、严重感染 | 患者端只做紧急求助提示与信息交接，不做脓毒症自诊 | 感染高风险群、肿瘤、慢病、术后、老年/免疫低下 | proposed | — | SSC 2021 | 待评估 |
 | CX-004 | 梗阻（总题） | obstruction | 不是单一疾病，不可混器官交付；按器官拆独立条目 | 消化道/泌尿道/胆道肿瘤、术后、结石 | split-required | — | — | — |
-| CX-005 | 恶性肠梗阻 | MBO、肠梗阻 | 晚期肿瘤肠梗阻的识别与照护信息；姑息目标差异大，边界复杂 | 卵巢、结直肠、胃、胰胆等晚期肿瘤 | proposed | — | ESGE 2020（仅结肠支架方向，全范围待补核） | 待评估 |
+| CX-005 | 恶性肠梗阻 | MBO、肠梗阻 | 晚期肿瘤肠梗阻的识别与照护信息；姑息目标差异大，边界复杂 | 卵巢、结直肠、胃、胰胆等晚期肿瘤 | **released（`v0.1.0` 已交付 · 小通宝 MboPal · [Issue #175](https://github.com/xyb-openharness-dsh-plugins/.github/issues/175)）** | [malignant-bowel-obstruction-workbench](https://github.com/xyb-openharness-dsh-plugins/malignant-bowel-obstruction-workbench) | ESGE / MASCC / ESMO | 独立工作台已交付（DSH 装机） |
 | CX-006 | 发热性中性粒细胞减少 | FN、粒缺伴发热 | 化疗/血液肿瘤人群的高时效求助提示；依治疗团队个体化指示 | 化疗/血液肿瘤、移植 | proposed（第二候选） | — | ASCO/IDSA 2018 更新；SEOM 2018 | 待首项验收后评估 |
 | CX-007 | 静脉血栓栓塞 | VTE、深静脉血栓、肺栓塞、导管相关性血栓 CRT | 识别与交接为主；预防与治疗内容不进患者台 | 肿瘤、手术/制动、妊娠、既往血栓 | **released（`v0.1.0` 已交付 · 小栓宝 VtePal · [Issue #180](https://github.com/xyb-openharness-dsh-plugins/.github/issues/180)）** | [vte-workbench](https://github.com/xyb-openharness-dsh-plugins/vte-workbench) | ASH 2021（癌症人群） | 独立工作台已交付（DSH 装机） |
 | CX-008 | 急性肾损伤 | AKI | 患者自评局限大（需化验/尿量/基线），定位待论证 | 慢病、感染、肿瘤治疗、术后、老年 | proposed | — | KDIGO 2012（更新状态待核） | 待评估 |

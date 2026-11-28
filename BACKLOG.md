@@ -458,7 +458,7 @@
 | 30 | 神经节苷脂贮积症 | 168 | T2 · 🔵 [gangliosidosis-workbench](https://github.com/xyb-openharness-dsh-plugins/gangliosidosis-workbench) v0.1.1（小苷宝 GanglioPal · M0–M7 深度重构交付 · DSH 已装机，[Issue #156](https://github.com/xyb-openharness-dsh-plugins/.github/issues/156)） | 39 条快照 / 4 组 8 项指标 / GLB1-HEXA-HEXB 酶活性与吞咽防误吸 / 一图秀 | 👨‍👩‍👧🤝📝 补位 |
 | 39 | 高林综合征 | 224 | T2 · 🔵 [gorlin-workbench](https://github.com/xyb-openharness-dsh-plugins/gorlin-workbench) v0.1.0（小高林宝 GorlinPal · M3–M7 续建交付 · DSH 已装机，[Issue #145](https://github.com/xyb-openharness-dsh-plugins/.github/issues/145)） | 👨‍👩‍👧🤝📝 补位 |
 | 41 | 早老症 | 236 | T2 · 🔵 [progeria-workbench](https://github.com/xyb-openharness-dsh-plugins/progeria-workbench) v0.1.0（小早老宝 ProgeriaPal · M3–M7 续建交付 · DSH 已装机，[Issue #146](https://github.com/xyb-openharness-dsh-plugins/.github/issues/146)） | 👨‍👩‍👧🤝📝 补位 |
-| 43 | Leber 先天性黑矇 | 251 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
+| 43 | Leber 先天性黑矇 | 251 | T2 · 🔵 [lca-workbench](https://github.com/xyb-openharness-dsh-plugins/lca-workbench) v0.1.0（小明眸宝 LcaPal · M3–M7 续建交付 · DSH 已装机，[Issue #135](https://github.com/xyb-openharness-dsh-plugins/.github/issues/135)） | 👨‍👩‍👧🤝📝 补位 |
 | 44 | Lennox-Gastaut 综合征 | 257 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 49 | 异染性脑白质营养不良 | 283 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 50 | 单基因非综合征性肥胖 | 288 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
@@ -467,11 +467,11 @@
 | 55 | 神经元蜡样脂褐质沉积症 | 326 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 59 | 新生儿持续肺动脉高压 | 350 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 61 | PIK3CA 相关过度生长综合征 | 360 | T2 · 🔵 [pros-workbench](https://github.com/xyb-openharness-dsh-plugins/pros-workbench) v0.1.0（小增宝 ProsPal · M0–M7 交付 · DSH 已装机，[Issue #149](https://github.com/xyb-openharness-dsh-plugins/.github/issues/149)） | 4 组 8 项指标 / CLOVES-KTS-MCAP 嵌合突变与 Alpelisib-LIC 专护 / 一图秀 | 👨‍👩‍👧🤝📝 补位 |
-| 64 | 原发性生长激素缺乏症 | 374 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
-| 65 | 原发性胰岛素样生长因子-1 缺乏症 | 382 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
+| 64 | 原发性生长激素缺乏症 | 374 | T2 · 🔵 [pghd-workbench](https://github.com/xyb-openharness-dsh-plugins/pghd-workbench) v0.1.0（小苗宝 PghdPal · M1–M7 交付 · DSH 已装机，[Issue #157](https://github.com/xyb-openharness-dsh-plugins/.github/issues/157)） | 👨‍👩‍👧🤝📝 补位 |
+| 65 | 原发性胰岛素样生长因子-1 缺乏症 | 382 | T2 · 🔵 [igf1d-workbench](https://github.com/xyb-openharness-dsh-plugins/igf1d-workbench) v0.1.0（小素宝 IgfPal · M1–M7 交付 · DSH 已装机，[Issue #158](https://github.com/xyb-openharness-dsh-plugins/.github/issues/158)） | 👨‍👩‍👧🤝📝 补位 |
 | 66 | 原发性免疫缺陷病 | 385 | T1 | 🔥 优先招募 | 👨‍👩‍👧🤝📝🩺 |
-| 71 | 早产儿视网膜病 | 417 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
-| 72 | Rett 综合征 | 423 | T2 | 🔥 优先招募 | 👨‍👩‍👧🤝📝🩺 |
+| 71 | 早产儿视网膜病 | 417 | T2 · 🔵 [rop-workbench](https://github.com/xyb-openharness-dsh-plugins/rop-workbench) v0.1.0（小早瞳宝 RopPal · M3–M7 续建交付 · DSH 已装机，[Issue #147](https://github.com/xyb-openharness-dsh-plugins/.github/issues/147)） | 👨‍👩‍👧🤝📝 补位 |
+| 72 | Rett 综合征 | 423 | T2 · 🔵 [rett-workbench](https://github.com/xyb-openharness-dsh-plugins/rett-workbench) v0.1.0（小蕾宝 RettPal · M3–M7 续建交付 · DSH 已装机，[Issue #126](https://github.com/xyb-openharness-dsh-plugins/.github/issues/126)） | 👨‍👩‍👧🤝📝 补位 |
 | 74 | 全身型幼年特发性关节炎 | 436 | T2 · 🔵 [sjia-workbench](https://github.com/xyb-openharness-dsh-plugins/sjia-workbench) v0.1.0（小幼宝 SjiaPal · M0–M7 交付 · DSH 已装机，[Issue #152](https://github.com/xyb-openharness-dsh-plugins/.github/issues/152)） | 72 条快照 / 4 组 8 项指标 / Ravelli 2016 MAS 预警与 sJIA-LD 筛查 / 一图秀 | 👨‍👩‍👧🤝📝 补位 |
 | 78 | 地中海贫血（重型） | 466 | T1 | ✅ 已认领（2026-10-25，[Issue #34](https://github.com/xyb-openharness-dsh-plugins/.github/issues/34)；[thalassemia-workbench](https://github.com/xyb-openharness-dsh-plugins/thalassemia-workbench) 空仓占位，待开工） | 👨‍👩‍👧🤝📝🩺 |
 | 83 | Von Hippel-Lindau 综合征 | 494 | T2 | 🔥 优先招募 | 👨‍👩‍👧🤝📝🩺 |
