@@ -28,6 +28,10 @@
   Lighting a beacon of hope with AI for patients with cancer, rare diseases, and chronic conditions ✨
 </h3>
 
+<p align="center">
+  <b>🏆 GitHub's largest open-source <code>dsh-workbench</code> project for oncology and rare disease patients &amp; families (157 public workbench repositories)</b>
+</p>
+
 <br /><br />
 
 <p align="center">
@@ -54,6 +58,14 @@
 
   <b>✧ Therefore, by opening our development scaffolds and plugin ecosystem extensions, we warmly invite all developers, researchers, and partners in the open-source community who wish to make a difference for patient information and well-being to join us in advancing this warm and meaningful cause.</b>
 </p>
+
+> [!NOTE]
+> **Speaking with Data (Verified GitHub Public Repository Snapshot as of 2026-11-28):**
+> 1. **Oncology Patient Care**: Across public repositories on GitHub, projects directly focused on cancer patient care and support remain scarce (`"cancer patient" care` returns only **100** repositories, `"cancer patient" support` only **155**, and Chinese `肿瘤 患者` only **21**), and most are academic models or isolated scripts.
+> 2. **Rare Disease Patient Care**: Patient-facing open-source tools for rare diseases are even rarer (`"rare disease" patient` returns only **128** repositories, `"rare disease" support` only **43**, `"rare disease" care` only **8**, and Chinese `罕见病 患者` only **12**—with patient-facing rare-disease workbenches virtually nonexistent).
+> 3. **Innovation & Scale of This Project**: Within the entire GitHub `"dsh-workbench"` ecosystem (**136** exact-match public repositories), this organization has pioneered a "local-first + unified scaffold + disease-specific differentiation" paradigm, open-sourcing **157** patient workbench repositories covering major cancers, rare diseases, complications, and daily-life support (**153** with versioned code, **97** with published Releases)—making it GitHub's **largest open-source `dsh-workbench` project** for oncology and rare disease patients and their families.
+>
+> **Taking the First Step—Co-Creating "Usable + Truly Helpful" Tools with Patients and Volunteers**: This project is **not meant for us to build every workbench alone**. We deeply understand the personalized differences and real-world meaning each disease community requires—and it is precisely those subtle, concrete differences that determine whether a tool is genuinely warm and valuable. What we aim to do is **take the first step**, placing a unified foundation and initial starting points into everyone's hands; we look forward to **volunteers, patient advocacy groups, and patients and families themselves** carrying the torch forward through iteration and refinement—building workbenches that are truly **"usable + genuinely helpful"** and tailored to the lived reality of every disease, standing beside all of us striving to improve treatment and quality of life.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/xyb-openharness-dsh-plugins/.github/main/profile/assets/community-banner.png" alt="Xiao-X-Bao Community Banner" width="860" />

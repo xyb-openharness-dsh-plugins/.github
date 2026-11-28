@@ -28,6 +28,10 @@
   Iluminando una luz de esperanza con IA para pacientes con cáncer, enfermedades raras y enfermedades crónicas ✨
 </h3>
 
+<p align="center">
+  <b>🏆 El proyecto de código abierto <code>dsh-workbench</code> más grande de GitHub para pacientes y familias con tumores malignos y enfermedades raras (157 repositorios públicos)</b>
+</p>
+
 <br /><br />
 
 <p align="center">
@@ -54,6 +58,14 @@
 
   <b>✧ Por ello, mediante la apertura de plantillas de desarrollo y la expansión del ecosistema de plugins, invitamos cordialmente a todos los desarrolladores, investigadores y socios de la comunidad de código abierto dispuestos a aportar un cambio a la información y el bienestar de los pacientes a impulsar juntos esta causa cálida y significativa.</b>
 </p>
+
+> [!NOTE]
+> **Hablando con datos (medición real en repositorios públicos de GitHub al 28-11-2026):**
+> 1. **Atención al paciente con cáncer**: En los repositorios públicos globales de GitHub, los proyectos enfocados directamente en el cuidado y apoyo al paciente oncológico siguen siendo escasos (`"cancer patient" care` arroja solo **100** repositorios, `"cancer patient" support` solo **155**, y en chino `肿瘤 患者` solo **21**), y en su mayoría son modelos académicos o scripts aislados.
+> 2. **Atención al paciente con enfermedades raras**: Las herramientas de código abierto orientadas a pacientes con enfermedades raras son aún más escasas (`"rare disease" patient` suma solo **128** repositorios, `"rare disease" support` solo **43**, `"rare disease" care` apenas **8**, y `罕见病 患者` **12**), siendo prácticamente inexistentes los entornos de trabajo centrados en el paciente.
+> 3. **Innovación y escala de este proyecto**: Dentro del ecosistema global de GitHub con **136** repositorios públicos exactos de `"dsh-workbench"`, nuestra organización ha liberado en código abierto **157** repositorios de mesas de trabajo para pacientes bajo el paradigma «local-first + plantilla unificada + diferenciación por enfermedad» que cubren los principales tipos de cáncer, enfermedades raras, complicaciones y apoyo cotidiano (**153** con código versionado y **97** con Releases publicadas), consolidándose como el **proyecto de código abierto `dsh-workbench` más grande de GitHub** para pacientes con tumores malignos y enfermedades raras y sus familias.
+>
+> **Dar el primer paso, para que pacientes y voluntarios construyan juntos herramientas «útiles + fáciles de usar»**: Este proyecto **no pretende que nosotros desarrollemos en solitario todas las mesas de trabajo**. Sabemos profundamente las diferencias personalizadas y el significado real que necesita cada paciente y cada familia según su enfermedad —y son precisamente esos matices concretos los que hacen que una herramienta tenga verdadero valor humano. Nuestro propósito es **dar el primer paso**, entregando una base unificada y puntos de partida claros; esperamos que a partir de aquí **voluntarios, asociaciones de pacientes y los propios pacientes y familiares** iteren y perfeccionen cada herramienta para lograr mesas de trabajo realmente **«útiles + fáciles de usar»**, adaptadas a la realidad de cada patología, acompañando a quienes luchamos por mejorar el tratamiento y la calidad de vida.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/xyb-openharness-dsh-plugins/.github/main/profile/assets/community-banner.png" alt="Banner de la comunidad XiaoXBao" width="860" />
