@@ -319,7 +319,7 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 | --- | --- | --- |
 | **① 并发症线**（肿瘤患者并发症） | 肿瘤治疗过程中真实发生的并发症：出血、感染、营养与进食障碍、肠梗阻、输液港/导管问题等——识别「什么时候必须马上联系医生」＋把当时的病程资料整理成医生能快速读懂的一页 | 🔵 试点已上线：[消化道出血 workbench](https://github.com/xyb-openharness-dsh-plugins/gastrointestinal-bleeding-workbench) v0.1.0（CX-001，识别需立即求助的出血表现＋结构化就诊摘要）；其余并发症按认领陆续开工 |
 | **② 高危急症线**（脑梗、心梗等） | 急症发作当下与出院后：卒中识别（BE-FAST 等公开识别口径原样呈现）、入院资料准备、出院后的二级预防随访与康复记录 | 🔵 试点已上线：[脑梗死 workbench](https://github.com/xyb-openharness-dsh-plugins/cerebral-infarction-workbench) v0.2.0（夜班开发，M4 已收口）；心梗等条目**招募认领中** |
-| **③ 生活服务工作台线**（肿瘤患者生活支持） | 把患者真正跑腿的事整理成「政策原文 + 办理清单 + 官方入口」：社保与医保（异地就医备案与报销口径）、残障津贴/护理补贴的认定标准与申请材料、公益基金会援助通道、医保目录与药物查询（适应症/供应/价格口径）、二次理赔与商业保险流程、异地就医交通住宿等 | 🟡 **规划中，招募认领**：目标仓 `life-service-workbench`（未建仓）。红线：只引用政策原文并标注来源与生效日期，不代办、不承诺资格；办理口径以当地官方答复为准 |
+| **③ 生活服务工作台线**（肿瘤患者生活支持） | 把患者真正跑腿的事整理成「政策原文 + 办理清单 + 官方入口」：社保与医保（异地就医备案与报销口径）、残障津贴/护理补贴的认定标准与申请材料、公益基金会援助通道、医保目录与药物查询（适应症/供应/价格口径）、二次理赔与商业保险流程、异地就医交通住宿等 | 🔵 已上线：[生活服务 workbench](https://github.com/xyb-openharness-dsh-plugins/life-service-workbench) v0.1.0（小生服宝 LifePal · Issue #188）。红线：只引用政策原文并标注来源与生效日期，不代办、不承诺资格；办理口径以当地官方答复为准 |
 
 > 三条线的共同纪律：**不生成资格判定**（「你能不能领/能不能报」一律给原文与咨询入口）、**急症识别只用公开口径原话**（如 BE-FAST，不写「你已卒中」）、**政策条目必须带来源、版本与生效日期**，过期即标注「待核实」。
 
@@ -410,7 +410,12 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 | 消化道穿孔（**并发症线**·CX-009）· 小护胃宝 GiPerfPal | 🔵 v0.1.0 | [gi-perforation-workbench](https://github.com/xyb-openharness-dsh-plugins/gi-perforation-workbench) | NPO 绝对禁食禁水＋永久停用抗血管药双红线/WBC-PCT-乳酸-NRS；DSH 已装机 |
 | 谵妄/急性意识改变（**并发症线**·CX-010）· 小清神宝 DeliriumPal | 🔵 v0.1.0 | [delirium-workbench](https://github.com/xyb-openharness-dsh-plugins/delirium-workbench) | 先查可逆诱因防漏判淡漠型＋非药物定向优先双红线/CAM-Nu-DESC；DSH 已装机 |
 | 脑梗死（缺血性卒中）· **高危急症线**试点 | 🔵 v0.2.0 | [cerebral-infarction-workbench](https://github.com/xyb-openharness-dsh-plugins/cerebral-infarction-workbench) | 卒中识别（公开口径原话）＋入院资料＋二级预防随访；M4 已收口 |
-| 生活服务工作台（社保/津贴/基金会/二次理赔）· **生活服务线** | 🟡 规划中 · 招募 | — | 目标仓 life-service-workbench；只做政策整理与办理清单 |
+| 生活服务工作台（社保/津贴/基金会/二次理赔）· **生活服务线** · 小生服宝 LifePal | 🔵 v0.1.0 | [life-service-workbench](https://github.com/xyb-openharness-dsh-plugins/life-service-workbench) | 门特/异地/双通道/惠民保/PAP/大病救助台账；DSH 已装机 |
+| 疼痛危象/剧痛 · 小镇痛宝 PainPal（**并发症线**·CX-011） | 🔵 v0.1.0 | [pain-crisis-workbench](https://github.com/xyb-openharness-dsh-plugins/pain-crisis-workbench) | 三大急诊红旗＋NRS 爆发痛/镇痛打卡；DSH 已装机 |
+| 恶病质/营养不良 · 小营宝 CachexPal（**并发症线**·CX-012） | 🔵 v0.1.0 | [cachexia-workbench](https://github.com/xyb-openharness-dsh-plugins/cachexia-workbench) | 6月丢重率/PG-SGA/蛋白热量/ONS与管路；DSH 已装机 |
+| 黄疸/胆道梗阻 · 小清胆宝 BiliObsPal（**并发症线**·CX-013） | 🔵 v0.1.0 | [biliary-obstruction-workbench](https://github.com/xyb-openharness-dsh-plugins/biliary-obstruction-workbench) | Charcot红旗/PTCD-ENBD引流/支架台账/减黄曲线；DSH 已装机 |
+| 阿拉杰里综合征 · 小杰宝 AlagillePal（罕见病 #05） | 🔵 v0.1.0 | [alagille-workbench](https://github.com/xyb-openharness-dsh-plugins/alagille-workbench) | JAG1-NOTCH2/sBA/IBAT/ItchRO 家长代记；DSH 已装机 |
+| Bardet-Biedl 综合征 · 小纤毛宝 BbsPal（罕见病 #08） | 🔵 v0.1.0 | [bbs-workbench](https://github.com/xyb-openharness-dsh-plugins/bbs-workbench) | BBS1-22/视力-肥胖-肾脏三轨/Setmelanotide；DSH 已装机 |
 | 儿童中枢神经系统肿瘤 · 小童脑宝 PedCnsPal（NCCN #61） | 🔵 v0.1.0 | [pediatric-cns-workbench](https://github.com/xyb-openharness-dsh-plugins/pediatric-cns-workbench) | WNT/SHH/G3/G4、RAPNO 面积与质子/耳毒性双轨；DSH 已装机 |
 | 儿童霍奇金淋巴瘤 · 小童霍宝 PedHlPal（NCCN #64） | 🔵 v0.1.0 | [pediatric-hodgkin-workbench](https://github.com/xyb-openharness-dsh-plugins/pediatric-hodgkin-workbench) | Ann Arbor 分期、Deauville 5 分法离散散点与远期心肺随访；DSH 已装机 |
 | 儿童成熟 B 细胞淋巴瘤 · 小童淋宝 PedBcellPal（NCCN #65） | 🔵 v0.1.0 | [pediatric-b-cell-workbench](https://github.com/xyb-openharness-dsh-plugins/pediatric-b-cell-workbench) | IPNHLSS/FAB-LMB、TLS 防线与 HD-MTX 药代监测；DSH 已装机 |

@@ -20,9 +20,9 @@
 | CX-008 | 急性肾损伤 | AKI | 患者自评局限大（需化验/尿量/基线），定位待论证 | 慢病、感染、肿瘤治疗、术后、老年 | proposed | — | KDIGO 2012（更新状态待核） | 待评估 |
 | CX-009 | 消化道穿孔 | perforation | 极强急诊属性、相对专科，优先级低 | 溃疡、消化道肿瘤、炎症、术后 | proposed | — | WSES 2020 | 待评估 |
 | CX-010 | 谵妄/急性意识改变 | delirium | 照护者发现为主；须排除急性原因 | 老年、肿瘤、感染、术后 | proposed | — | ESMO 2018（成人癌症） | 待评估 |
-| CX-011 | 疼痛危象/剧痛 | 疼痛危象 | 按新发/突变/伴随危险信号分层；不做镇痛用药推荐 | 癌症、术后、神经病理性疼痛等 | proposed | — | 待核 | 待评估 |
-| CX-012 | 恶病质/营养不良 | cachexia | 急症性弱，更适合疾病台共用长期管理模块 | 肿瘤、慢性器官病 | proposed（模块路线优先） | — | ESMO 2021（癌症恶病质） | 疾病台共用模块候选 |
-| CX-013 | 黄疸/胆道梗阻 | 胆道梗阻 | 拆症状识别与病因；专科差异大 | 胰胆/肝/壶腹肿瘤、胆石症、肝病 | proposed | — | 待按方向补核 | 待评估 |
+| CX-011 | 疼痛危象/剧痛 | 疼痛危象 | 按新发/突变/伴随危险信号分层；不做镇痛用药推荐 | 癌症、术后、神经病理性疼痛等 | **released（`v0.1.0` 已交付 · 小镇痛宝 PainPal · [Issue #185](https://github.com/xyb-openharness-dsh-plugins/.github/issues/185)）** | [pain-crisis-workbench](https://github.com/xyb-openharness-dsh-plugins/pain-crisis-workbench) | NCCN Adult Cancer Pain / ESMO | 独立工作台已交付（DSH 装机） |
+| CX-012 | 恶病质/营养不良 | cachexia | 急症性弱，更适合疾病台共用长期管理模块 | 肿瘤、慢性器官病 | **released（`v0.1.0` 已交付 · 小营宝 CachexPal · [Issue #186](https://github.com/xyb-openharness-dsh-plugins/.github/issues/186)）** | [cachexia-workbench](https://github.com/xyb-openharness-dsh-plugins/cachexia-workbench) | ESMO 2021（癌症恶病质） | 独立工作台已交付（DSH 装机） |
+| CX-013 | 黄疸/胆道梗阻 | 胆道梗阻 | 拆症状识别与病因；专科差异大 | 胰胆/肝/壶腹肿瘤、胆石症、肝病 | **released（`v0.1.0` 已交付 · 小清胆宝 BiliObsPal · [Issue #187](https://github.com/xyb-openharness-dsh-plugins/.github/issues/187)）** | [biliary-obstruction-workbench](https://github.com/xyb-openharness-dsh-plugins/biliary-obstruction-workbench) | ACG / ESGE / TG18 | 独立工作台已交付（DSH 装机） |
 | CX-014 | 其他低频高危（组） | 高钙血症、肿瘤溶解综合征、心包填塞、免疫治疗相关肺炎/心肌炎、过敏/输注反应、癫痫持续状态 | 低频/治疗特异，不适合第一批泛用工作台；需要时逐项拆独立 ID | 特定肿瘤/治疗人群 | deferred | — | 待逐项核 | — |
 
 ## 边界备忘

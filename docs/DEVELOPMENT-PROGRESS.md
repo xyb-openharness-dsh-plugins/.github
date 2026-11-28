@@ -31,10 +31,10 @@
 | **CX-007** | 并发症线 | 静脉血栓栓塞（VTE / 深静脉血栓与肺栓塞） | `vte-workbench` | 🔵 `v0.1.0` 已交付（小栓宝 VtePal · #180） |
 | **CX-009** | 并发症线 | 消化道穿孔（GI Perforation） | `gi-perforation-workbench` | 🔵 `v0.1.0` 已交付（小护胃宝 GiPerfPal · #183） |
 | **CX-010** | 并发症线 | 谵妄 / 急性意识改变（Delirium） | `delirium-workbench` | 🔵 `v0.1.0` 已交付（小清神宝 DeliriumPal · #184） |
-| **CX-011** | 并发症线 | 疼痛危象 / 剧痛（Pain Crisis） | `pain-crisis-workbench` | `proposed`（未认领、无仓） |
-| **CX-012** | 并发症线 | 恶病质 / 营养不良（Cachexia） | `cachexia-workbench` | `proposed`（未认领、无仓） |
-| **CX-013** | 并发症线 | 黄疸 / 胆道梗阻（Biliary Obstruction） | `biliary-obstruction-workbench` | `proposed`（未认领、无仓） |
-| **生活线** | 生活服务线 | 肿瘤患者生活服务工作台（医保/津贴/基金会/理赔） | `life-service-workbench` | 规划中 · 招募（未建仓） |
+| **CX-011** | 并发症线 | 疼痛危象 / 剧痛（Pain Crisis） | `pain-crisis-workbench` | 🔵 `v0.1.0` 已交付（小镇痛宝 PainPal · #185） |
+| **CX-012** | 并发症线 | 恶病质 / 营养不良（Cachexia） | `cachexia-workbench` | 🔵 `v0.1.0` 已交付（小营宝 CachexPal · #186） |
+| **CX-013** | 并发症线 | 黄疸 / 胆道梗阻（Biliary Obstruction） | `biliary-obstruction-workbench` | 🔵 `v0.1.0` 已交付（小清胆宝 BiliObsPal · #187） |
+| **生活线** | 生活服务线 | 肿瘤患者生活服务工作台（医保/津贴/基金会/理赔） | `life-service-workbench` | 🔵 `v0.1.0` 已交付（小生服宝 LifePal · #188） |
 
 ### 第二类（建议 1-B）：NCCN T3 / 罕见病 R1 原挂靠未独立建仓项（0 认领 Issue + 0 独立仓）
 
@@ -54,8 +54,8 @@
 
 | 罕见病编号 | 病种名称 | 远端仓库（已有 M0–M2） | 既有 Issue | 当前状态 |
 | --- | --- | --- | --- | --- |
-| **#05** | 阿拉杰里综合征（Alagille） | `alagille-workbench` | `#136` | 待续建 M3–M7 与装机 |
-| **#08** | Bardet-Biedl 综合征 | `bbs-workbench` | `#137` | 待续建 M3–M7 与装机 |
+| **#05** | 阿拉杰里综合征（Alagille） | `alagille-workbench` | `#136` | 🔵 `v0.1.0` 已交付（小杰宝 AlagillePal · #136 已关闭） |
+| **#08** | Bardet-Biedl 综合征 | `bbs-workbench` | `#137` | 🔵 `v0.1.0` 已交付（小纤毛宝 BbsPal · #137 已关闭） |
 | **#11** | CDKL5 缺乏症 | `cdkl5-workbench` | `#143` | 待续建 M3–M7 与装机 |
 | **#12** | 无脉络膜症（Choroideremia） | `choroideremia-workbench` | `#131` | 待续建 M3–M7 与装机 |
 | **#16** | 先天性胆道闭锁 | `biliary-atresia-workbench` | `#142` | 待续建 M3–M7 与装机 |

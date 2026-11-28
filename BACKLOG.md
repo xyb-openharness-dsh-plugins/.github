@@ -445,8 +445,8 @@
 | # | 疾病 | 页 | 级别 | 状态 | 招募对象 |
 | --- | --- | --- | --- | --- | --- |
 | 1 | 软骨发育不全 | 1 | **T0 R3 样板** | 🔥 优先招募 | 👨‍👩‍👧🤝📝🩺💻（R3 样板） |
-| 5 | 阿拉杰里综合征 | 22 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
-| 8 | Bardet-Biedl 综合征 | 40 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
+| 5 | 阿拉杰里综合征 | 22 | T2 · 🔵 [alagille-workbench](https://github.com/xyb-openharness-dsh-plugins/alagille-workbench) v0.1.0（小杰宝 AlagillePal · M3–M7 续建交付 · DSH 已装机，[Issue #136](https://github.com/xyb-openharness-dsh-plugins/.github/issues/136)） | 👨‍👩‍👧🤝📝 补位 |
+| 8 | Bardet-Biedl 综合征 | 40 | T2 · 🔵 [bbs-workbench](https://github.com/xyb-openharness-dsh-plugins/bbs-workbench) v0.1.0（小纤毛宝 BbsPal · M3–M7 续建交付 · DSH 已装机，[Issue #137](https://github.com/xyb-openharness-dsh-plugins/.github/issues/137)） | 👨‍👩‍👧🤝📝 补位 |
 | 10 | 蓝色橡皮疱样痣 | 57 | T2 · 🔵 [brbns-workbench](https://github.com/xyb-openharness-dsh-plugins/brbns-workbench) v0.1.0（小蓝宝 BrbnsPal · M0–M7 交付 · DSH 已装机，[Issue #151](https://github.com/xyb-openharness-dsh-plugins/.github/issues/151)） | 37 条快照 / 4 组 8 项指标 / TEK-TIE2 与西罗莫司 TDM·LIC 凝血防线 / 一图秀 | 👨‍👩‍👧🤝📝 补位 |
 | 11 | 细胞周期蛋白依赖性激酶样 5 缺乏症（CDKL5） | 60 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 12 | 无脉络膜症 | 63 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
