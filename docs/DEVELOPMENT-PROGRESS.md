@@ -29,8 +29,8 @@
 | 编号 | 类型 | 病种 / 主题名称 | 建议仓库名 | 状态 |
 | --- | --- | --- | --- | --- |
 | **CX-007** | 并发症线 | 静脉血栓栓塞（VTE / 深静脉血栓与肺栓塞） | `vte-workbench` | 🔵 `v0.1.0` 已交付（小栓宝 VtePal · #180） |
-| **CX-009** | 并发症线 | 消化道穿孔（GI Perforation） | `gi-perforation-workbench` | `proposed`（未认领、无仓） |
-| **CX-010** | 并发症线 | 谵妄 / 急性意识改变（Delirium） | `delirium-workbench` | `proposed`（未认领、无仓） |
+| **CX-009** | 并发症线 | 消化道穿孔（GI Perforation） | `gi-perforation-workbench` | 🔵 `v0.1.0` 已交付（小护胃宝 GiPerfPal · #183） |
+| **CX-010** | 并发症线 | 谵妄 / 急性意识改变（Delirium） | `delirium-workbench` | 🔵 `v0.1.0` 已交付（小清神宝 DeliriumPal · #184） |
 | **CX-011** | 并发症线 | 疼痛危象 / 剧痛（Pain Crisis） | `pain-crisis-workbench` | `proposed`（未认领、无仓） |
 | **CX-012** | 并发症线 | 恶病质 / 营养不良（Cachexia） | `cachexia-workbench` | `proposed`（未认领、无仓） |
 | **CX-013** | 并发症线 | 黄疸 / 胆道梗阻（Biliary Obstruction） | `biliary-obstruction-workbench` | `proposed`（未认领、无仓） |
@@ -85,6 +85,8 @@
 - **罕见病 #31 胃肠胰神经内分泌肿瘤（GEP-NET）**：`gep-net-workbench` `v0.1.0`（小肠肽宝 GepNetPal · Issue `#177` 已关闭 · `v0.1.0` Release · 已写入 DSH `package.json` 并装机）
 - **并发症线 CX-003 脓毒症/严重感染风险（Sepsis）**：`sepsis-workbench` `v0.1.0`（小清源宝 SepsisPal · Issue `#178` 已关闭 · `v0.1.0` Release · 已写入 DSH `package.json` 并装机）
 - **并发症线 CX-008 急性肾损伤（AKI）**：`aki-workbench` `v0.1.0`（小护肾宝 AkiPal · Issue `#179` 已关闭 · `v0.1.0` Release · 已写入 DSH `package.json` 并装机）
+- **并发症线 CX-009 消化道穿孔（GI Perforation）**：`gi-perforation-workbench` `v0.1.0`（小护胃宝 GiPerfPal · Issue `#183` 已关闭 · `v0.1.0` Release · 已写入 DSH `package.json` 并装机）
+- **并发症线 CX-010 谵妄 / 急性意识改变（Delirium）**：`delirium-workbench` `v0.1.0`（小清神宝 DeliriumPal · Issue `#184` 已关闭 · `v0.1.0` Release · 已写入 DSH `package.json` 并装机）
 
 ### 并发实例在途（勿重复认领）
 - `monogenic-obesity-workbench`（#159）、`pphn-workbench`（#160）、`pghd-workbench`（#157）、`igf1d-workbench`（#158）、`epithelioid-sarcoma-workbench`（#165）、`ppgl-workbench`（#166）、`imt-workbench`（#167）、`gctb-workbench`（#168）、`polycythemia-vera-workbench`（#173）、`myelofibrosis-workbench`（#174）、`CX-005 恶性肠梗阻`（#175）。

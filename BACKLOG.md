@@ -208,7 +208,7 @@
 | 线 | 已领（首项） | 剩余 |
 | --- | --- | --- |
 | TOP10 慢病线（医保住院人次口径） | 脑梗死（[#86](https://github.com/xyb-openharness-dsh-plugins/.github/issues/86)，cerebral-infarction-workbench） | **9 项候选待维护者定名单**（TOP10 其余位次） |
-| 并发症线 | 消化道出血（[#87](https://github.com/xyb-openharness-dsh-plugins/.github/issues/87)，gastrointestinal-bleeding-workbench，试点·首项）· 静脉血栓栓塞（[#180](https://github.com/xyb-openharness-dsh-plugins/.github/issues/180)，[vte-workbench](https://github.com/xyb-openharness-dsh-plugins/vte-workbench) 🔵 v0.1.0）· 粒缺伴发热（fn-workbench 🔵 v0.1.0） | 后续并发症项（CX-009..CX-013）待认领 |
+| 并发症线 | 消化道出血（[#87](https://github.com/xyb-openharness-dsh-plugins/.github/issues/87)，gastrointestinal-bleeding-workbench，试点·首项）· 静脉血栓栓塞（[#180](https://github.com/xyb-openharness-dsh-plugins/.github/issues/180)，[vte-workbench](https://github.com/xyb-openharness-dsh-plugins/vte-workbench) 🔵 v0.1.0）· 粒缺伴发热（fn-workbench 🔵 v0.1.0）· 脓毒症（sepsis-workbench 🔵 v0.1.0）· 急性肾损伤（aki-workbench 🔵 v0.1.0）· 消化道穿孔（[#183](https://github.com/xyb-openharness-dsh-plugins/.github/issues/183)，[gi-perforation-workbench](https://github.com/xyb-openharness-dsh-plugins/gi-perforation-workbench) 🔵 v0.1.0）· 谵妄（[#184](https://github.com/xyb-openharness-dsh-plugins/.github/issues/184)，[delirium-workbench](https://github.com/xyb-openharness-dsh-plugins/delirium-workbench) 🔵 v0.1.0） | 后续并发症项（CX-011..CX-013）待认领 |
 | 急症线 | 未开线 | 整线待定义（ARCHITECTURE 模块图已预留急症场景位） |
 | 跨病种工具 | 癌症政策工具（[#88](https://github.com/xyb-openharness-dsh-plugins/.github/issues/88)，cancer-policy-workbench v0.2.1） | 更多政策 / 费用 / 医保类工具按需求提 Issue |
 
