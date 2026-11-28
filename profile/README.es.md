@@ -25,8 +25,8 @@
 </h1>
 
 <h3 align="center">
-  ¡Dedicados de todo corazón a mejorar el acceso a la información para pacientes con cáncer y enfermedades raras!<br />
-  Iluminando una luz de esperanza con IA para pacientes con cáncer, enfermedades raras y enfermedades crónicas ✨
+  Mejor información para quienes enfrentan el cáncer y las enfermedades raras.<br />
+  IA de código abierto para dar claridad, autonomía y esperanza a pacientes y familias ✨
 </h3>
 
 <p align="center">
@@ -36,28 +36,28 @@
 <br /><br />
 
 <p align="center">
-  <b>Proyecto sin fines de lucro y de código abierto bajo Tiangong Kaiwu (<a href="https://www.xiaoyibao.com.cn">www.xiaoyibao.com.cn</a>)｜Sigue las cuentas oficiales de WeChat 【小胰宝】 y 【小胰宝助手】 para conocer los últimos avances</b>
+  <b>Iniciativa open source sin fines de lucro bajo Tiangong Kaiwu (<a href="https://www.xiaoyibao.com.cn">www.xiaoyibao.com.cn</a>) · Sigue nuestras cuentas oficiales en WeChat [小胰宝] y [小胰宝助手]</b>
 </p>
 
 <br /><br />
 
 <p align="left">
-  <b>✦ Sabemos profundamente que el código no son solo caracteres fríos, sino un puente que conecta a desarrolladores y pacientes, una fuerza cálida que protege la vida mediante la tecnología.</b><br /><br />
+  <b>✦ El código no son solo líneas de texto: es un puente entre quienes construyen y quienes enfrentan una enfermedad, una fuerza silenciosa que ayuda a cuidar la vida.</b><br /><br />
 
-  <b>◆ En 2026, como un impulso clave de sinergia ecológica para la comunidad, dimos la bienvenida a nuestro primer socio: <a href="https://github.com/dataelement">la comunidad Dataelem (数据项素)</a>. Apoyándonos en la "mesa de trabajo" (workbench), una forma de producto que podría convertirse en piedra angular de la productización de aplicaciones de IA, aceleramos la creación de un nuevo tipo de producto: "listo para usar al instalar, con un sistema integral de gestión de la evolución de la enfermedad integrado".</b><br /><br />
+  <b>◆ En 2026 nos aliamos con <a href="https://github.com/dataelement">Dataelem Community</a> en torno al modelo «workbench» —una pieza clave para llevar la IA a la práctica real— para crear herramientas listas para usar que acompañen todo el recorrido clínico.</b><br /><br />
 
-  <b>✧ Sin duda, en los próximos 3 meses nos convertiremos en una fuerza impulsora en GitHub y en el código abierto dentro del ámbito de las herramientas benéficas de código abierto para pacientes con cáncer y enfermedades raras. Esperamos que te unas, Mark the Dent, y esperamos trabajar junto con los desarrolladores para lograr un cambio por la equidad informativa de los pacientes. Este es un proyecto HVT que cambia el destino de decenas de millones de personas gracias a la participación colectiva.</b>
+  <b>✧ En los próximos meses estamos impulsando uno de los movimientos open source más activos en GitHub para pacientes con cáncer y enfermedades raras. Súmate para acortar la brecha informativa y mejorar el cuidado de millones de personas.</b>
 </p>
 
 <br /><br />
 <h2 align="center"><b>Manifiesto del Proyecto</b></h2>
 <p align="left">
 
-  <b>✦ Mediante una estrecha colaboración con DSH Desktop, nos dedicamos a crear capacidades de Agente de IA de nueva generación —"listas para usar y con un sistema integral de gestión de la evolución clínica integrado"— para más de 40 tipos de cáncer y más de 200 enfermedades raras, ayudando a los pacientes a organizar su documentación clínica, hacer seguimiento de sus indicadores y prepararse para sus consultas médicas.</b><br /><br />
+  <b>✦ Junto con DSH Desktop, creamos espacios de trabajo con agentes de IA listos para usar para más de 40 tipos de cáncer y 200 enfermedades raras, ayudando a los pacientes a ordenar su historial, seguir sus indicadores y llegar mejor preparados a cada consulta.</b><br /><br />
 
-  <b>◆ Creemos que el valor de la tecnología no radica solo en aumentar la eficiencia, sino en permitir que cada paciente acceda a mejor información, más opciones y una experiencia de cuidado más digna.</b><br /><br />
+  <b>◆ La tecnología importa de verdad no solo cuando ahorra tiempo, sino cuando brinda a cada paciente información más clara, mejores opciones y un cuidado más digno.</b><br /><br />
 
-  <b>✧ Por ello, mediante la apertura de plantillas de desarrollo y la expansión del ecosistema de plugins, invitamos cordialmente a todos los desarrolladores, investigadores y socios de la comunidad de código abierto dispuestos a aportar un cambio a la información y el bienestar de los pacientes a impulsar juntos esta causa cálida y significativa.</b>
+  <b>✧ Al abrir nuestras plantillas y el ecosistema de plugins, invitamos a desarrolladores, profesionales de la salud, investigadores y asociaciones de pacientes a construir esto junto a nosotros.</b>
 </p>
 
 > [!NOTE]

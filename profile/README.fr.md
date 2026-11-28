@@ -25,8 +25,8 @@
 </h1>
 
 <h3 align="center">
-  Dédié à l'amélioration de l'information pour les patients atteints de cancer et de maladies rares !<br />
-  Éclairer l'espoir grâce à l'IA pour les patients atteints de cancer, de maladies rares et de maladies chroniques ✨
+  Une information plus claire pour chaque personne face au cancer ou à une maladie rare.<br />
+  L'IA open source au service de l'autonomie, de la sérénité et de l'espoir des patients et de leurs proches ✨
 </h3>
 
 <p align="center">
@@ -36,28 +36,28 @@
 <br /><br />
 
 <p align="center">
-  <b>Projet open source d'intérêt général sous l'égide de Tiangong Kaiwu (<a href="https://www.xiaoyibao.com.cn">www.xiaoyibao.com.cn</a>)｜Suivez les comptes officiels WeChat « XiaoYiBao (小胰宝) » et « Assistant XiaoYiBao (小胰宝助手) » pour les dernières avancées</b>
+  <b>Initiative open source à but non lucratif portée par Tiangong Kaiwu (<a href="https://www.xiaoyibao.com.cn">www.xiaoyibao.com.cn</a>) · Suivez nos comptes officiels WeChat [小胰宝] et [小胰宝助手]</b>
 </p>
 
 <br /><br />
 
 <p align="left">
-  <b>✦ Nous savons que le code n'est pas qu'une suite de caractères froids : c'est un pont entre les développeurs et les patients, et une force bienveillante qui protège la vie grâce à la technologie.</b><br /><br />
+  <b>✦ Le code n'est pas qu'une suite de lignes : c'est un lien concret entre ceux qui bâtissent et ceux qui traversent la maladie, une force discrète au service de la vie.</b><br /><br />
 
-  <b>◆ En 2026, dans le cadre d'une synergie écosystémique majeure pour la communauté, nous avons accueilli notre premier partenaire — <a href="https://github.com/dataelement">la communauté Dataelem</a>. En nous appuyant sur le « poste de travail » (workbench), une forme de produit appelée à devenir une pierre angulaire de l'industrialisation des applications d'IA, nous accélérons la création d'outils « prêts à l'emploi dès l'installation, dotés d'un système complet de gestion du parcours de soins ».</b><br /><br />
+  <b>◆ En 2026, nous nous sommes associés à <a href="https://github.com/dataelement">Dataelem Community</a> autour du modèle « workbench » — un pilier émergent des applications d'IA concrètes — pour concevoir des outils prêts à l'emploi dédiés au suivi complet du parcours de soins.</b><br /><br />
 
-  <b>✧ Sans aucun doute, dans les 3 prochains mois, nous deviendrons une force motrice sur GitHub et dans l'open source pour les outils d'intérêt général destinés aux patients atteints de cancer et de maladies rares. Nous vous attendons pour marquer l'histoire (Mark the Dent) et faire progresser l'équité d'accès à l'information médicale avec les développeurs. C'est un projet à haute valeur humaine (HVT) qui transforme le destin de millions de personnes grâce à la participation de chacun.</b>
+  <b>✧ Au cours des prochains mois, nous bâtissons sur GitHub l'un des mouvements open source les plus actifs pour les patients atteints de cancer ou de maladies rares. Rejoignez-nous pour faire progresser l'accès à l'information médicale et transformer le quotidien de millions de familles.</b>
 </p>
 
 <br /><br />
 <h2 align="center"><b>Manifeste du projet</b></h2>
 <p align="left">
 
-  <b>✦ Grâce à notre collaboration étroite avec DSH Desktop, nous nous engageons à concevoir des agents IA de nouvelle génération « prêts à l'emploi, avec un système complet de gestion du parcours médical » pour plus de 40 cancers et plus de 200 maladies rares, afin d'aider les patients à organiser leurs dossiers, suivre leurs biomarqueurs et préparer leurs consultations.</b><br /><br />
+  <b>✦ En collaboration étroite avec DSH Desktop, nous créons des espaces de travail IA prêts à l'emploi pour plus de 40 cancers et 200 maladies rares, afin d'aider chaque patient à organiser ses dossiers, suivre ses biomarqueurs et préparer sereinement ses consultations.</b><br /><br />
 
-  <b>◆ Nous sommes convaincus que la valeur de la technologie ne se limite pas à l'efficacité : elle consiste à offrir à chaque patient une meilleure information, davantage de choix et des soins plus dignes.</b><br /><br />
+  <b>◆ La technologie prend tout son sens non pas lorsqu'elle fait simplement gagner du temps, mais lorsqu'elle offre à chaque patient une information plus fiable, de vrais choix et un accompagnement plus digne.</b><br /><br />
 
-  <b>✧ C'est pourquoi, en ouvrant nos modèles de développement et notre écosystème de plugins, nous invitons chaleureusement tous les développeurs, chercheurs et partenaires de la communauté open source désireux d'améliorer l'information et le bien-être des patients à faire avancer cette cause porteuse de sens.</b>
+  <b>✧ En ouvrant nos socles techniques et notre écosystème de plugins, nous invitons développeurs, soignants, chercheurs et associations de patients à construire cet écosystème à nos côtés.</b>
 </p>
 
 > [!NOTE]
