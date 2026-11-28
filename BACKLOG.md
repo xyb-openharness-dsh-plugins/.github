@@ -456,8 +456,8 @@
 | 28 | 进行性骨化性纤维发育不良（FOP） | 160 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 29 | 脆性 X 综合征 | 164 | T2 · 🔵 [fragile-x-workbench](https://github.com/xyb-openharness-dsh-plugins/fragile-x-workbench) v0.1.0（小脆宝 FragxPal · M3–M7 续建交付 · DSH 已装机，[Issue #130](https://github.com/xyb-openharness-dsh-plugins/.github/issues/130)） | 👨‍👩‍👧🤝📝 补位 |
 | 30 | 神经节苷脂贮积症 | 168 | T2 · 🔵 [gangliosidosis-workbench](https://github.com/xyb-openharness-dsh-plugins/gangliosidosis-workbench) v0.1.1（小苷宝 GanglioPal · M0–M7 深度重构交付 · DSH 已装机，[Issue #156](https://github.com/xyb-openharness-dsh-plugins/.github/issues/156)） | 39 条快照 / 4 组 8 项指标 / GLB1-HEXA-HEXB 酶活性与吞咽防误吸 / 一图秀 | 👨‍👩‍👧🤝📝 补位 |
-| 39 | 高林综合征 | 224 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
-| 41 | 早老症 | 236 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
+| 39 | 高林综合征 | 224 | T2 · 🔵 [gorlin-workbench](https://github.com/xyb-openharness-dsh-plugins/gorlin-workbench) v0.1.0（小高林宝 GorlinPal · M3–M7 续建交付 · DSH 已装机，[Issue #145](https://github.com/xyb-openharness-dsh-plugins/.github/issues/145)） | 👨‍👩‍👧🤝📝 补位 |
+| 41 | 早老症 | 236 | T2 · 🔵 [progeria-workbench](https://github.com/xyb-openharness-dsh-plugins/progeria-workbench) v0.1.0（小早老宝 ProgeriaPal · M3–M7 续建交付 · DSH 已装机，[Issue #146](https://github.com/xyb-openharness-dsh-plugins/.github/issues/146)） | 👨‍👩‍👧🤝📝 补位 |
 | 43 | Leber 先天性黑矇 | 251 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 44 | Lennox-Gastaut 综合征 | 257 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |
 | 49 | 异染性脑白质营养不良 | 283 | T2 | ⬜ 招募中 | 👨‍👩‍👧🤝📝 |

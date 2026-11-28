@@ -470,7 +470,7 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 | 111 | 神经节苷脂贮积症 · 小苷宝 GanglioPal（罕见病 #30） | 🔵 v0.1.1 | [gangliosidosis-workbench](https://github.com/xyb-openharness-dsh-plugins/gangliosidosis-workbench) | GM1/GM2 家长与临床协同；已发布 |
 | 112 | 骨巨细胞瘤（罕见病 #36） | 🔵 v0.1.0 | [gctb-workbench](https://github.com/xyb-openharness-dsh-plugins/gctb-workbench) | H3F3A G34W/Campanacci 分级/地舒单抗红线 |
 | 113 | 血小板无力症（Glanzmann 血小板功能缺陷） | 🔵 v0.2.0 | [glanzmann-thrombasthenia-workbench](https://github.com/xyb-openharness-dsh-plugins/glanzmann-thrombasthenia-workbench) | 出血时间轴/血小板输注与聚集功能 |
-| 114 | 高林综合征（罕见病 #39） | 🟡 v0.1.0 | [gorlin-workbench](https://github.com/xyb-openharness-dsh-plugins/gorlin-workbench) | M0–M2 孵化仓，待续建 M3–M7 |
+| 114 | 高林综合征 · 小高林宝 GorlinPal（罕见病 #39） | 🔵 v0.1.0 | [gorlin-workbench](https://github.com/xyb-openharness-dsh-plugins/gorlin-workbench) | 严格防晒零非必要电离辐射＋Hedgehog 强致畸双重避孕红线/BCC-OKC-25(OH)D-CK；DSH 已装机 |
 | 115 | 毛细胞白血病 · 小毛宝 HairyPal（NCCN #27） | 🔵 v0.1.7 | [hairy-cell-leukemia-workbench](https://github.com/xyb-openharness-dsh-plugins/hairy-cell-leukemia-workbench) | 4组8项指标/克拉屈滨与维罗非尼/一图秀；已发布 |
 | 116 | 组织细胞肿瘤 · 小组宝 HistioPal（NCCN #33） | 🔵 v0.1.0 | [histiocytic-neoplasms-workbench](https://github.com/xyb-openharness-dsh-plugins/histiocytic-neoplasms-workbench) | LCH/ECD/RDD · BRAF/MAP2K1 与一图秀；已发布 |
 | 117 | 霍奇金淋巴瘤 · 小霍宝 HodgPal（NCCN #12） | 🔵 v0.1.1 | [hodgkin-lymphoma-workbench](https://github.com/xyb-openharness-dsh-plugins/hodgkin-lymphoma-workbench) | Ann Arbor/Lugano/Deauville 5 分法与一图秀；已发布 |
@@ -498,7 +498,7 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 | 139 | 嗜铬细胞瘤与副神经节瘤（罕见病 #60） | 🔵 v0.1.0 | [pheochromocytoma-workbench](https://github.com/xyb-openharness-dsh-plugins/pheochromocytoma-workbench) | MN/NMN/3-MT 分泌谱与 SDHB 分型 |
 | 140 | 真性红细胞增多症（罕见病 #62） | 🔵 v0.1.0 | [polycythemia-vera-workbench](https://github.com/xyb-openharness-dsh-plugins/polycythemia-vera-workbench) | HCT 45% 目标与放血补铁红线 |
 | 141 | 新生儿持续肺动脉高压（罕见病 #59） | 🔵 v0.1.0 | [pphn-workbench](https://github.com/xyb-openharness-dsh-plugins/pphn-workbench) | 导管前后血氧差/OI/iNO 撤离阶梯 |
-| 142 | 早老症（罕见病 #41） | 🟡 v0.1.0 | [progeria-workbench](https://github.com/xyb-openharness-dsh-plugins/progeria-workbench) | M0–M2 孵化仓，待续建 M3–M7 |
+| 142 | 早老症 · 小早老宝 ProgeriaPal（罕见病 #41） | 🔵 v0.1.0 | [progeria-workbench](https://github.com/xyb-openharness-dsh-plugins/progeria-workbench) | 早发心脑血管急症与困难气道＋洛那法尼 BSA 剂量与 CYP3A 禁忌双红线/cfPWV-体重-BSA；DSH 已装机 |
 | 143 | PIK3CA 相关过度生长综合征 · 小增宝 ProsPal（罕见病 #61） | 🔵 v0.1.0 | [pros-workbench](https://github.com/xyb-openharness-dsh-plugins/pros-workbench) | 已发布 |
 | 144 | Rett 综合征（罕见病 #72） | 🟡 v0.1.0 | [rett-workbench](https://github.com/xyb-openharness-dsh-plugins/rett-workbench) | M0–M2 孵化仓，待续建 M3–M7 |
 | 145 | 早产儿视网膜病（罕见病 #71） | 🟡 v0.1.0 | [rop-workbench](https://github.com/xyb-openharness-dsh-plugins/rop-workbench) | M0–M2 孵化仓，待续建 M3–M7 |

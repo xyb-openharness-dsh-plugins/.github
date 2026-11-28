@@ -62,8 +62,8 @@
 | **#21** | 胱氨酸贮积症（Cystinosis） | `cystinosis-workbench` | `#141` | 🔵 `v0.1.0` 已交付（小胱宝 CystiPal · #141 已关闭） |
 | **#27** | 家族性腺瘤性息肉病（FAP） | `fap-workbench` | `#129` | 🔵 `v0.1.0` 已交付（小息宝 FapPal · #129 已关闭） |
 | **#29** | 脆性 X 综合征（Fragile X） | `fragile-x-workbench` | `#130` | 🔵 `v0.1.0` 已交付（小脆宝 FragxPal · #130 已关闭） |
-| **#39** | 高林综合征（Gorlin） | `gorlin-workbench` | `#145` | 待续建 M3–M7 与装机 |
-| **#41** | 早老症（Progeria / HGPS） | `progeria-workbench` | `#146` | 待续建 M3–M7 与装机 |
+| **#39** | 高林综合征（Gorlin） | `gorlin-workbench` | `#145` | 🔵 `v0.1.0` 已交付（小高林宝 GorlinPal · #145 已关闭） |
+| **#41** | 早老症（Progeria / HGPS） | `progeria-workbench` | `#146` | 🔵 `v0.1.0` 已交付（小早老宝 ProgeriaPal · #146 已关闭） |
 | **#43** | Leber 先天性黑矇（LCA） | `lca-workbench` | `#135` | 待续建 M3–M7 与装机 |
 | **#71** | 早产儿视网膜病（ROP） | `rop-workbench` | `#147` | 待续建 M3–M7 与装机 |
 | **#72** | Rett 综合征 | `rett-workbench` | `#126` | 待续建 M3–M7 与装机 |
@@ -87,6 +87,8 @@
 - **并发症线 CX-008 急性肾损伤（AKI）**：`aki-workbench` `v0.1.0`（小护肾宝 AkiPal · Issue `#179` 已关闭 · `v0.1.0` Release · 已写入 DSH `package.json` 并装机）
 - **并发症线 CX-009 消化道穿孔（GI Perforation）**：`gi-perforation-workbench` `v0.1.0`（小护胃宝 GiPerfPal · Issue `#183` 已关闭 · `v0.1.0` Release · 已写入 DSH `package.json` 并装机）
 - **并发症线 CX-010 谵妄 / 急性意识改变（Delirium）**：`delirium-workbench` `v0.1.0`（小清神宝 DeliriumPal · Issue `#184` 已关闭 · `v0.1.0` Release · 已写入 DSH `package.json` 并装机）
+- **罕见病 #39 高林综合征（Gorlin）**：`gorlin-workbench` `v0.1.0`（小高林宝 GorlinPal · 模式 B M3–M7 续建交付 · Issue `#145` 已关闭 · `v0.1.0` Release · 已写入 DSH `package.json` 并装机）
+- **罕见病 #41 早老症（Progeria / HGPS）**：`progeria-workbench` `v0.1.0`（小早老宝 ProgeriaPal · 模式 B M3–M7 续建交付 · Issue `#146` 已关闭 · `v0.1.0` Release · 已写入 DSH `package.json` 并装机）
 
 ### 并发实例在途（勿重复认领）
 - `monogenic-obesity-workbench`（#159）、`pphn-workbench`（#160）、`pghd-workbench`（#157）、`igf1d-workbench`（#158）、`epithelioid-sarcoma-workbench`（#165）、`ppgl-workbench`（#166）、`imt-workbench`（#167）、`gctb-workbench`（#168）、`polycythemia-vera-workbench`（#173）、`myelofibrosis-workbench`（#174）、`CX-005 恶性肠梗阻`（#175）。
