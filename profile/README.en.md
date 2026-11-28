@@ -15,11 +15,12 @@
   <b>English</b> ·
   <a href="https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/profile/README.ja.md">日本語</a> ·
   <a href="https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/profile/README.fr.md">Français</a> ·
-  <a href="https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/profile/README.es.md">Español</a>
+  <a href="https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/profile/README.es.md">Español</a> ·
+  <a href="https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/profile/README.ru.md">Русский</a>
 </p>
 
 <h1 align="center">
-  🔥 <a href="https://info.xiao-x-bao.com.cn">Xiao-X-Bao Community</a> in partnership with
+  🔥 <a href="https://info.xiao-x-bao.com.cn">xtra-care community</a> in partnership with
   <a href="https://github.com/dataelement">Dataelem Community</a>
 </h1>
 
@@ -68,11 +69,11 @@
 > **Taking the First Step—Co-Creating "Usable + Truly Helpful" Tools with Patients and Volunteers**: This project is **not meant for us to build every workbench alone**. We deeply understand the personalized differences and real-world meaning each disease community requires—and it is precisely those subtle, concrete differences that determine whether a tool is genuinely warm and valuable. What we aim to do is **take the first step**, placing a unified foundation and initial starting points into everyone's hands; we look forward to **volunteers, patient advocacy groups, and patients and families themselves** carrying the torch forward through iteration and refinement—building workbenches that are truly **"usable + genuinely helpful"** and tailored to the lived reality of every disease, standing beside all of us striving to improve treatment and quality of life.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/xyb-openharness-dsh-plugins/.github/main/profile/assets/community-banner.png" alt="Xiao-X-Bao Community Banner" width="860" />
+  <img src="https://raw.githubusercontent.com/xyb-openharness-dsh-plugins/.github/main/profile/assets/community-banner.png" alt="xtra-care community Banner" width="860" />
 </p>
 
 <p align="center">
-  <a href="https://info.xiao-x-bao.com.cn">Xiao-X-Bao Community</a> ·
+  <a href="https://info.xiao-x-bao.com.cn">xtra-care community</a> ·
   <a href="https://www.xiaoyibao.com.cn">XiaoYiBao Official Site</a> ·
   <a href="#community-repositories">Community Repositories</a> ·
   <a href="#documentation">Docs</a> ·
@@ -118,9 +119,9 @@
 
 ## Project Overview
 
-**OpenHarness DSH Plugins** is a patient workbench and plugin community jointly built by the Xiao-X-Bao Community and [Dataelem](https://github.com/dataelement). Workbenches run on [DSH Desktop](https://github.com/dataelement/dsh-desktop), maintained by Dataelem, organizing medical records, disease timelines, and visit preparation around real patient scenarios.
+**OpenHarness DSH Plugins** is a patient workbench and plugin community jointly built by xtra-care community and [Dataelem](https://github.com/dataelement). Workbenches run on [DSH Desktop](https://github.com/dataelement/dsh-desktop), maintained by Dataelem, organizing medical records, disease timelines, and visit preparation around real patient scenarios.
 
-**DSH Desktop by Dataelem** is a desktop Agent application developed by the Dataelem team on top of upstream [DeepSeek Harness](https://github.com/deepseek-ai/dsh); it is not an official DeepSeek desktop product. The Xiao-X-Bao Community contributes patient scenarios and domain experience, while Dataelem provides the desktop host, workbench framework, and productization support—together refining reference templates and reusable scaffolds.
+**DSH Desktop by Dataelem** is a desktop Agent application developed by the Dataelem team on top of upstream [DeepSeek Harness](https://github.com/deepseek-ai/dsh); it is not an official DeepSeek desktop product. xtra-care community contributes patient scenarios and domain experience, while Dataelem provides the desktop host, workbench framework, and productization support—together refining reference templates and reusable scaffolds.
 
 Rooted in "**public interest and open source**," our flagship project **XiaoYiBao (小胰宝)** and disease-specific workbenches focus on information organization, disease-course logging, biomarker tracking, and consultation preparation, helping patients and families manage records and communicate more clearly. Workbenches do not provide diagnosis, treatment, or clinical management advice, and do not replace physician judgment.
 
@@ -381,7 +382,7 @@ We are building "local-first" patient workbenches disease by disease (record org
 | 22 | Soft Tissue Sarcoma | 🔵 v0.2.6 | [sarcoma-workbench](https://github.com/xyb-openharness-dsh-plugins/sarcoma-workbench) | T0 template |
 | 23 | Bone Cancer | 🔵 v0.2.1 | [bone-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/bone-cancer-workbench) |  |
 | 24 | Malignant Pleural Mesothelioma | 🔵 v0.1.8 | [mesothelioma-workbench](https://github.com/xyb-openharness-dsh-plugins/mesothelioma-workbench) |  |
-| 25 | Thymic Carcinoma · (Xiao-X-Bao Family T1 Pilot) | 🔵 v0.2.2 | [thymic-workbench](https://github.com/xyb-openharness-dsh-plugins/thymic-workbench) |  |
+| 25 | Thymic Carcinoma · (xtra-care Family T1 Pilot) | 🔵 v0.2.2 | [thymic-workbench](https://github.com/xyb-openharness-dsh-plugins/thymic-workbench) |  |
 | 26 | Glioblastoma · StarPal | 🔵 v0.1.9 | [glioblastoma-workbench](https://github.com/xyb-openharness-dsh-plugins/glioblastoma-workbench) |  |
 | 27 | Small Bowel Adenocarcinoma · SmallBowelPal | 🔵 v0.2.4 | [small-bowel-workbench](https://github.com/xyb-openharness-dsh-plugins/small-bowel-workbench) | Trial-track #35 4-stage pipeline; local DSH install verified |
 | 28 | Anal Canal Cancer · AnalPal | 🔵 v0.2.10 | [anal-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/anal-cancer-workbench) | G2 signed |
@@ -543,7 +544,7 @@ We are building "local-first" patient workbenches disease by disease (record org
 - **Contribution Workflow**: See [Contributing](#contributing) below
 - **Project Structure**: See [Project Structure](#project-structure) below
 - **XiaoYiBao Official Website**: <https://www.xiaoyibao.com.cn>
-- **Xiao-X-Bao Community**: <https://info.xiao-x-bao.com.cn>
+- **xtra-care community**: <https://info.xiao-x-bao.com.cn>
 - **OpenCare SkillHub Community Repo**: <https://github.com/opencare-skillhub>
 - **PancrePal (小胰宝) Community Repo**: <https://github.com/PancrePal-xiaoyibao>
 - **Dataelem Official Website**: <https://www.dataelem.com/>

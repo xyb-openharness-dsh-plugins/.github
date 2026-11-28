@@ -15,11 +15,12 @@
   <a href="https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/profile/README.en.md">English</a> ·
   <a href="https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/profile/README.ja.md">日本語</a> ·
   <a href="https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/profile/README.fr.md">Français</a> ·
-  <a href="https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/profile/README.es.md">Español</a>
+  <a href="https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/profile/README.es.md">Español</a> ·
+  <a href="https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/profile/README.ru.md">Русский</a>
 </p>
 
 <h1 align="center">
-  🔥 <a href="https://info.xiao-x-bao.com.cn">小X宝社区</a> 携手
+  🔥 <a href="https://info.xiao-x-bao.com.cn">小X宝社区（xtra-care community）</a> 携手
   <a href="https://github.com/dataelement">Dataelem（数据项素）社区</a>
 </h1>
 

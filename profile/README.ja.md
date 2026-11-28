@@ -15,11 +15,12 @@
   <a href="https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/profile/README.en.md">English</a> ·
   <b>日本語</b> ·
   <a href="https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/profile/README.fr.md">Français</a> ·
-  <a href="https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/profile/README.es.md">Español</a>
+  <a href="https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/profile/README.es.md">Español</a> ·
+  <a href="https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/profile/README.ru.md">Русский</a>
 </p>
 
 <h1 align="center">
-  🔥 <a href="https://info.xiao-x-bao.com.cn">小X宝コミュニティ</a> ×
+  🔥 <a href="https://info.xiao-x-bao.com.cn">xtra-care community</a> ×
   <a href="https://github.com/dataelement">Dataelem（データエレム）コミュニティ</a>
 </h1>
 
@@ -68,11 +69,11 @@
 > **最初の一歩を踏み出し、患者さんとボランティアとともに「使える＋使いやすい」を磨く**：本プロジェクトは**私たちだけで全ワークベンチの開発を完結させることを目的としていません**。それぞれの疾患の患者さんやご家族が必要とする個別性の違いと本当の意味を深く理解しているからこそ、その繊細で具体的な違いこそがツールに温もりと価値をもたらすと信じています。私たちが担いたいのは**最初の一歩**として統一基盤と出発点を届けることであり、その先は**ボランティア、患者会、そして患者さん・ご家族ご自身**の手で継続的に改善・反復され、治療と生活の質（QOL）の向上に努めるすべての人に寄り添う、本当に**「使える＋使いやすい」**各疾患専用のワークベンチへと育っていくことを願っています。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/xyb-openharness-dsh-plugins/.github/main/profile/assets/community-banner.png" alt="小X宝コミュニティバナー" width="860" />
+  <img src="https://raw.githubusercontent.com/xyb-openharness-dsh-plugins/.github/main/profile/assets/community-banner.png" alt="xtra-care community バナー" width="860" />
 </p>
 
 <p align="center">
-  <a href="https://info.xiao-x-bao.com.cn">小X宝コミュニティ</a> ·
+  <a href="https://info.xiao-x-bao.com.cn">xtra-care community</a> ·
   <a href="https://www.xiaoyibao.com.cn">小胰宝公式サイト</a> ·
   <a href="#コミュニティリポジトリ">コミュニティリポジトリ</a> ·
   <a href="#ドキュメントナビゲーション">ドキュメント</a> ·
@@ -118,9 +119,9 @@
 
 ## プロジェクト概要
 
-**OpenHarness DSH Plugins** は、小X宝コミュニティと [Dataelem（データエレム）](https://github.com/dataelement) が共同で構築する患者ワークベンチおよびプラグインコミュニティです。ワークベンチは Dataelem が保守する [DSH Desktop](https://github.com/dataelement/dsh-desktop) 上で動作し、患者さんの実際のシーンに沿って資料・病歴・受診準備を整理します。
+**OpenHarness DSH Plugins** は、xtra-care communityと [Dataelem（データエレム）](https://github.com/dataelement) が共同で構築する患者ワークベンチおよびプラグインコミュニティです。ワークベンチは Dataelem が保守する [DSH Desktop](https://github.com/dataelement/dsh-desktop) 上で動作し、患者さんの実際のシーンに沿って資料・病歴・受診準備を整理します。
 
-**DSH Desktop by Dataelem** は、Dataelem チームがアップストリームの [DeepSeek Harness](https://github.com/deepseek-ai/dsh) をベースに開発したデスクトップ Agent アプリケーションであり、DeepSeek 公式のデスクトップ製品ではありません。小X宝コミュニティが患者シーンと業務知見を提供し、Dataelem がデスクトップホスト・ワークベンチフレームワーク・製品化サポートを提供することで、双方がテンプレートと再利用可能なスキャフォールドを共同で整備しています。
+**DSH Desktop by Dataelem** は、Dataelem チームがアップストリームの [DeepSeek Harness](https://github.com/deepseek-ai/dsh) をベースに開発したデスクトップ Agent アプリケーションであり、DeepSeek 公式のデスクトップ製品ではありません。xtra-care communityが患者シーンと業務知見を提供し、Dataelem がデスクトップホスト・ワークベンチフレームワーク・製品化サポートを提供することで、双方がテンプレートと再利用可能なスキャフォールドを共同で整備しています。
 
 私たちは「**公益とオープンソース**」を核とし、フラッグシッププロジェクト **小胰宝（XiaoYiBao）** および各疾患ワークベンチを通じて、情報整理・病歴記録・指標追跡・受診準備に注力し、患者さんとご家族が資料や質問事項をより明確に管理できるよう支援します。ワークベンチは診断・治療・処置の提案を行わず、医師の判断を代替するものではありません。
 
@@ -381,7 +382,7 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 | 22 | 軟部肉腫 | 🔵 v0.2.6 | [sarcoma-workbench](https://github.com/xyb-openharness-dsh-plugins/sarcoma-workbench) | T0 モデル |
 | 23 | 骨腫瘍 | 🔵 v0.2.1 | [bone-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/bone-cancer-workbench) |  |
 | 24 | 悪性胸膜中皮腫 | 🔵 v0.1.8 | [mesothelioma-workbench](https://github.com/xyb-openharness-dsh-plugins/mesothelioma-workbench) |  |
-| 25 | 胸腺がん · （小X宝ファミリー T1 パイロット） | 🔵 v0.2.2 | [thymic-workbench](https://github.com/xyb-openharness-dsh-plugins/thymic-workbench) |  |
+| 25 | 胸腺がん · （xtra-care ファミリー T1 パイロット） | 🔵 v0.2.2 | [thymic-workbench](https://github.com/xyb-openharness-dsh-plugins/thymic-workbench) |  |
 | 26 | 膠芽腫 · 小星宝 StarPal | 🔵 v0.1.9 | [glioblastoma-workbench](https://github.com/xyb-openharness-dsh-plugins/glioblastoma-workbench) |  |
 | 27 | 小腸腺がん · 小肠宝 SmallBowelPal | 🔵 v0.2.4 | [small-bowel-workbench](https://github.com/xyb-openharness-dsh-plugins/small-bowel-workbench) | 35 号試験ライン 4 段階パイプライン；ローカル DSH 実機導入検証済み |
 | 28 | 肛門管がん · 小萌宝 AnalPal | 🔵 v0.2.10 | [anal-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/anal-cancer-workbench) | G2 承認済み |
@@ -543,7 +544,7 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 - **貢献フロー**：下記の [貢献ガイドライン](#貢献ガイドライン) を参照
 - **プロジェクト構成**：下記の [プロジェクト構成](#プロジェクト構成) を参照
 - **小胰宝公式サイト**：<https://www.xiaoyibao.com.cn>
-- **小X宝コミュニティ**：<https://info.xiao-x-bao.com.cn>
+- **xtra-care community**：<https://info.xiao-x-bao.com.cn>
 - **OpenCare SkillHub コミュニティリポジトリ**：<https://github.com/opencare-skillhub>
 - **PancrePal（小胰宝）コミュニティリポジトリ**：<https://github.com/PancrePal-xiaoyibao>
 - **Dataelem 公式サイト**：<https://www.dataelem.com/>

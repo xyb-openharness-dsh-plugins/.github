@@ -15,11 +15,12 @@
   <a href="https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/profile/README.en.md">English</a> ·
   <a href="https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/profile/README.ja.md">日本語</a> ·
   <a href="https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/profile/README.fr.md">Français</a> ·
-  <b>Español</b>
+  <b>Español</b> ·
+  <a href="https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/profile/README.ru.md">Русский</a>
 </p>
 
 <h1 align="center">
-  🔥 <a href="https://info.xiao-x-bao.com.cn">Comunidad XiaoXBao (小X宝社区)</a> junto con
+  🔥 <a href="https://info.xiao-x-bao.com.cn">xtra-care community</a> junto con
   <a href="https://github.com/dataelement">la comunidad Dataelem (数据项素)</a>
 </h1>
 
@@ -68,11 +69,11 @@
 > **Dar el primer paso, para que pacientes y voluntarios construyan juntos herramientas «útiles + fáciles de usar»**: Este proyecto **no pretende que nosotros desarrollemos en solitario todas las mesas de trabajo**. Sabemos profundamente las diferencias personalizadas y el significado real que necesita cada paciente y cada familia según su enfermedad —y son precisamente esos matices concretos los que hacen que una herramienta tenga verdadero valor humano. Nuestro propósito es **dar el primer paso**, entregando una base unificada y puntos de partida claros; esperamos que a partir de aquí **voluntarios, asociaciones de pacientes y los propios pacientes y familiares** iteren y perfeccionen cada herramienta para lograr mesas de trabajo realmente **«útiles + fáciles de usar»**, adaptadas a la realidad de cada patología, acompañando a quienes luchamos por mejorar el tratamiento y la calidad de vida.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/xyb-openharness-dsh-plugins/.github/main/profile/assets/community-banner.png" alt="Banner de la comunidad XiaoXBao" width="860" />
+  <img src="https://raw.githubusercontent.com/xyb-openharness-dsh-plugins/.github/main/profile/assets/community-banner.png" alt="Banner de xtra-care community" width="860" />
 </p>
 
 <p align="center">
-  <a href="https://info.xiao-x-bao.com.cn">Comunidad XiaoXBao</a> ·
+  <a href="https://info.xiao-x-bao.com.cn">xtra-care community</a> ·
   <a href="https://www.xiaoyibao.com.cn">Sitio oficial de XiaoYiBao</a> ·
   <a href="#repositorios-de-la-comunidad">Repositorios de la comunidad</a> ·
   <a href="#navegación-de-documentación">Documentación</a> ·
@@ -118,9 +119,9 @@
 
 ## Descripción general del proyecto
 
-**OpenHarness DSH Plugins** es una comunidad de mesas de trabajo para pacientes y plugins construida en colaboración entre la comunidad XiaoXBao y [Dataelem (数据项素)](https://github.com/dataelement). Las mesas de trabajo se ejecutan en [DSH Desktop](https://github.com/dataelement/dsh-desktop), mantenido por Dataelem, y organizan la documentación, la evolución clínica y la preparación para consultas en torno a escenarios reales de los pacientes.
+**OpenHarness DSH Plugins** es una comunidad de mesas de trabajo para pacientes y plugins construida en colaboración entre xtra-care community y [Dataelem (数据项素)](https://github.com/dataelement). Las mesas de trabajo se ejecutan en [DSH Desktop](https://github.com/dataelement/dsh-desktop), mantenido por Dataelem, y organizan la documentación, la evolución clínica y la preparación para consultas en torno a escenarios reales de los pacientes.
 
-**DSH Desktop by Dataelem** es una aplicación de escritorio basada en agentes desarrollada por el equipo de Dataelem a partir del proyecto upstream [DeepSeek Harness](https://github.com/deepseek-ai/dsh); no es un producto de escritorio oficial de DeepSeek. La comunidad XiaoXBao aporta escenarios de pacientes y experiencia práctica, mientras que Dataelem proporciona el host de escritorio, el marco de mesas de trabajo y el soporte de productización, perfeccionando conjuntamente plantillas de referencia y scaffolding reutilizable.
+**DSH Desktop by Dataelem** es una aplicación de escritorio basada en agentes desarrollada por el equipo de Dataelem a partir del proyecto upstream [DeepSeek Harness](https://github.com/deepseek-ai/dsh); no es un producto de escritorio oficial de DeepSeek. xtra-care community aporta escenarios de pacientes y experiencia práctica, mientras que Dataelem proporciona el host de escritorio, el marco de mesas de trabajo y el soporte de productización, perfeccionando conjuntamente plantillas de referencia y scaffolding reutilizable.
 
 Con el principio de "**beneficio público y código abierto**" como núcleo, el proyecto insignia **XiaoYiBao (小胰宝)** y las mesas de trabajo por enfermedad se centran en la organización de información, el registro de la evolución clínica, el seguimiento de indicadores y la preparación para consultas, ayudando a pacientes y familiares a gestionar mejor sus documentos y preparar sus preguntas. Las mesas de trabajo no proporcionan diagnósticos, tratamientos ni recomendaciones de manejo clínico, y no sustituyen el criterio médico.
 
@@ -384,7 +385,7 @@ Estamos construyendo mesas de trabajo para pacientes «local-first» enfermedad 
 | 22 | Sarcoma de tejidos blandos | 🔵 v0.2.6 | [sarcoma-workbench](https://github.com/xyb-openharness-dsh-plugins/sarcoma-workbench) | Plantilla T0 |
 | 23 | Tumores óseos | 🔵 v0.2.1 | [bone-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/bone-cancer-workbench) |  |
 | 24 | Mesotelioma pleural maligno | 🔵 v0.1.8 | [mesothelioma-workbench](https://github.com/xyb-openharness-dsh-plugins/mesothelioma-workbench) |  |
-| 25 | Carcinoma tímico · (piloto T1 familia XiaoXBao) | 🔵 v0.2.2 | [thymic-workbench](https://github.com/xyb-openharness-dsh-plugins/thymic-workbench) |  |
+| 25 | Carcinoma tímico · (piloto T1 familia xtra-care) | 🔵 v0.2.2 | [thymic-workbench](https://github.com/xyb-openharness-dsh-plugins/thymic-workbench) |  |
 | 26 | Glioblastoma · StarPal | 🔵 v0.1.9 | [glioblastoma-workbench](https://github.com/xyb-openharness-dsh-plugins/glioblastoma-workbench) |  |
 | 27 | Adenocarcinoma de intestino delgado · SmallBowelPal | 🔵 v0.2.4 | [small-bowel-workbench](https://github.com/xyb-openharness-dsh-plugins/small-bowel-workbench) | Cadena de 4 tramos de la línea de ensayos n.º 35; instalación local verificada en DSH |
 | 28 | Cáncer del canal anal · AnalPal | 🔵 v0.2.10 | [anal-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/anal-cancer-workbench) | G2 aprobado |
@@ -546,7 +547,7 @@ Estamos construyendo mesas de trabajo para pacientes «local-first» enfermedad 
 - **Flujo de contribución**: ver abajo [Guía de contribución](#guía-de-contribución)
 - **Estructura del proyecto**: ver abajo [Estructura del proyecto](#estructura-del-proyecto)
 - **Sitio oficial de XiaoYiBao**: <https://www.xiaoyibao.com.cn>
-- **Comunidad XiaoXBao**: <https://info.xiao-x-bao.com.cn>
+- **xtra-care community**: <https://info.xiao-x-bao.com.cn>
 - **Repositorio comunitario OpenCare SkillHub**: <https://github.com/opencare-skillhub>
 - **Repositorio comunitario PancrePal（小胰宝）**: <https://github.com/PancrePal-xiaoyibao>
 - **Sitio oficial de Dataelem**: <https://www.dataelem.com/>
