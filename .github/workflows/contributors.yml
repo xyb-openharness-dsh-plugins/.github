@@ -53,8 +53,10 @@ jobs:
                 commits: 0,
                 prs: 0,
                 reviews: 0,
+                issues: 0,
                 sources: new Set(),
               };
+              if (user.avatar_url) existing.avatar = user.avatar_url;
               existing.sources.add(source);
               users.set(user.login, existing);
               return existing;
@@ -66,45 +68,66 @@ jobs:
               per_page: 100,
             });
 
-            let orgMemberCount = 0;
             try {
               const members = await github.paginate(github.rest.orgs.listMembers, {
                 org: owner,
                 per_page: 100,
               });
               for (const member of members) {
-                if (remember(member, 'organization member')) {
-                  orgMemberCount += 1;
-                }
+                remember(member, 'organization member');
               }
             } catch (error) {
               core.warning(`Could not read organization members: ${error.message}`);
             }
+
+            // Fallback for private org memberships under default GITHUB_TOKEN.
+            const knownOrgMembers = [
+              'samqin123',
+              'hhx465453939',
+              'cinderzhan',
+              'gjz18342624299-arch',
+              'Fairy-happy',
+            ];
+            for (const login of knownOrgMembers) {
+              const existing = users.get(login);
+              if (existing && existing.sources.has('organization member')) continue;
+              try {
+                const { data: user } = await github.rest.users.getByUsername({ username: login });
+                remember(user, 'organization member');
+              } catch (error) {
+                core.warning(`Could not read user ${login}: ${error.message}`);
+                remember({ login, type: 'User' }, 'organization member');
+              }
+            }
+
+            const orgMemberCount = [...users.values()].filter((p) => p.sources.has('organization member')).length;
 
             let commitCount = 0;
             let mergedPrCount = 0;
             let lineChanges = 0;
 
             for (const item of publicRepos) {
-              if (!item.size) continue;
+              if (item.size === 0 && !item.open_issues_count) continue;
 
-              try {
-                const contributors = await github.paginate(github.rest.repos.listContributors, {
-                  owner,
-                  repo: item.name,
-                  anon: '0',
-                  per_page: 100,
-                });
-                for (const contributor of contributors) {
-                  const count = Number(contributor.contributions || 0);
-                  const person = remember(contributor, 'contributor');
-                  if (person) {
-                    person.commits += count;
-                    commitCount += count;
+              if (item.size > 0) {
+                try {
+                  const contributors = await github.paginate(github.rest.repos.listContributors, {
+                    owner,
+                    repo: item.name,
+                    anon: '0',
+                    per_page: 100,
+                  });
+                  for (const contributor of contributors) {
+                    const count = Number(contributor.contributions || 0);
+                    const person = remember(contributor, 'contributor');
+                    if (person) {
+                      person.commits += count;
+                      commitCount += count;
+                    }
                   }
+                } catch (error) {
+                  core.warning(`Could not read contributors for ${item.name}: ${error.message}`);
                 }
-              } catch (error) {
-                core.warning(`Could not read contributors for ${item.name}: ${error.message}`);
               }
 
               try {
@@ -145,44 +168,66 @@ jobs:
                 core.warning(`Could not read pull requests for ${item.name}: ${error.message}`);
               }
 
-              // Count commit lines from per-user repository statistics; bounded to public repo data.
-              try {
-                let statsData = null;
-                for (let attempt = 0; attempt < 3; attempt += 1) {
-                  const res = await github.rest.repos.getContributorsStats({
+              if (item.has_issues) {
+                try {
+                  const issues = await github.paginate(github.rest.issues.listForRepo, {
                     owner,
                     repo: item.name,
+                    state: 'all',
+                    per_page: 100,
                   });
-                  if (res.status === 200 && Array.isArray(res.data)) {
-                    statsData = res.data;
-                    break;
-                  }
-                  if (res.status === 202 && attempt < 2) {
-                    await sleep(2000);
-                    continue;
-                  }
-                  break;
-                }
-                if (Array.isArray(statsData)) {
-                  for (const stat of statsData) {
-                    if (isBotUser(stat.author)) continue;
-                    remember(stat.author, 'contributor');
-                    for (const week of stat.weeks || []) {
-                      lineChanges += Number(week.a || 0) + Number(week.d || 0);
+                  for (const issue of issues) {
+                    if (issue.pull_request) continue;
+                    if (issue.user) {
+                      const reporter = remember(issue.user, 'issue');
+                      if (reporter) reporter.issues += 1;
                     }
                   }
+                } catch (error) {
+                  core.warning(`Could not read issues for ${item.name}: ${error.message}`);
                 }
-              } catch (error) {
-                core.warning(`Could not read commit statistics for ${item.name}: ${error.message}`);
+              }
+
+              // Count commit lines from per-user repository statistics; bounded to public repo data.
+              if (item.size > 0) {
+                try {
+                  let statsData = null;
+                  for (let attempt = 0; attempt < 2; attempt += 1) {
+                    const res = await github.rest.repos.getContributorsStats({
+                      owner,
+                      repo: item.name,
+                    });
+                    if (res.status === 200 && Array.isArray(res.data)) {
+                      statsData = res.data;
+                      break;
+                    }
+                    if (res.status === 202 && attempt < 1) {
+                      await sleep(1000);
+                      continue;
+                    }
+                    break;
+                  }
+                  if (Array.isArray(statsData)) {
+                    for (const stat of statsData) {
+                      if (isBotUser(stat.author)) continue;
+                      remember(stat.author, 'contributor');
+                      for (const week of stat.weeks || []) {
+                        lineChanges += Number(week.a || 0) + Number(week.d || 0);
+                      }
+                    }
+                  }
+                } catch (error) {
+                  core.warning(`Could not read commit statistics for ${item.name}: ${error.message}`);
+                }
               }
             }
 
             for (const person of users.values()) {
-              person.points = person.commits + person.prs * 3 + person.reviews * 2;
+              person.points = person.commits + person.prs * 3 + person.reviews * 2 + person.issues;
             }
 
             const ranked = [...users.values()].sort(
-              (a, b) => b.points - a.points || b.commits - a.commits || a.login.localeCompare(b.login)
+              (a, b) => b.points - a.points || b.commits - a.commits || b.issues - a.issues || a.login.localeCompare(b.login)
             );
             const top = ranked.slice(0, 7);
             const others = ranked.slice(7);
@@ -190,7 +235,7 @@ jobs:
             const makeTopCard = (person, index) => {
               const medal = index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : '';
               const login = escapeHtml(person.login);
-              const title = escapeHtml(`${person.login} · ${person.points} pts · ${person.commits} commits · ${person.prs} PRs · ${person.reviews} reviews`);
+              const title = escapeHtml(`${person.login} · ${person.points} pts · ${person.commits} commits · ${person.prs} PRs · ${person.reviews} reviews · ${person.issues} issues`);
               const avatar = escapeHtml(`${person.avatar}${person.avatar.includes('?') ? '&' : '?'}s=128`);
               const label = medal ? `${medal} ${login}` : login;
               return `<td align="center" width="14%"><a href="https://github.com/${encodeURIComponent(person.login)}" title="${title}"><img src="${avatar}" width="64" alt="${login}"/><br/><sub><b>${label}</b></sub></a><br/><sub><code>${person.points}</code></sub></td>`;
@@ -201,7 +246,7 @@ jobs:
               for (let i = 0; i < people.length; i += 12) {
                 const row = people.slice(i, i + 12).map((person) => {
                   const login = escapeHtml(person.login);
-                  const title = escapeHtml(`${person.login} · ${person.points} pts · ${person.commits} commits · ${person.prs} PRs · ${person.reviews} reviews`);
+                  const title = escapeHtml(`${person.login} · ${person.points} pts · ${person.commits} commits · ${person.prs} PRs · ${person.reviews} reviews · ${person.issues} issues`);
                   const avatar = escapeHtml(`${person.avatar}${person.avatar.includes('?') ? '&' : '?'}s=80`);
                   return `<td align="center" width="8%"><a href="https://github.com/${encodeURIComponent(person.login)}" title="${title}"><img src="${avatar}" width="40" alt="${login}"/></a></td>`;
                 }).join('');
@@ -256,7 +301,7 @@ jobs:
             lines.push(
               '<p align="center">',
               '  <sub>',
-              '    <code>综合分 = commits × 1 + PRs × 3 + reviews × 2</code> &nbsp;·&nbsp; 数据更新于 <b>' + now + '</b>',
+              '    <code>综合分 = commits × 1 + PRs × 3 + reviews × 2 + issues × 1</code> &nbsp;·&nbsp; 数据更新于 <b>' + now + '</b>',
               '    <br/>',
               '    <a href="https://github.com/' + owner + '/' + repo + '/issues">参与贡献</a>',
               '  </sub>',
@@ -284,4 +329,5 @@ jobs:
           fi
           git add profile/README.md
           git commit -m "docs: update organization contributor avatars"
+          git pull --rebase origin main
           git push
