@@ -10,6 +10,14 @@
   <img src="https://img.shields.io/badge/License-MIT%20(per%20repo)-green" alt="License" />
 </p>
 
+<p align="center">
+  <b>简体中文</b> ·
+  <a href="https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/profile/README.en.md">English</a> ·
+  <a href="https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/profile/README.ja.md">日本語</a> ·
+  <a href="https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/profile/README.fr.md">Français</a> ·
+  <a href="https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/profile/README.es.md">Español</a>
+</p>
+
 <h1 align="center">
   🔥 <a href="https://info.xiao-x-bao.com.cn">小X宝社区</a> 携手
   <a href="https://github.com/dataelement">Dataelem（数据项素）社区</a>
@@ -318,7 +326,7 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 
 | 模块线 | 解决什么 | 首批试点 / 状态 |
 | --- | --- | --- |
-| **① 并发症线**（肿瘤患者并发症） | 肿瘤治疗过程中真实发生的并发症：出血、感染、营养与进食障碍、肠梗阻、输液港/导管问题等——识别「什么时候必须马上联系医生」＋把当时的病程资料整理成医生能快速读懂的一页 | 🔵 试点已上线：[消化道出血 workbench](https://github.com/xyb-openharness-dsh-plugins/gastrointestinal-bleeding-workbench) v0.1.0（CX-001，识别需立即求助的出血表现＋结构化就诊摘要）；其余并发症按认领陆续开工 |
+| **① 并发症线**（肿瘤患者并发症） | 肿瘤治疗过程中真实发生的并发症：出血、感染、营养与进食障碍、肠梗阻、输液港/导管问题等——识别「什么时候必须马上联系医生」＋把当时的病程资料整理成医生能快速读懂的一页 | 🔵 试点已上线：[消化道出血 workbench](https://github.com/xyb-openharness-dsh-plugins/gastrointestinal-bleeding-workbench) v0.2.0-rc.4（CX-001，识别需立即求助的出血表现＋结构化就诊摘要）；已累计建仓 11 项并发症工作台（CX-001 / 003 / 005 / 006 / 007 / 008 / 009 / 010 / 011 / 012 / 013），其余并发症按认领陆续开工 |
 | **② 高危急症线**（脑梗、心梗等） | 急症发作当下与出院后：卒中识别（BE-FAST 等公开识别口径原样呈现）、入院资料准备、出院后的二级预防随访与康复记录 | 🔵 试点已上线：[脑梗死 workbench](https://github.com/xyb-openharness-dsh-plugins/cerebral-infarction-workbench) v0.2.0（夜班开发，M4 已收口）；心梗等条目**招募认领中** |
 | **③ 生活服务工作台线**（肿瘤患者生活支持） | 把患者真正跑腿的事整理成「政策原文 + 办理清单 + 官方入口」：社保与医保（异地就医备案与报销口径）、残障津贴/护理补贴的认定标准与申请材料、公益基金会援助通道、医保目录与药物查询（适应症/供应/价格口径）、二次理赔与商业保险流程、异地就医交通住宿等 | 🔵 已上线：[生活服务 workbench](https://github.com/xyb-openharness-dsh-plugins/life-service-workbench) v0.1.0（小生服宝 LifePal · Issue #188）。红线：只引用政策原文并标注来源与生效日期，不代办、不承诺资格；办理口径以当地官方答复为准 |
 
@@ -332,116 +340,174 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 
 **153 个目标不是 153 次全流程**：按 `T0 家族样板 / T1 标准 / T2 模板化 / T3 挂靠 / T4 观察池` 分级，按波次推进，每波结束留 1–2 周回流窗口把经验沉淀进脚手架。详见 [PROGRAM-PLAN.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/PROGRAM-PLAN.md)。
 
-**71 个工作台仓**（截至 2026-11-19：**全部 public**；版本取自各仓 VERSION 文件实读）：
+**157 个工作台仓**（截至 2026-11-28：**全部 public**，其中 **153 个已有版本代码**、**97 个已发布 GitHub Release**、**4 个空仓/占位仓**；版本取自各仓 `VERSION` / `package.json` 实读）：
 
-| 病种工作台 | 版本 | 仓库 | 备注 |
-| --- | --- | --- | --- |
-| 乳腺癌 · 小粉宝 PinkyPal | 🔵 v0.13.7 | [breast-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/breast-cancer-workbench) | 成熟基准（T0） |
-| 肺癌 · 小肺宝（NSCLC + SCLC 已合并） | 🔵 v0.1.2-rc.25 | [lung-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/lung-cancer-workbench) | 35 号试验线参考实现 |
-| 结直肠癌 · 小畅宝 Colopal | 🔵 v0.1.3 | [colorectal-workbench](https://github.com/xyb-openharness-dsh-plugins/colorectal-workbench) | 消化族样板 |
-| 胃癌 · 小胃宝 Stompal | 🔵 v0.1.5 | [gastric-workbench](https://github.com/xyb-openharness-dsh-plugins/gastric-workbench) |  |
-| 食管癌 · 小咽宝 EsopPal | 🔵 v0.1.5 | [esophageal-workbench](https://github.com/xyb-openharness-dsh-plugins/esophageal-workbench) |  |
-| 肝细胞癌 · 小甘宝 HepPal | 🔵 v0.3.11 | [liver-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/liver-cancer-workbench) | G1–G3 已签认 |
-| 胆道癌 · BiliaryPal | 🔵 v0.1.4 | [biliary-tract-workbench](https://github.com/xyb-openharness-dsh-plugins/biliary-tract-workbench) | 试验匹配参考实现（match-0.1.0） |
-| 胰腺癌 PDAC · 小胰宝（历史旗舰） | 🔵 v0.1.36 | [xyb-workbench](https://github.com/xyb-openharness-dsh-plugins/xyb-workbench) | 未走脚手架 |
-| 壶腹癌 | 🔵 v0.1.6 | [ampullary-workbench](https://github.com/xyb-openharness-dsh-plugins/ampullary-workbench) |  |
-| 胃肠间质瘤 · 小吉宝 GistPal | 🔵 v0.1.3 | [gist-workbench](https://github.com/xyb-openharness-dsh-plugins/gist-workbench) |  |
-| 胃肠胰神经内分泌肿瘤 · 小肽宝 | 🔵 v0.1.11 | [neuroendocrine-workbench](https://github.com/xyb-openharness-dsh-plugins/neuroendocrine-workbench) | 综合 NET 总仓 |
-| 胃肠胰神经内分泌肿瘤（GEP-NET）· 小肠肽宝 GepNetPal（罕见病 #31） | 🔵 v0.1.0 | [gep-net-workbench](https://github.com/xyb-openharness-dsh-plugins/gep-net-workbench) | WHO 分级/CgA-PPI 红线/SSA 洗脱/177Lu-PRRT 与离散症状；DSH 已装机 |
-| 宫颈癌 · 小莲宝 CerviPal | 🔵 v0.1.6 | [cervical-workbench](https://github.com/xyb-openharness-dsh-plugins/cervical-workbench) |  |
-| 子宫内膜癌 · 小膜宝 EndoPal | 🔵 v0.3.6 | [endometrial-workbench](https://github.com/xyb-openharness-dsh-plugins/endometrial-workbench) |  |
-| 卵巢癌 · 小巢宝 | 🔵 v0.1.57 | [ovarian-workbench](https://github.com/xyb-openharness-dsh-plugins/ovarian-workbench) |  |
-| 前列腺癌 | 🔵 v0.1.6 | [prostate-workbench](https://github.com/xyb-openharness-dsh-plugins/prostate-workbench) | T0 泌尿样板 |
-| 膀胱癌 · 小泉宝 UroPal | 🔵 v0.1.4 | [bladder-workbench](https://github.com/xyb-openharness-dsh-plugins/bladder-workbench) | G1–G3 已签 |
-| 肾癌 · 小肾宝 RenalPal | 🔵 v0.3.4 | [kidney-workbench](https://github.com/xyb-openharness-dsh-plugins/kidney-workbench) |  |
-| 甲状腺癌 | 🔵 v0.2.5 | [thyroid-workbench](https://github.com/xyb-openharness-dsh-plugins/thyroid-workbench) |  |
-| 头颈癌 · 小嗓宝 VoicePal | 🔵 v0.1.9 | [head-neck-workbench](https://github.com/xyb-openharness-dsh-plugins/head-neck-workbench) | T0 样板 |
-| 皮肤黑色素瘤 · 小痣宝 MolePal | 🔵 v0.3.7 | [melanoma-workbench](https://github.com/xyb-openharness-dsh-plugins/melanoma-workbench) | T0 样板 |
-| 软组织肉瘤 | 🔵 v0.2.6 | [sarcoma-workbench](https://github.com/xyb-openharness-dsh-plugins/sarcoma-workbench) | T0 样板 |
-| 骨肿瘤 | 🔵 v0.2.1 | [bone-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/bone-cancer-workbench) |  |
-| 恶性胸膜间皮瘤 | 🔵 v0.1.8 | [mesothelioma-workbench](https://github.com/xyb-openharness-dsh-plugins/mesothelioma-workbench) |  |
-| 胸腺癌 · （小X宝家族 T1 试点） | 🔵 v0.2.2 | [thymic-workbench](https://github.com/xyb-openharness-dsh-plugins/thymic-workbench) |  |
-| 胶质母细胞瘤 · 小星宝 StarPal | 🔵 v0.1.9 | [glioblastoma-workbench](https://github.com/xyb-openharness-dsh-plugins/glioblastoma-workbench) |  |
-| 小肠腺癌 · 小肠宝 SmallBowelPal | 🔵 v0.2.4 | [small-bowel-workbench](https://github.com/xyb-openharness-dsh-plugins/small-bowel-workbench) | 35 号试验线四段链路；本机 DSH 装机验证 |
-| 肛管癌 · 小萌宝 AnalPal | 🔵 v0.2.10 | [anal-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/anal-cancer-workbench) | G2 已签 |
-| 淋巴瘤 · 小铃铛 LymBell | 🔵 v0.3.8 | [lymphoma-workbench](https://github.com/xyb-openharness-dsh-plugins/lymphoma-workbench) |  |
-| 多发性骨髓瘤 · 小浆宝 MyeloPal | 🔵 v0.1.1-rc.5 | [myeloma-workbench](https://github.com/xyb-openharness-dsh-plugins/myeloma-workbench) |  |
-| 急性髓系白血病 · 小橙宝 | 🔵 v0.6.5 | [aml-workbench](https://github.com/xyb-openharness-dsh-plugins/aml-workbench) | 结构基准（心智负担/泳道） |
-| 慢性髓性白血病 · 小粒宝 GranPal | 🔵 v0.1.5 | [cml-workbench](https://github.com/xyb-openharness-dsh-plugins/cml-workbench) | T0 血液样板 |
-| CLL/SLL · 小淋宝 LymPal | 🔵 v0.9.8 | [cll-workbench](https://github.com/xyb-openharness-dsh-plugins/cll-workbench) |  |
-| 骨髓增生异常综合征 MDS | 🔵 v0.2.1 | [mds-workbench](https://github.com/xyb-openharness-dsh-plugins/mds-workbench) |  |
-| 骨髓增殖性肿瘤 MPN · 小髓宝 | 🔵 v0.2.3 | [mpn-workbench](https://github.com/xyb-openharness-dsh-plugins/mpn-workbench) | M0–M9 全链；本机 DSH 装机验证 |
-| 妊娠滋养细胞肿瘤 · 小葡宝 GraPal | 🔵 v0.9.4 | [gtn-workbench](https://github.com/xyb-openharness-dsh-plugins/gtn-workbench) |  |
-| 神经母细胞瘤（患儿照护者版） | 🔵 开发中（尚无版本号） | [neuroblastoma-workbench](https://github.com/xyb-openharness-dsh-plugins/neuroblastoma-workbench) | M9 收口待补版本簿记 |
-| 罕见病形态样板 · FSHD 小飞侠 | 🔵 v0.1.6 | [fshd-workbench](https://github.com/xyb-openharness-dsh-plugins/fshd-workbench) |  |
-| ATTR 淀粉样变 · 淀粉宝宝 | 🔵 v0.6.5 | [attr-workbench](https://github.com/xyb-openharness-dsh-plugins/attr-workbench) |  |
-| 肢端肥大症 · 小肢宝 LimbPal | 🔵 v0.2.8 | [acromegaly-workbench](https://github.com/xyb-openharness-dsh-plugins/acromegaly-workbench) | R2 样板 |
-| 软骨发育不全 | 🔵 v0.2.3 | [achondroplasia-workbench](https://github.com/xyb-openharness-dsh-plugins/achondroplasia-workbench) |  |
-| 神经纤维瘤病 · 小纤宝 FibroPal | 🔵 v0.1.20 | [neurofibromatosis-workbench](https://github.com/xyb-openharness-dsh-plugins/neurofibromatosis-workbench) |  |
-| VHL 综合征 | 🔵 v0.1.0 | [vhl-workbench](https://github.com/xyb-openharness-dsh-plugins/vhl-workbench) |  |
-| 结节性硬化（TSC）相关 / TSC 观察池 | 🔵 — | [xfb-workbench](https://github.com/xyb-openharness-dsh-plugins/xfb-workbench) | 占位空仓（仅 LICENSE），待认领 |
-| ANCA 相关血管炎 · 小脉宝 VasPal | 🔵 v0.2.13 | [anca-vasculitis-workbench](https://github.com/xyb-openharness-dsh-plugins/anca-vasculitis-workbench) |  |
-| 大动脉炎（Takayasu） | 🔵 v0.3.7 | [takayasu-workbench](https://github.com/xyb-openharness-dsh-plugins/takayasu-workbench) |  |
-| 巨细胞动脉炎（GCA） | 🔵 v0.1.1 | [gca-workbench](https://github.com/xyb-openharness-dsh-plugins/gca-workbench) |  |
-| 白塞病 | 🔵 v0.2.1 | [behcet-workbench](https://github.com/xyb-openharness-dsh-plugins/behcet-workbench) |  |
-| 成人斯蒂尔病（AOSD） | 🔵 v0.5.11 | [aosd-workbench](https://github.com/xyb-openharness-dsh-plugins/aosd-workbench) |  |
-| 原发性胆汁性胆管炎 · 小管宝 DuctPal | 🔵 v0.2.13 | [pbc-workbench](https://github.com/xyb-openharness-dsh-plugins/pbc-workbench) |  |
-| 原发性硬化性胆管炎（PSC） | 🔵 v0.2.1 | [psc-workbench](https://github.com/xyb-openharness-dsh-plugins/psc-workbench) |  |
-| PF-ILD · 小呼宝 BreathPal | 🔵 v0.2.7 | [pf-ild-workbench](https://github.com/xyb-openharness-dsh-plugins/pf-ild-workbench) |  |
-| 心包炎 | 🔵 v0.1.4 | [pericarditis-workbench](https://github.com/xyb-openharness-dsh-plugins/pericarditis-workbench) |  |
-| 天疱疮 | 🔵 v0.1.3 | [pemphigus-workbench](https://github.com/xyb-openharness-dsh-plugins/pemphigus-workbench) |  |
-| 化脓性汗腺炎（HS） | 🔵 v0.1.0 | [hs-workbench](https://github.com/xyb-openharness-dsh-plugins/hs-workbench) |  |
-| 泛发性脓疱型银屑病（GPP） | 🔵 v0.2.1 | [gpp-workbench](https://github.com/xyb-openharness-dsh-plugins/gpp-workbench) |  |
-| 嗜酸性胃肠炎（EGE） | 🔵 v0.3.1 | [eosinophilic-gastroenteritis-workbench](https://github.com/xyb-openharness-dsh-plugins/eosinophilic-gastroenteritis-workbench) |  |
-| 短肠综合征 | 🔵 v0.2.3 | [short-bowel-workbench](https://github.com/xyb-openharness-dsh-plugins/short-bowel-workbench) |  |
-| 获得性血友病 | 🔵 v0.3.1 | [acquired-hemophilia-workbench](https://github.com/xyb-openharness-dsh-plugins/acquired-hemophilia-workbench) |  |
-| 冷凝集素病（CAD） | 🔵 v0.2.2 | [cold-agglutinin-workbench](https://github.com/xyb-openharness-dsh-plugins/cold-agglutinin-workbench) |  |
-| 血栓性血小板减少性紫癜（TTP） | 🔵 v0.2.11 | [ttp-workbench](https://github.com/xyb-openharness-dsh-plugins/ttp-workbench) |  |
-| α1-抗胰蛋白酶缺乏症（AATD） | 🔵 v0.6.2 | [aatd-workbench](https://github.com/xyb-openharness-dsh-plugins/aatd-workbench) |  |
-| 地中海贫血 | 🔵 v0.4.4 | [thalassemia-workbench](https://github.com/xyb-openharness-dsh-plugins/thalassemia-workbench) |  |
-| 原发性免疫缺陷病（PID） | 🔵 v0.2.0 | [primary-immunodeficiency-workbench](https://github.com/xyb-openharness-dsh-plugins/primary-immunodeficiency-workbench) |  |
-| 发作性睡病 | 🔵 v0.1.4 | [narcolepsy-workbench](https://github.com/xyb-openharness-dsh-plugins/narcolepsy-workbench) |  |
-| 甲状旁腺功能减退症 | 🔵 v0.1.0 | [hypoparathyroidism-workbench](https://github.com/xyb-openharness-dsh-plugins/hypoparathyroidism-workbench) |  |
-| CIDP（慢性炎性脱髓鞘性多发性神经病） | 🔵 v0.2.0 | [cidp-workbench](https://github.com/xyb-openharness-dsh-plugins/cidp-workbench) |  |
-| TRAPS（肿瘤坏死因子受体相关周期性综合征） | 🔵 v0.2.0 | [traps-workbench](https://github.com/xyb-openharness-dsh-plugins/traps-workbench) | 占位名待用户追认 |
-| 消化道出血（**并发症线**试点·CX-001） | 🔵 v0.1.0 | [gastrointestinal-bleeding-workbench](https://github.com/xyb-openharness-dsh-plugins/gastrointestinal-bleeding-workbench) | 识别需立即求助的表现＋就诊摘要；不诊断不分级 |
-| 发热性中性粒细胞减少（**并发症线**·CX-006）· 小粒护宝 FnPal | 🔵 v0.1.0 | [fn-workbench](https://github.com/xyb-openharness-dsh-plugins/fn-workbench) | 1h 抗菌黄金窗＋禁肛温红线/MASCC 要素/G-CSF 泳道；DSH 已装机 |
-| 脓毒症/严重感染风险（**并发症线**·CX-003）· 小清源宝 SepsisPal | 🔵 v0.1.0 | [sepsis-workbench](https://github.com/xyb-openharness-dsh-plugins/sepsis-workbench) | SSC Hour-1 Bundle 黄金窗＋禁冲管红线/qSOFA/血乳酸泳道；DSH 已装机 |
-| 急性肾损伤（**并发症线**·CX-008）· 小护肾宝 AkiPal | 🔵 v0.1.0 | [aki-workbench](https://github.com/xyb-openharness-dsh-plugins/aki-workbench) | 禁 NSAIDs＋限钾防高钾双红线/KDIGO 要素/SCr-eGFR-尿量；DSH 已装机 |
-| 消化道穿孔（**并发症线**·CX-009）· 小护胃宝 GiPerfPal | 🔵 v0.1.0 | [gi-perforation-workbench](https://github.com/xyb-openharness-dsh-plugins/gi-perforation-workbench) | NPO 绝对禁食禁水＋永久停用抗血管药双红线/WBC-PCT-乳酸-NRS；DSH 已装机 |
-| 谵妄/急性意识改变（**并发症线**·CX-010）· 小清神宝 DeliriumPal | 🔵 v0.1.0 | [delirium-workbench](https://github.com/xyb-openharness-dsh-plugins/delirium-workbench) | 先查可逆诱因防漏判淡漠型＋非药物定向优先双红线/CAM-Nu-DESC；DSH 已装机 |
-| 脑梗死（缺血性卒中）· **高危急症线**试点 | 🔵 v0.2.0 | [cerebral-infarction-workbench](https://github.com/xyb-openharness-dsh-plugins/cerebral-infarction-workbench) | 卒中识别（公开口径原话）＋入院资料＋二级预防随访；M4 已收口 |
-| 生活服务工作台（社保/津贴/基金会/二次理赔）· **生活服务线** · 小生服宝 LifePal | 🔵 v0.1.0 | [life-service-workbench](https://github.com/xyb-openharness-dsh-plugins/life-service-workbench) | 门特/异地/双通道/惠民保/PAP/大病救助台账；DSH 已装机 |
-| 疼痛危象/剧痛 · 小镇痛宝 PainPal（**并发症线**·CX-011） | 🔵 v0.1.0 | [pain-crisis-workbench](https://github.com/xyb-openharness-dsh-plugins/pain-crisis-workbench) | 三大急诊红旗＋NRS 爆发痛/镇痛打卡；DSH 已装机 |
-| 恶病质/营养不良 · 小营宝 CachexPal（**并发症线**·CX-012） | 🔵 v0.1.0 | [cachexia-workbench](https://github.com/xyb-openharness-dsh-plugins/cachexia-workbench) | 6月丢重率/PG-SGA/蛋白热量/ONS与管路；DSH 已装机 |
-| 黄疸/胆道梗阻 · 小清胆宝 BiliObsPal（**并发症线**·CX-013） | 🔵 v0.1.0 | [biliary-obstruction-workbench](https://github.com/xyb-openharness-dsh-plugins/biliary-obstruction-workbench) | Charcot红旗/PTCD-ENBD引流/支架台账/减黄曲线；DSH 已装机 |
-| 阿拉杰里综合征 · 小杰宝 AlagillePal（罕见病 #05） | 🔵 v0.1.0 | [alagille-workbench](https://github.com/xyb-openharness-dsh-plugins/alagille-workbench) | JAG1-NOTCH2/sBA/IBAT/ItchRO 家长代记；DSH 已装机 |
-| Bardet-Biedl 综合征 · 小纤毛宝 BbsPal（罕见病 #08） | 🔵 v0.1.0 | [bbs-workbench](https://github.com/xyb-openharness-dsh-plugins/bbs-workbench) | BBS1-22/视力-肥胖-肾脏三轨/Setmelanotide；DSH 已装机 |
-| CDKL5 缺乏症 · 小激酶宝 Cdkl5Pal（罕见病 #11） | 🔵 v0.1.0 | [cdkl5-workbench](https://github.com/xyb-openharness-dsh-plugins/cdkl5-workbench) | 发作-呼吸-夜醒三轨/加奈索龙/生酮 BHB/CVI 家长代记；DSH 已装机 |
-| 无脉络膜症 · 小脉络宝 ChmPal（罕见病 #12） | 🔵 v0.1.0 | [choroideremia-workbench](https://github.com/xyb-openharness-dsh-plugins/choroideremia-workbench) | CHM/Humphrey MD/FAF RPE岛/OCT EZ 与低视力；DSH 已装机 |
-| 先天性胆道闭锁 · 小胆宝 BaPal（罕见病 #16） | 🔵 v0.1.0 | [biliary-atresia-workbench](https://github.com/xyb-openharness-dsh-plugins/biliary-atresia-workbench) | 1-7号大便比色卡/Kasai退黄/胆管炎红旗/PELD；DSH 已装机 |
-| 胱氨酸贮积症 · 小胱宝 CystiPal（罕见病 #21） | 🔵 v0.1.0 | [cystinosis-workbench](https://github.com/xyb-openharness-dsh-plugins/cystinosis-workbench) | CTNS/LCL-eGFR双轨/q6h半胱胺/角膜结晶/Fanconi；DSH 已装机 |
-| 家族性腺瘤性息肉病 · 小息宝 FapPal（罕见病 #27） | 🔵 v0.1.0 | [fap-workbench](https://github.com/xyb-openharness-dsh-plugins/fap-workbench) | APC/分部位息肉/Spigelman/IPAA储袋/硬纤维瘤；DSH 已装机 |
-| 脆性 X 综合征 · 小脆宝 FragxPal（罕见病 #29） | 🔵 v0.1.0 | [fragile-x-workbench](https://github.com/xyb-openharness-dsh-plugins/fragile-x-workbench) | FMR1 CGG/Vineland-ABC-C/感统过载/IEP 家长代记；DSH 已装机 |
-| 儿童中枢神经系统肿瘤 · 小童脑宝 PedCnsPal（NCCN #61） | 🔵 v0.1.0 | [pediatric-cns-workbench](https://github.com/xyb-openharness-dsh-plugins/pediatric-cns-workbench) | WNT/SHH/G3/G4、RAPNO 面积与质子/耳毒性双轨；DSH 已装机 |
-| 儿童霍奇金淋巴瘤 · 小童霍宝 PedHlPal（NCCN #64） | 🔵 v0.1.0 | [pediatric-hodgkin-workbench](https://github.com/xyb-openharness-dsh-plugins/pediatric-hodgkin-workbench) | Ann Arbor 分期、Deauville 5 分法离散散点与远期心肺随访；DSH 已装机 |
-| 儿童成熟 B 细胞淋巴瘤 · 小童淋宝 PedBcellPal（NCCN #65） | 🔵 v0.1.0 | [pediatric-b-cell-workbench](https://github.com/xyb-openharness-dsh-plugins/pediatric-b-cell-workbench) | IPNHLSS/FAB-LMB、TLS 防线与 HD-MTX 药代监测；DSH 已装机 |
-| 腱鞘巨细胞瘤 / PVNS · 小腱宝 TgctPal（罕见病 #77） | 🔵 v0.1.0 | [tgct-workbench](https://github.com/xyb-openharness-dsh-plugins/tgct-workbench) | MRI TVS/ROM/PRO 与 CSF1R 抑制剂胆汁淤积性肝毒性防线；DSH 已装机 |
-| 骨肉瘤 · 小骨肉宝 OsteoPal（罕见病 #57） | 🔵 v0.1.0 | [osteosarcoma-workbench](https://github.com/xyb-openharness-dsh-plugins/osteosarcoma-workbench) | Huvos 坏死率、HD-MTX 药代、肺结节与 MSTS 保肢康复；v0.1.0 已发布 |
-| 肾透明细胞肉瘤 · 小清肾宝 CcskPal（罕见病 #14） | 🔵 v0.1.0 | [ccsk-workbench](https://github.com/xyb-openharness-dsh-plugins/ccsk-workbench) | BCOR-ITD/YWHAE 融合、骨脑防线与孤立肾终身保护；v0.1.0 已发布 |
-| 成人急性淋巴细胞白血病 · 小急淋宝 AllPal（NCCN #22） | 🔵 v0.1.0 | [all-workbench](https://github.com/xyb-openharness-dsh-plugins/all-workbench) | Ph+/Ph-like/T-ALL、MRD/CRS 与培门冬酶防线；DSH 已装机 |
-| 儿童急性淋巴细胞白血病 · 小童白宝 PedAllPal（NCCN #60 · T0 样板） | 🔵 v0.1.0 | [pediatric-all-workbench](https://github.com/xyb-openharness-dsh-plugins/pediatric-all-workbench) | 家长代记、d15/d33 MRD、6-MP/MTX 维持靶窗与鞘注；DSH 已装机 |
-| 肿瘤相关静脉血栓栓塞 · 小栓宝 VtePal（并发症线 CX-007） | 🔵 v0.1.0 | [vte-workbench](https://github.com/xyb-openharness-dsh-plugins/vte-workbench) | DVT/PE/CRT、sPESI/Khorana、PLT<50 抗凝防线与出血分级；DSH 已装机 |
-| 肝胆癌 · 小肝胆宝 HepbiliPal（NCCN #16） | 🔵 v0.1.0 | [hepatobiliary-workbench](https://github.com/xyb-openharness-dsh-plugins/hepatobiliary-workbench) | cHCC-CCA/Klatskin/FLHCC、双轨标志物与 HBV/支架/残肝比；DSH 已装机 |
-| 睾丸癌 · 小勇宝 TestiPal | 🔵 v0.2.0 | [testicular-workbench](https://github.com/xyb-openharness-dsh-plugins/testicular-workbench) |  |
-| 心理支持 · 小心宝（跨病种共用模块） | 🔵 v0.3.15 | [xiaoxinbao-workbench](https://github.com/xyb-openharness-dsh-plugins/xiaoxinbao-workbench) |  |
-| 其余主要癌种 + 罕见病 + 并发症线 | ⬜ **招募认领中**（全量待开发清单见 [DEVELOPMENT-PROGRESS.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/docs/DEVELOPMENT-PROGRESS.md) 与 BACKLOG） | — | 提交一个更新一次（同步更新进度文档、BACKLOG 与本表） |
+| 序号 | 病种工作台 | 状态 / 版本 | 仓库 | 备注 |
+| --- | --- | --- | --- | --- |
+| 1 | 乳腺癌 · 小粉宝 PinkyPal | 🔵 v0.13.7 | [breast-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/breast-cancer-workbench) | 成熟基准（T0） |
+| 2 | 肺癌 · 小肺宝（NSCLC + SCLC 已合并） | 🔵 v0.1.2-rc.25 | [lung-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/lung-cancer-workbench) | 35 号试验线参考实现 |
+| 3 | 结直肠癌 · 小畅宝 Colopal | 🔵 v0.1.3 | [colorectal-workbench](https://github.com/xyb-openharness-dsh-plugins/colorectal-workbench) | 消化族样板 |
+| 4 | 胃癌 · 小胃宝 Stompal | 🔵 v0.1.5 | [gastric-workbench](https://github.com/xyb-openharness-dsh-plugins/gastric-workbench) |  |
+| 5 | 食管癌 · 小咽宝 EsopPal | 🔵 v0.1.5 | [esophageal-workbench](https://github.com/xyb-openharness-dsh-plugins/esophageal-workbench) |  |
+| 6 | 肝细胞癌 · 小甘宝 HepPal | 🔵 v0.3.11 | [liver-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/liver-cancer-workbench) | G1–G3 已签认 |
+| 7 | 胆道癌 · BiliaryPal | 🔵 v0.1.4 | [biliary-tract-workbench](https://github.com/xyb-openharness-dsh-plugins/biliary-tract-workbench) | 试验匹配参考实现（match-0.1.0） |
+| 8 | 胰腺癌 PDAC · 小胰宝（历史旗舰） | 🔵 v0.1.36 | [xyb-workbench](https://github.com/xyb-openharness-dsh-plugins/xyb-workbench) | 未走脚手架 |
+| 9 | 壶腹癌 | 🔵 v0.1.6 | [ampullary-workbench](https://github.com/xyb-openharness-dsh-plugins/ampullary-workbench) |  |
+| 10 | 胃肠间质瘤 · 小吉宝 GistPal | 🔵 v0.1.3 | [gist-workbench](https://github.com/xyb-openharness-dsh-plugins/gist-workbench) |  |
+| 11 | 胃肠胰神经内分泌肿瘤 · 小肽宝 | 🔵 v0.1.11 | [neuroendocrine-workbench](https://github.com/xyb-openharness-dsh-plugins/neuroendocrine-workbench) | 综合 NET 总仓 |
+| 12 | 胃肠胰神经内分泌肿瘤（GEP-NET）· 小肠肽宝 GepNetPal（罕见病 #31） | 🔵 v0.1.0 | [gep-net-workbench](https://github.com/xyb-openharness-dsh-plugins/gep-net-workbench) | WHO 分级/CgA-PPI 红线/SSA 洗脱/177Lu-PRRT 与离散症状；DSH 已装机 |
+| 13 | 宫颈癌 · 小莲宝 CerviPal | 🔵 v0.1.6 | [cervical-workbench](https://github.com/xyb-openharness-dsh-plugins/cervical-workbench) |  |
+| 14 | 子宫内膜癌 · 小膜宝 EndoPal | 🔵 v0.3.6 | [endometrial-workbench](https://github.com/xyb-openharness-dsh-plugins/endometrial-workbench) |  |
+| 15 | 卵巢癌 · 小巢宝 | 🔵 v0.1.57 | [ovarian-workbench](https://github.com/xyb-openharness-dsh-plugins/ovarian-workbench) |  |
+| 16 | 前列腺癌 | 🔵 v0.1.6 | [prostate-workbench](https://github.com/xyb-openharness-dsh-plugins/prostate-workbench) | T0 泌尿样板 |
+| 17 | 膀胱癌 · 小泉宝 UroPal | 🔵 v0.1.4 | [bladder-workbench](https://github.com/xyb-openharness-dsh-plugins/bladder-workbench) | G1–G3 已签 |
+| 18 | 肾癌 · 小肾宝 RenalPal | 🔵 v0.3.4 | [kidney-workbench](https://github.com/xyb-openharness-dsh-plugins/kidney-workbench) |  |
+| 19 | 甲状腺癌 | 🔵 v0.2.5 | [thyroid-workbench](https://github.com/xyb-openharness-dsh-plugins/thyroid-workbench) |  |
+| 20 | 头颈癌 · 小嗓宝 VoicePal | 🔵 v0.1.9 | [head-neck-workbench](https://github.com/xyb-openharness-dsh-plugins/head-neck-workbench) | T0 样板 |
+| 21 | 皮肤黑色素瘤 · 小痣宝 MolePal | 🔵 v0.3.7 | [melanoma-workbench](https://github.com/xyb-openharness-dsh-plugins/melanoma-workbench) | T0 样板 |
+| 22 | 软组织肉瘤 | 🔵 v0.2.6 | [sarcoma-workbench](https://github.com/xyb-openharness-dsh-plugins/sarcoma-workbench) | T0 样板 |
+| 23 | 骨肿瘤 | 🔵 v0.2.1 | [bone-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/bone-cancer-workbench) |  |
+| 24 | 恶性胸膜间皮瘤 | 🔵 v0.1.8 | [mesothelioma-workbench](https://github.com/xyb-openharness-dsh-plugins/mesothelioma-workbench) |  |
+| 25 | 胸腺癌 · （小X宝家族 T1 试点） | 🔵 v0.2.2 | [thymic-workbench](https://github.com/xyb-openharness-dsh-plugins/thymic-workbench) |  |
+| 26 | 胶质母细胞瘤 · 小星宝 StarPal | 🔵 v0.1.9 | [glioblastoma-workbench](https://github.com/xyb-openharness-dsh-plugins/glioblastoma-workbench) |  |
+| 27 | 小肠腺癌 · 小肠宝 SmallBowelPal | 🔵 v0.2.4 | [small-bowel-workbench](https://github.com/xyb-openharness-dsh-plugins/small-bowel-workbench) | 35 号试验线四段链路；本机 DSH 装机验证 |
+| 28 | 肛管癌 · 小萌宝 AnalPal | 🔵 v0.2.10 | [anal-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/anal-cancer-workbench) | G2 已签 |
+| 29 | 淋巴瘤 · 小铃铛 LymBell | 🔵 v0.3.8 | [lymphoma-workbench](https://github.com/xyb-openharness-dsh-plugins/lymphoma-workbench) |  |
+| 30 | 多发性骨髓瘤 · 小浆宝 MyeloPal | 🔵 v0.1.1-rc.5 | [myeloma-workbench](https://github.com/xyb-openharness-dsh-plugins/myeloma-workbench) |  |
+| 31 | 急性髓系白血病 · 小橙宝 | 🔵 v0.6.5 | [aml-workbench](https://github.com/xyb-openharness-dsh-plugins/aml-workbench) | 结构基准（心智负担/泳道） |
+| 32 | 慢性髓性白血病 · 小粒宝 GranPal | 🔵 v0.1.5 | [cml-workbench](https://github.com/xyb-openharness-dsh-plugins/cml-workbench) | T0 血液样板 |
+| 33 | CLL/SLL · 小淋宝 LymPal | 🔵 v0.9.8 | [cll-workbench](https://github.com/xyb-openharness-dsh-plugins/cll-workbench) |  |
+| 34 | 骨髓增生异常综合征 MDS | 🔵 v0.2.1 | [mds-workbench](https://github.com/xyb-openharness-dsh-plugins/mds-workbench) |  |
+| 35 | 骨髓增殖性肿瘤 MPN · 小髓宝 | 🔵 v0.2.3 | [mpn-workbench](https://github.com/xyb-openharness-dsh-plugins/mpn-workbench) | M0–M9 全链；本机 DSH 装机验证 |
+| 36 | 妊娠滋养细胞肿瘤 · 小葡宝 GraPal | 🔵 v0.9.4 | [gtn-workbench](https://github.com/xyb-openharness-dsh-plugins/gtn-workbench) |  |
+| 37 | 神经母细胞瘤（患儿照护者版） | ⚪ — | [neuroblastoma-workbench](https://github.com/xyb-openharness-dsh-plugins/neuroblastoma-workbench) | 空仓占位，待启动 |
+| 38 | 罕见病形态样板 · FSHD 小飞侠 | 🔵 v0.1.6 | [fshd-workbench](https://github.com/xyb-openharness-dsh-plugins/fshd-workbench) |  |
+| 39 | ATTR 淀粉样变 · 淀粉宝宝 | 🔵 v0.6.5 | [attr-workbench](https://github.com/xyb-openharness-dsh-plugins/attr-workbench) |  |
+| 40 | 肢端肥大症 · 小肢宝 LimbPal | 🔵 v0.2.8 | [acromegaly-workbench](https://github.com/xyb-openharness-dsh-plugins/acromegaly-workbench) | R2 样板 |
+| 41 | 软骨发育不全 | 🔵 v0.2.3 | [achondroplasia-workbench](https://github.com/xyb-openharness-dsh-plugins/achondroplasia-workbench) |  |
+| 42 | 神经纤维瘤病 · 小纤宝 FibroPal | 🔵 v0.1.20 | [neurofibromatosis-workbench](https://github.com/xyb-openharness-dsh-plugins/neurofibromatosis-workbench) |  |
+| 43 | VHL 综合征 | 🔵 v0.1.0 | [vhl-workbench](https://github.com/xyb-openharness-dsh-plugins/vhl-workbench) |  |
+| 44 | 结节性硬化（TSC）相关 / TSC 观察池 | ⚪ — | [xfb-workbench](https://github.com/xyb-openharness-dsh-plugins/xfb-workbench) | 占位空仓（仅 LICENSE），待认领 |
+| 45 | ANCA 相关血管炎 · 小脉宝 VasPal | 🔵 v0.2.13 | [anca-vasculitis-workbench](https://github.com/xyb-openharness-dsh-plugins/anca-vasculitis-workbench) |  |
+| 46 | 大动脉炎（Takayasu） | 🔵 v0.3.7 | [takayasu-workbench](https://github.com/xyb-openharness-dsh-plugins/takayasu-workbench) |  |
+| 47 | 巨细胞动脉炎（GCA） | 🔵 v0.1.1 | [gca-workbench](https://github.com/xyb-openharness-dsh-plugins/gca-workbench) |  |
+| 48 | 白塞病 | 🔵 v0.2.1 | [behcet-workbench](https://github.com/xyb-openharness-dsh-plugins/behcet-workbench) |  |
+| 49 | 成人斯蒂尔病（AOSD） | 🔵 v0.5.11 | [aosd-workbench](https://github.com/xyb-openharness-dsh-plugins/aosd-workbench) |  |
+| 50 | 原发性胆汁性胆管炎 · 小管宝 DuctPal | 🔵 v0.2.13 | [pbc-workbench](https://github.com/xyb-openharness-dsh-plugins/pbc-workbench) |  |
+| 51 | 原发性硬化性胆管炎（PSC） | 🔵 v0.2.1 | [psc-workbench](https://github.com/xyb-openharness-dsh-plugins/psc-workbench) |  |
+| 52 | PF-ILD · 小呼宝 BreathPal | 🔵 v0.2.7 | [pf-ild-workbench](https://github.com/xyb-openharness-dsh-plugins/pf-ild-workbench) |  |
+| 53 | 心包炎 | 🔵 v0.1.4 | [pericarditis-workbench](https://github.com/xyb-openharness-dsh-plugins/pericarditis-workbench) |  |
+| 54 | 天疱疮 | 🔵 v0.1.3 | [pemphigus-workbench](https://github.com/xyb-openharness-dsh-plugins/pemphigus-workbench) |  |
+| 55 | 化脓性汗腺炎（HS） | 🔵 v0.1.0 | [hs-workbench](https://github.com/xyb-openharness-dsh-plugins/hs-workbench) |  |
+| 56 | 泛发性脓疱型银屑病（GPP） | 🔵 v0.2.1 | [gpp-workbench](https://github.com/xyb-openharness-dsh-plugins/gpp-workbench) |  |
+| 57 | 嗜酸性胃肠炎（EGE） | 🔵 v0.3.1 | [eosinophilic-gastroenteritis-workbench](https://github.com/xyb-openharness-dsh-plugins/eosinophilic-gastroenteritis-workbench) |  |
+| 58 | 短肠综合征 | 🔵 v0.2.3 | [short-bowel-workbench](https://github.com/xyb-openharness-dsh-plugins/short-bowel-workbench) |  |
+| 59 | 获得性血友病 | 🔵 v0.3.1 | [acquired-hemophilia-workbench](https://github.com/xyb-openharness-dsh-plugins/acquired-hemophilia-workbench) |  |
+| 60 | 冷凝集素病（CAD） | 🔵 v0.2.2 | [cold-agglutinin-workbench](https://github.com/xyb-openharness-dsh-plugins/cold-agglutinin-workbench) |  |
+| 61 | 血栓性血小板减少性紫癜（TTP） | 🔵 v0.2.11 | [ttp-workbench](https://github.com/xyb-openharness-dsh-plugins/ttp-workbench) |  |
+| 62 | α1-抗胰蛋白酶缺乏症（AATD） | 🔵 v0.6.2 | [aatd-workbench](https://github.com/xyb-openharness-dsh-plugins/aatd-workbench) |  |
+| 63 | 地中海贫血 | 🔵 v0.4.4 | [thalassemia-workbench](https://github.com/xyb-openharness-dsh-plugins/thalassemia-workbench) |  |
+| 64 | 原发性免疫缺陷病（PID） | 🔵 v0.2.0 | [primary-immunodeficiency-workbench](https://github.com/xyb-openharness-dsh-plugins/primary-immunodeficiency-workbench) |  |
+| 65 | 发作性睡病 | 🔵 v0.1.4 | [narcolepsy-workbench](https://github.com/xyb-openharness-dsh-plugins/narcolepsy-workbench) |  |
+| 66 | 甲状旁腺功能减退症 | 🔵 v0.1.0 | [hypoparathyroidism-workbench](https://github.com/xyb-openharness-dsh-plugins/hypoparathyroidism-workbench) |  |
+| 67 | CIDP（慢性炎性脱髓鞘性多发性神经病） | 🔵 v0.2.0 | [cidp-workbench](https://github.com/xyb-openharness-dsh-plugins/cidp-workbench) |  |
+| 68 | TRAPS（肿瘤坏死因子受体相关周期性综合征） | 🔵 v0.2.0 | [traps-workbench](https://github.com/xyb-openharness-dsh-plugins/traps-workbench) | 占位名待用户追认 |
+| 69 | 消化道出血（**并发症线**试点·CX-001） | 🔵 v0.2.0-rc.4 | [gastrointestinal-bleeding-workbench](https://github.com/xyb-openharness-dsh-plugins/gastrointestinal-bleeding-workbench) | 识别需立即求助的表现＋就诊摘要；不诊断不分级 |
+| 70 | 发热性中性粒细胞减少（**并发症线**·CX-006）· 小粒护宝 FnPal | 🔵 v0.1.0 | [fn-workbench](https://github.com/xyb-openharness-dsh-plugins/fn-workbench) | 1h 抗菌黄金窗＋禁肛温红线/MASCC 要素/G-CSF 泳道；DSH 已装机 |
+| 71 | 脓毒症/严重感染风险（**并发症线**·CX-003）· 小清源宝 SepsisPal | 🔵 v0.1.0 | [sepsis-workbench](https://github.com/xyb-openharness-dsh-plugins/sepsis-workbench) | SSC Hour-1 Bundle 黄金窗＋禁冲管红线/qSOFA/血乳酸泳道；DSH 已装机 |
+| 72 | 急性肾损伤（**并发症线**·CX-008）· 小护肾宝 AkiPal | 🔵 v0.1.0 | [aki-workbench](https://github.com/xyb-openharness-dsh-plugins/aki-workbench) | 禁 NSAIDs＋限钾防高钾双红线/KDIGO 要素/SCr-eGFR-尿量；DSH 已装机 |
+| 73 | 消化道穿孔（**并发症线**·CX-009）· 小护胃宝 GiPerfPal | 🔵 v0.1.0 | [gi-perforation-workbench](https://github.com/xyb-openharness-dsh-plugins/gi-perforation-workbench) | NPO 绝对禁食禁水＋永久停用抗血管药双红线/WBC-PCT-乳酸-NRS；DSH 已装机 |
+| 74 | 谵妄/急性意识改变（**并发症线**·CX-010）· 小清神宝 DeliriumPal | 🔵 v0.1.0 | [delirium-workbench](https://github.com/xyb-openharness-dsh-plugins/delirium-workbench) | 先查可逆诱因防漏判淡漠型＋非药物定向优先双红线/CAM-Nu-DESC；DSH 已装机 |
+| 75 | 脑梗死（缺血性卒中）· **高危急症线**试点 | 🔵 v0.2.0 | [cerebral-infarction-workbench](https://github.com/xyb-openharness-dsh-plugins/cerebral-infarction-workbench) | 卒中识别（公开口径原话）＋入院资料＋二级预防随访；M4 已收口 |
+| 76 | 生活服务工作台（社保/津贴/基金会/二次理赔）· **生活服务线** · 小生服宝 LifePal | 🔵 v0.1.0 | [life-service-workbench](https://github.com/xyb-openharness-dsh-plugins/life-service-workbench) | 门特/异地/双通道/惠民保/PAP/大病救助台账；DSH 已装机 |
+| 77 | 疼痛危象/剧痛 · 小镇痛宝 PainPal（**并发症线**·CX-011） | 🔵 v0.1.0 | [pain-crisis-workbench](https://github.com/xyb-openharness-dsh-plugins/pain-crisis-workbench) | 三大急诊红旗＋NRS 爆发痛/镇痛打卡；DSH 已装机 |
+| 78 | 恶病质/营养不良 · 小营宝 CachexPal（**并发症线**·CX-012） | 🔵 v0.1.0 | [cachexia-workbench](https://github.com/xyb-openharness-dsh-plugins/cachexia-workbench) | 6月丢重率/PG-SGA/蛋白热量/ONS与管路；DSH 已装机 |
+| 79 | 黄疸/胆道梗阻 · 小清胆宝 BiliObsPal（**并发症线**·CX-013） | 🔵 v0.1.0 | [biliary-obstruction-workbench](https://github.com/xyb-openharness-dsh-plugins/biliary-obstruction-workbench) | Charcot红旗/PTCD-ENBD引流/支架台账/减黄曲线；DSH 已装机 |
+| 80 | 阿拉杰里综合征 · 小杰宝 AlagillePal（罕见病 #05） | 🔵 v0.1.0 | [alagille-workbench](https://github.com/xyb-openharness-dsh-plugins/alagille-workbench) | JAG1-NOTCH2/sBA/IBAT/ItchRO 家长代记；DSH 已装机 |
+| 81 | Bardet-Biedl 综合征 · 小纤毛宝 BbsPal（罕见病 #08） | 🔵 v0.1.0 | [bbs-workbench](https://github.com/xyb-openharness-dsh-plugins/bbs-workbench) | BBS1-22/视力-肥胖-肾脏三轨/Setmelanotide；DSH 已装机 |
+| 82 | CDKL5 缺乏症 · 小激酶宝 Cdkl5Pal（罕见病 #11） | 🔵 v0.1.0 | [cdkl5-workbench](https://github.com/xyb-openharness-dsh-plugins/cdkl5-workbench) | 发作-呼吸-夜醒三轨/加奈索龙/生酮 BHB/CVI 家长代记；DSH 已装机 |
+| 83 | 无脉络膜症 · 小脉络宝 ChmPal（罕见病 #12） | 🔵 v0.1.0 | [choroideremia-workbench](https://github.com/xyb-openharness-dsh-plugins/choroideremia-workbench) | CHM/Humphrey MD/FAF RPE岛/OCT EZ 与低视力；DSH 已装机 |
+| 84 | 先天性胆道闭锁 · 小胆宝 BaPal（罕见病 #16） | 🔵 v0.1.0 | [biliary-atresia-workbench](https://github.com/xyb-openharness-dsh-plugins/biliary-atresia-workbench) | 1-7号大便比色卡/Kasai退黄/胆管炎红旗/PELD；DSH 已装机 |
+| 85 | 胱氨酸贮积症 · 小胱宝 CystiPal（罕见病 #21） | 🔵 v0.1.0 | [cystinosis-workbench](https://github.com/xyb-openharness-dsh-plugins/cystinosis-workbench) | CTNS/LCL-eGFR双轨/q6h半胱胺/角膜结晶/Fanconi；DSH 已装机 |
+| 86 | 家族性腺瘤性息肉病 · 小息宝 FapPal（罕见病 #27） | 🔵 v0.1.0 | [fap-workbench](https://github.com/xyb-openharness-dsh-plugins/fap-workbench) | APC/分部位息肉/Spigelman/IPAA储袋/硬纤维瘤；DSH 已装机 |
+| 87 | 脆性 X 综合征 · 小脆宝 FragxPal（罕见病 #29） | 🔵 v0.1.0 | [fragile-x-workbench](https://github.com/xyb-openharness-dsh-plugins/fragile-x-workbench) | FMR1 CGG/Vineland-ABC-C/感统过载/IEP 家长代记；DSH 已装机 |
+| 88 | 儿童中枢神经系统肿瘤 · 小童脑宝 PedCnsPal（NCCN #61） | 🔵 v0.1.0 | [pediatric-cns-workbench](https://github.com/xyb-openharness-dsh-plugins/pediatric-cns-workbench) | WNT/SHH/G3/G4、RAPNO 面积与质子/耳毒性双轨；DSH 已装机 |
+| 89 | 儿童霍奇金淋巴瘤 · 小童霍宝 PedHlPal（NCCN #64） | 🔵 v0.1.0 | [pediatric-hodgkin-workbench](https://github.com/xyb-openharness-dsh-plugins/pediatric-hodgkin-workbench) | Ann Arbor 分期、Deauville 5 分法离散散点与远期心肺随访；DSH 已装机 |
+| 90 | 儿童成熟 B 细胞淋巴瘤 · 小童淋宝 PedBcellPal（NCCN #65） | 🔵 v0.1.0 | [pediatric-b-cell-workbench](https://github.com/xyb-openharness-dsh-plugins/pediatric-b-cell-workbench) | IPNHLSS/FAB-LMB、TLS 防线与 HD-MTX 药代监测；DSH 已装机 |
+| 91 | 腱鞘巨细胞瘤 / PVNS · 小腱宝 TgctPal（罕见病 #77） | 🔵 v0.1.0 | [tgct-workbench](https://github.com/xyb-openharness-dsh-plugins/tgct-workbench) | MRI TVS/ROM/PRO 与 CSF1R 抑制剂胆汁淤积性肝毒性防线；DSH 已装机 |
+| 92 | 骨肉瘤 · 小骨肉宝 OsteoPal（罕见病 #57） | 🔵 v0.1.0 | [osteosarcoma-workbench](https://github.com/xyb-openharness-dsh-plugins/osteosarcoma-workbench) | Huvos 坏死率、HD-MTX 药代、肺结节与 MSTS 保肢康复；v0.1.0 已发布 |
+| 93 | 肾透明细胞肉瘤 · 小清肾宝 CcskPal（罕见病 #14） | 🔵 v0.1.0 | [ccsk-workbench](https://github.com/xyb-openharness-dsh-plugins/ccsk-workbench) | BCOR-ITD/YWHAE 融合、骨脑防线与孤立肾终身保护；v0.1.0 已发布 |
+| 94 | 成人急性淋巴细胞白血病 · 小急淋宝 AllPal（NCCN #22） | 🔵 v0.1.0 | [all-workbench](https://github.com/xyb-openharness-dsh-plugins/all-workbench) | Ph+/Ph-like/T-ALL、MRD/CRS 与培门冬酶防线；DSH 已装机 |
+| 95 | 儿童急性淋巴细胞白血病 · 小童白宝 PedAllPal（NCCN #60 · T0 样板） | 🔵 v0.1.0 | [pediatric-all-workbench](https://github.com/xyb-openharness-dsh-plugins/pediatric-all-workbench) | 家长代记、d15/d33 MRD、6-MP/MTX 维持靶窗与鞘注；DSH 已装机 |
+| 96 | 肿瘤相关静脉血栓栓塞 · 小栓宝 VtePal（并发症线 CX-007） | 🔵 v0.1.0 | [vte-workbench](https://github.com/xyb-openharness-dsh-plugins/vte-workbench) | DVT/PE/CRT、sPESI/Khorana、PLT<50 抗凝防线与出血分级；DSH 已装机 |
+| 97 | 肝胆癌 · 小肝胆宝 HepbiliPal（NCCN #16） | 🔵 v0.1.0 | [hepatobiliary-workbench](https://github.com/xyb-openharness-dsh-plugins/hepatobiliary-workbench) | cHCC-CCA/Klatskin/FLHCC、双轨标志物与 HBV/支架/残肝比；DSH 已装机 |
+| 98 | 睾丸癌 · 小勇宝 TestiPal | 🔵 v0.2.6 | [testicular-workbench](https://github.com/xyb-openharness-dsh-plugins/testicular-workbench) |  |
+| 99 | 心理支持 · 小心宝（跨病种共用模块） | 🔵 v0.3.15 | [xiaoxinbao-workbench](https://github.com/xyb-openharness-dsh-plugins/xiaoxinbao-workbench) |  |
+| 100 | 基底细胞皮肤癌 · 小基宝 BasePal（NCCN #45） | 🔵 v0.1.3 | [basal-cell-carcinoma-workbench](https://github.com/xyb-openharness-dsh-plugins/basal-cell-carcinoma-workbench) | Issue #109 · 已发布 |
+| 101 | 蓝色橡皮疱样痣综合征 · 小蓝宝 BrbnsPal | 🔵 v0.1.0 | [brbns-workbench](https://github.com/xyb-openharness-dsh-plugins/brbns-workbench) | 已发布 |
+| 102 | 肿瘤患者政策工具 · 小保宝（跨病种） | 🔵 v0.2.2 | [cancer-policy-workbench](https://github.com/xyb-openharness-dsh-plugins/cancer-policy-workbench) | 医保/津贴/基金会/商保二次理赔；已发布 |
+| 103 | 卡斯尔曼病 · 小曼宝 CasPal（NCCN #29） | 🔵 v0.1.0 | [castleman-workbench](https://github.com/xyb-openharness-dsh-plugins/castleman-workbench) | 已发布 |
+| 104 | 中枢神经系统肿瘤 · 小脑宝 CNSPal（NCCN #51） | 🔵 v0.1.0 | [cns-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/cns-cancer-workbench) | WHO CNS5/RANO 2.0/4组8项指标与一图秀；已发布 |
+| 105 | 原发性皮肤淋巴瘤 · 小皮淋宝 CutisPal（NCCN #66 / 罕见病 #20） | 🔵 v0.1.0 | [cutaneous-lymphoma-workbench](https://github.com/xyb-openharness-dsh-plugins/cutaneous-lymphoma-workbench) | TNMB/mSWAT/Sézary 与一图秀；已发布 |
+| 106 | 隆突性皮肤纤维肉瘤 · 小隆宝 FibroPal（NCCN #48 / 罕见病 #22） | 🔵 v0.1.3 | [dfsp-workbench](https://github.com/xyb-openharness-dsh-plugins/dfsp-workbench) | Issue #110 · 已发布 |
+| 107 | 上皮样肉瘤（罕见病 #24） | 🔵 v0.1.0 | [epithelioid-sarcoma-workbench](https://github.com/xyb-openharness-dsh-plugins/epithelioid-sarcoma-workbench) | INI1/SMARCB1 缺失 · Tazemetostat 靶向泳道 |
+| 108 | 先天性凝血因子Ⅶ缺乏症 | 🔵 v0.2.0-rc.3 | [factor-vii-deficiency-workbench](https://github.com/xyb-openharness-dsh-plugins/factor-vii-deficiency-workbench) | 出血事件/检查原值/治疗事实与复诊清单 |
+| 109 | 家族性噬血细胞淋巴组织细胞增生症 · 小噬宝 PhagoPal（罕见病 #26） | 🔵 v0.1.0 | [fhl-workbench](https://github.com/xyb-openharness-dsh-plugins/fhl-workbench) | 已发布 |
+| 110 | 进行性骨化性纤维发育不良 · 小石宝 FopPal（罕见病 #28） | 🔵 v0.1.0 | [fop-workbench](https://github.com/xyb-openharness-dsh-plugins/fop-workbench) | ACVR1/CAJIS/FVC%/急性暴发专护；已发布 |
+| 111 | 神经节苷脂贮积症 · 小苷宝 GanglioPal（罕见病 #30） | 🔵 v0.1.1 | [gangliosidosis-workbench](https://github.com/xyb-openharness-dsh-plugins/gangliosidosis-workbench) | GM1/GM2 家长与临床协同；已发布 |
+| 112 | 骨巨细胞瘤（罕见病 #36） | 🔵 v0.1.0 | [gctb-workbench](https://github.com/xyb-openharness-dsh-plugins/gctb-workbench) | H3F3A G34W/Campanacci 分级/地舒单抗红线 |
+| 113 | 血小板无力症（Glanzmann 血小板功能缺陷） | 🔵 v0.2.0 | [glanzmann-thrombasthenia-workbench](https://github.com/xyb-openharness-dsh-plugins/glanzmann-thrombasthenia-workbench) | 出血时间轴/血小板输注与聚集功能 |
+| 114 | 高林综合征（罕见病 #39） | 🟡 v0.1.0 | [gorlin-workbench](https://github.com/xyb-openharness-dsh-plugins/gorlin-workbench) | M0–M2 孵化仓，待续建 M3–M7 |
+| 115 | 毛细胞白血病 · 小毛宝 HairyPal（NCCN #27） | 🔵 v0.1.7 | [hairy-cell-leukemia-workbench](https://github.com/xyb-openharness-dsh-plugins/hairy-cell-leukemia-workbench) | 4组8项指标/克拉屈滨与维罗非尼/一图秀；已发布 |
+| 116 | 组织细胞肿瘤 · 小组宝 HistioPal（NCCN #33） | 🔵 v0.1.0 | [histiocytic-neoplasms-workbench](https://github.com/xyb-openharness-dsh-plugins/histiocytic-neoplasms-workbench) | LCH/ECD/RDD · BRAF/MAP2K1 与一图秀；已发布 |
+| 117 | 霍奇金淋巴瘤 · 小霍宝 HodgPal（NCCN #12） | 🔵 v0.1.1 | [hodgkin-lymphoma-workbench](https://github.com/xyb-openharness-dsh-plugins/hodgkin-lymphoma-workbench) | Ann Arbor/Lugano/Deauville 5 分法与一图秀；已发布 |
+| 118 | 原发性胰岛素样生长因子-1 缺乏症（罕见病 #65） | ⚪ — | [igf1d-workbench](https://github.com/xyb-openharness-dsh-plugins/igf1d-workbench) | 空仓占位（#158 在途） |
+| 119 | 炎性肌纤维母细胞瘤（罕见病 #42） | 🔵 v0.1.0 | [imt-workbench](https://github.com/xyb-openharness-dsh-plugins/imt-workbench) | ALK/ROS1/NTRK 融合与靶向治疗泳道 |
+| 120 | 卡波西肉瘤 · 小卡宝 KaposiPal（NCCN #47） | 🔵 v0.1.1 | [kaposi-sarcoma-workbench](https://github.com/xyb-openharness-dsh-plugins/kaposi-sarcoma-workbench) | HHV-8/ACTSG TIS 分期与一图秀；已发布 |
+| 121 | Leber 先天性黑矇（罕见病 #43） | 🟡 v0.1.0 | [lca-workbench](https://github.com/xyb-openharness-dsh-plugins/lca-workbench) | M0–M2 孵化仓，待续建 M3–M7 |
+| 122 | Lennox-Gastaut 综合征 · 小安宝 LgsPal（罕见病 #44） | 🔵 v0.1.0 | [lgs-workbench](https://github.com/xyb-openharness-dsh-plugins/lgs-workbench) | SSW/GPFA 脑电与发作日记/一图秀；已发布 |
+| 123 | 系统性轻链淀粉样变性 · 小轻宝 ALPal（NCCN #30） | 🔵 v0.1.0 | [light-chain-amyloidosis-workbench](https://github.com/xyb-openharness-dsh-plugins/light-chain-amyloidosis-workbench) | Mayo 分期/dFLC/心肾双轨与一图秀；已发布 |
+| 124 | 角膜缘干细胞缺乏症 · 小膜宝 LimbalPal（罕见病 #45） | 🔵 v0.1.0 | [lscd-workbench](https://github.com/xyb-openharness-dsh-plugins/lscd-workbench) | Issue #97 · 已发布 |
+| 125 | 恶性肠梗阻（**并发症线**·CX-005） | 🔵 v0.1.0 | [malignant-bowel-obstruction-workbench](https://github.com/xyb-openharness-dsh-plugins/malignant-bowel-obstruction-workbench) | Issue #175 · 识别急诊红旗＋结构化照护记录 |
+| 126 | 多发性内分泌腺瘤病 · 小腺宝 MenPal（罕见病 #51） | 🔵 v0.1.0 | [men-workbench](https://github.com/xyb-openharness-dsh-plugins/men-workbench) | MEN1/MEN2；已发布 |
+| 127 | 默克尔细胞癌 · 小默宝 MerkelPal（NCCN #44 / 罕见病 #19） | 🔵 v0.1.0 | [merkel-cell-carcinoma-workbench](https://github.com/xyb-openharness-dsh-plugins/merkel-cell-carcinoma-workbench) | 已发布 |
+| 128 | 恶性高热 · 小温宝 HeatPal（罕见病 #46） | 🔵 v0.1.0 | [mh-workbench](https://github.com/xyb-openharness-dsh-plugins/mh-workbench) | Issue #99 · 已发布 |
+| 129 | 异染性脑白质营养不良 · 小髓宝 MldPal（罕见病 #49） | 🔵 v0.1.0 | [mld-workbench](https://github.com/xyb-openharness-dsh-plugins/mld-workbench) | ARSA/Loes/GMFC-MLD 与一图秀；已发布 |
+| 130 | 伴嗜酸粒细胞增多和 TK 基因融合的髓系/淋巴系肿瘤 · 小嗜宝 EosiPal（NCCN #32） | 🔵 v0.1.0 | [mln-eo-workbench](https://github.com/xyb-openharness-dsh-plugins/mln-eo-workbench) | FIP1L1::PDGFRA/FGFR1 与一图秀；已发布 |
+| 131 | 单基因非综合征性肥胖（罕见病 #50） | 🔵 v0.1.0 | [monogenic-obesity-workbench](https://github.com/xyb-openharness-dsh-plugins/monogenic-obesity-workbench) | LEPR/MC4R/POMC 与 Setmelanotide 记录 |
+| 132 | 原发性骨髓纤维化（罕见病 #67） | 🔵 v0.1.0 | [myelofibrosis-workbench](https://github.com/xyb-openharness-dsh-plugins/myelofibrosis-workbench) | JAK2/CALR/MPL 建档与芦可替尼禁骤停红线 |
+| 133 | 神经元蜡样脂褐质沉积症 · 小脂宝 NclPal（罕见病 #55） | 🔵 v0.1.0 | [ncl-workbench](https://github.com/xyb-openharness-dsh-plugins/ncl-workbench) | TPP1/CLN2/Ommaya ICV 与一图秀；已发布 |
+| 134 | 神经营养性角膜炎 · 小角宝 NeuroPal（罕见病 #56） | 🔵 v0.1.0 | [nk-workbench](https://github.com/xyb-openharness-dsh-plugins/nk-workbench) | Issue #100 · 已发布 |
+| 135 | 原发不明肿瘤 · 小寻宝 SeekPal（NCCN #52） | 🔵 v0.2.3 | [occult-primary-workbench](https://github.com/xyb-openharness-dsh-plugins/occult-primary-workbench) | IHC/90 基因/NGS 溯源与一图秀 |
+| 136 | 阴茎癌 · 小茎宝 PeniPal（NCCN #38） | 🔵 v0.1.0 | [penile-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/penile-cancer-workbench) | HPV/p16 与 SCC-Ag/淋巴水肿双轨/一图秀；已发布 |
+| 137 | 腹膜间皮瘤 · 小腹宝 PeriPal（NCCN #41） | 🔵 v0.1.1 | [peritoneal-mesothelioma-workbench](https://github.com/xyb-openharness-dsh-plugins/peritoneal-mesothelioma-workbench) | BAP1/PCI 评分/CRS+HIPEC 与一图秀；已发布 |
+| 138 | 原发性生长激素缺乏症（罕见病 #64） | ⚪ — | [pghd-workbench](https://github.com/xyb-openharness-dsh-plugins/pghd-workbench) | 空仓占位（#157 在途） |
+| 139 | 嗜铬细胞瘤与副神经节瘤（罕见病 #60） | 🔵 v0.1.0 | [pheochromocytoma-workbench](https://github.com/xyb-openharness-dsh-plugins/pheochromocytoma-workbench) | MN/NMN/3-MT 分泌谱与 SDHB 分型 |
+| 140 | 真性红细胞增多症（罕见病 #62） | 🔵 v0.1.0 | [polycythemia-vera-workbench](https://github.com/xyb-openharness-dsh-plugins/polycythemia-vera-workbench) | HCT 45% 目标与放血补铁红线 |
+| 141 | 新生儿持续肺动脉高压（罕见病 #59） | 🔵 v0.1.0 | [pphn-workbench](https://github.com/xyb-openharness-dsh-plugins/pphn-workbench) | 导管前后血氧差/OI/iNO 撤离阶梯 |
+| 142 | 早老症（罕见病 #41） | 🟡 v0.1.0 | [progeria-workbench](https://github.com/xyb-openharness-dsh-plugins/progeria-workbench) | M0–M2 孵化仓，待续建 M3–M7 |
+| 143 | PIK3CA 相关过度生长综合征 · 小增宝 ProsPal（罕见病 #61） | 🔵 v0.1.0 | [pros-workbench](https://github.com/xyb-openharness-dsh-plugins/pros-workbench) | 已发布 |
+| 144 | Rett 综合征（罕见病 #72） | 🟡 v0.1.0 | [rett-workbench](https://github.com/xyb-openharness-dsh-plugins/rett-workbench) | M0–M2 孵化仓，待续建 M3–M7 |
+| 145 | 早产儿视网膜病（罕见病 #71） | 🟡 v0.1.0 | [rop-workbench](https://github.com/xyb-openharness-dsh-plugins/rop-workbench) | M0–M2 孵化仓，待续建 M3–M7 |
+| 146 | 全身型幼年特发性关节炎 · 小幼宝 SjiaPal（罕见病 #74） | 🔵 v0.1.0 | [sjia-workbench](https://github.com/xyb-openharness-dsh-plugins/sjia-workbench) | 已发布 |
+| 147 | 皮肤鳞状细胞癌 · 小鳞宝 SquaPal | 🔵 v0.2.0-rc.21 | [squamous-cell-skin-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/squamous-cell-skin-cancer-workbench) | 皮损档案/术后随访/光防护行为线 |
+| 148 | 系统性肥大细胞增多症 · 小肥宝 MastPal（NCCN #28 / 罕见病 #75） | 🔵 v0.1.0 | [systemic-mastocytosis-workbench](https://github.com/xyb-openharness-dsh-plugins/systemic-mastocytosis-workbench) | KIT D816V/类胰蛋白酶与一图秀；已发布 |
+| 149 | T 细胞淋巴瘤 · 小T宝 TCellPal（NCCN #13） | 🔵 v0.1.1 | [t-cell-lymphoma-workbench](https://github.com/xyb-openharness-dsh-plugins/t-cell-lymphoma-workbench) | EBV-DNA/HLH 预警与一图秀；已发布 |
+| 150 | 肿瘤相关骨软化症 · 小磷宝 PhosPal（罕见病 #82） | 🔵 v0.1.0 | [tio-workbench](https://github.com/xyb-openharness-dsh-plugins/tio-workbench) | Issue #93 · 已发布 |
+| 151 | 葡萄膜黑色素瘤 · 小瞳宝 UveaPal（NCCN #43） | 🔵 v0.1.2 | [uveal-melanoma-workbench](https://github.com/xyb-openharness-dsh-plugins/uveal-melanoma-workbench) | 已发布 |
+| 152 | 阴道癌 · 小兰宝 VagiPal（NCCN #58） | 🔵 v0.1.0 | [vaginal-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/vaginal-cancer-workbench) | Issue #102 · 已发布 |
+| 153 | 外阴癌 · 小槿宝 VulvaPal（NCCN #59） | 🔵 v0.1.2 | [vulvar-cancer-workbench](https://github.com/xyb-openharness-dsh-plugins/vulvar-cancer-workbench) | Issue #103 · 已发布 |
+| 154 | 血管性血友病 3 型 · 小凝宝 VwfPal（罕见病 #84） | 🔵 v0.1.2 | [vwd-type3-workbench](https://github.com/xyb-openharness-dsh-plugins/vwd-type3-workbench) | 出血与凝血因子管理 |
+| 155 | 华氏巨球蛋白血症 · 小华宝 WaldPal（NCCN #31 / 罕见病 #85） | 🔵 v0.1.0 | [waldenstrom-workbench](https://github.com/xyb-openharness-dsh-plugins/waldenstrom-workbench) | MYD88/CXCR4/IgM 黏滞度与一图秀；已发布 |
+| 156 | West 综合征 / 婴儿癫痫痉挛综合征 · 小痉宝 WestPal（罕见病 #86） | 🔵 v0.1.1 | [west-syndrome-workbench](https://github.com/xyb-openharness-dsh-plugins/west-syndrome-workbench) | 已发布 |
+| 157 | 肾母细胞瘤 · 小肾宝 WilmsPal（NCCN #62） | 🔵 v0.1.0 | [wilms-tumor-workbench](https://github.com/xyb-openharness-dsh-plugins/wilms-tumor-workbench) | 已发布 |
+| — | 其余待覆盖病种 + 并发症线 | ⬜ **招募认领中**（全量待开发清单见 [DEVELOPMENT-PROGRESS.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/docs/DEVELOPMENT-PROGRESS.md) 与 BACKLOG） | — | 提交一个更新一次（同步更新进度文档、BACKLOG 与本表） |
 
 > 🔥 **优先招募榜 12 项已全部认领（截至 2026-10-25）**：[BACKLOG §〇 优先招募榜](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md#〇现在最缺人优先招募榜) 按「帮扶人群规模 · 信息差 · 危重与时间压力」三维挑选的 12 个目标已在 10-21 → 10-25 全部有主。当前最缺的是**已开工工作台的 🩺 医学核对与 👤 患者访谈补位**，以及尚未启动病种的新认领（W2 其余血液肿瘤、W4 皮肤/胸腺、R2/R3 大部分仍 ⬜）。缺什么角色（👤 患者家属 / 🩺 临床 / 💻 开发 / 📝 内容 / 🤝 病友组织 / 👨‍👩‍👧 患儿家长）与第一步能做什么，见 [BACKLOG.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md)。
 >
 > 🤝 **诚邀加入**：无论你是开发者、临床/研究者、病友组织志愿者还是写作者，都可以认领一个病种或一个模块。四种投入档位（整仓 / 模块 / 内容访谈 / 脚手架）见 **[CONTRIBUTING-WORKBENCH.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/CONTRIBUTING-WORKBENCH.md)**，从 Issue 模板开始。**不需要写代码也能贡献**——一次真实经历访谈、一份就诊问题清单都在缺。所有工作台只做信息整理，不做诊断建议。
 >
-> 🔓 **仓库可见性**（2026-11-19 起）：**71 个病种工作台仓已全部 public**（原 8 个 private：traps / testicular / hypoparathyroidism / neuroblastoma / gca / hs / gpp / psc，已于 2026-11-19 转为公开）。外部贡献者可直接浏览代码与原型；协作仍走 Issue 认领与评审。**每个项目的公开展示页（原型首页截图 + 能力说明）在 [PROJECTS.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/PROJECTS.md)**，外部贡献者的协作方式：**Issue 层认领与评审不需要任何权限**，需要写代码时再由维护者逐人最小授权（见 [CONTRIBUTING §10.3](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/CONTRIBUTING-WORKBENCH.md)）。
+> 🔓 **仓库可见性**（2026-11-19 起）：**157 个工作台仓已全部 public**（原 8 个 private：traps / testicular / hypoparathyroidism / neuroblastoma / gca / hs / gpp / psc，已于 2026-11-19 转为公开）。外部贡献者可直接浏览代码与原型；协作仍走 Issue 认领与评审。**每个项目的公开展示页（原型首页截图 + 能力说明）在 [PROJECTS.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/PROJECTS.md)**，外部贡献者的协作方式：**Issue 层认领与评审不需要任何权限**，需要写代码时再由维护者逐人最小授权（见 [CONTRIBUTING §10.3](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/CONTRIBUTING-WORKBENCH.md)）。
 
 ---
 
@@ -453,7 +519,7 @@ dsh plugin add ./dist/my-workbench-0.1.0.tgz
 - **使用说明**（适合谁 / 第一次使用 / 多档案 / 解析核对）：[USAGE.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/USAGE.md)
 - **贡献入口**（角色 / 四条路径 / 最需要的能力）：[CONTRIBUTING.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/CONTRIBUTING.md)
 - **快速开始**：见上方 [快速开始](#快速开始)
-- **项目画廊**（首批 14 个项目的原型截图与能力说明；其后新开工 20+ 个见各病种认领 Issue 与 [BACKLOG.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md)）：[PROJECTS.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/PROJECTS.md)
+- **项目画廊**（首批 14 个项目的原型截图与能力说明；其余 140+ 个已建仓工作台见各病种认领 Issue 与 [BACKLOG.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/BACKLOG.md)）：[PROJECTS.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/PROJECTS.md)
 - **插件开发指南**：见下方 [插件开发](#插件开发)
 - **患者工作台脚手架**：[xyb-workbench-starter](https://github.com/xyb-openharness-dsh-plugins/xyb-workbench-starter)
 - **患者工作台路线图与病种认领**：[ROADMAP.md](https://github.com/xyb-openharness-dsh-plugins/.github/blob/main/ROADMAP.md)
